@@ -24,14 +24,23 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2tz-ZP-GCy">
                                         <rect key="frame" x="257" y="58" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <segue destination="XlY-Di-yin" kind="presentation" id="idK-SW-MsH"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rDC-mt-kUE">
                                         <rect key="frame" x="372" y="58" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <segue destination="fXd-HX-jMZ" kind="presentation" id="K8H-L7-f1S"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SCm-3w-KTf">
                                         <rect key="frame" x="139" y="58" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <segue destination="Klb-N7-FKc" kind="presentation" id="Q8H-Tu-b6h"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -60,7 +69,61 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="263" y="396"/>
+            <point key="canvasLocation" x="259" y="484"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sQ6-FO-Yf7">
+            <objects>
+                <viewController id="fXd-HX-jMZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3Ch-9k-Qtn"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ugm-fm-3Ar"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gwt-ik-cPT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D7d-wm-7yZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2365" y="484"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cFN-fA-guZ">
+            <objects>
+                <viewController id="Klb-N7-FKc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Cee-Kh-ic8"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZCz-19-JnG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7R5-TG-608">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Deb-h6-U1G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1036" y="484"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Duc-N3-igu">
+            <objects>
+                <viewController id="XlY-Di-yin" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pI4-mA-x6h"/>
+                        <viewControllerLayoutGuide type="bottom" id="RvY-UC-pbS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fX9-hS-vXt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bil-Y0-FVL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1701" y="484"/>
         </scene>
     </scenes>
 </document>
