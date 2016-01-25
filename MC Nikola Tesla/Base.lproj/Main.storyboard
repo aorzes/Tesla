@@ -74,18 +74,30 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bM8-Sa-X2v">
                                         <rect key="frame" x="139" y="113" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <segue destination="Bnl-OJ-L87" kind="presentation" id="fJ4-AC-HNq"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cD6-yg-d6b">
                                         <rect key="frame" x="257" y="113" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <segue destination="Hok-ba-zWY" kind="presentation" id="cEv-rK-r2H"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lja-f0-G7R">
                                         <rect key="frame" x="372" y="113" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <segue destination="k0b-KW-ve5" kind="presentation" id="BCO-CJ-YM9"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VKN-Na-3QG">
                                         <rect key="frame" x="139" y="228" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <segue destination="ekL-a4-i4e" kind="presentation" id="nMM-1d-a0T"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Power transmision" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="UFm-Up-4lS">
                                         <rect key="frame" x="133" y="278" width="62" height="32"/>
@@ -111,10 +123,16 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="faJ-y1-y8Y">
                                         <rect key="frame" x="257" y="228" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <segue destination="nQe-Wb-YjZ" kind="presentation" id="KIC-9C-ibz"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jlx-OF-hMC">
                                         <rect key="frame" x="372" y="228" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <segue destination="MT4-2o-Rsb" kind="presentation" id="3yk-k5-Tvd"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Wirels energy" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="srs-4t-GPP">
                                         <rect key="frame" x="133" y="174" width="62" height="32"/>
@@ -140,14 +158,23 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kFh-DP-d0S">
                                         <rect key="frame" x="139" y="342" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <segue destination="5bw-UP-dVY" kind="presentation" id="g2L-iq-KDa"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d5i-YD-cwJ">
                                         <rect key="frame" x="257" y="342" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <segue destination="hAN-JF-v27" kind="presentation" id="3qA-Nn-qbo"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nYc-9w-eGe">
                                         <rect key="frame" x="372" y="342" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <segue destination="jvL-WO-VsD" kind="presentation" id="Wy8-bf-LnO"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Faraday cage" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="6ua-fV-ghq">
                                         <rect key="frame" x="133" y="400" width="62" height="32"/>
@@ -173,14 +200,23 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DcE-lC-9BG">
                                         <rect key="frame" x="139" y="453" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <segue destination="dyd-za-N8U" kind="presentation" id="5Ob-uv-0G6"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zRM-xj-8Xc">
                                         <rect key="frame" x="257" y="453" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <segue destination="ueF-yw-PMp" kind="presentation" id="Wpg-KY-r1c"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRX-gU-ktK">
                                         <rect key="frame" x="374" y="453" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <segue destination="zDU-LH-UBe" kind="presentation" id="BxX-Xa-J4D"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Radio" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="bSe-ch-OEW">
                                         <rect key="frame" x="259" y="491" width="42" height="21"/>
@@ -307,6 +343,204 @@
             <point key="canvasLocation" x="259" y="484"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="q8b-1P-bq0">
+            <objects>
+                <viewController id="dyd-za-N8U" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6iO-IJ-CYU"/>
+                        <viewControllerLayoutGuide type="bottom" id="14M-mz-vEx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="n0D-I3-NpW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yPZ-jz-HZ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1036" y="3191"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="R1p-xl-YAQ">
+            <objects>
+                <viewController id="ueF-yw-PMp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PTK-mp-dxp"/>
+                        <viewControllerLayoutGuide type="bottom" id="jVm-L7-HrA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sIX-BM-gel">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RXF-Og-Cm8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1701" y="3191"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fxf-yO-vfH">
+            <objects>
+                <viewController id="zDU-LH-UBe" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="q5o-tS-bvW"/>
+                        <viewControllerLayoutGuide type="bottom" id="XQ9-E9-ARV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VXe-zD-LSD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F0z-8x-Z9c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2365" y="3191"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PVU-vU-06F">
+            <objects>
+                <viewController id="5bw-UP-dVY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Po9-2M-n4q"/>
+                        <viewControllerLayoutGuide type="bottom" id="xfw-91-mNY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0pE-FR-vHI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gPW-dT-nY3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1036" y="2525"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DrW-h1-wqP">
+            <objects>
+                <viewController id="hAN-JF-v27" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zpa-cT-545"/>
+                        <viewControllerLayoutGuide type="bottom" id="xcf-O8-hE4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ilh-ob-rAe">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ACh-gw-3Um" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1701" y="2525"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xjr-S2-309">
+            <objects>
+                <viewController id="jvL-WO-VsD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qTw-oa-5Ah"/>
+                        <viewControllerLayoutGuide type="bottom" id="VE2-Dh-fBj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gMd-Jg-HYp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DkW-yf-geY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2365" y="2525"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="eI3-1D-zvJ">
+            <objects>
+                <viewController id="ekL-a4-i4e" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uQA-ZR-5p0"/>
+                        <viewControllerLayoutGuide type="bottom" id="e3U-1j-yfv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="j27-CJ-JZV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TU1-Uz-tCV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1036" y="1848"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8uI-fd-Uen">
+            <objects>
+                <viewController id="nQe-Wb-YjZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="18P-MG-jZt"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yyt-cT-T3c"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0oi-DV-L4y">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mJ0-oW-Me7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1701" y="1848"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Tsu-mN-NSC">
+            <objects>
+                <viewController id="MT4-2o-Rsb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GXe-Bz-3cr"/>
+                        <viewControllerLayoutGuide type="bottom" id="qdh-Ih-H5D"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="a95-qS-iDL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QCd-Ke-KSp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2365" y="1848"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fs8-RC-onY">
+            <objects>
+                <viewController id="Bnl-OJ-L87" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="inL-Sg-bwa"/>
+                        <viewControllerLayoutGuide type="bottom" id="V3s-by-Hf4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vGR-H3-U6o">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B5g-zf-gOt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1036" y="1171"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="h7v-jJ-5a7">
+            <objects>
+                <viewController id="Hok-ba-zWY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2hj-Nk-daE"/>
+                        <viewControllerLayoutGuide type="bottom" id="upC-sA-QWQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SB3-uP-CO9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9en-fm-iO8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1701" y="1171"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="sQ6-FO-Yf7">
             <objects>
                 <viewController id="fXd-HX-jMZ" sceneMemberID="viewController">
@@ -341,6 +575,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Deb-h6-U1G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1036" y="484"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Sny-Nf-MNG">
+            <objects>
+                <viewController id="k0b-KW-ve5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="B3H-EK-LeF"/>
+                        <viewControllerLayoutGuide type="bottom" id="cfE-Af-jvw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tNb-Qw-9u8">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nFt-QF-mWp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2365" y="1171"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Duc-N3-igu">
