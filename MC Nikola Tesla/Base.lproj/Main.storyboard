@@ -3,8 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
-        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -19,70 +18,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ykd-k2-mcq">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ykd-k2-mcq">
                                 <rect key="frame" x="20" y="84" width="560" height="496"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SCm-3w-KTf">
-                                        <rect key="frame" x="105" y="58" width="46" height="30"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2tz-ZP-GCy">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2tz-ZP-GCy">
                                         <rect key="frame" x="257" y="58" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rDC-mt-kUE">
-                                        <rect key="frame" x="412" y="58" width="46" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rDC-mt-kUE">
+                                        <rect key="frame" x="372" y="58" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SCm-3w-KTf">
+                                        <rect key="frame" x="139" y="58" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="2tz-ZP-GCy" firstAttribute="leading" secondItem="Ykd-k2-mcq" secondAttribute="leading" constant="257" id="037-wh-cNE"/>
-                                    <constraint firstItem="SCm-3w-KTf" firstAttribute="top" secondItem="2tz-ZP-GCy" secondAttribute="top" id="09L-nP-rnb"/>
-                                    <constraint firstItem="rDC-mt-kUE" firstAttribute="firstBaseline" secondItem="SCm-3w-KTf" secondAttribute="firstBaseline" id="101-IY-QwS"/>
-                                    <constraint firstItem="2tz-ZP-GCy" firstAttribute="baseline" secondItem="SCm-3w-KTf" secondAttribute="baseline" id="1ZT-qV-Sdj"/>
-                                    <constraint firstItem="SCm-3w-KTf" firstAttribute="firstBaseline" secondItem="2tz-ZP-GCy" secondAttribute="firstBaseline" id="1pw-sH-y00"/>
-                                    <constraint firstItem="rDC-mt-kUE" firstAttribute="leading" secondItem="Ykd-k2-mcq" secondAttribute="leading" constant="412" id="3bZ-so-D0T"/>
-                                    <constraint firstItem="SCm-3w-KTf" firstAttribute="leading" secondItem="Ykd-k2-mcq" secondAttribute="leading" constant="105" id="3fK-9q-IgR"/>
-                                    <constraint firstItem="SCm-3w-KTf" firstAttribute="centerY" secondItem="2tz-ZP-GCy" secondAttribute="centerY" id="4Ao-7W-xDs"/>
-                                    <constraint firstItem="rDC-mt-kUE" firstAttribute="firstBaseline" secondItem="2tz-ZP-GCy" secondAttribute="baseline" id="4ba-KN-Pkm"/>
-                                    <constraint firstItem="2tz-ZP-GCy" firstAttribute="centerX" secondItem="Ykd-k2-mcq" secondAttribute="centerX" id="7NS-6d-QuF"/>
-                                    <constraint firstItem="SCm-3w-KTf" firstAttribute="baseline" secondItem="rDC-mt-kUE" secondAttribute="baseline" id="7kY-eb-KX4"/>
-                                    <constraint firstItem="rDC-mt-kUE" firstAttribute="baseline" secondItem="SCm-3w-KTf" secondAttribute="firstBaseline" id="B0f-as-kHr"/>
-                                    <constraint firstItem="rDC-mt-kUE" firstAttribute="bottom" secondItem="SCm-3w-KTf" secondAttribute="bottom" id="Brf-V4-Bbv"/>
-                                    <constraint firstItem="rDC-mt-kUE" firstAttribute="top" secondItem="Ykd-k2-mcq" secondAttribute="top" constant="58" id="DNN-ip-Yrn"/>
-                                    <constraint firstItem="rDC-mt-kUE" firstAttribute="baseline" secondItem="2tz-ZP-GCy" secondAttribute="baseline" id="EDQ-0E-ASg"/>
-                                    <constraint firstAttribute="trailing" secondItem="rDC-mt-kUE" secondAttribute="trailing" constant="102" id="FlL-qU-Jdq"/>
-                                    <constraint firstItem="rDC-mt-kUE" firstAttribute="bottom" secondItem="2tz-ZP-GCy" secondAttribute="bottom" id="GFl-z9-J5h"/>
-                                    <constraint firstAttribute="bottom" secondItem="2tz-ZP-GCy" secondAttribute="bottom" constant="408" id="LJ7-W2-95P"/>
-                                    <constraint firstItem="SCm-3w-KTf" firstAttribute="top" secondItem="Ykd-k2-mcq" secondAttribute="top" constant="58" id="O5R-Z1-xej"/>
-                                    <constraint firstAttribute="bottom" secondItem="rDC-mt-kUE" secondAttribute="bottom" constant="408" id="QAc-br-2Nf"/>
-                                    <constraint firstItem="rDC-mt-kUE" firstAttribute="top" secondItem="Ykd-k2-mcq" secondAttribute="top" constant="58" id="S1Y-Ki-SBn"/>
-                                    <constraint firstItem="rDC-mt-kUE" firstAttribute="firstBaseline" secondItem="2tz-ZP-GCy" secondAttribute="firstBaseline" id="TOi-Ne-Kbn"/>
-                                    <constraint firstItem="SCm-3w-KTf" firstAttribute="top" secondItem="Ykd-k2-mcq" secondAttribute="top" constant="58" id="Vhe-Ts-vob"/>
-                                    <constraint firstItem="2tz-ZP-GCy" firstAttribute="top" secondItem="Ykd-k2-mcq" secondAttribute="top" constant="58" id="W1u-ZQ-irE"/>
-                                    <constraint firstItem="rDC-mt-kUE" firstAttribute="top" secondItem="2tz-ZP-GCy" secondAttribute="top" id="WNf-7c-ISz"/>
-                                    <constraint firstItem="rDC-mt-kUE" firstAttribute="baseline" secondItem="2tz-ZP-GCy" secondAttribute="firstBaseline" id="a00-5u-h46"/>
-                                    <constraint firstAttribute="bottom" secondItem="SCm-3w-KTf" secondAttribute="bottom" constant="408" id="abE-Ew-W6j"/>
-                                    <constraint firstItem="2tz-ZP-GCy" firstAttribute="top" secondItem="Ykd-k2-mcq" secondAttribute="top" constant="58" id="cG3-e1-gGx"/>
-                                    <constraint firstItem="SCm-3w-KTf" firstAttribute="bottom" secondItem="2tz-ZP-GCy" secondAttribute="bottom" id="cxV-uZ-Dxb"/>
-                                    <constraint firstItem="SCm-3w-KTf" firstAttribute="top" secondItem="Ykd-k2-mcq" secondAttribute="top" constant="58" id="eat-4b-mFA"/>
-                                    <constraint firstItem="rDC-mt-kUE" firstAttribute="top" secondItem="SCm-3w-KTf" secondAttribute="top" id="gFH-vQ-fIn"/>
-                                    <constraint firstItem="rDC-mt-kUE" firstAttribute="centerY" secondItem="2tz-ZP-GCy" secondAttribute="centerY" id="gWb-09-jwa"/>
-                                    <constraint firstItem="SCm-3w-KTf" firstAttribute="firstBaseline" secondItem="2tz-ZP-GCy" secondAttribute="baseline" id="gke-IQ-6bX"/>
-                                    <constraint firstItem="rDC-mt-kUE" firstAttribute="firstBaseline" secondItem="SCm-3w-KTf" secondAttribute="baseline" id="iKM-SQ-wOx"/>
-                                    <constraint firstItem="2tz-ZP-GCy" firstAttribute="leading" secondItem="Ykd-k2-mcq" secondAttribute="leading" constant="257" id="ivh-7a-TP6"/>
-                                    <constraint firstItem="SCm-3w-KTf" firstAttribute="baseline" secondItem="2tz-ZP-GCy" secondAttribute="firstBaseline" id="kmu-1g-VYc"/>
-                                    <constraint firstItem="2tz-ZP-GCy" firstAttribute="top" secondItem="Ykd-k2-mcq" secondAttribute="top" constant="58" id="lmU-u0-ppc"/>
-                                    <constraint firstItem="rDC-mt-kUE" firstAttribute="centerY" secondItem="SCm-3w-KTf" secondAttribute="centerY" id="m0X-rB-cyV"/>
-                                    <constraint firstAttribute="trailing" secondItem="2tz-ZP-GCy" secondAttribute="trailing" constant="257" id="mnw-WL-EJg"/>
-                                    <constraint firstItem="rDC-mt-kUE" firstAttribute="leading" secondItem="Ykd-k2-mcq" secondAttribute="leading" constant="412" id="qFr-Qe-42k"/>
-                                    <constraint firstItem="SCm-3w-KTf" firstAttribute="leading" secondItem="Ykd-k2-mcq" secondAttribute="leading" constant="105" id="uOL-Qx-KSJ"/>
-                                    <constraint firstItem="rDC-mt-kUE" firstAttribute="top" secondItem="Ykd-k2-mcq" secondAttribute="top" constant="58" id="xsj-L5-XBr"/>
-                                    <constraint firstAttribute="trailing" secondItem="SCm-3w-KTf" secondAttribute="trailing" constant="409" id="yCp-l4-Zz3"/>
+                                    <constraint firstItem="2tz-ZP-GCy" firstAttribute="leading" secondItem="SCm-3w-KTf" secondAttribute="trailing" constant="72" id="5Eq-XC-TLY"/>
+                                    <constraint firstItem="SCm-3w-KTf" firstAttribute="baseline" secondItem="2tz-ZP-GCy" secondAttribute="baseline" id="CeM-kV-5kD"/>
+                                    <constraint firstItem="SCm-3w-KTf" firstAttribute="top" secondItem="Ykd-k2-mcq" secondAttribute="top" constant="58" id="HxV-Re-TED"/>
+                                    <constraint firstItem="rDC-mt-kUE" firstAttribute="leading" secondItem="2tz-ZP-GCy" secondAttribute="trailing" constant="69" id="JwL-GD-cmi"/>
+                                    <constraint firstItem="2tz-ZP-GCy" firstAttribute="centerX" secondItem="Ykd-k2-mcq" secondAttribute="centerX" id="TCF-QY-ARy"/>
+                                    <constraint firstItem="2tz-ZP-GCy" firstAttribute="baseline" secondItem="rDC-mt-kUE" secondAttribute="baseline" id="TjP-Zn-8it"/>
+                                    <constraint firstAttribute="trailing" secondItem="rDC-mt-kUE" secondAttribute="trailing" constant="142" id="ZSF-gC-ki1"/>
+                                    <constraint firstAttribute="bottom" secondItem="SCm-3w-KTf" secondAttribute="bottom" constant="408" id="qKj-P4-NqN"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ykd-k2-mcq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="941-qT-kiz"/>
+                            <constraint firstItem="Ykd-k2-mcq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="64" id="p4C-8d-ruT"/>
+                            <constraint firstAttribute="bottom" secondItem="Ykd-k2-mcq" secondAttribute="bottom" constant="20" symbolic="YES" id="s0e-Fh-nt7"/>
+                            <constraint firstItem="Ykd-k2-mcq" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="yJy-Ur-434"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="skrol" destination="Ykd-k2-mcq" id="hvS-f7-AEZ"/>
@@ -90,7 +60,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="340" y="429"/>
+            <point key="canvasLocation" x="263" y="396"/>
         </scene>
     </scenes>
 </document>
