@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    //_skrol.frame = CGRectMake(10, self.view.frame.size.height-50, self.view.frame.size.width-20,self.view.frame.size.height-100 );
+    _skrol.contentSize = CGSizeMake(self.view.frame.size.width-50,760);
 }
 
 - (void)didReceiveMemoryWarning {
