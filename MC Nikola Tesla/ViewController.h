@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIScrollView *skrol;
+- (IBAction)ShareButton:(UIBarButtonItem *)sender;
 
 @end
 
