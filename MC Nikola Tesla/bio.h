@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "contentViewController.h"
 
 @interface bio : UIViewController
+<UIPageViewControllerDataSource>
+{
+    UIPageViewController *pageController;
+    NSArray *pageContent;
+    
+}
+@property (strong, nonatomic) UIPageViewController *pageController;
+@property (strong, nonatomic) NSArray *pageContent;
+
 
 @end

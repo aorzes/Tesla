@@ -28,6 +28,7 @@
 		EC5C625F1C56B25800608AEC /* radio.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C625E1C56B25800608AEC /* radio.m */; };
 		EC5C62621C56B27B00608AEC /* laser.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62611C56B27B00608AEC /* laser.m */; };
 		EC5C62651C56B31500608AEC /* elPipe.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62641C56B31500608AEC /* elPipe.m */; };
+		EC5C62681C57D9B800608AEC /* contentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62671C57D9B800608AEC /* contentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,8 @@
 		EC5C62611C56B27B00608AEC /* laser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = laser.m; sourceTree = "<group>"; };
 		EC5C62631C56B31500608AEC /* elPipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = elPipe.h; path = ../elPipe.h; sourceTree = "<group>"; };
 		EC5C62641C56B31500608AEC /* elPipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = elPipe.m; path = ../elPipe.m; sourceTree = "<group>"; };
+		EC5C62661C57D9B800608AEC /* contentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contentViewController.h; sourceTree = "<group>"; };
+		EC5C62671C57D9B800608AEC /* contentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,7 @@
 		EC5C62131C567FC400608AEC = {
 			isa = PBXGroup;
 			children = (
+				EC5C626A1C57F44D00608AEC /* webStranice */,
 				EC5C621E1C567FC400608AEC /* MC Nikola Tesla */,
 				EC5C621D1C567FC400608AEC /* Products */,
 			);
@@ -136,6 +140,8 @@
 				EC5C623D1C56AF8C00608AEC /* motor.m */,
 				EC5C62391C56AE5F00608AEC /* energy.h */,
 				EC5C623A1C56AE5F00608AEC /* energy.m */,
+				EC5C62661C57D9B800608AEC /* contentViewController.h */,
+				EC5C62671C57D9B800608AEC /* contentViewController.m */,
 				EC5C62361C56ADFA00608AEC /* bio.h */,
 				EC5C62371C56ADFA00608AEC /* bio.m */,
 				EC5C622B1C567FC400608AEC /* Assets.xcassets */,
@@ -152,6 +158,14 @@
 				EC5C62201C567FC400608AEC /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC5C626A1C57F44D00608AEC /* webStranice */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = webStranice;
+			path = "MC Nikola Tesla";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +240,7 @@
 			files = (
 				EC5C62501C56B15200608AEC /* findus.m in Sources */,
 				EC5C62271C567FC400608AEC /* ViewController.m in Sources */,
+				EC5C62681C57D9B800608AEC /* contentViewController.m in Sources */,
 				EC5C623B1C56AE5F00608AEC /* energy.m in Sources */,
 				EC5C62621C56B27B00608AEC /* laser.m in Sources */,
 				EC5C62411C56AFFC00608AEC /* wireless.m in Sources */,
