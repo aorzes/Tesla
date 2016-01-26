@@ -13,6 +13,21 @@
 		EC5C622A1C567FC400608AEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5C62281C567FC400608AEC /* Main.storyboard */; };
 		EC5C622C1C567FC400608AEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5C622B1C567FC400608AEC /* Assets.xcassets */; };
 		EC5C622F1C567FC400608AEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5C622D1C567FC400608AEC /* LaunchScreen.storyboard */; };
+		EC5C62381C56ADFA00608AEC /* bio.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62371C56ADFA00608AEC /* bio.m */; };
+		EC5C623B1C56AE5F00608AEC /* energy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C623A1C56AE5F00608AEC /* energy.m */; };
+		EC5C623E1C56AF8C00608AEC /* motor.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C623D1C56AF8C00608AEC /* motor.m */; };
+		EC5C62411C56AFFC00608AEC /* wireless.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62401C56AFFC00608AEC /* wireless.m */; };
+		EC5C62441C56B02B00608AEC /* boat.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62431C56B02B00608AEC /* boat.m */; };
+		EC5C62471C56B05C00608AEC /* coil.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62461C56B05C00608AEC /* coil.m */; };
+		EC5C624A1C56B09000608AEC /* transmision.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62491C56B09000608AEC /* transmision.m */; };
+		EC5C624D1C56B11700608AEC /* about.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C624C1C56B11700608AEC /* about.m */; };
+		EC5C62501C56B15200608AEC /* findus.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C624F1C56B15200608AEC /* findus.m */; };
+		EC5C62531C56B1A700608AEC /* Faradey.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62521C56B1A700608AEC /* Faradey.m */; };
+		EC5C62561C56B1D000608AEC /* xray.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62551C56B1D000608AEC /* xray.m */; };
+		EC5C62591C56B20600608AEC /* jaje.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62581C56B20600608AEC /* jaje.m */; };
+		EC5C625F1C56B25800608AEC /* radio.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C625E1C56B25800608AEC /* radio.m */; };
+		EC5C62621C56B27B00608AEC /* laser.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62611C56B27B00608AEC /* laser.m */; };
+		EC5C62651C56B31500608AEC /* elPipe.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62641C56B31500608AEC /* elPipe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +41,36 @@
 		EC5C622B1C567FC400608AEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC5C622E1C567FC400608AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC5C62301C567FC400608AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5C62361C56ADFA00608AEC /* bio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bio.h; sourceTree = "<group>"; };
+		EC5C62371C56ADFA00608AEC /* bio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bio.m; sourceTree = "<group>"; };
+		EC5C62391C56AE5F00608AEC /* energy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = energy.h; sourceTree = "<group>"; };
+		EC5C623A1C56AE5F00608AEC /* energy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = energy.m; sourceTree = "<group>"; };
+		EC5C623C1C56AF8C00608AEC /* motor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = motor.h; sourceTree = "<group>"; };
+		EC5C623D1C56AF8C00608AEC /* motor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = motor.m; sourceTree = "<group>"; };
+		EC5C623F1C56AFFC00608AEC /* wireless.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wireless.h; sourceTree = "<group>"; };
+		EC5C62401C56AFFC00608AEC /* wireless.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wireless.m; sourceTree = "<group>"; };
+		EC5C62421C56B02B00608AEC /* boat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = boat.h; sourceTree = "<group>"; };
+		EC5C62431C56B02B00608AEC /* boat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = boat.m; sourceTree = "<group>"; };
+		EC5C62451C56B05C00608AEC /* coil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coil.h; sourceTree = "<group>"; };
+		EC5C62461C56B05C00608AEC /* coil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = coil.m; sourceTree = "<group>"; };
+		EC5C62481C56B09000608AEC /* transmision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transmision.h; sourceTree = "<group>"; };
+		EC5C62491C56B09000608AEC /* transmision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = transmision.m; sourceTree = "<group>"; };
+		EC5C624B1C56B11700608AEC /* about.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = about.h; sourceTree = "<group>"; };
+		EC5C624C1C56B11700608AEC /* about.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = about.m; sourceTree = "<group>"; };
+		EC5C624E1C56B15200608AEC /* findus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = findus.h; sourceTree = "<group>"; };
+		EC5C624F1C56B15200608AEC /* findus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = findus.m; sourceTree = "<group>"; };
+		EC5C62511C56B1A700608AEC /* Faradey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Faradey.h; sourceTree = "<group>"; };
+		EC5C62521C56B1A700608AEC /* Faradey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Faradey.m; sourceTree = "<group>"; };
+		EC5C62541C56B1D000608AEC /* xray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xray.h; sourceTree = "<group>"; };
+		EC5C62551C56B1D000608AEC /* xray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xray.m; sourceTree = "<group>"; };
+		EC5C62571C56B20600608AEC /* jaje.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jaje.h; sourceTree = "<group>"; };
+		EC5C62581C56B20600608AEC /* jaje.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jaje.m; sourceTree = "<group>"; };
+		EC5C625D1C56B25800608AEC /* radio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = radio.h; sourceTree = "<group>"; };
+		EC5C625E1C56B25800608AEC /* radio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = radio.m; sourceTree = "<group>"; };
+		EC5C62601C56B27B00608AEC /* laser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = laser.h; sourceTree = "<group>"; };
+		EC5C62611C56B27B00608AEC /* laser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = laser.m; sourceTree = "<group>"; };
+		EC5C62631C56B31500608AEC /* elPipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = elPipe.h; path = ../elPipe.h; sourceTree = "<group>"; };
+		EC5C62641C56B31500608AEC /* elPipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = elPipe.m; path = ../elPipe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +108,36 @@
 				EC5C62251C567FC400608AEC /* ViewController.h */,
 				EC5C62261C567FC400608AEC /* ViewController.m */,
 				EC5C62281C567FC400608AEC /* Main.storyboard */,
+				EC5C62601C56B27B00608AEC /* laser.h */,
+				EC5C62611C56B27B00608AEC /* laser.m */,
+				EC5C625D1C56B25800608AEC /* radio.h */,
+				EC5C625E1C56B25800608AEC /* radio.m */,
+				EC5C62631C56B31500608AEC /* elPipe.h */,
+				EC5C62641C56B31500608AEC /* elPipe.m */,
+				EC5C62571C56B20600608AEC /* jaje.h */,
+				EC5C62581C56B20600608AEC /* jaje.m */,
+				EC5C62541C56B1D000608AEC /* xray.h */,
+				EC5C62551C56B1D000608AEC /* xray.m */,
+				EC5C62511C56B1A700608AEC /* Faradey.h */,
+				EC5C62521C56B1A700608AEC /* Faradey.m */,
+				EC5C624E1C56B15200608AEC /* findus.h */,
+				EC5C624F1C56B15200608AEC /* findus.m */,
+				EC5C624B1C56B11700608AEC /* about.h */,
+				EC5C624C1C56B11700608AEC /* about.m */,
+				EC5C62451C56B05C00608AEC /* coil.h */,
+				EC5C62461C56B05C00608AEC /* coil.m */,
+				EC5C62481C56B09000608AEC /* transmision.h */,
+				EC5C62491C56B09000608AEC /* transmision.m */,
+				EC5C62421C56B02B00608AEC /* boat.h */,
+				EC5C62431C56B02B00608AEC /* boat.m */,
+				EC5C623F1C56AFFC00608AEC /* wireless.h */,
+				EC5C62401C56AFFC00608AEC /* wireless.m */,
+				EC5C623C1C56AF8C00608AEC /* motor.h */,
+				EC5C623D1C56AF8C00608AEC /* motor.m */,
+				EC5C62391C56AE5F00608AEC /* energy.h */,
+				EC5C623A1C56AE5F00608AEC /* energy.m */,
+				EC5C62361C56ADFA00608AEC /* bio.h */,
+				EC5C62371C56ADFA00608AEC /* bio.m */,
 				EC5C622B1C567FC400608AEC /* Assets.xcassets */,
 				EC5C622D1C567FC400608AEC /* LaunchScreen.storyboard */,
 				EC5C62301C567FC400608AEC /* Info.plist */,
@@ -149,9 +224,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5C62501C56B15200608AEC /* findus.m in Sources */,
 				EC5C62271C567FC400608AEC /* ViewController.m in Sources */,
+				EC5C623B1C56AE5F00608AEC /* energy.m in Sources */,
+				EC5C62621C56B27B00608AEC /* laser.m in Sources */,
+				EC5C62411C56AFFC00608AEC /* wireless.m in Sources */,
+				EC5C624A1C56B09000608AEC /* transmision.m in Sources */,
+				EC5C62591C56B20600608AEC /* jaje.m in Sources */,
+				EC5C62561C56B1D000608AEC /* xray.m in Sources */,
 				EC5C62241C567FC400608AEC /* AppDelegate.m in Sources */,
+				EC5C625F1C56B25800608AEC /* radio.m in Sources */,
+				EC5C623E1C56AF8C00608AEC /* motor.m in Sources */,
+				EC5C624D1C56B11700608AEC /* about.m in Sources */,
+				EC5C62651C56B31500608AEC /* elPipe.m in Sources */,
+				EC5C62531C56B1A700608AEC /* Faradey.m in Sources */,
+				EC5C62381C56ADFA00608AEC /* bio.m in Sources */,
+				EC5C62471C56B05C00608AEC /* coil.m in Sources */,
 				EC5C62211C567FC400608AEC /* main.m in Sources */,
+				EC5C62441C56B02B00608AEC /* boat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +388,7 @@
 				EC5C62351C567FC400608AEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
