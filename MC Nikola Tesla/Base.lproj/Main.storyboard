@@ -352,13 +352,24 @@
                                     <constraint firstItem="UFm-Up-4lS" firstAttribute="baseline" secondItem="qqe-yG-2S5" secondAttribute="baseline" id="zA8-Oo-ahf"/>
                                 </constraints>
                             </scrollView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f7h-ug-eSG">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="MC Nikola Tesla" id="eXZ-c1-fPy">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="MZF-ik-Osh"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Ykd-k2-mcq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="64" id="5Je-ga-RwG"/>
+                            <constraint firstItem="f7h-ug-eSG" firstAttribute="trailing" secondItem="Ykd-k2-mcq" secondAttribute="trailing" id="82C-Dw-VaE"/>
                             <constraint firstAttribute="bottom" secondItem="Ykd-k2-mcq" secondAttribute="bottom" constant="-106" id="Xtd-Iw-Xqg"/>
                             <constraint firstAttribute="trailing" secondItem="Ykd-k2-mcq" secondAttribute="trailing" id="aEA-7s-dxx"/>
                             <constraint firstItem="Ykd-k2-mcq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jZI-Gg-PTn"/>
+                            <constraint firstItem="f7h-ug-eSG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="kLF-Qq-jDw"/>
+                            <constraint firstItem="f7h-ug-eSG" firstAttribute="leading" secondItem="Ykd-k2-mcq" secondAttribute="leading" id="kXn-Zs-jAY"/>
                         </constraints>
                     </view>
                     <connections>
@@ -583,7 +594,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D7d-wm-7yZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2365" y="484"/>
+            <point key="canvasLocation" x="2365" y="395"/>
         </scene>
         <!--Bio-->
         <scene sceneID="cFN-fA-guZ">
@@ -621,7 +632,7 @@
             </objects>
             <point key="canvasLocation" x="2365" y="1171"/>
         </scene>
-        <!--Energy-->
+        <!--Title-->
         <scene sceneID="Duc-N3-igu">
             <objects>
                 <viewController id="XlY-Di-yin" customClass="energy" sceneMemberID="viewController">
@@ -632,8 +643,28 @@
                     <view key="view" contentMode="scaleToFill" id="fX9-hS-vXt">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pzb-aF-ia2">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Energy Production" id="p80-FG-OO0">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="rqK-LY-rmE">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="coverVertical" id="gXP-ja-5Fm"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pzb-aF-ia2" firstAttribute="leading" secondItem="fX9-hS-vXt" secondAttribute="leading" id="95A-dE-zwb"/>
+                            <constraint firstAttribute="trailing" secondItem="pzb-aF-ia2" secondAttribute="trailing" id="JAN-xY-Per"/>
+                            <constraint firstItem="pzb-aF-ia2" firstAttribute="top" secondItem="pI4-mA-x6h" secondAttribute="bottom" id="Z9f-Sr-NHW"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="yRe-fX-eB3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bil-Y0-FVL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
