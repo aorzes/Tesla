@@ -7,17 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "contentViewController.h"
+
 
 @interface bio : UIViewController
-<UIPageViewControllerDataSource>
+
 {
-    UIPageViewController *pageController;
-    NSArray *pageContent;
+    NSString *historyfile;
+    NSArray *popis;
+    NSInteger n;
     
+    __weak IBOutlet UIWebView *mWebView;
 }
-@property (strong, nonatomic) UIPageViewController *pageController;
-@property (strong, nonatomic) NSArray *pageContent;
 
 
 @end

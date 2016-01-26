@@ -28,7 +28,12 @@
 		EC5C625F1C56B25800608AEC /* radio.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C625E1C56B25800608AEC /* radio.m */; };
 		EC5C62621C56B27B00608AEC /* laser.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62611C56B27B00608AEC /* laser.m */; };
 		EC5C62651C56B31500608AEC /* elPipe.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62641C56B31500608AEC /* elPipe.m */; };
-		EC5C62681C57D9B800608AEC /* contentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62671C57D9B800608AEC /* contentViewController.m */; };
+		EC5C626C1C58034F00608AEC /* prva.html in Resources */ = {isa = PBXBuildFile; fileRef = EC5C626B1C58034F00608AEC /* prva.html */; };
+		EC5C62701C58117600608AEC /* teslaSmiljan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC5C626F1C58117600608AEC /* teslaSmiljan.jpg */; };
+		EC5C62721C58119200608AEC /* TeslaSjedi.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C62711C58119200608AEC /* TeslaSjedi.png */; };
+		EC5C62741C5818ED00608AEC /* druga.html in Resources */ = {isa = PBXBuildFile; fileRef = EC5C62731C5818ED00608AEC /* druga.html */; };
+		EC5C62761C581C4D00608AEC /* brodizvan.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C62751C581C4D00608AEC /* brodizvan.png */; };
+		EC5C627A1C581F9700608AEC /* ticon.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C62791C581F9700608AEC /* ticon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,8 +77,12 @@
 		EC5C62611C56B27B00608AEC /* laser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = laser.m; sourceTree = "<group>"; };
 		EC5C62631C56B31500608AEC /* elPipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = elPipe.h; path = ../elPipe.h; sourceTree = "<group>"; };
 		EC5C62641C56B31500608AEC /* elPipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = elPipe.m; path = ../elPipe.m; sourceTree = "<group>"; };
-		EC5C62661C57D9B800608AEC /* contentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contentViewController.h; sourceTree = "<group>"; };
-		EC5C62671C57D9B800608AEC /* contentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contentViewController.m; sourceTree = "<group>"; };
+		EC5C626B1C58034F00608AEC /* prva.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = prva.html; sourceTree = "<group>"; };
+		EC5C626F1C58117600608AEC /* teslaSmiljan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teslaSmiljan.jpg; sourceTree = "<group>"; };
+		EC5C62711C58119200608AEC /* TeslaSjedi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TeslaSjedi.png; sourceTree = "<group>"; };
+		EC5C62731C5818ED00608AEC /* druga.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = druga.html; sourceTree = "<group>"; };
+		EC5C62751C581C4D00608AEC /* brodizvan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brodizvan.png; sourceTree = "<group>"; };
+		EC5C62791C581F9700608AEC /* ticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ticon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +99,7 @@
 		EC5C62131C567FC400608AEC = {
 			isa = PBXGroup;
 			children = (
+				EC5C62771C581F6B00608AEC /* slike */,
 				EC5C626A1C57F44D00608AEC /* webStranice */,
 				EC5C621E1C567FC400608AEC /* MC Nikola Tesla */,
 				EC5C621D1C567FC400608AEC /* Products */,
@@ -140,8 +150,6 @@
 				EC5C623D1C56AF8C00608AEC /* motor.m */,
 				EC5C62391C56AE5F00608AEC /* energy.h */,
 				EC5C623A1C56AE5F00608AEC /* energy.m */,
-				EC5C62661C57D9B800608AEC /* contentViewController.h */,
-				EC5C62671C57D9B800608AEC /* contentViewController.m */,
 				EC5C62361C56ADFA00608AEC /* bio.h */,
 				EC5C62371C56ADFA00608AEC /* bio.m */,
 				EC5C622B1C567FC400608AEC /* Assets.xcassets */,
@@ -163,9 +171,30 @@
 		EC5C626A1C57F44D00608AEC /* webStranice */ = {
 			isa = PBXGroup;
 			children = (
+				EC5C626B1C58034F00608AEC /* prva.html */,
+				EC5C62731C5818ED00608AEC /* druga.html */,
+				EC5C626F1C58117600608AEC /* teslaSmiljan.jpg */,
+				EC5C62711C58119200608AEC /* TeslaSjedi.png */,
+				EC5C62751C581C4D00608AEC /* brodizvan.png */,
 			);
 			name = webStranice;
 			path = "MC Nikola Tesla";
+			sourceTree = "<group>";
+		};
+		EC5C62771C581F6B00608AEC /* slike */ = {
+			isa = PBXGroup;
+			children = (
+				EC5C62781C581F7900608AEC /* ikone */,
+			);
+			name = slike;
+			sourceTree = "<group>";
+		};
+		EC5C62781C581F7900608AEC /* ikone */ = {
+			isa = PBXGroup;
+			children = (
+				EC5C62791C581F9700608AEC /* ticon.png */,
+			);
+			name = ikone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,8 +256,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC5C622F1C567FC400608AEC /* LaunchScreen.storyboard in Resources */,
+				EC5C62721C58119200608AEC /* TeslaSjedi.png in Resources */,
+				EC5C62701C58117600608AEC /* teslaSmiljan.jpg in Resources */,
+				EC5C626C1C58034F00608AEC /* prva.html in Resources */,
 				EC5C622C1C567FC400608AEC /* Assets.xcassets in Resources */,
+				EC5C62741C5818ED00608AEC /* druga.html in Resources */,
 				EC5C622A1C567FC400608AEC /* Main.storyboard in Resources */,
+				EC5C62761C581C4D00608AEC /* brodizvan.png in Resources */,
+				EC5C627A1C581F9700608AEC /* ticon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +276,6 @@
 			files = (
 				EC5C62501C56B15200608AEC /* findus.m in Sources */,
 				EC5C62271C567FC400608AEC /* ViewController.m in Sources */,
-				EC5C62681C57D9B800608AEC /* contentViewController.m in Sources */,
 				EC5C623B1C56AE5F00608AEC /* energy.m in Sources */,
 				EC5C62621C56B27B00608AEC /* laser.m in Sources */,
 				EC5C62411C56AFFC00608AEC /* wireless.m in Sources */,
