@@ -34,6 +34,8 @@
 		EC5C62741C5818ED00608AEC /* druga.html in Resources */ = {isa = PBXBuildFile; fileRef = EC5C62731C5818ED00608AEC /* druga.html */; };
 		EC5C62761C581C4D00608AEC /* brodizvan.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C62751C581C4D00608AEC /* brodizvan.png */; };
 		EC5C627A1C581F9700608AEC /* ticon.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C62791C581F9700608AEC /* ticon.png */; };
+		EC5C62811C58331900608AEC /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C627F1C58331900608AEC /* left.png */; };
+		EC5C62821C58331900608AEC /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C62801C58331900608AEC /* right.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +85,8 @@
 		EC5C62731C5818ED00608AEC /* druga.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = druga.html; sourceTree = "<group>"; };
 		EC5C62751C581C4D00608AEC /* brodizvan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brodizvan.png; sourceTree = "<group>"; };
 		EC5C62791C581F9700608AEC /* ticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ticon.png; sourceTree = "<group>"; };
+		EC5C627F1C58331900608AEC /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		EC5C62801C58331900608AEC /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,8 @@
 				EC5C626F1C58117600608AEC /* teslaSmiljan.jpg */,
 				EC5C62711C58119200608AEC /* TeslaSjedi.png */,
 				EC5C62751C581C4D00608AEC /* brodizvan.png */,
+				EC5C627F1C58331900608AEC /* left.png */,
+				EC5C62801C58331900608AEC /* right.png */,
 			);
 			name = webStranice;
 			path = "MC Nikola Tesla";
@@ -257,10 +263,12 @@
 			files = (
 				EC5C622F1C567FC400608AEC /* LaunchScreen.storyboard in Resources */,
 				EC5C62721C58119200608AEC /* TeslaSjedi.png in Resources */,
+				EC5C62821C58331900608AEC /* right.png in Resources */,
 				EC5C62701C58117600608AEC /* teslaSmiljan.jpg in Resources */,
 				EC5C626C1C58034F00608AEC /* prva.html in Resources */,
 				EC5C622C1C567FC400608AEC /* Assets.xcassets in Resources */,
 				EC5C62741C5818ED00608AEC /* druga.html in Resources */,
+				EC5C62811C58331900608AEC /* left.png in Resources */,
 				EC5C622A1C567FC400608AEC /* Main.storyboard in Resources */,
 				EC5C62761C581C4D00608AEC /* brodizvan.png in Resources */,
 				EC5C627A1C581F9700608AEC /* ticon.png in Resources */,
