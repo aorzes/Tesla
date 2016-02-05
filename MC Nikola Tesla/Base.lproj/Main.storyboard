@@ -20,7 +20,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="800" height="1900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ykd-k2-mcq">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Ykd-k2-mcq">
                                 <rect key="frame" x="0.0" y="84" width="800" height="1922"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KHd-PU-WpA">
@@ -420,6 +420,7 @@
                                             <constraint firstItem="rwc-oU-qIq" firstAttribute="leading" secondItem="KHd-PU-WpA" secondAttribute="leading" constant="20" symbolic="YES" id="29t-XD-sSD"/>
                                             <constraint firstItem="JIP-ah-SMR" firstAttribute="width" secondItem="rwc-oU-qIq" secondAttribute="width" id="2pl-H5-sDp"/>
                                             <constraint firstAttribute="height" constant="1118" id="3WD-k6-WGU">
+                                                <variation key="widthClass=compact" constant="550"/>
                                                 <variation key="heightClass=regular-widthClass=regular" constant="800"/>
                                             </constraint>
                                             <constraint firstItem="1lO-Wp-NfF" firstAttribute="height" secondItem="JIP-ah-SMR" secondAttribute="height" id="3ve-mc-yKk"/>
@@ -800,6 +801,7 @@
                                     <constraint firstAttribute="trailing" secondItem="KHd-PU-WpA" secondAttribute="trailing" id="iYC-hR-DZu"/>
                                     <constraint firstItem="KHd-PU-WpA" firstAttribute="centerX" secondItem="Ykd-k2-mcq" secondAttribute="centerX" id="nVa-7K-YDo"/>
                                     <constraint firstAttribute="bottom" secondItem="KHd-PU-WpA" secondAttribute="bottom" constant="104" id="nnM-QB-6jB">
+                                        <variation key="widthClass=compact" constant="0.0"/>
                                         <variation key="heightClass=regular-widthClass=regular" constant="1200"/>
                                     </constraint>
                                 </constraints>
@@ -824,9 +826,12 @@
                             <constraint firstItem="Ykd-k2-mcq" firstAttribute="trailing" secondItem="f7h-ug-eSG" secondAttribute="trailing" id="DDo-0u-LdR"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Ykd-k2-mcq" secondAttribute="trailing" constant="-20" id="FL4-uD-ogj"/>
                             <constraint firstAttribute="bottom" secondItem="Ykd-k2-mcq" secondAttribute="bottom" constant="-106" id="IID-9y-AE2">
+                                <variation key="widthClass=compact" constant="-84"/>
                                 <variation key="heightClass=regular-widthClass=regular" constant="-84"/>
                             </constraint>
-                            <constraint firstAttribute="bottom" secondItem="Ykd-k2-mcq" secondAttribute="bottom" constant="-106" id="VV7-eH-GwL"/>
+                            <constraint firstAttribute="bottom" secondItem="Ykd-k2-mcq" secondAttribute="bottom" constant="-106" id="VV7-eH-GwL">
+                                <variation key="widthClass=compact" constant="-84"/>
+                            </constraint>
                             <constraint firstAttribute="trailingMargin" secondItem="Ykd-k2-mcq" secondAttribute="trailing" constant="-20" id="WB9-AS-Q2S"/>
                             <constraint firstItem="f7h-ug-eSG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="X9S-MP-6Yx"/>
                             <constraint firstItem="f7h-ug-eSG" firstAttribute="trailing" secondItem="Ykd-k2-mcq" secondAttribute="trailing" id="eSt-4i-Xgw"/>
@@ -866,14 +871,12 @@
                             </mask>
                         </variation>
                     </view>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="800" height="1900"/>
                     <connections>
                         <outlet property="skrol" destination="Ykd-k2-mcq" id="hvS-f7-AEZ"/>
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="-996" y="283"/>
+            <point key="canvasLocation" x="-1093.5" y="267"/>
         </scene>
         <!--El Pipe-->
         <scene sceneID="q8b-1P-bq0">
@@ -1229,7 +1232,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bil-Y0-FVL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1701" y="395"/>
+            <point key="canvasLocation" x="1437" y="387"/>
         </scene>
     </scenes>
     <resources>
