@@ -22,7 +22,7 @@
 }
 -(void)viewDidAppear:(BOOL)animated
 {
-    _skrol.contentSize = CGSizeMake(self.view.frame.size.width-50,760);
+  //  _skrol.contentSize = CGSizeMake(self.view.frame.size.width-50,760);
 
 }
 - (void)didReceiveMemoryWarning {

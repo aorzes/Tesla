@@ -36,6 +36,7 @@
 		EC5C627A1C581F9700608AEC /* ticon.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C62791C581F9700608AEC /* ticon.png */; };
 		EC5C62811C58331900608AEC /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C627F1C58331900608AEC /* left.png */; };
 		EC5C62821C58331900608AEC /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C62801C58331900608AEC /* right.png */; };
+		ECCD0F741C63BB1900A1A4D7 /* tesla200.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCD0F731C63BB1900A1A4D7 /* tesla200.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +88,7 @@
 		EC5C62791C581F9700608AEC /* ticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ticon.png; sourceTree = "<group>"; };
 		EC5C627F1C58331900608AEC /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
 		EC5C62801C58331900608AEC /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		ECCD0F731C63BB1900A1A4D7 /* tesla200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tesla200.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				EC5C623A1C56AE5F00608AEC /* energy.m */,
 				EC5C62361C56ADFA00608AEC /* bio.h */,
 				EC5C62371C56ADFA00608AEC /* bio.m */,
+				ECCD0F731C63BB1900A1A4D7 /* tesla200.png */,
 				EC5C622B1C567FC400608AEC /* Assets.xcassets */,
 				EC5C622D1C567FC400608AEC /* LaunchScreen.storyboard */,
 				EC5C62301C567FC400608AEC /* Info.plist */,
@@ -263,6 +266,7 @@
 			files = (
 				EC5C622F1C567FC400608AEC /* LaunchScreen.storyboard in Resources */,
 				EC5C62721C58119200608AEC /* TeslaSjedi.png in Resources */,
+				ECCD0F741C63BB1900A1A4D7 /* tesla200.png in Resources */,
 				EC5C62821C58331900608AEC /* right.png in Resources */,
 				EC5C62701C58117600608AEC /* teslaSmiljan.jpg in Resources */,
 				EC5C626C1C58034F00608AEC /* prva.html in Resources */,
