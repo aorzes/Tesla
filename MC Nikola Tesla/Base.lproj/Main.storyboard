@@ -16,16 +16,16 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="800" height="1500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Ykd-k2-mcq">
-                                <rect key="frame" x="0.0" y="84" width="600" height="622"/>
+                                <rect key="frame" x="0.0" y="84" width="800" height="1522"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KHd-PU-WpA">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="1118"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="800" height="1118"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rwc-oU-qIq">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rwc-oU-qIq" userLabel="Bio">
                                                 <rect key="frame" x="89" y="92" width="100" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="Y4y-CX-2cm"/>
@@ -54,8 +54,11 @@
                                                         <include reference="YkJ-FS-SEL"/>
                                                     </mask>
                                                 </variation>
+                                                <connections>
+                                                    <segue destination="Klb-N7-FKc" kind="presentation" id="YHY-dG-TFz"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAd-N4-89K">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAd-N4-89K" userLabel="Motor">
                                                 <rect key="frame" x="8" y="8" width="100" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="80" id="03x-by-swC"/>
@@ -74,8 +77,11 @@
                                                         <include reference="3c6-1P-WDp"/>
                                                     </mask>
                                                 </variation>
+                                                <connections>
+                                                    <segue destination="fXd-HX-jMZ" kind="presentation" id="IVs-Os-ns3"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Znw-ZF-7q1">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Znw-ZF-7q1" userLabel="Energy Production">
                                                 <rect key="frame" x="8" y="8" width="100" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="80" id="YGL-wr-Czf"/>
@@ -94,8 +100,11 @@
                                                         <include reference="jfu-fw-pbO"/>
                                                     </mask>
                                                 </variation>
+                                                <connections>
+                                                    <segue destination="XlY-Di-yin" kind="presentation" id="c6s-3K-hsR"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5t-7d-thb">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5t-7d-thb" userLabel="Wireless">
                                                 <rect key="frame" x="89" y="92" width="100" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="80" id="Man-Db-0Ub"/>
@@ -124,8 +133,11 @@
                                                         <include reference="Y4c-gj-NjO"/>
                                                     </mask>
                                                 </variation>
+                                                <connections>
+                                                    <segue destination="Bnl-OJ-L87" kind="presentation" id="g3k-Xk-TBO"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BIt-a3-mST">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BIt-a3-mST" userLabel="Boat">
                                                 <rect key="frame" x="89" y="92" width="100" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="Zdi-ZQ-ZKr"/>
@@ -144,8 +156,11 @@
                                                         <include reference="dtj-WG-DnK"/>
                                                     </mask>
                                                 </variation>
+                                                <connections>
+                                                    <segue destination="Hok-ba-zWY" kind="presentation" id="rjj-Zb-bGF"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oHr-jN-ncY">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oHr-jN-ncY" userLabel="Coil">
                                                 <rect key="frame" x="89" y="92" width="100" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="80" id="OFJ-og-qG4"/>
@@ -174,8 +189,11 @@
                                                         <include reference="vwB-2C-w5u"/>
                                                     </mask>
                                                 </variation>
+                                                <connections>
+                                                    <segue destination="k0b-KW-ve5" kind="presentation" id="bPb-3g-sTo"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIP-ah-SMR">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIP-ah-SMR" userLabel="Transmision">
                                                 <rect key="frame" x="89" y="92" width="100" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="1k1-fj-alA"/>
@@ -204,8 +222,11 @@
                                                         <include reference="N2J-yY-Wmf"/>
                                                     </mask>
                                                 </variation>
+                                                <connections>
+                                                    <segue destination="ekL-a4-i4e" kind="presentation" id="gAr-sZ-65q"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2x-CG-kX1">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2x-CG-kX1" userLabel="Findus">
                                                 <rect key="frame" x="8" y="8" width="100" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="80" id="VXA-94-0Pi"/>
@@ -224,12 +245,18 @@
                                                         <include reference="p42-Z8-koz"/>
                                                     </mask>
                                                 </variation>
+                                                <connections>
+                                                    <segue destination="MT4-2o-Rsb" kind="presentation" id="fJ9-Tu-veI"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WGT-dE-89j">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WGT-dE-89j" userLabel="About">
                                                 <rect key="frame" x="8" y="8" width="100" height="100"/>
                                                 <state key="normal" title="Button" image="tesla200.png"/>
+                                                <connections>
+                                                    <segue destination="nQe-Wb-YjZ" kind="presentation" id="Rs0-r0-exa"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1lO-Wp-NfF">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1lO-Wp-NfF" userLabel="Faradey">
                                                 <rect key="frame" x="89" y="92" width="100" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="ReY-Ai-whj"/>
@@ -258,8 +285,11 @@
                                                         <include reference="mrC-mU-QFa"/>
                                                     </mask>
                                                 </variation>
+                                                <connections>
+                                                    <segue destination="5bw-UP-dVY" kind="presentation" id="Ww9-s3-57n"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9S-1r-G1e">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9S-1r-G1e" userLabel="Jaje">
                                                 <rect key="frame" x="89" y="92" width="100" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="L05-t0-ieM"/>
@@ -288,8 +318,11 @@
                                                         <include reference="Oqq-mb-Ix4"/>
                                                     </mask>
                                                 </variation>
+                                                <connections>
+                                                    <segue destination="jvL-WO-VsD" kind="presentation" id="S8K-aD-1wr"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Yl-ze-wSL">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Yl-ze-wSL" userLabel="Xray">
                                                 <rect key="frame" x="89" y="92" width="100" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="6Vr-XF-s6e"/>
@@ -318,6 +351,9 @@
                                                         <include reference="Enq-48-IlN"/>
                                                     </mask>
                                                 </variation>
+                                                <connections>
+                                                    <segue destination="hAN-JF-v27" kind="presentation" id="Fvh-Om-ZhG"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTF-Gj-1KE" userLabel="Pipe">
                                                 <rect key="frame" x="89" y="92" width="100" height="100"/>
@@ -349,7 +385,7 @@
                                                     <segue destination="dyd-za-N8U" kind="presentation" id="pGc-lJ-wCW"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Clr-lQ-s1u">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Clr-lQ-s1u" userLabel="Laser">
                                                 <rect key="frame" x="89" y="92" width="100" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="UUx-Lb-CA2"/>
@@ -378,8 +414,11 @@
                                                         <include reference="piQ-9a-UhR"/>
                                                     </mask>
                                                 </variation>
+                                                <connections>
+                                                    <segue destination="zDU-LH-UBe" kind="presentation" id="Dtt-Z5-WCo"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWj-Kv-Lgy">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWj-Kv-Lgy" userLabel="Radio">
                                                 <rect key="frame" x="89" y="92" width="100" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="6N6-Ib-bKo"/>
@@ -408,6 +447,9 @@
                                                         <include reference="xZZ-cL-ego"/>
                                                     </mask>
                                                 </variation>
+                                                <connections>
+                                                    <segue destination="ueF-yw-PMp" kind="presentation" id="lOz-XR-35G"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -809,7 +851,7 @@
                                 </constraints>
                             </scrollView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f7h-ug-eSG">
-                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="20" width="800" height="44"/>
                                 <items>
                                     <navigationItem title="MC Nikola Tesla" id="eXZ-c1-fPy">
                                         <barButtonItem key="rightBarButtonItem" systemItem="action" id="MZF-ik-Osh">
@@ -881,7 +923,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1093.5" y="267"/>
+            <point key="canvasLocation" x="-456" y="882"/>
         </scene>
         <!--El Pipe-->
         <scene sceneID="q8b-1P-bq0">
@@ -1249,11 +1291,7 @@
                                 <rect key="frame" x="0.0" y="20" width="600" height="44"/>
                                 <items>
                                     <navigationItem title="Biography" id="l23-Ff-QQ9">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="d0S-rP-9SA">
-                                            <connections>
-                                                <segue destination="BYZ-38-t0r" kind="presentation" id="UJf-ku-cTa"/>
-                                            </connections>
-                                        </barButtonItem>
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="d0S-rP-9SA"/>
                                         <rightBarButtonItems>
                                             <barButtonItem image="right.png" id="buc-w7-MON">
                                                 <inset key="imageInsets" minX="10" minY="15" maxX="0.0" maxY="15"/>
@@ -1384,7 +1422,4 @@
         <image name="turbinaStator.png" width="200" height="200"/>
         <image name="zarulja0000.png" width="110" height="140"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="gXP-ja-5Fm"/>
-    </inferredMetricsTieBreakers>
 </document>
