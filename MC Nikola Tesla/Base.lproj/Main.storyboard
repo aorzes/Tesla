@@ -944,8 +944,12 @@
                             <navigationBar alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PHu-VL-C5Z">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
-                                    <navigationItem title="Title" id="56C-Cy-vFF">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="liJ-Y5-IAY"/>
+                                    <navigationItem title="Hydropower" id="56C-Cy-vFF">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="liJ-Y5-IAY">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="presentation" id="MDr-gh-WkZ"/>
+                                            </connections>
+                                        </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Reset" id="BMo-MI-phi">
                                             <connections>
                                                 <action selector="pokreniPonovo:" destination="dyd-za-N8U" id="LhC-4T-wqZ"/>
@@ -957,17 +961,20 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="PHu-VL-C5Z" firstAttribute="leading" secondItem="n0D-I3-NpW" secondAttribute="leading" id="CRS-ps-dgz"/>
+                            <constraint firstItem="PHu-VL-C5Z" firstAttribute="top" secondItem="6iO-IJ-CYU" secondAttribute="bottom" id="Ggi-EE-fsO"/>
                             <constraint firstAttribute="trailing" secondItem="PHu-VL-C5Z" secondAttribute="trailing" id="Qz3-Hf-RAC"/>
                             <constraint firstItem="PHu-VL-C5Z" firstAttribute="leading" secondItem="n0D-I3-NpW" secondAttribute="leading" id="g7R-Qj-T5J"/>
+                            <constraint firstAttribute="trailing" secondItem="PHu-VL-C5Z" secondAttribute="trailing" id="gca-D9-Cgd"/>
                             <constraint firstItem="PHu-VL-C5Z" firstAttribute="top" secondItem="6iO-IJ-CYU" secondAttribute="bottom" id="oHV-f6-Ek1"/>
                         </constraints>
                         <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="PHu-VL-C5Z"/>
-                            </mask>
                             <mask key="constraints">
+                                <exclude reference="CRS-ps-dgz"/>
+                                <exclude reference="Ggi-EE-fsO"/>
                                 <exclude reference="Qz3-Hf-RAC"/>
                                 <exclude reference="g7R-Qj-T5J"/>
+                                <exclude reference="gca-D9-Cgd"/>
                                 <exclude reference="oHV-f6-Ek1"/>
                             </mask>
                         </variation>
@@ -981,6 +988,13 @@
                                 <include reference="oHV-f6-Ek1"/>
                             </mask>
                         </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="CRS-ps-dgz"/>
+                                <include reference="Ggi-EE-fsO"/>
+                                <include reference="gca-D9-Cgd"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="navBar" destination="PHu-VL-C5Z" id="aak-Yw-1z5"/>
@@ -988,7 +1002,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yPZ-jz-HZ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1035" y="3191"/>
+            <point key="canvasLocation" x="1035" y="3190.5"/>
         </scene>
         <!--Radio-->
         <scene sceneID="R1p-xl-YAQ">
@@ -1330,4 +1344,7 @@
         <image name="right.png" width="30" height="60"/>
         <image name="tesla200.png" width="200" height="200"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="gXP-ja-5Fm"/>
+    </inferredMetricsTieBreakers>
 </document>

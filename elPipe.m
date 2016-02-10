@@ -102,7 +102,7 @@
     if(proporcije>1.5)
     {
         polje[4][8] = 1;
-        zavrsna.frame = CGRectMake(velicina.size.width-dimenzija*2, pocetna.frame.origin.y+dimenzija*7, dimenzija*2, dimenzija);
+        zavrsna.frame = CGRectMake(velicina.size.width-dimenzija*2, pocetna.frame.origin.y+dimenzija*7-10, dimenzija*2, dimenzija);
         ciljana=8;
     }
     else if(proporcije>1.4)
