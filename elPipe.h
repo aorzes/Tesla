@@ -13,6 +13,13 @@
     //UIPanGestureRecognizer *panGesture;
     CGRect velicina;
     NSArray *popisCijevi;
+    UIImageView *podloga;
+    UIImageView *prvaCijev;
+    UIImageView *pocetna;
+    UIImageView *ruckaVentila;
+    UIImageView *nadolazece;
+    UIImageView *stator;
+    UIImageView *rotor;
     __weak IBOutlet UINavigationBar *navBar;
     NSMutableArray *izbornikArray;
     UIImageView *aktivnaSlika;
@@ -25,23 +32,18 @@
     NSTimer * timerM;
     double kutp,pomak;
     bool ukljuceno;
-    __weak IBOutlet UIImageView *strelica2;
-    __weak IBOutlet UIImageView *strelica1;
-    __weak IBOutlet UIImageView *ruckaVentila;
-    __weak IBOutlet UIImageView *zarulja;
-    __weak IBOutlet UIImageView *prvaCijev;
+    UIImageView *strelica2;
+    UIImageView *strelica1;
+    
+    UIImageView *zarulja;
+    UIImageView *zavrsna;
+    
     int ciljana; // krajnja u matrici
     int curiX;
     int curiY;
     int vektor;
 }
-@property (weak, nonatomic) IBOutlet UIImageView *podloga;
 
-@property (weak, nonatomic) IBOutlet UIImageView *rotor;
-@property (weak, nonatomic) IBOutlet UIImageView *stator;
 
-@property (weak, nonatomic) IBOutlet UIImageView *nadolazece;
-@property (weak, nonatomic) IBOutlet UIImageView *pocetna;
-@property (weak, nonatomic) IBOutlet UIImageView *zavrsna;
 
 @end

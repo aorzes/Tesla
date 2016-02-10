@@ -33,46 +33,94 @@
 -(void)viewDidAppear:(BOOL)animated
 {
     velicina = self.view.frame;
-    
-    _podloga.frame= CGRectMake(0, 0, velicina.size.width, velicina.size.height);
+    podloga = [[UIImageView alloc]init];
+    podloga.image = [UIImage imageNamed:@"podlogaPipe2"];
+    podloga.frame= CGRectMake(0, 0, velicina.size.width, velicina.size.height);
+    [self.view addSubview:podloga];
+    [self.view sendSubviewToBack:podloga];
     dimenzija = velicina.size.width/5;
+    prvaCijev = [[UIImageView alloc]init];
+    prvaCijev.image = [UIImage imageNamed:@"cijevi5"];
     prvaCijev.frame = CGRectMake(0,0, dimenzija, dimenzija);
+    [self.view addSubview:prvaCijev];
     granice = CGPointMake((int)(dimenzija*5), (int)dimenzija*7);
-    //_pocetna.frame = CGRectMake(0, navBar.frame.origin.y+navBar.frame.size.height, dimenzija, dimenzija);
-    _pocetna.frame = CGRectMake(0, dimenzija, dimenzija, dimenzija);
-    float proporcije = (velicina.size.height-_pocetna.frame.origin.y)/velicina.size.width;
-    ruckaVentila.frame = CGRectMake(0, _pocetna.frame.origin.y, dimenzija, dimenzija);
-    _nadolazece.frame = CGRectMake(dimenzija*2, _pocetna.frame.origin.y, velicina.size.width-dimenzija*2,dimenzija );
+    pocetna = [[UIImageView alloc]init];
+    pocetna.image = [UIImage imageNamed:@"cijevVentil"];
+    pocetna.frame = CGRectMake(0, dimenzija, dimenzija, dimenzija);
+    [pocetna setBackgroundColor:[UIColor yellowColor]];
+    [self.view addSubview:pocetna];
+    float proporcije = (velicina.size.height-pocetna.frame.origin.y)/velicina.size.width;
+    ruckaVentila = [[UIImageView alloc]init];
+    ruckaVentila.image = [UIImage imageNamed:@"ruckaVentila"];
+    ruckaVentila.frame = CGRectMake(0, pocetna.frame.origin.y, dimenzija, dimenzija);
+    [self.view addSubview:ruckaVentila];
+    
+    nadolazece = [[UIImageView alloc]init];
+    nadolazece.image = [UIImage imageNamed:@"podlogaPipe2"];
+    nadolazece.frame = CGRectMake(dimenzija*2, pocetna.frame.origin.y, velicina.size.width-dimenzija*2,dimenzija );
+    [nadolazece setBackgroundColor:[UIColor orangeColor]];
+    nadolazece.userInteractionEnabled = YES;
+    [self.view addSubview:nadolazece];
     
     [self napraviIzbor];
     UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(singleTapGestureCaptured:)];
-    [_nadolazece addGestureRecognizer:singleTap];
-    _stator.frame = CGRectMake(velicina.size.width - dimenzija*3, velicina.size.height-dimenzija*2, dimenzija*2, dimenzija*2);
-    _rotor.frame = CGRectMake(_stator.center.x-dimenzija*0.75 , _stator.frame.origin.y+dimenzija*0.25, dimenzija*1.5, dimenzija*1.5);
-    [_rotor bringSubviewToFront:_stator];
-    strelica1.center = CGPointMake(_pocetna.center.x, _pocetna.center.y+dimenzija);
-    strelica2.center = CGPointMake(velicina.size.width-dimenzija/2, _zavrsna.center.y-dimenzija);
+    [nadolazece addGestureRecognizer:singleTap];
+    
+    zavrsna = [[UIImageView alloc]init];
+    zavrsna.image = [UIImage imageNamed:@"cijevTurbine"];
+    zavrsna.frame = CGRectMake(velicina.size.width-dimenzija*2, pocetna.frame.origin.y+dimenzija*7, dimenzija*2, dimenzija);
+    [self.view addSubview:zavrsna];
+    
+    stator = [[UIImageView alloc]init];
+    stator.image = [UIImage imageNamed:@"turbinaStator"];
+    stator.frame = CGRectMake(velicina.size.width - dimenzija*3, velicina.size.height-dimenzija*2, dimenzija*2, dimenzija*2);
+    [self.view addSubview:stator];
+    
+    rotor = [[UIImageView alloc]init];
+    rotor.image = [UIImage imageNamed:@"turbina3"];
+    rotor.frame = CGRectMake(stator.center.x-dimenzija*0.75 , stator.frame.origin.y+dimenzija*0.25, dimenzija*1.5, dimenzija*1.5);
+    [self.view addSubview:rotor];
+    [rotor bringSubviewToFront:stator];
+    
+    strelica1 = [[UIImageView alloc]init];
+    strelica1.image = [UIImage imageNamed:@"strelica"];
+    strelica1.frame = CGRectMake(pocetna.frame.origin.x , pocetna.frame.origin.y+dimenzija, dimenzija*0.75, dimenzija*0.75);
+    strelica1.center = CGPointMake(pocetna.center.x, pocetna.center.y+dimenzija);
+    [self.view addSubview:strelica1];
+    
+    strelica2 = [[UIImageView alloc]init];
+    strelica2.image = [UIImage imageNamed:@"strelica"];
+    strelica2.frame = CGRectMake(pocetna.frame.origin.x , pocetna.frame.origin.y+dimenzija, dimenzija*0.75, dimenzija*0.75);
+    strelica2.center = CGPointMake(velicina.size.width-dimenzija/2, zavrsna.center.y-dimenzija);
+    [self.view addSubview:strelica2];
+    
+    zarulja = [[UIImageView alloc]init];
+    zarulja.image = [UIImage imageNamed:@"zarulja0000"];
     zarulja.frame = CGRectMake(0, velicina.size.height-dimenzija, dimenzija, dimenzija);
+    [self.view addSubview:zarulja];
     
     if(proporcije>1.5)
     {
         polje[4][8] = 1;
-        _zavrsna.frame = CGRectMake(velicina.size.width-dimenzija*2, _pocetna.frame.origin.y+dimenzija*7, dimenzija*2, dimenzija);
+        zavrsna.frame = CGRectMake(velicina.size.width-dimenzija*2, pocetna.frame.origin.y+dimenzija*7, dimenzija*2, dimenzija);
         ciljana=8;
     }
     else if(proporcije>1.4)
     {
         polje[4][7] = 1;
-        _zavrsna.frame = CGRectMake(velicina.size.width-dimenzija*2, _pocetna.frame.origin.y+dimenzija*6-10, dimenzija*2, dimenzija);
+        zavrsna.frame = CGRectMake(velicina.size.width-dimenzija*2, pocetna.frame.origin.y+dimenzija*6-10, dimenzija*2, dimenzija);
         ciljana=7;
         
     }
     else
     {
         polje[4][6] = 1;
-        _zavrsna.frame = CGRectMake(velicina.size.width-dimenzija*2, _pocetna.frame.origin.y+dimenzija*5-10, dimenzija*2, dimenzija);
+        zavrsna.frame = CGRectMake(velicina.size.width-dimenzija*2, pocetna.frame.origin.y+dimenzija*5-10, dimenzija*2, dimenzija);
         ciljana=6;
     }
+    
+    [self.view bringSubviewToFront:navBar];
+    
     NSLog(@"odnos:%f",proporcije);
     
 }
@@ -80,7 +128,7 @@
     [zarulja stopAnimating];
     ukljuceno = false;
     zarulja.image = [UIImage imageNamed:@"zarulja0000"];
-    [_pocetna setBackgroundColor:[UIColor yellowColor]];
+    [pocetna setBackgroundColor:[UIColor yellowColor]];
     [timerM invalidate];
     timerM = nil;
     kutp = 0;
@@ -115,9 +163,9 @@
         int n= arc4random()%6;
         UIImageView *slikaIzbor = [[UIImageView alloc]init];
         slikaIzbor.image = [UIImage imageNamed:popisCijevi[n]];
-        slikaIzbor.frame = CGRectMake(popisX, 0, _nadolazece.frame.size.height, _nadolazece.frame.size.height);
+        slikaIzbor.frame = CGRectMake(popisX, 0, nadolazece.frame.size.height, nadolazece.frame.size.height);
         slikaIzbor.tag = n+1;
-        [_nadolazece addSubview:slikaIzbor];
+        [nadolazece addSubview:slikaIzbor];
         
         //obrub
         CALayer *borderLayer = [CALayer layer];
@@ -128,7 +176,7 @@
         [borderLayer setBorderWidth:2];
         [borderLayer setBorderColor:[[UIColor blackColor] CGColor]];
         [slikaIzbor.layer addSublayer:borderLayer];
-        popisX += _nadolazece.frame.size.height;
+        popisX += nadolazece.frame.size.height;
         [izbornikArray addObject:[NSNumber numberWithFloat:popisX]];
     }
     
@@ -137,7 +185,7 @@
 -(void)popuniIzbor{
     int i=0;
     float trazeni = [[izbornikArray objectAtIndex:i]floatValue];
-    for(UIImageView *tempImage in _nadolazece.subviews)
+    for(UIImageView *tempImage in nadolazece.subviews)
     {
         
         if (trazeni<tempImage.center.x) {
@@ -156,8 +204,8 @@
     int n= arc4random()%6;
     UIImageView *slikaIzbor = [[UIImageView alloc]init];
     slikaIzbor.image = [UIImage imageNamed:popisCijevi[n]];
-    slikaIzbor.frame = CGRectMake([[izbornikArray lastObject]floatValue], 0, _nadolazece.frame.size.height, _nadolazece.frame.size.height);
-    [_nadolazece addSubview:slikaIzbor];
+    slikaIzbor.frame = CGRectMake([[izbornikArray lastObject]floatValue], 0, nadolazece.frame.size.height, nadolazece.frame.size.height);
+    [nadolazece addSubview:slikaIzbor];
     slikaIzbor.tag=n+1;
     //obrub
     CALayer *borderLayer = [CALayer layer];
@@ -177,7 +225,7 @@
 - (void)provjera {
     //NSLog(@"PAZI!");
     if ([self provjeriSpoj]) {
-        [_pocetna setBackgroundColor:[UIColor whiteColor]];
+        [pocetna setBackgroundColor:[UIColor whiteColor]];
         [self startM];
         zarulja.image = [UIImage imageNamed:@"zarulja0010"];
         zarulja.animationImages=[NSArray arrayWithObjects:
@@ -195,7 +243,7 @@
     else
     {
         
-        [_pocetna setBackgroundColor:[UIColor redColor]];
+        [pocetna setBackgroundColor:[UIColor redColor]];
         [self poplava];
     }
     
@@ -216,7 +264,7 @@
 -(void)rotacija{
     kutp+=pomak;
     CGAffineTransform rotate1 = CGAffineTransformMakeRotation(kutp);
-    [_rotor setTransform:rotate1];
+    [rotor setTransform:rotate1];
     
 }
 
@@ -456,11 +504,11 @@
 - (void)singleTapGestureCaptured:(UITapGestureRecognizer *)gesture
 {
     if (ukljuceno) return;
-    CGPoint pt=[gesture locationInView:_nadolazece];
+    CGPoint pt=[gesture locationInView:nadolazece];
     CGPoint prstPt = [gesture locationInView:self.view];
     strelica1.alpha = 0;
     strelica2.alpha = 0;
-    for(UIImageView *tempImage in _nadolazece.subviews)
+    for(UIImageView *tempImage in nadolazece.subviews)
     {
         if (CGRectContainsPoint(tempImage.frame, pt))
         {
