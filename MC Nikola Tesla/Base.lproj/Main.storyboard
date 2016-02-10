@@ -1024,7 +1024,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wPb-Gn-gaa">
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wPb-Gn-gaa">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
                                     <navigationItem title="Radio Transmision" id="pxQ-Jp-My9">
@@ -1091,7 +1091,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dgZ-HU-Mbo">
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dgZ-HU-Mbo">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
                                     <navigationItem title="Laser" id="8jO-A6-ztq">
@@ -1158,7 +1158,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sWc-KK-HVO">
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sWc-KK-HVO">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
                                     <navigationItem title="Faraday Cage" id="SG5-09-eAk">
@@ -1225,7 +1225,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p9u-pH-4wL">
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p9u-pH-4wL">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
                                     <navigationItem title="X Rays" id="aQl-Cb-MVY">
@@ -1292,7 +1292,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cXi-GS-3bg">
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cXi-GS-3bg">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
                                     <navigationItem title="Tesla Egg" id="kbV-2K-1vJ">
@@ -1359,7 +1359,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CkO-Kb-95K">
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CkO-Kb-95K">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
                                     <navigationItem title="Power Transmision" id="75h-tG-GbI">
@@ -1426,7 +1426,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lem-oT-UzT">
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lem-oT-UzT">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
                                     <navigationItem title="About" id="Xva-74-Lo1">
@@ -1493,7 +1493,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0ue-hG-G5n">
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0ue-hG-G5n">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
                                     <navigationItem title="Find Us" id="HjV-mD-da5">
@@ -1505,17 +1505,27 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="JGN-Y9-26V">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="JGN-Y9-26V" firstAttribute="top" secondItem="0ue-hG-G5n" secondAttribute="bottom" id="8Rg-Q2-wKC"/>
                             <constraint firstItem="0ue-hG-G5n" firstAttribute="leading" secondItem="a95-qS-iDL" secondAttribute="leading" id="BA7-SZ-FXO"/>
+                            <constraint firstItem="JGN-Y9-26V" firstAttribute="leading" secondItem="0ue-hG-G5n" secondAttribute="leading" id="EOS-0n-xV8"/>
                             <constraint firstItem="0ue-hG-G5n" firstAttribute="leading" secondItem="a95-qS-iDL" secondAttribute="leading" id="Far-d1-ENW"/>
+                            <constraint firstItem="JGN-Y9-26V" firstAttribute="bottom" secondItem="qdh-Ih-H5D" secondAttribute="top" id="Xzl-Kc-3ru"/>
+                            <constraint firstItem="JGN-Y9-26V" firstAttribute="trailing" secondItem="0ue-hG-G5n" secondAttribute="trailing" id="fkh-J0-Wbg"/>
                             <constraint firstItem="0ue-hG-G5n" firstAttribute="top" secondItem="GXe-Bz-3cr" secondAttribute="bottom" id="llI-VC-jRj"/>
                             <constraint firstAttribute="trailing" secondItem="0ue-hG-G5n" secondAttribute="trailing" id="nVP-q6-msN"/>
                             <constraint firstAttribute="trailing" secondItem="0ue-hG-G5n" secondAttribute="trailing" id="pYg-FK-Xem"/>
                             <constraint firstItem="0ue-hG-G5n" firstAttribute="top" secondItem="GXe-Bz-3cr" secondAttribute="bottom" id="po5-21-SXA"/>
                         </constraints>
                         <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="JGN-Y9-26V"/>
+                            </mask>
                             <mask key="constraints">
                                 <exclude reference="BA7-SZ-FXO"/>
                                 <exclude reference="Far-d1-ENW"/>
@@ -1523,6 +1533,10 @@
                                 <exclude reference="nVP-q6-msN"/>
                                 <exclude reference="pYg-FK-Xem"/>
                                 <exclude reference="po5-21-SXA"/>
+                                <exclude reference="8Rg-Q2-wKC"/>
+                                <exclude reference="EOS-0n-xV8"/>
+                                <exclude reference="Xzl-Kc-3ru"/>
+                                <exclude reference="fkh-J0-Wbg"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -1536,13 +1550,23 @@
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="JGN-Y9-26V"/>
+                            </mask>
                             <mask key="constraints">
                                 <include reference="Far-d1-ENW"/>
                                 <include reference="llI-VC-jRj"/>
                                 <include reference="pYg-FK-Xem"/>
+                                <include reference="8Rg-Q2-wKC"/>
+                                <include reference="EOS-0n-xV8"/>
+                                <include reference="Xzl-Kc-3ru"/>
+                                <include reference="fkh-J0-Wbg"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="JGN-Y9-26V" id="9FJ-YC-tHD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QCd-Ke-KSp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1560,7 +1584,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cHZ-gc-VmG">
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cHZ-gc-VmG">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
                                     <navigationItem title="Wireles energy transmition (provjeriti)" id="s0d-wq-syb">
@@ -1627,7 +1651,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S3h-wq-ApE">
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S3h-wq-ApE">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
                                     <navigationItem title="Electric Boat" id="OHV-fe-Lei">
@@ -1694,7 +1718,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l9a-n1-nSa">
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l9a-n1-nSa">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
                                     <navigationItem title="Induction Motor" id="S43-WL-BfQ">
@@ -1825,7 +1849,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RCq-dc-ksv">
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RCq-dc-ksv">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
                                     <navigationItem title="Tesla Coil" id="F99-Xu-rFs">
@@ -1945,6 +1969,6 @@
         <image name="tesla200.png" width="200" height="200"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="GjW-ow-PJV"/>
+        <segue reference="J6Y-MY-w8p"/>
     </inferredMetricsTieBreakers>
 </document>

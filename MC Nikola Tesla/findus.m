@@ -8,11 +8,14 @@
 
 #import "findus.h"
 
+
 @interface findus ()
 
 @end
 
 @implementation findus
+
+@synthesize mapView = _mapView;
 
 - (void)viewDidLoad {
     [super viewDidLoad];

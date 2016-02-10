@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC6E8ABD1C6B947D0034219D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6E8ABC1C6B947D0034219D /* MapKit.framework */; };
+		AC6E8ABF1C6BA45E0034219D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6E8ABE1C6BA45E0034219D /* CoreLocation.framework */; };
 		EC4657B21C67D65D00F6509E /* cijevi1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC46578C1C67D65D00F6509E /* cijevi1.png */; };
 		EC4657B31C67D65D00F6509E /* cijevi2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC46578D1C67D65D00F6509E /* cijevi2.png */; };
 		EC4657B41C67D65D00F6509E /* cijevi3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC46578E1C67D65D00F6509E /* cijevi3.png */; };
@@ -77,6 +79,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC6E8ABC1C6B947D0034219D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AC6E8ABE1C6BA45E0034219D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		EC46578C1C67D65D00F6509E /* cijevi1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cijevi1.png; sourceTree = "<group>"; };
 		EC46578D1C67D65D00F6509E /* cijevi2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cijevi2.png; sourceTree = "<group>"; };
 		EC46578E1C67D65D00F6509E /* cijevi3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cijevi3.png; sourceTree = "<group>"; };
@@ -170,6 +174,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC6E8ABF1C6BA45E0034219D /* CoreLocation.framework in Frameworks */,
+				AC6E8ABD1C6B947D0034219D /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +229,8 @@
 		EC5C62131C567FC400608AEC = {
 			isa = PBXGroup;
 			children = (
+				AC6E8ABE1C6BA45E0034219D /* CoreLocation.framework */,
+				AC6E8ABC1C6B947D0034219D /* MapKit.framework */,
 				EC5C62771C581F6B00608AEC /* slike */,
 				EC5C626A1C57F44D00608AEC /* webStranice */,
 				EC5C621E1C567FC400608AEC /* MC Nikola Tesla */,
