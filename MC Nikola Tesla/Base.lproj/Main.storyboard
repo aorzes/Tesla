@@ -33,7 +33,11 @@
                                                     <constraint firstAttribute="width" constant="80" id="jBy-fk-Ef4"/>
                                                     <constraint firstAttribute="height" constant="80" id="n8D-3G-NCg"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="tesla200.png"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <size key="titleShadowOffset" width="1" height="1"/>
+                                                <state key="normal" title="Biography" backgroundImage="tesla200.png">
+                                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
                                                 <variation key="default">
                                                     <mask key="constraints">
                                                         <exclude reference="Y4y-CX-2cm"/>
@@ -79,29 +83,6 @@
                                                 </variation>
                                                 <connections>
                                                     <segue destination="fXd-HX-jMZ" kind="presentation" id="IVs-Os-ns3"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Znw-ZF-7q1" userLabel="Energy Production">
-                                                <rect key="frame" x="8" y="8" width="100" height="100"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="80" id="YGL-wr-Czf"/>
-                                                    <constraint firstAttribute="width" constant="80" id="jfu-fw-pbO"/>
-                                                </constraints>
-                                                <state key="normal" title="Button" image="tesla200.png"/>
-                                                <variation key="default">
-                                                    <mask key="constraints">
-                                                        <exclude reference="YGL-wr-Czf"/>
-                                                        <exclude reference="jfu-fw-pbO"/>
-                                                    </mask>
-                                                </variation>
-                                                <variation key="widthClass=compact">
-                                                    <mask key="constraints">
-                                                        <include reference="YGL-wr-Czf"/>
-                                                        <include reference="jfu-fw-pbO"/>
-                                                    </mask>
-                                                </variation>
-                                                <connections>
-                                                    <segue destination="XlY-Di-yin" kind="presentation" id="c6s-3K-hsR"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5t-7d-thb" userLabel="Wireless">
@@ -453,6 +434,33 @@
                                                 </variation>
                                                 <connections>
                                                     <segue destination="ueF-yw-PMp" kind="presentation" id="lOz-XR-35G"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Znw-ZF-7q1" userLabel="Energy Production">
+                                                <rect key="frame" x="8" y="8" width="100" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="YGL-wr-Czf"/>
+                                                    <constraint firstAttribute="width" constant="80" id="jfu-fw-pbO"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                <size key="titleShadowOffset" width="1" height="1"/>
+                                                <state key="normal" title="Energy Production" backgroundImage="tesla200.png">
+                                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="YGL-wr-Czf"/>
+                                                        <exclude reference="jfu-fw-pbO"/>
+                                                    </mask>
+                                                </variation>
+                                                <variation key="widthClass=compact">
+                                                    <mask key="constraints">
+                                                        <include reference="YGL-wr-Czf"/>
+                                                        <include reference="jfu-fw-pbO"/>
+                                                    </mask>
+                                                </variation>
+                                                <connections>
+                                                    <segue destination="XlY-Di-yin" kind="presentation" id="c6s-3K-hsR"/>
                                                 </connections>
                                             </button>
                                         </subviews>
