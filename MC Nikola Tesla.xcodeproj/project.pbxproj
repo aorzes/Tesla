@@ -15,7 +15,6 @@
 		EC4657B71C67D65D00F6509E /* cijevi6.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4657911C67D65D00F6509E /* cijevi6.png */; };
 		EC4657B81C67D65D00F6509E /* cijevTurbine.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4657921C67D65D00F6509E /* cijevTurbine.png */; };
 		EC4657B91C67D65D00F6509E /* cijevVentil.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4657931C67D65D00F6509E /* cijevVentil.png */; };
-		EC4657BA1C67D65D00F6509E /* cvice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4657941C67D65D00F6509E /* cvice@2x.png */; };
 		EC4657BB1C67D65D00F6509E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4657951C67D65D00F6509E /* Default-568h@2x.png */; };
 		EC4657BC1C67D65D00F6509E /* mlazVode0.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4657961C67D65D00F6509E /* mlazVode0.png */; };
 		EC4657BD1C67D65D00F6509E /* mlazVode1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4657971C67D65D00F6509E /* mlazVode1.png */; };
@@ -86,7 +85,6 @@
 		EC4657911C67D65D00F6509E /* cijevi6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cijevi6.png; sourceTree = "<group>"; };
 		EC4657921C67D65D00F6509E /* cijevTurbine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cijevTurbine.png; sourceTree = "<group>"; };
 		EC4657931C67D65D00F6509E /* cijevVentil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cijevVentil.png; sourceTree = "<group>"; };
-		EC4657941C67D65D00F6509E /* cvice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cvice@2x.png"; sourceTree = "<group>"; };
 		EC4657951C67D65D00F6509E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		EC4657961C67D65D00F6509E /* mlazVode0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mlazVode0.png; sourceTree = "<group>"; };
 		EC4657971C67D65D00F6509E /* mlazVode1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mlazVode1.png; sourceTree = "<group>"; };
@@ -189,7 +187,6 @@
 				EC4657911C67D65D00F6509E /* cijevi6.png */,
 				EC4657921C67D65D00F6509E /* cijevTurbine.png */,
 				EC4657931C67D65D00F6509E /* cijevVentil.png */,
-				EC4657941C67D65D00F6509E /* cvice@2x.png */,
 				EC4657951C67D65D00F6509E /* Default-568h@2x.png */,
 				EC4657961C67D65D00F6509E /* mlazVode0.png */,
 				EC4657971C67D65D00F6509E /* mlazVode1.png */,
@@ -406,7 +403,6 @@
 				EC4657B41C67D65D00F6509E /* cijevi3.png in Resources */,
 				EC5C62701C58117600608AEC /* teslaSmiljan.jpg in Resources */,
 				EC4657BC1C67D65D00F6509E /* mlazVode0.png in Resources */,
-				EC4657BA1C67D65D00F6509E /* cvice@2x.png in Resources */,
 				EC4657D01C67D65D00F6509E /* turbina3.png in Resources */,
 				EC5C626C1C58034F00608AEC /* prva.html in Resources */,
 				EC4657B61C67D65D00F6509E /* cijevi5.png in Resources */,

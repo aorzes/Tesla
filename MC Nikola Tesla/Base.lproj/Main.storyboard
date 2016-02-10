@@ -355,14 +355,18 @@
                                                     <segue destination="hAN-JF-v27" kind="presentation" id="Fvh-Om-ZhG"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTF-Gj-1KE" userLabel="Pipe">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTF-Gj-1KE" userLabel="Pipe">
                                                 <rect key="frame" x="89" y="92" width="100" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="2Kv-ow-g5Q"/>
                                                     <constraint firstAttribute="height" constant="200" id="ejn-Ek-y0p"/>
                                                     <constraint firstAttribute="height" constant="80" id="w1g-um-GfT"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="tesla200.png"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <size key="titleShadowOffset" width="1" height="1"/>
+                                                <state key="normal" title="Hydropower" backgroundImage="tesla200.png">
+                                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
                                                 <variation key="default">
                                                     <mask key="constraints">
                                                         <exclude reference="2Kv-ow-g5Q"/>
