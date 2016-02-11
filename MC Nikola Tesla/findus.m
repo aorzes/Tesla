@@ -36,5 +36,26 @@
     // Pass the selected object to the new view controller.
 }
 */
+-(IBAction)setmap:(id)sender{
 
+
+    switch (((UISegmentedControl *)sender).selectedSegmentIndex) {
+        case 0:
+            mapView.mapType = MKMapTypeStandard;
+            break;
+            case 1:
+            mapView.mapType = MKMapTypeSatellite;
+            break;
+        case 2:
+            mapView.mapType = MKMapTypeHybrid;
+            break;
+            
+        default:
+            break;
+    }
+
+
+
+
+}
 @end
