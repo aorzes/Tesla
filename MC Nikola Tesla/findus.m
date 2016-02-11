@@ -41,15 +41,15 @@
     switch (((UISegmentedControl *) sender).selectedSegmentIndex) {
         
         case 0:
-            mapView.mapType = MKMapTypeStandard;
+            _mapView.mapType = MKMapTypeStandard;
             break;
         
         case 1:
-            mapView.mapType = MKMapTypeSatellite;
+            _mapView.mapType = MKMapTypeSatellite;
             break;
         
         case 2:
-            mapView.mapType = MKMapTypeHybrid;
+            _mapView.mapType = MKMapTypeHybrid;
             break;
             
         default:
