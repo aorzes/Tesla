@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
+@interface findus : UIViewController {
+    MKMapView *mapView;
 
-@interface findus : UIViewController
+}
+@property (strong, nonatomic) IBOutlet MKMapView *mapView;
 
 @end
