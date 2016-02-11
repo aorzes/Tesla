@@ -1521,7 +1521,7 @@
                                                 <segment title="Hybrid"/>
                                             </segments>
                                             <connections>
-                                                <action selector="setmap:" destination="MT4-2o-Rsb" eventType="valueChanged" id="Dhp-p6-pAC"/>
+                                                <action selector="setmap:" destination="MT4-2o-Rsb" eventType="valueChanged" id="nu9-h4-bo4"/>
                                             </connections>
                                         </segmentedControl>
                                     </barButtonItem>
@@ -1532,25 +1532,28 @@
                         <constraints>
                             <constraint firstItem="uHe-xe-HDX" firstAttribute="top" secondItem="JGN-Y9-26V" secondAttribute="bottom" id="2JW-cI-HGg"/>
                             <constraint firstItem="JGN-Y9-26V" firstAttribute="top" secondItem="0ue-hG-G5n" secondAttribute="bottom" id="8Rg-Q2-wKC"/>
+                            <constraint firstItem="qdh-Ih-H5D" firstAttribute="top" secondItem="JGN-Y9-26V" secondAttribute="bottom" constant="39" id="AeH-pp-Hoi"/>
                             <constraint firstItem="0ue-hG-G5n" firstAttribute="leading" secondItem="a95-qS-iDL" secondAttribute="leading" id="BA7-SZ-FXO"/>
                             <constraint firstItem="uHe-xe-HDX" firstAttribute="leading" secondItem="JGN-Y9-26V" secondAttribute="leading" id="Bi9-gY-Xnr"/>
                             <constraint firstItem="JGN-Y9-26V" firstAttribute="leading" secondItem="0ue-hG-G5n" secondAttribute="leading" id="EOS-0n-xV8"/>
                             <constraint firstItem="0ue-hG-G5n" firstAttribute="leading" secondItem="a95-qS-iDL" secondAttribute="leading" id="Far-d1-ENW"/>
+                            <constraint firstItem="JGN-Y9-26V" firstAttribute="leading" secondItem="0ue-hG-G5n" secondAttribute="leading" id="L3n-xH-h3j"/>
+                            <constraint firstItem="JGN-Y9-26V" firstAttribute="trailing" secondItem="uHe-xe-HDX" secondAttribute="trailing" id="Tfj-0G-Bs1"/>
                             <constraint firstItem="uHe-xe-HDX" firstAttribute="trailing" secondItem="JGN-Y9-26V" secondAttribute="trailing" id="VKy-fS-UwM"/>
                             <constraint firstItem="JGN-Y9-26V" firstAttribute="bottom" secondItem="qdh-Ih-H5D" secondAttribute="top" id="Xzl-Kc-3ru">
                                 <variation key="heightClass=regular-widthClass=regular" constant="-44"/>
                             </constraint>
+                            <constraint firstItem="uHe-xe-HDX" firstAttribute="bottom" secondItem="qdh-Ih-H5D" secondAttribute="top" id="aG8-Zf-lSt"/>
+                            <constraint firstItem="JGN-Y9-26V" firstAttribute="top" secondItem="0ue-hG-G5n" secondAttribute="bottom" id="bMJ-mO-Lne"/>
                             <constraint firstItem="JGN-Y9-26V" firstAttribute="trailing" secondItem="0ue-hG-G5n" secondAttribute="trailing" id="fkh-J0-Wbg"/>
+                            <constraint firstItem="JGN-Y9-26V" firstAttribute="leading" secondItem="uHe-xe-HDX" secondAttribute="leading" id="irj-nk-ZBF"/>
+                            <constraint firstItem="JGN-Y9-26V" firstAttribute="trailing" secondItem="0ue-hG-G5n" secondAttribute="trailing" id="j5t-p1-pRY"/>
                             <constraint firstItem="0ue-hG-G5n" firstAttribute="top" secondItem="GXe-Bz-3cr" secondAttribute="bottom" id="llI-VC-jRj"/>
                             <constraint firstAttribute="trailing" secondItem="0ue-hG-G5n" secondAttribute="trailing" id="nVP-q6-msN"/>
                             <constraint firstAttribute="trailing" secondItem="0ue-hG-G5n" secondAttribute="trailing" id="pYg-FK-Xem"/>
                             <constraint firstItem="0ue-hG-G5n" firstAttribute="top" secondItem="GXe-Bz-3cr" secondAttribute="bottom" id="po5-21-SXA"/>
                         </constraints>
                         <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="JGN-Y9-26V"/>
-                                <exclude reference="uHe-xe-HDX"/>
-                            </mask>
                             <mask key="constraints">
                                 <exclude reference="BA7-SZ-FXO"/>
                                 <exclude reference="Far-d1-ENW"/>
@@ -1560,11 +1563,18 @@
                                 <exclude reference="po5-21-SXA"/>
                                 <exclude reference="8Rg-Q2-wKC"/>
                                 <exclude reference="EOS-0n-xV8"/>
+                                <exclude reference="L3n-xH-h3j"/>
+                                <exclude reference="Tfj-0G-Bs1"/>
                                 <exclude reference="Xzl-Kc-3ru"/>
+                                <exclude reference="bMJ-mO-Lne"/>
                                 <exclude reference="fkh-J0-Wbg"/>
+                                <exclude reference="irj-nk-ZBF"/>
+                                <exclude reference="j5t-p1-pRY"/>
                                 <exclude reference="2JW-cI-HGg"/>
                                 <exclude reference="Bi9-gY-Xnr"/>
                                 <exclude reference="VKy-fS-UwM"/>
+                                <exclude reference="aG8-Zf-lSt"/>
+                                <exclude reference="AeH-pp-Hoi"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -1575,6 +1585,13 @@
                                 <include reference="BA7-SZ-FXO"/>
                                 <include reference="nVP-q6-msN"/>
                                 <include reference="po5-21-SXA"/>
+                                <include reference="L3n-xH-h3j"/>
+                                <include reference="Tfj-0G-Bs1"/>
+                                <include reference="bMJ-mO-Lne"/>
+                                <include reference="irj-nk-ZBF"/>
+                                <include reference="j5t-p1-pRY"/>
+                                <include reference="aG8-Zf-lSt"/>
+                                <include reference="AeH-pp-Hoi"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
@@ -1602,7 +1619,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QCd-Ke-KSp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2364.75" y="1848"/>
+            <point key="canvasLocation" x="2364" y="1848"/>
         </scene>
         <!--Wireless-->
         <scene sceneID="fs8-RC-onY">
