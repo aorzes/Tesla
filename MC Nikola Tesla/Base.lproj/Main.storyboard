@@ -1502,6 +1502,16 @@
                                                 <segue destination="BYZ-38-t0r" kind="presentation" id="J6Y-MY-w8p"/>
                                             </connections>
                                         </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" id="lyy-G5-1i9">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PcK-wF-Zjb">
+                                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Directions"/>
+                                                <connections>
+                                                    <action selector="directions:" destination="MT4-2o-Rsb" eventType="touchUpInside" id="t5d-h2-nml"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -1511,7 +1521,7 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uHe-xe-HDX">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
-                                    <barButtonItem width="100" style="plain" id="QLt-M2-T0A">
+                                    <barButtonItem width="100" id="QLt-M2-T0A">
                                         <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hsY-Iy-AQN">
                                             <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1521,8 +1531,7 @@
                                             </connections>
                                         </button>
                                     </barButtonItem>
-                                    <barButtonItem width="76" style="plain" systemItem="fixedSpace" id="SzK-uu-7ie"/>
-                                    <barButtonItem style="plain" id="Xt5-et-MDT">
+                                    <barButtonItem id="Xt5-et-MDT">
                                         <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="8Qy-zK-cNH">
                                             <rect key="frame" x="16" y="8" width="300" height="29"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1536,6 +1545,7 @@
                                             </connections>
                                         </segmentedControl>
                                     </barButtonItem>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="zac-MD-Z7F"/>
                                 </items>
                             </toolbar>
                         </subviews>

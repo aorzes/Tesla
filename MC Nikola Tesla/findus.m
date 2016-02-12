@@ -51,6 +51,17 @@
         // Do any additional setup after loading the view.
 }
 
+-(IBAction)directions:(id)sender{
+
+NSString *urlString = @"https://maps.apple.com/maps?daddr=44.560335,15.307954";
+
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlString]];
+    
+
+
+
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
