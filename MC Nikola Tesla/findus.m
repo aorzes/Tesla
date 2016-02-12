@@ -7,25 +7,56 @@
 //
 
 #import "findus.h"
+#import "MapAnnotations.h"
 
 
 @interface findus ()
 
 @end
 
-@implementation findus
+@implementation findus {
+
+    CLLocationManager *locationManager;
+
+
+}
 
 @synthesize mapView = _mapView;
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    MKCoordinateRegion region = {{0.0, 0.0}, {0.0, 0.0}};
+    region.center.latitude = 44.560335;
+    region.center.longitude = 15.307954;
+    region.span.longitudeDelta = 0.01f;
+    region.span.latitudeDelta = 0.01f;
+    [_mapView setRegion:region animated:YES];
+    
+    MapAnnotations *ann = [[MapAnnotations alloc]init];
+    ann.title = @"MC Nikola Tesla";
+    ann.subtitle = @"Smiljan";
+    ann.coordinate = region.center;
+    [_mapView addAnnotation:ann];
+    
+    
+    self.locMan = [[CLLocationManager alloc]init];
+    self.locMan.delegate = self;
+    if ([self.locMan respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
+        
+        [self.locMan requestWhenInUseAuthorization];
+        
+    }
+    [self.locMan startUpdatingLocation];
+    
+        // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 /*
 #pragma mark - Navigation
@@ -57,4 +88,13 @@
     }
 
 }
+-(IBAction)locationRetrieve:(id)sender{
+    
+    NSLog(@"radi");
+   // [self uzmiLokaciju];
+    _mapView.showsUserLocation = YES;
+   
+
+}
+
 @end

@@ -9,10 +9,13 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 #import <CoreLocation/CoreLocation.h>
-@interface findus : UIViewController {
+@interface findus : UIViewController <CLLocationManagerDelegate>{
     MKMapView *mapView;
+    }
 
-}
+
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;
+@property (strong, nonatomic) CLLocationManager *locMan;
+-(IBAction)locationRetrieve:(id)sender;
 
 @end

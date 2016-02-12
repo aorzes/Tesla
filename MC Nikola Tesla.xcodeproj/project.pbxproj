@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AC6E8ABD1C6B947D0034219D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6E8ABC1C6B947D0034219D /* MapKit.framework */; };
 		AC6E8ABF1C6BA45E0034219D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6E8ABE1C6BA45E0034219D /* CoreLocation.framework */; };
+		ACA4DA3B1C6E67A80017C18B /* MapAnnotations.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA4DA3A1C6E67A80017C18B /* MapAnnotations.m */; };
 		EC4657B21C67D65D00F6509E /* cijevi1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC46578C1C67D65D00F6509E /* cijevi1.png */; };
 		EC4657B31C67D65D00F6509E /* cijevi2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC46578D1C67D65D00F6509E /* cijevi2.png */; };
 		EC4657B41C67D65D00F6509E /* cijevi3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC46578E1C67D65D00F6509E /* cijevi3.png */; };
@@ -81,6 +82,8 @@
 /* Begin PBXFileReference section */
 		AC6E8ABC1C6B947D0034219D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AC6E8ABE1C6BA45E0034219D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ACA4DA391C6E67A80017C18B /* MapAnnotations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotations.h; sourceTree = "<group>"; };
+		ACA4DA3A1C6E67A80017C18B /* MapAnnotations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotations.m; sourceTree = "<group>"; };
 		EC46578C1C67D65D00F6509E /* cijevi1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cijevi1.png; sourceTree = "<group>"; };
 		EC46578D1C67D65D00F6509E /* cijevi2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cijevi2.png; sourceTree = "<group>"; };
 		EC46578E1C67D65D00F6509E /* cijevi3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cijevi3.png; sourceTree = "<group>"; };
@@ -268,6 +271,8 @@
 				EC5C62521C56B1A700608AEC /* Faradey.m */,
 				EC5C624E1C56B15200608AEC /* findus.h */,
 				EC5C624F1C56B15200608AEC /* findus.m */,
+				ACA4DA391C6E67A80017C18B /* MapAnnotations.h */,
+				ACA4DA3A1C6E67A80017C18B /* MapAnnotations.m */,
 				EC5C624B1C56B11700608AEC /* about.h */,
 				EC5C624C1C56B11700608AEC /* about.m */,
 				EC5C62451C56B05C00608AEC /* coil.h */,
@@ -461,6 +466,7 @@
 				EC5C62241C567FC400608AEC /* AppDelegate.m in Sources */,
 				EC5C625F1C56B25800608AEC /* radio.m in Sources */,
 				EC5C623E1C56AF8C00608AEC /* motor.m in Sources */,
+				ACA4DA3B1C6E67A80017C18B /* MapAnnotations.m in Sources */,
 				EC5C624D1C56B11700608AEC /* about.m in Sources */,
 				EC5C62651C56B31500608AEC /* elPipe.m in Sources */,
 				EC5C62531C56B1A700608AEC /* Faradey.m in Sources */,

@@ -1511,7 +1511,18 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uHe-xe-HDX">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
-                                    <barButtonItem width="300" style="plain" id="Xt5-et-MDT">
+                                    <barButtonItem width="100" style="plain" id="QLt-M2-T0A">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hsY-Iy-AQN">
+                                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="User Location"/>
+                                            <connections>
+                                                <action selector="locationRetrieve:" destination="MT4-2o-Rsb" eventType="touchUpInside" id="xNU-eE-Ki2"/>
+                                            </connections>
+                                        </button>
+                                    </barButtonItem>
+                                    <barButtonItem width="76" style="plain" systemItem="fixedSpace" id="SzK-uu-7ie"/>
+                                    <barButtonItem style="plain" id="Xt5-et-MDT">
                                         <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="8Qy-zK-cNH">
                                             <rect key="frame" x="16" y="8" width="300" height="29"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
