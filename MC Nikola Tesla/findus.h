@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 #import <CoreLocation/CoreLocation.h>
-@interface findus : UIViewController<MKMapViewDelegate> {
+@interface findus : UIViewController<MKMapViewDelegate, CLLocationManagerDelegate> {
     MKMapView *mapView;
     }
 

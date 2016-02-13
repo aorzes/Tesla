@@ -24,6 +24,31 @@
 @synthesize mapView = _mapView;
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    locationManager = [[CLLocationManager alloc]init];
+    locationManager.delegate = self;
+    if ([locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
+        [locationManager requestWhenInUseAuthorization];
+    }
+    [locationManager startUpdatingLocation];
+    
+    MKCoordinateRegion region = {{0.0, 0.0}, {0.0, 0.0}};
+    region.center.latitude = 44.560335;
+    region.center.longitude = 15.307954;
+    region.span.longitudeDelta = 0.01f;
+    region.span.latitudeDelta = 0.01f;
+    [_mapView setRegion:region animated:YES];
+    
+    
+    MapAnnotations *ann = [[MapAnnotations alloc]init];
+    ann.title = @"MC Nikola Tesla";
+    ann.subtitle = @"Smiljan";
+    ann.coordinate = region.center;
+    [_mapView addAnnotation:ann];
+    
+    
+    
+    
     // Do any additional setup after loading the view.
     mapView.delegate = self;
 }
@@ -73,6 +98,14 @@
    // [self uzmiLokaciju];
     _mapView.showsUserLocation = YES;
    
+
+}
+-(IBAction)directions:(id)sender{
+
+NSString *url = @"https://maps.apple.com/?daddr=44.560335,15.307954";
+    [[UIApplication sharedApplication]openURL:[NSURL URLWithString:url]];
+
+
 
 }
 
