@@ -7,16 +7,21 @@
 //
 
 #import "findus.h"
+#import "MapAnnotations.h"
 
 
 @interface findus ()
 
 @end
 
-@implementation findus
+@implementation findus {
+
+    CLLocationManager *locationManager;
+
+
+}
 
 @synthesize mapView = _mapView;
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -28,6 +33,8 @@
     // Dispose of any resources that can be recreated.
    
 }
+
+
 
 /*
 #pragma mark - Navigation
@@ -60,4 +67,13 @@
     }
 
 }
+-(IBAction)locationRetrieve:(id)sender{
+    
+    NSLog(@"radi");
+   // [self uzmiLokaciju];
+    _mapView.showsUserLocation = YES;
+   
+
+}
+
 @end

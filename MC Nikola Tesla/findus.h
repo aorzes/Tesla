@@ -11,8 +11,12 @@
 #import <CoreLocation/CoreLocation.h>
 @interface findus : UIViewController<MKMapViewDelegate> {
     MKMapView *mapView;
+    }
 
-}
+
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;
+@property (strong, nonatomic) CLLocationManager *locMan;
+-(IBAction)locationRetrieve:(id)sender;
+-(IBAction)directions:(id)sender;
 
 @end
