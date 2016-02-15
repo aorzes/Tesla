@@ -311,7 +311,10 @@
                                                     <constraint firstAttribute="width" constant="80" id="IZ7-YH-fUI"/>
                                                     <constraint firstAttribute="height" constant="80" id="dKJ-gS-L1U"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="tesla200.png"/>
+                                                <size key="titleShadowOffset" width="1" height="1"/>
+                                                <state key="normal" title="xRay" backgroundImage="tesla200.png">
+                                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
                                                 <variation key="default">
                                                     <mask key="constraints">
                                                         <exclude reference="6Vr-XF-s6e"/>
@@ -1275,6 +1278,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="navBar" destination="p9u-pH-4wL" id="ose-q1-MkW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ACh-gw-3Um" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1493,6 +1499,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0ue-hG-G5n">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="Find Us" id="HjV-mD-da5">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="1x3-Xi-O0f">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="presentation" id="J6Y-MY-w8p"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <rightBarButtonItems>
+                                            <barButtonItem id="lyy-G5-1i9">
+                                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="PcK-wF-Zjb">
+                                                    <rect key="frame" x="258" y="7" width="46" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <state key="normal" image="auto.png"/>
+                                                    <connections>
+                                                        <action selector="directions:" destination="MT4-2o-Rsb" eventType="touchUpInside" id="t5d-h2-nml"/>
+                                                    </connections>
+                                                </button>
+                                            </barButtonItem>
+                                            <barButtonItem image="auto.png" id="xAp-1v-FzJ">
+                                                <inset key="imageInsets" minX="13" minY="7" maxX="6" maxY="5"/>
+                                            </barButtonItem>
+                                        </rightBarButtonItems>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="JGN-Y9-26V">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <connections>

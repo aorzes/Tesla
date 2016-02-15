@@ -48,6 +48,11 @@
 		EC4657D51C67D65D00F6509E /* zarulja0008.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4657AF1C67D65D00F6509E /* zarulja0008.png */; };
 		EC4657D61C67D65D00F6509E /* zarulja0009.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4657B01C67D65D00F6509E /* zarulja0009.png */; };
 		EC4657D71C67D65D00F6509E /* zarulja0010.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4657B11C67D65D00F6509E /* zarulja0010.png */; };
+		EC570DE41C723F1500B02555 /* konzola.png in Resources */ = {isa = PBXBuildFile; fileRef = EC570DE01C723F1500B02555 /* konzola.png */; };
+		EC570DE51C723F1500B02555 /* podlogaXekrana.png in Resources */ = {isa = PBXBuildFile; fileRef = EC570DE11C723F1500B02555 /* podlogaXekrana.png */; };
+		EC570DE61C723F1500B02555 /* tijelo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC570DE21C723F1500B02555 /* tijelo.png */; };
+		EC570DE71C723F1500B02555 /* tijelo1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC570DE31C723F1500B02555 /* tijelo1.png */; };
+		EC570DE91C723F2B00B02555 /* zidXray.png in Resources */ = {isa = PBXBuildFile; fileRef = EC570DE81C723F2B00B02555 /* zidXray.png */; };
 		EC5C62211C567FC400608AEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62201C567FC400608AEC /* main.m */; };
 		EC5C62241C567FC400608AEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62231C567FC400608AEC /* AppDelegate.m */; };
 		EC5C62271C567FC400608AEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62261C567FC400608AEC /* ViewController.m */; };
@@ -123,6 +128,11 @@
 		EC4657AF1C67D65D00F6509E /* zarulja0008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zarulja0008.png; sourceTree = "<group>"; };
 		EC4657B01C67D65D00F6509E /* zarulja0009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zarulja0009.png; sourceTree = "<group>"; };
 		EC4657B11C67D65D00F6509E /* zarulja0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zarulja0010.png; sourceTree = "<group>"; };
+		EC570DE01C723F1500B02555 /* konzola.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = konzola.png; sourceTree = "<group>"; };
+		EC570DE11C723F1500B02555 /* podlogaXekrana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podlogaXekrana.png; sourceTree = "<group>"; };
+		EC570DE21C723F1500B02555 /* tijelo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tijelo.png; sourceTree = "<group>"; };
+		EC570DE31C723F1500B02555 /* tijelo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tijelo1.png; sourceTree = "<group>"; };
+		EC570DE81C723F2B00B02555 /* zidXray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zidXray.png; sourceTree = "<group>"; };
 		EC5C621C1C567FC400608AEC /* MC Nikola Tesla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MC Nikola Tesla.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5C62201C567FC400608AEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC5C62221C567FC400608AEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -231,6 +241,18 @@
 			name = pipeSlike;
 			sourceTree = "<group>";
 		};
+		EC570DDF1C723EEC00B02555 /* xRaySlike */ = {
+			isa = PBXGroup;
+			children = (
+				EC570DE81C723F2B00B02555 /* zidXray.png */,
+				EC570DE01C723F1500B02555 /* konzola.png */,
+				EC570DE11C723F1500B02555 /* podlogaXekrana.png */,
+				EC570DE21C723F1500B02555 /* tijelo.png */,
+				EC570DE31C723F1500B02555 /* tijelo1.png */,
+			);
+			name = xRaySlike;
+			sourceTree = "<group>";
+		};
 		EC5C62131C567FC400608AEC = {
 			isa = PBXGroup;
 			children = (
@@ -326,6 +348,7 @@
 		EC5C62771C581F6B00608AEC /* slike */ = {
 			isa = PBXGroup;
 			children = (
+				EC570DDF1C723EEC00B02555 /* xRaySlike */,
 				EC38B1F91C6FCCFC00BD6E6D /* auto.png */,
 				EC46578B1C67D60200F6509E /* pipeSlike */,
 				EC5C62781C581F7900608AEC /* ikone */,
@@ -400,7 +423,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC4657CF1C67D65D00F6509E /* strelica.png in Resources */,
+				EC570DE51C723F1500B02555 /* podlogaXekrana.png in Resources */,
 				EC4657B31C67D65D00F6509E /* cijevi2.png in Resources */,
+				EC570DE91C723F2B00B02555 /* zidXray.png in Resources */,
 				EC4657BB1C67D65D00F6509E /* Default-568h@2x.png in Resources */,
 				EC4657D51C67D65D00F6509E /* zarulja0008.png in Resources */,
 				EC4657D71C67D65D00F6509E /* zarulja0010.png in Resources */,
@@ -411,6 +436,7 @@
 				EC4657C71C67D65D00F6509E /* mlazVodeC1.png in Resources */,
 				EC4657C21C67D65D00F6509E /* mlazVodeA3.png in Resources */,
 				EC4657C81C67D65D00F6509E /* mlazVodeC3.png in Resources */,
+				EC570DE61C723F1500B02555 /* tijelo.png in Resources */,
 				EC4657BD1C67D65D00F6509E /* mlazVode1.png in Resources */,
 				EC5C622F1C567FC400608AEC /* LaunchScreen.storyboard in Resources */,
 				EC5C62721C58119200608AEC /* TeslaSjedi.png in Resources */,
@@ -421,6 +447,7 @@
 				EC4657BC1C67D65D00F6509E /* mlazVode0.png in Resources */,
 				EC4657D01C67D65D00F6509E /* turbina3.png in Resources */,
 				EC5C626C1C58034F00608AEC /* prva.html in Resources */,
+				EC570DE71C723F1500B02555 /* tijelo1.png in Resources */,
 				EC4657B61C67D65D00F6509E /* cijevi5.png in Resources */,
 				EC4657C31C67D65D00F6509E /* mlazVodeB0.png in Resources */,
 				EC4657C01C67D65D00F6509E /* mlazVodeA0.png in Resources */,
@@ -441,6 +468,7 @@
 				EC5C62761C581C4D00608AEC /* brodizvan.png in Resources */,
 				EC4657D21C67D65D00F6509E /* zarulja0000.png in Resources */,
 				EC4657CD1C67D65D00F6509E /* podlogaPipe2.png in Resources */,
+				EC570DE41C723F1500B02555 /* konzola.png in Resources */,
 				EC4657B91C67D65D00F6509E /* cijevVentil.png in Resources */,
 				EC4657BE1C67D65D00F6509E /* mlazVode2.png in Resources */,
 				EC4657C11C67D65D00F6509E /* mlazVodeA1.png in Resources */,

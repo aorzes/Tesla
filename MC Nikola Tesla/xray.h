@@ -10,7 +10,17 @@
 
 @interface xray : UIViewController
 
-
+{
+    UIImageView *okviric;
+    UIImageView *konzola;
+    UIImageView *zid;
+    UIImageView *tijelo;
+    UIImageView *tijelo1;
+    UIImageView *komad;
+    double kx;
+   
+    __weak IBOutlet UINavigationBar *navBar;
+}
 
 
 
