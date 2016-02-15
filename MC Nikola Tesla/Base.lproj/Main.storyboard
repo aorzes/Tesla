@@ -1509,7 +1509,6 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <state key="normal" image="auto.png"/>
-                                                    <variation key="widthClass=compact"/>
                                                     <connections>
                                                         <action selector="directions:" destination="MT4-2o-Rsb" eventType="touchUpInside" id="t5d-h2-nml"/>
                                                     </connections>
