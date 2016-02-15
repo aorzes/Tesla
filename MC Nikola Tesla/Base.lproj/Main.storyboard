@@ -1490,6 +1490,7 @@
         <!--Findus-->
         <scene sceneID="Tsu-mN-NSC">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QCd-Ke-KSp" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="MT4-2o-Rsb" customClass="findus" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GXe-Bz-3cr"/>
@@ -1563,6 +1564,24 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0ue-hG-G5n">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="Find Us" id="HjV-mD-da5">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="1x3-Xi-O0f">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="presentation" id="J6Y-MY-w8p"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" image="auto.png" id="xAp-1v-FzJ">
+                                            <inset key="imageInsets" minX="13" minY="7" maxX="6" maxY="5"/>
+                                            <connections>
+                                                <action selector="directions:" destination="MT4-2o-Rsb" id="2FL-Zo-GVR"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -1653,7 +1672,6 @@
                         <outlet property="mapView" destination="JGN-Y9-26V" id="9FJ-YC-tHD"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QCd-Ke-KSp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2364" y="1848"/>
         </scene>
