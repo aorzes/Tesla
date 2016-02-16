@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
     historyfile=@"prva.html";
-    popis = @[@"prva.html",@"druga.html"];
+    popis = @[@"prva.html",@"druga.html",@"treca.html",@"cetvrta.html",@"peta.html",@"sesta.html"];
     n=0;
     //ucitaj stranicu
     [self ucitajStranicu];
