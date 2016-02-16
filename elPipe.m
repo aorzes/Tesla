@@ -349,7 +349,7 @@
                 if((polje[i+1][j]==3 || polje[i+1][j]==4 || polje[i+1][j]==6) && vektor == 1) //odozgo prema dolje
                 {
                     i++; //ide desno
-                    NSLog(@"AsHa!");
+                  
                     if(i>5) { curiX=i;curiY=j;return false;}
                     if(polje[i][j]==3) vektor = 2; //s lijeva dolje
                     if(polje[i][j]==4) vektor = 0; //s lijeva gore

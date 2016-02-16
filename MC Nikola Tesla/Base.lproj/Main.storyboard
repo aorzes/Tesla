@@ -1229,13 +1229,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p9u-pH-4wL">
+                            <navigationBar alpha="0.75" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p9u-pH-4wL">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
                                     <navigationItem title="X Rays" id="aQl-Cb-MVY">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="FbE-ms-Poa">
                                             <connections>
                                                 <segue destination="BYZ-38-t0r" kind="presentation" id="Wpc-9z-EDq"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Info" id="nxd-H1-maP">
+                                            <connections>
+                                                <segue destination="ZVL-lD-BS8" kind="presentation" id="Mqu-ga-Z4u"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -1285,7 +1290,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ACh-gw-3Um" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1701" y="2524.5"/>
+            <point key="canvasLocation" x="1711.5" y="2549"/>
         </scene>
         <!--Jaje-->
         <scene sceneID="xjr-S2-309">
@@ -2042,6 +2047,76 @@
             </objects>
             <point key="canvasLocation" x="1701" y="394"/>
         </scene>
+        <!--Ray Info-->
+        <scene sceneID="RfF-eB-DHn">
+            <objects>
+                <viewController id="ZVL-lD-BS8" customClass="xRayInfo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Nqm-pW-WSo"/>
+                        <viewControllerLayoutGuide type="bottom" id="vlE-Qk-Cs3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LTr-gX-WSk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar alpha="0.75" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qex-7m-fEn">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="X Rays info" id="NQh-8I-NRn">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="LZr-QT-vLF">
+                                            <connections>
+                                                <segue destination="hAN-JF-v27" kind="presentation" id="R5T-TK-2S4"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Qex-7m-fEn" firstAttribute="top" secondItem="Nqm-pW-WSo" secondAttribute="bottom" id="1Pt-NL-2Sz"/>
+                            <constraint firstItem="Qex-7m-fEn" firstAttribute="leading" secondItem="LTr-gX-WSk" secondAttribute="leading" id="3Go-ZJ-bSF"/>
+                            <constraint firstItem="Qex-7m-fEn" firstAttribute="leading" secondItem="LTr-gX-WSk" secondAttribute="leading" id="GzE-Be-jFb"/>
+                            <constraint firstAttribute="trailing" secondItem="Qex-7m-fEn" secondAttribute="trailing" id="LoL-2b-f8d"/>
+                            <constraint firstItem="Qex-7m-fEn" firstAttribute="top" secondItem="Nqm-pW-WSo" secondAttribute="bottom" id="Z1l-Lt-3gu"/>
+                            <constraint firstAttribute="trailing" secondItem="Qex-7m-fEn" secondAttribute="trailing" id="rwC-P4-Cfn"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="LoL-2b-f8d"/>
+                                <exclude reference="GzE-Be-jFb"/>
+                                <exclude reference="3Go-ZJ-bSF"/>
+                                <exclude reference="Z1l-Lt-3gu"/>
+                                <exclude reference="1Pt-NL-2Sz"/>
+                                <exclude reference="rwC-P4-Cfn"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Qex-7m-fEn"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="LoL-2b-f8d"/>
+                                <include reference="3Go-ZJ-bSF"/>
+                                <include reference="1Pt-NL-2Sz"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="GzE-Be-jFb"/>
+                                <include reference="Z1l-Lt-3gu"/>
+                                <include reference="rwC-P4-Cfn"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="navBar" destination="Qex-7m-fEn" id="Fjs-xV-AKs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8JE-sT-M45" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1587" y="4110"/>
+        </scene>
     </scenes>
     <resources>
         <image name="auto.png" width="100" height="50"/>
@@ -2050,6 +2125,7 @@
         <image name="tesla200.png" width="200" height="200"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="4yP-pA-Vft"/>
+        <segue reference="Wpc-9z-EDq"/>
+        <segue reference="R5T-TK-2S4"/>
     </inferredMetricsTieBreakers>
 </document>

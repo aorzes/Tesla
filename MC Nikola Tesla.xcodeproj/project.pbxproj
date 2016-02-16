@@ -83,6 +83,18 @@
 		EC5C62811C58331900608AEC /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C627F1C58331900608AEC /* left.png */; };
 		EC5C62821C58331900608AEC /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C62801C58331900608AEC /* right.png */; };
 		ECCD0F741C63BB1900A1A4D7 /* tesla200.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCD0F731C63BB1900A1A4D7 /* tesla200.png */; };
+		ECF6EDFC1C7307F70070C7D2 /* xRayInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF6EDFB1C7307F70070C7D2 /* xRayInfo.m */; };
+		ECF6EE031C73135E0070C7D2 /* elektron.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE021C73135E0070C7D2 /* elektron.png */; };
+		ECF6EE0C1C731DF20070C7D2 /* xReyBeam8.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE041C731DF20070C7D2 /* xReyBeam8.png */; };
+		ECF6EE0D1C731DF20070C7D2 /* xReyBeam7.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE051C731DF20070C7D2 /* xReyBeam7.png */; };
+		ECF6EE0E1C731DF20070C7D2 /* xReyBeam6.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE061C731DF20070C7D2 /* xReyBeam6.png */; };
+		ECF6EE0F1C731DF20070C7D2 /* xReyBeam5.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE071C731DF20070C7D2 /* xReyBeam5.png */; };
+		ECF6EE101C731DF20070C7D2 /* xReyBeam4.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE081C731DF20070C7D2 /* xReyBeam4.png */; };
+		ECF6EE111C731DF20070C7D2 /* xReyBeam3.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE091C731DF20070C7D2 /* xReyBeam3.png */; };
+		ECF6EE121C731DF20070C7D2 /* xReyBeam2.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE0A1C731DF20070C7D2 /* xReyBeam2.png */; };
+		ECF6EE131C731DF20070C7D2 /* xReyBeam1.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE0B1C731DF20070C7D2 /* xReyBeam1.png */; };
+		ECF6EE151C7323330070C7D2 /* daska.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE141C7323330070C7D2 /* daska.png */; };
+		ECF6EE191C7363620070C7D2 /* xrayTube.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE181C7363620070C7D2 /* xrayTube.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -182,6 +194,19 @@
 		EC5C627F1C58331900608AEC /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
 		EC5C62801C58331900608AEC /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
 		ECCD0F731C63BB1900A1A4D7 /* tesla200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tesla200.png; sourceTree = "<group>"; };
+		ECF6EDFA1C7307F70070C7D2 /* xRayInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xRayInfo.h; sourceTree = "<group>"; };
+		ECF6EDFB1C7307F70070C7D2 /* xRayInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xRayInfo.m; sourceTree = "<group>"; };
+		ECF6EE021C73135E0070C7D2 /* elektron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elektron.png; sourceTree = "<group>"; };
+		ECF6EE041C731DF20070C7D2 /* xReyBeam8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam8.png; sourceTree = "<group>"; };
+		ECF6EE051C731DF20070C7D2 /* xReyBeam7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam7.png; sourceTree = "<group>"; };
+		ECF6EE061C731DF20070C7D2 /* xReyBeam6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam6.png; sourceTree = "<group>"; };
+		ECF6EE071C731DF20070C7D2 /* xReyBeam5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam5.png; sourceTree = "<group>"; };
+		ECF6EE081C731DF20070C7D2 /* xReyBeam4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam4.png; sourceTree = "<group>"; };
+		ECF6EE091C731DF20070C7D2 /* xReyBeam3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam3.png; sourceTree = "<group>"; };
+		ECF6EE0A1C731DF20070C7D2 /* xReyBeam2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam2.png; sourceTree = "<group>"; };
+		ECF6EE0B1C731DF20070C7D2 /* xReyBeam1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam1.png; sourceTree = "<group>"; };
+		ECF6EE141C7323330070C7D2 /* daska.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daska.png; sourceTree = "<group>"; };
+		ECF6EE181C7363620070C7D2 /* xrayTube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xrayTube.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,11 +269,22 @@
 		EC570DDF1C723EEC00B02555 /* xRaySlike */ = {
 			isa = PBXGroup;
 			children = (
+				ECF6EE141C7323330070C7D2 /* daska.png */,
+				ECF6EE041C731DF20070C7D2 /* xReyBeam8.png */,
+				ECF6EE051C731DF20070C7D2 /* xReyBeam7.png */,
+				ECF6EE061C731DF20070C7D2 /* xReyBeam6.png */,
+				ECF6EE071C731DF20070C7D2 /* xReyBeam5.png */,
+				ECF6EE081C731DF20070C7D2 /* xReyBeam4.png */,
+				ECF6EE091C731DF20070C7D2 /* xReyBeam3.png */,
+				ECF6EE0A1C731DF20070C7D2 /* xReyBeam2.png */,
+				ECF6EE0B1C731DF20070C7D2 /* xReyBeam1.png */,
 				EC570DE81C723F2B00B02555 /* zidXray.png */,
 				EC570DE01C723F1500B02555 /* konzola.png */,
 				EC570DE11C723F1500B02555 /* podlogaXekrana.png */,
 				EC570DE21C723F1500B02555 /* tijelo.png */,
 				EC570DE31C723F1500B02555 /* tijelo1.png */,
+				ECF6EE021C73135E0070C7D2 /* elektron.png */,
+				ECF6EE181C7363620070C7D2 /* xrayTube.png */,
 			);
 			name = xRaySlike;
 			sourceTree = "<group>";
@@ -291,6 +327,8 @@
 				EC5C62581C56B20600608AEC /* jaje.m */,
 				EC5C62541C56B1D000608AEC /* xray.h */,
 				EC5C62551C56B1D000608AEC /* xray.m */,
+				ECF6EDFA1C7307F70070C7D2 /* xRayInfo.h */,
+				ECF6EDFB1C7307F70070C7D2 /* xRayInfo.m */,
 				EC5C62511C56B1A700608AEC /* Faradey.h */,
 				EC5C62521C56B1A700608AEC /* Faradey.m */,
 				EC5C624E1C56B15200608AEC /* findus.h */,
@@ -429,23 +467,33 @@
 				EC4657BB1C67D65D00F6509E /* Default-568h@2x.png in Resources */,
 				EC4657D51C67D65D00F6509E /* zarulja0008.png in Resources */,
 				EC4657D71C67D65D00F6509E /* zarulja0010.png in Resources */,
+				ECF6EE191C7363620070C7D2 /* xrayTube.png in Resources */,
 				EC4657B21C67D65D00F6509E /* cijevi1.png in Resources */,
+				ECF6EE111C731DF20070C7D2 /* xReyBeam3.png in Resources */,
 				EC4657D61C67D65D00F6509E /* zarulja0009.png in Resources */,
+				ECF6EE151C7323330070C7D2 /* daska.png in Resources */,
 				EC4657CA1C67D65D00F6509E /* mlazVodeD1.png in Resources */,
 				EC4657D41C67D65D00F6509E /* zarulja0007.png in Resources */,
 				EC4657C71C67D65D00F6509E /* mlazVodeC1.png in Resources */,
 				EC4657C21C67D65D00F6509E /* mlazVodeA3.png in Resources */,
+				ECF6EE0F1C731DF20070C7D2 /* xReyBeam5.png in Resources */,
+				ECF6EE121C731DF20070C7D2 /* xReyBeam2.png in Resources */,
+				ECF6EE0C1C731DF20070C7D2 /* xReyBeam8.png in Resources */,
 				EC4657C81C67D65D00F6509E /* mlazVodeC3.png in Resources */,
 				EC570DE61C723F1500B02555 /* tijelo.png in Resources */,
 				EC4657BD1C67D65D00F6509E /* mlazVode1.png in Resources */,
+				ECF6EE131C731DF20070C7D2 /* xReyBeam1.png in Resources */,
 				EC5C622F1C567FC400608AEC /* LaunchScreen.storyboard in Resources */,
 				EC5C62721C58119200608AEC /* TeslaSjedi.png in Resources */,
 				ECCD0F741C63BB1900A1A4D7 /* tesla200.png in Resources */,
 				EC5C62821C58331900608AEC /* right.png in Resources */,
+				ECF6EE031C73135E0070C7D2 /* elektron.png in Resources */,
+				ECF6EE101C731DF20070C7D2 /* xReyBeam4.png in Resources */,
 				EC4657B41C67D65D00F6509E /* cijevi3.png in Resources */,
 				EC5C62701C58117600608AEC /* teslaSmiljan.jpg in Resources */,
 				EC4657BC1C67D65D00F6509E /* mlazVode0.png in Resources */,
 				EC4657D01C67D65D00F6509E /* turbina3.png in Resources */,
+				ECF6EE0D1C731DF20070C7D2 /* xReyBeam7.png in Resources */,
 				EC5C626C1C58034F00608AEC /* prva.html in Resources */,
 				EC570DE71C723F1500B02555 /* tijelo1.png in Resources */,
 				EC4657B61C67D65D00F6509E /* cijevi5.png in Resources */,
@@ -453,6 +501,7 @@
 				EC4657C01C67D65D00F6509E /* mlazVodeA0.png in Resources */,
 				EC5C622C1C567FC400608AEC /* Assets.xcassets in Resources */,
 				EC5C62741C5818ED00608AEC /* druga.html in Resources */,
+				ECF6EE0E1C731DF20070C7D2 /* xReyBeam6.png in Resources */,
 				EC4657CB1C67D65D00F6509E /* mlazVodeD3.png in Resources */,
 				EC4657B71C67D65D00F6509E /* cijevi6.png in Resources */,
 				EC4657D11C67D65D00F6509E /* turbinaStator.png in Resources */,
@@ -496,6 +545,7 @@
 				EC5C62591C56B20600608AEC /* jaje.m in Sources */,
 				EC5C62561C56B1D000608AEC /* xray.m in Sources */,
 				EC5C62241C567FC400608AEC /* AppDelegate.m in Sources */,
+				ECF6EDFC1C7307F70070C7D2 /* xRayInfo.m in Sources */,
 				EC5C625F1C56B25800608AEC /* radio.m in Sources */,
 				EC5C623E1C56AF8C00608AEC /* motor.m in Sources */,
 				ACA4DA3B1C6E67A80017C18B /* MapAnnotations.m in Sources */,
