@@ -24,6 +24,7 @@
     NSMutableArray *zarulje;
     int n;
     NSTimer * timerM;
+    NSTimer * timerR;
     double kutp;
     double pomak;
 }

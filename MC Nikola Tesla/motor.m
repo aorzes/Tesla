@@ -23,7 +23,7 @@
 {
     n=0;
     kutp=0;
-    pomak=0.3;
+    pomak=0.1;
     velicina = self.view.frame.size;
     UIImageView *podloga =[[UIImageView alloc]init];
     podloga.image =[UIImage imageNamed:@"daska"];
@@ -48,6 +48,7 @@
     
     [self napraviPolja];
     [self startM];
+    [self startR];
     [self.view bringSubviewToFront:navBar];
     
    
@@ -86,6 +87,20 @@
     
     
 }
+-(void)startR{
+    
+    if(!timerR)
+    { timerR = [NSTimer scheduledTimerWithTimeInterval:0.01
+                                                target:self
+                                              selector:@selector(rotacija)
+                                              userInfo:nil
+                                               repeats:YES];
+        
+    }
+    
+    
+}
+
 
 -(void) vrti{
 
@@ -108,18 +123,18 @@
     zarulja =(UIImageView *)[zarulje objectAtIndex:n2];
     zarulja.image = [UIImage imageNamed:@"zarulja0010"];
 
-    [self rotacija];
+    //[self rotacija];
 
 }
 
 -(void)rotacija{
     kutp+=pomak;
-    //CGAffineTransform rotate1 = CGAffineTransformMakeRotation(kutp);
-    //[rotor setTransform:rotate1];
-    [UIView beginAnimations:@"rotate" context:nil];
-    [UIView setAnimationDuration:0.3];
-    rotor.transform = CGAffineTransformMakeRotation(kutp);
-    [UIView commitAnimations];
+    CGAffineTransform rotate1 = CGAffineTransformMakeRotation(kutp);
+    [rotor setTransform:rotate1];
+    //[UIView beginAnimations:@"rotate" context:nil];
+    //[UIView setAnimationDuration:0.3];
+    //rotor.transform = CGAffineTransformMakeRotation(kutp);
+    //[UIView commitAnimations];
     
 }
 
