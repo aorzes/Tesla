@@ -63,13 +63,17 @@
                                                     <segue destination="Klb-N7-FKc" kind="presentation" id="YHY-dG-TFz"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAd-N4-89K" userLabel="Motor">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="AAd-N4-89K" userLabel="Motor">
                                                 <rect key="frame" x="8" y="8" width="100" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="80" id="03x-by-swC"/>
                                                     <constraint firstAttribute="width" constant="80" id="3c6-1P-WDp"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="tesla200.png"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <size key="titleShadowOffset" width="1" height="1"/>
+                                                <state key="normal" title="Induction Motor" backgroundImage="tesla200.png">
+                                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
                                                 <variation key="default">
                                                     <mask key="constraints">
                                                         <exclude reference="03x-by-swC"/>
@@ -440,13 +444,13 @@
                                                     <segue destination="ueF-yw-PMp" kind="presentation" id="lOz-XR-35G"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Znw-ZF-7q1" userLabel="Energy Production">
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Znw-ZF-7q1" userLabel="Energy Production">
                                                 <rect key="frame" x="8" y="8" width="100" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="80" id="YGL-wr-Czf"/>
                                                     <constraint firstAttribute="width" constant="80" id="jfu-fw-pbO"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
                                                 <state key="normal" title="Energy Production" backgroundImage="tesla200.png">
                                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1853,6 +1857,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="navBar" destination="l9a-n1-nSa" id="kvH-jk-tf0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D7d-wm-7yZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2083,11 +2090,11 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="LoL-2b-f8d"/>
-                                <exclude reference="GzE-Be-jFb"/>
-                                <exclude reference="3Go-ZJ-bSF"/>
-                                <exclude reference="Z1l-Lt-3gu"/>
                                 <exclude reference="1Pt-NL-2Sz"/>
+                                <exclude reference="3Go-ZJ-bSF"/>
+                                <exclude reference="GzE-Be-jFb"/>
+                                <exclude reference="LoL-2b-f8d"/>
+                                <exclude reference="Z1l-Lt-3gu"/>
                                 <exclude reference="rwC-P4-Cfn"/>
                             </mask>
                         </variation>
@@ -2096,9 +2103,9 @@
                                 <include reference="Qex-7m-fEn"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="LoL-2b-f8d"/>
-                                <include reference="3Go-ZJ-bSF"/>
                                 <include reference="1Pt-NL-2Sz"/>
+                                <include reference="3Go-ZJ-bSF"/>
+                                <include reference="LoL-2b-f8d"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
@@ -2125,7 +2132,7 @@
         <image name="tesla200.png" width="200" height="200"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Wpc-9z-EDq"/>
-        <segue reference="R5T-TK-2S4"/>
+        <segue reference="bzV-oF-HBX"/>
+        <segue reference="Fvh-Om-ZhG"/>
     </inferredMetricsTieBreakers>
 </document>

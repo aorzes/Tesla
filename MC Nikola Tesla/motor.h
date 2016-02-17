@@ -9,5 +9,23 @@
 #import <UIKit/UIKit.h>
 
 @interface motor : UIViewController
+{
+    UIImageView *stator;
+    UIImageView *rotor;
+    UIImageView *instrument1;
+    UIImageView *instrument2;
+    UIImageView *instrument3;
+    UIImageView *kazaljka1;
+    UIImageView *kazaljka2;
+    UIImageView *kazaljka3;
+    __weak IBOutlet UINavigationBar *navBar;
+    CGSize velicina;
+    
+    NSMutableArray *zarulje;
+    int n;
+    NSTimer * timerM;
+    double kutp;
+    double pomak;
+}
 
 @end
