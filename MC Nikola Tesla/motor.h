@@ -15,9 +15,13 @@
     UIImageView *instrument1;
     UIImageView *instrument2;
     UIImageView *instrument3;
+    UIImageView *osovinaK1;
+    UIImageView *osovinaK2;
+    UIImageView *osovinaK3;
     UIImageView *kazaljka1;
     UIImageView *kazaljka2;
     UIImageView *kazaljka3;
+    UIImageView *trigonom;
     __weak IBOutlet UINavigationBar *navBar;
     CGSize velicina;
     
@@ -27,6 +31,12 @@
     NSTimer * timerR;
     double kutp;
     double pomak;
+    double kutK1;
+    double dK1;
+    double kutK2;
+    double dK2;
+    double kutK3;
+    double dK3;
 }
 
 @end
