@@ -12,6 +12,7 @@
 		ACA4DA3B1C6E67A80017C18B /* MapAnnotations.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA4DA3A1C6E67A80017C18B /* MapAnnotations.m */; };
 		EC1F5C3F1C75BDFA0009E731 /* stator3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F5C3E1C75BDFA0009E731 /* stator3.png */; };
 		EC1F5C411C760B720009E731 /* trigonom1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F5C401C760B720009E731 /* trigonom1.png */; };
+		EC1F5C441C7610770009E731 /* motorInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1F5C431C7610770009E731 /* motorInfo.m */; };
 		EC38B1FA1C6FCCFC00BD6E6D /* auto.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38B1F91C6FCCFC00BD6E6D /* auto.png */; };
 		EC4657B21C67D65D00F6509E /* cijevi1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC46578C1C67D65D00F6509E /* cijevi1.png */; };
 		EC4657B31C67D65D00F6509E /* cijevi2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC46578D1C67D65D00F6509E /* cijevi2.png */; };
@@ -140,6 +141,8 @@
 		ACA4DA3A1C6E67A80017C18B /* MapAnnotations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotations.m; sourceTree = "<group>"; };
 		EC1F5C3E1C75BDFA0009E731 /* stator3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stator3.png; sourceTree = "<group>"; };
 		EC1F5C401C760B720009E731 /* trigonom1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom1.png; sourceTree = "<group>"; };
+		EC1F5C421C7610770009E731 /* motorInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = motorInfo.h; sourceTree = "<group>"; };
+		EC1F5C431C7610770009E731 /* motorInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = motorInfo.m; sourceTree = "<group>"; };
 		EC38B1F91C6FCCFC00BD6E6D /* auto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = auto.png; sourceTree = "<group>"; };
 		EC46578C1C67D65D00F6509E /* cijevi1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cijevi1.png; sourceTree = "<group>"; };
 		EC46578D1C67D65D00F6509E /* cijevi2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cijevi2.png; sourceTree = "<group>"; };
@@ -419,6 +422,8 @@
 				EC5C62401C56AFFC00608AEC /* wireless.m */,
 				EC5C623C1C56AF8C00608AEC /* motor.h */,
 				EC5C623D1C56AF8C00608AEC /* motor.m */,
+				EC1F5C421C7610770009E731 /* motorInfo.h */,
+				EC1F5C431C7610770009E731 /* motorInfo.m */,
 				EC5C62391C56AE5F00608AEC /* energy.h */,
 				EC5C623A1C56AE5F00608AEC /* energy.m */,
 				EC5C62361C56ADFA00608AEC /* bio.h */,
@@ -700,6 +705,7 @@
 				EC5C62271C567FC400608AEC /* ViewController.m in Sources */,
 				EC5C623B1C56AE5F00608AEC /* energy.m in Sources */,
 				EC5C62621C56B27B00608AEC /* laser.m in Sources */,
+				EC1F5C441C7610770009E731 /* motorInfo.m in Sources */,
 				EC5C62411C56AFFC00608AEC /* wireless.m in Sources */,
 				EC5C624A1C56B09000608AEC /* transmision.m in Sources */,
 				EC5C62591C56B20600608AEC /* jaje.m in Sources */,
