@@ -31,12 +31,7 @@
     NSTimer * timerR;
     double kutp;
     double pomak;
-    double kutK1;
-    double dK1;
-    double kutK2;
-    double dK2;
-    double kutK3;
-    double dK3;
+    
 }
 
 @end

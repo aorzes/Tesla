@@ -24,12 +24,7 @@
     n=0;
     kutp=0;
     pomak=0.1;
-    kutK1 = 0;
-    dK1 = 0.1;
-    kutK2 = 0.4;
-    dK2 = 0.1;
-    kutK3 = -0.4;
-    dK3 = -0.1;
+    
     velicina = self.view.frame.size;
     UIImageView *podloga =[[UIImageView alloc]init];
     podloga.image =[UIImage imageNamed:@"daska"];
@@ -39,13 +34,13 @@
     //instrument1
     instrument1 =[[UIImageView alloc]init];
     instrument1.image =[UIImage imageNamed:@"instrument"];
-    instrument1.frame = CGRectMake(0, 0, velicina.width/6, velicina.width/6);
-    instrument1.center = CGPointMake(velicina.width/6, velicina.width/3);
+    instrument1.frame = CGRectMake(0, 0, velicina.width/5, velicina.width/5);
+    instrument1.center = CGPointMake(velicina.width/6, navBar.center.y+navBar.frame.size.height/2+velicina.width/10);
     [self.view addSubview:instrument1];
     instrument1.layer.shadowColor = [UIColor blackColor].CGColor;
     instrument1.layer.shadowOffset = CGSizeMake(-6, 4);
-    instrument1.layer.shadowOpacity = 0.4;
-    instrument1.layer.shadowRadius = 1.0;
+    instrument1.layer.shadowOpacity = 0.6;
+    instrument1.layer.shadowRadius = 2.0;
     
     osovinaK1 =[[UIImageView alloc]init];
     osovinaK1.image =[UIImage imageNamed:@"bomba"];
@@ -62,13 +57,13 @@
     //instrument2
     instrument2 =[[UIImageView alloc]init];
     instrument2.image =[UIImage imageNamed:@"instrument"];
-    instrument2.frame = CGRectMake(0, 0, velicina.width/6, velicina.width/6);
-    instrument2.center = CGPointMake(velicina.width/2, velicina.width/3);
+    instrument2.frame = CGRectMake(0, 0, velicina.width/5, velicina.width/5);
+    instrument2.center = CGPointMake(velicina.width/2, instrument1.center.y);
     [self.view addSubview:instrument2];
     instrument2.layer.shadowColor = [UIColor blackColor].CGColor;
     instrument2.layer.shadowOffset = CGSizeMake(-6, 4);
-    instrument2.layer.shadowOpacity = 0.4;
-    instrument2.layer.shadowRadius = 1.0;
+    instrument2.layer.shadowOpacity = 0.6;
+    instrument2.layer.shadowRadius = 2.0;
     
     osovinaK2 =[[UIImageView alloc]init];
     osovinaK2.image =[UIImage imageNamed:@"bomba"];
@@ -85,13 +80,13 @@
     //instrument3
     instrument3 =[[UIImageView alloc]init];
     instrument3.image =[UIImage imageNamed:@"instrument"];
-    instrument3.frame = CGRectMake(0, 0, velicina.width/6, velicina.width/6);
-    instrument3.center = CGPointMake(velicina.width - velicina.width/6, velicina.width/3);
+    instrument3.frame = CGRectMake(0, 0, velicina.width/5, velicina.width/5);
+    instrument3.center = CGPointMake(velicina.width - velicina.width/6, instrument1.center.y);
     [self.view addSubview:instrument3];
     instrument3.layer.shadowColor = [UIColor blackColor].CGColor;
     instrument3.layer.shadowOffset = CGSizeMake(-6, 4);
-    instrument3.layer.shadowOpacity = 0.4;
-    instrument3.layer.shadowRadius = 1.0;
+    instrument3.layer.shadowOpacity = 0.6;
+    instrument3.layer.shadowRadius = 2.0;
     
     osovinaK3 =[[UIImageView alloc]init];
     osovinaK3.image =[UIImage imageNamed:@"bomba"];
@@ -107,14 +102,14 @@
     
     
     stator =[[UIImageView alloc]init];
-    stator.image =[UIImage imageNamed:@"stator2"];
-    stator.frame = CGRectMake(velicina.width/6, velicina.width/2, velicina.width/1.5, velicina.width/1.5);
+    stator.image =[UIImage imageNamed:@"stator3"];
+    stator.frame = CGRectMake(velicina.width/6, instrument1.frame.origin.y+instrument1.frame.size.height, velicina.width/1.5, velicina.width/1.5);
     [self.view addSubview:stator];
     
     stator.layer.shadowColor = [UIColor blackColor].CGColor;
-    stator.layer.shadowOffset = CGSizeMake(-8, 6);
-    stator.layer.shadowOpacity = 0.4;
-    stator.layer.shadowRadius = 1.0;
+    stator.layer.shadowOffset = CGSizeMake(-20, 20);
+    stator.layer.shadowOpacity = 0.5;
+    stator.layer.shadowRadius = 5.0;
     
     rotor =[[UIImageView alloc]init];
     rotor.image =[UIImage imageNamed:@"rotor3"];
@@ -124,7 +119,7 @@
     
     trigonom =[[UIImageView alloc]init];
     trigonom.image =[UIImage imageNamed:@"trigonom1"];
-    trigonom.frame = CGRectMake(velicina.width/10, velicina.height/1.35, velicina.width/1.25, velicina.width/3.75);
+    trigonom.frame = CGRectMake(velicina.width/10, stator.center.y+stator.frame.size.height/2+velicina.width/30, velicina.width/1.25, velicina.width/3.75);
     //trigonom.center = stator.center;
     [self.view addSubview:trigonom];
     trigonom.animationImages=[NSArray arrayWithObjects:
@@ -156,11 +151,16 @@
     trigonom.animationDuration=5.0;
     trigonom.animationRepeatCount=0;
     [trigonom startAnimating];
-
+    trigonom.layer.shadowColor = [UIColor blackColor].CGColor;
+    trigonom.layer.shadowOffset = CGSizeMake(-3, 3);
+    trigonom.layer.shadowOpacity = 0.6;
+    trigonom.layer.shadowRadius = 1.0;
+    
     
     [self napraviPolja];
     [self startM];
     [self startR];
+    [self.view bringSubviewToFront:stator];
     [self.view bringSubviewToFront:navBar];
     
 
@@ -241,18 +241,11 @@
     CGAffineTransform rotate1 = CGAffineTransformMakeRotation(kutp);
     [rotor setTransform:rotate1];
     
-    kutK1+=dK1;
-    [osovinaK1 setTransform:CGAffineTransformMakeRotation(kutK1)];
-    if (kutK1>0.5 || kutK1<-0.5) { dK1*=-1; }
+    //kazaljke
+    [osovinaK1 setTransform:CGAffineTransformMakeRotation(sin(kutp)/2)];
+    [osovinaK2 setTransform:CGAffineTransformMakeRotation(sin(kutp+2.09)/2)];
+    [osovinaK3 setTransform:CGAffineTransformMakeRotation(sin(kutp+4.18)/2)];
     
-    kutK2+=dK2;
-    [osovinaK2 setTransform:CGAffineTransformMakeRotation(kutK2)];
-    if (kutK2>0.5 || kutK2<-0.5) { dK2*=-1; }
-    
-    kutK3+=dK3;
-    [osovinaK3 setTransform:CGAffineTransformMakeRotation(kutK3)];
-    if (kutK3>0.5 || kutK3<-0.5) { dK3*=-1; }
-       
 }
 
 
