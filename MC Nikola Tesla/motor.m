@@ -21,7 +21,7 @@
 
 -(void) viewDidAppear:(BOOL)animated
 {
-    n=0;
+    
     kutp=0;
     pomak=0.1;
     
@@ -148,7 +148,7 @@
                               [UIImage imageNamed: @"trigonom23"],
                               [UIImage imageNamed: @"trigonom24"],
                              nil];
-    trigonom.animationDuration=5.0;
+    trigonom.animationDuration=2.5;
     trigonom.animationRepeatCount=0;
     [trigonom startAnimating];
     trigonom.layer.shadowColor = [UIColor blackColor].CGColor;
@@ -156,46 +156,40 @@
     trigonom.layer.shadowOpacity = 0.6;
     trigonom.layer.shadowRadius = 1.0;
     
-    
-    [self napraviPolja];
-    [self startM];
-    [self startR];
     [self.view bringSubviewToFront:stator];
     [self.view bringSubviewToFront:navBar];
+    [self napraviPolja];
+    //[self startM];
+    [self startR];
+    
     
 
 }
 
 -(void) napraviPolja{
-    double a = 0;
+    double a = M_PI/6;
     double r = stator.frame.size.width/1.8; //3.1;
     zarulje = [[NSMutableArray alloc]init];
-    for (int i = 0; i<8; i++) {
-        UIImageView *polje =[[UIImageView alloc]init];
-        polje.image =[UIImage imageNamed:@"zarulja0000"];
-        polje.frame = CGRectMake(0, 0, velicina.width/10, velicina.width/10);
-        polje.center = CGPointMake(stator.center.x+ r*cos(a), stator.center.y+ r*sin(a));
-        polje.transform = CGAffineTransformMakeRotation(a+M_PI/2);
-        [self.view addSubview:polje];
-        a+=M_PI/4;
-        [zarulje addObject:polje];
+    for (int i = 0; i<6; i++) {
+        UIImageView *zar0 =[[UIImageView alloc]init];
+        zar0.image =[UIImage imageNamed:@"zarulja0000"];
+        zar0.frame = CGRectMake(0, 0, velicina.width/10, velicina.width/10);
+        zar0.center = CGPointMake(stator.center.x+ r*cos(a), stator.center.y+ r*sin(a));
+        zar0.transform = CGAffineTransformMakeRotation(a+M_PI/2);
+        [self.view addSubview:zar0];
+        UIImageView *zar1 =[[UIImageView alloc]init];
+        zar1.image =[UIImage imageNamed:@"zarulja0010"];
+        zar1.frame = CGRectMake(0, 0, velicina.width/10, velicina.width/10);
+        zar1.center = CGPointMake(stator.center.x+ r*cos(a), stator.center.y+ r*sin(a));
+        zar1.transform = CGAffineTransformMakeRotation(a+M_PI/2);
+        [self.view addSubview:zar1];
+        [self.view bringSubviewToFront:zar1];
+        a+=M_PI/3;
+        [zarulje addObject:zar1];
     }
 
 }
 
--(void)startM{
-    
-    if(!timerM)
-    { timerM = [NSTimer scheduledTimerWithTimeInterval:0.3
-                                                target:self
-                                              selector:@selector(vrti)
-                                              userInfo:nil
-                                               repeats:YES];
-        
-    }
-    
-    
-}
 -(void)startR{
     
     if(!timerR)
@@ -210,32 +204,6 @@
     
 }
 
-
--(void) vrti{
-
-    n++;
-    int n2;
-    if(n>7) n=0;
-    UIImageView *zarulja =(UIImageView *)[zarulje objectAtIndex:0];
-    for (int i=0; i<8; i++) {
-        zarulja =(UIImageView *)[zarulje objectAtIndex:i];
-        zarulja.image = [UIImage imageNamed:@"zarulja0000"];
-    }
-    zarulja =(UIImageView *)[zarulje objectAtIndex:n];
-    zarulja.image = [UIImage imageNamed:@"zarulja0010"];
-    n2=n+3;
-    if(n2>7) n2-=8;
-    zarulja =(UIImageView *)[zarulje objectAtIndex:n2];
-    zarulja.image = [UIImage imageNamed:@"zarulja0010"];
-    n2=n+5;
-    if(n2>7) n2-=8;
-    zarulja =(UIImageView *)[zarulje objectAtIndex:n2];
-    zarulja.image = [UIImage imageNamed:@"zarulja0010"];
-
-    //[self rotacija];
-
-}
-
 -(void)rotacija{
     kutp+=pomak;
     CGAffineTransform rotate1 = CGAffineTransformMakeRotation(kutp);
@@ -245,6 +213,26 @@
     [osovinaK1 setTransform:CGAffineTransformMakeRotation(sin(kutp)/2)];
     [osovinaK2 setTransform:CGAffineTransformMakeRotation(sin(kutp+2.09)/2)];
     [osovinaK3 setTransform:CGAffineTransformMakeRotation(sin(kutp+4.18)/2)];
+    [self vrti];
+}
+
+-(void) vrti{
+    
+    for (int i = 0; i<6; i++) {
+        UIImageView *zarulja = [zarulje objectAtIndex:i];
+        double alfa = sin(-kutp+M_PI/3*i);
+        if(alfa > 0.5 )
+        {
+            zarulja.alpha = 1.0;
+        }
+        else
+        {
+            zarulja.alpha = 0.0;
+        }
+        
+        
+        
+    }
     
 }
 
