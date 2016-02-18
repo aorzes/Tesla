@@ -2141,8 +2141,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="COF-Zm-zrm">
-                                <rect key="frame" x="61" y="138" width="221" height="219"/>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JeX-fp-pVd">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="qw5-mo-sPT"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Asynchronous motor" id="lpg-FX-WEP">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="y9h-v7-pDV">
+                                            <connections>
+                                                <segue destination="fXd-HX-jMZ" kind="presentation" id="cxa-I2-Vvz"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="COF-Zm-zrm">
+                                <rect key="frame" x="20" y="64" width="560" height="219"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="219" id="9Gr-ra-xDq"/>
                                 </constraints>
@@ -2160,51 +2175,24 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JeX-fp-pVd">
-                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
-                                <items>
-                                    <navigationItem title="Asynchronous motor" id="lpg-FX-WEP">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="y9h-v7-pDV">
-                                            <connections>
-                                                <segue destination="fXd-HX-jMZ" kind="presentation" id="cxa-I2-Vvz"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stator3.png" translatesAutoresizingMaskIntoConstraints="NO" id="QBE-S5-uL7">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="300" id="4A1-lP-D4p"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="4A1-lP-D4p"/>
-                                    </mask>
-                                </variation>
-                                <variation key="widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="4A1-lP-D4p"/>
-                                    </mask>
-                                </variation>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="COF-Zm-zrm" firstAttribute="top" secondItem="JeX-fp-pVd" secondAttribute="bottom" id="2P4-Us-zLj"/>
                             <constraint firstItem="COF-Zm-zrm" firstAttribute="centerX" secondItem="JeX-fp-pVd" secondAttribute="centerX" id="AKV-6s-MMp"/>
                             <constraint firstAttribute="trailing" secondItem="JeX-fp-pVd" secondAttribute="trailing" id="DrB-5C-Ln0"/>
                             <constraint firstItem="JeX-fp-pVd" firstAttribute="top" secondItem="VsZ-Fk-TiE" secondAttribute="bottom" id="G8i-xF-xeA"/>
                             <constraint firstItem="COF-Zm-zrm" firstAttribute="top" secondItem="JeX-fp-pVd" secondAttribute="bottom" id="H0a-li-Lun"/>
-                            <constraint firstItem="QBE-S5-uL7" firstAttribute="top" secondItem="COF-Zm-zrm" secondAttribute="bottom" constant="8" symbolic="YES" id="SkS-Ky-4cg"/>
-                            <constraint firstItem="QBE-S5-uL7" firstAttribute="centerX" secondItem="COF-Zm-zrm" secondAttribute="centerX" id="TRX-yw-3PL"/>
-                            <constraint firstItem="QBE-S5-uL7" firstAttribute="leading" secondItem="Jty-Ve-knL" secondAttribute="leadingMargin" constant="30" id="rHH-xl-EPL"/>
+                            <constraint firstItem="JeX-fp-pVd" firstAttribute="leading" secondItem="Jty-Ve-knL" secondAttribute="leading" id="JQO-RU-GO9"/>
+                            <constraint firstItem="JeX-fp-pVd" firstAttribute="top" secondItem="VsZ-Fk-TiE" secondAttribute="bottom" id="Q4t-aG-UWu"/>
+                            <constraint firstAttribute="trailing" secondItem="JeX-fp-pVd" secondAttribute="trailing" id="fJ7-Kf-e9U"/>
+                            <constraint firstItem="JeX-fp-pVd" firstAttribute="centerX" secondItem="COF-Zm-zrm" secondAttribute="centerX" id="hGX-N4-1uV"/>
                             <constraint firstItem="JeX-fp-pVd" firstAttribute="leading" secondItem="Jty-Ve-knL" secondAttribute="leading" id="rbn-IS-8Ca"/>
+                            <constraint firstItem="xqc-cr-dae" firstAttribute="top" secondItem="COF-Zm-zrm" secondAttribute="bottom" constant="317" id="rhk-0Y-zzw"/>
+                            <constraint firstItem="COF-Zm-zrm" firstAttribute="leading" secondItem="Jty-Ve-knL" secondAttribute="leadingMargin" id="x26-e2-iCh"/>
                             <constraint firstItem="COF-Zm-zrm" firstAttribute="leading" secondItem="Jty-Ve-knL" secondAttribute="leadingMargin" id="zMX-aj-dhg"/>
                         </constraints>
                         <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="QBE-S5-uL7"/>
-                            </mask>
                             <mask key="constraints">
                                 <exclude reference="DrB-5C-Ln0"/>
                                 <exclude reference="G8i-xF-xeA"/>
@@ -2212,15 +2200,9 @@
                                 <exclude reference="AKV-6s-MMp"/>
                                 <exclude reference="H0a-li-Lun"/>
                                 <exclude reference="zMX-aj-dhg"/>
-                                <exclude reference="SkS-Ky-4cg"/>
-                                <exclude reference="TRX-yw-3PL"/>
-                                <exclude reference="rHH-xl-EPL"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="QBE-S5-uL7"/>
-                            </mask>
                             <mask key="constraints">
                                 <include reference="DrB-5C-Ln0"/>
                                 <include reference="G8i-xF-xeA"/>
@@ -2228,27 +2210,23 @@
                                 <include reference="AKV-6s-MMp"/>
                                 <include reference="H0a-li-Lun"/>
                                 <include reference="zMX-aj-dhg"/>
-                                <include reference="SkS-Ky-4cg"/>
-                                <include reference="TRX-yw-3PL"/>
-                                <include reference="rHH-xl-EPL"/>
                             </mask>
                         </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rw4-RE-UtY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2245.5" y="4110"/>
+            <point key="canvasLocation" x="2245" y="4110"/>
         </scene>
     </scenes>
     <resources>
         <image name="auto.png" width="100" height="50"/>
         <image name="left.png" width="30" height="60"/>
         <image name="right.png" width="30" height="60"/>
-        <image name="stator3.png" width="640" height="640"/>
         <image name="tesla200.png" width="200" height="200"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="bzV-oF-HBX"/>
+        <segue reference="GjW-ow-PJV"/>
         <segue reference="cxa-I2-Vvz"/>
         <segue reference="R5T-TK-2S4"/>
     </inferredMetricsTieBreakers>
