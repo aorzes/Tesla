@@ -9,5 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface coil : UIViewController
+{
+    UIImageView *drawImage;
+    UIImageView *coilImage;
+    CGPoint centar;
+    CGPoint currentPoint;
+    NSTimer * timerT;
+    CGSize velicina;
 
+    __weak IBOutlet UINavigationBar *navBar;
+}
 @end

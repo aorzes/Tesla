@@ -117,6 +117,26 @@
     rotor.center = stator.center;
     [self.view addSubview:rotor];
     
+    //prekidac
+    
+    podlogaPrekidaca= [[UIImageView alloc]init];
+    podlogaPrekidaca.image =[UIImage imageNamed:@"podlogaPrekidaca"];
+    podlogaPrekidaca.frame=CGRectMake(velicina.width - velicina.width/10,rotor.center.y, velicina.width/11,velicina.width/3);
+    podlogaPrekidaca.center=CGPointMake(velicina.width - velicina.width/10,rotor.center.y);
+    [self.view addSubview:podlogaPrekidaca];
+    
+    prekidac= [[UIImageView alloc]init];
+    prekidac.image =[UIImage imageNamed:@"ruckaPrekidaca"];
+    prekidac.frame=CGRectMake(podlogaPrekidaca.center.x,podlogaPrekidaca.center.y,velicina.width/10,velicina.width/10);
+    prekidac.center=CGPointMake(podlogaPrekidaca.center.x,podlogaPrekidaca.frame.origin.y);
+    [self.view addSubview:prekidac];
+    prekidac.layer.shadowColor = [UIColor blackColor].CGColor;
+    prekidac.layer.shadowOffset = CGSizeMake(-7, 7);
+    prekidac.layer.shadowOpacity = 0.6;
+    prekidac.layer.shadowRadius = 2.0;
+    
+
+    
     trigonom =[[UIImageView alloc]init];
     trigonom.image =[UIImage imageNamed:@"trigonom1"];
     trigonom.frame = CGRectMake(velicina.width/10, stator.center.y+stator.frame.size.height/2+velicina.width/30, velicina.width/1.25, velicina.width/3.75);
@@ -156,6 +176,11 @@
     trigonom.layer.shadowOpacity = 0.6;
     trigonom.layer.shadowRadius = 1.0;
     
+    trigonom.userInteractionEnabled = YES;
+    UIPanGestureRecognizer *panGesture =   [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(paneMe:)];
+    [trigonom addGestureRecognizer:panGesture];
+    
+    [self.view bringSubviewToFront:rotor];
     [self.view bringSubviewToFront:stator];
     [self.view bringSubviewToFront:navBar];
     [self napraviPolja];
@@ -234,6 +259,37 @@
         
     }
     
+}
+
+-(IBAction)paneMe:(UIPanGestureRecognizer *)recognizer{
+    
+    CGPoint translation=[recognizer translationInView:self.view];
+    recognizer.view.center=CGPointMake(recognizer.view.center.x+translation.x,recognizer.view.center.y+translation.y);
+    [recognizer setTranslation:CGPointMake(0, 0) inView:self.view];
+    
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    
+    
+}
+-(void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
+    UITouch *touch = [touches anyObject];
+    CGPoint point = [touch locationInView:self.view];
+    if (CGRectContainsPoint(prekidac.frame,point))
+    {
+        CGPoint pp= prekidac.center;
+        pp.y = point.y;
+        if (pp.y>podlogaPrekidaca.frame.origin.y && pp.y<(podlogaPrekidaca.frame.origin.y+podlogaPrekidaca.frame.size.height)) {
+            prekidac.center = pp;
+            pomak = (podlogaPrekidaca.center.y-prekidac.center.y)/podlogaPrekidaca.frame.size.height/4;
+            NSLog(@"%f",pomak);
+        }
+    };
+
+
+
 }
 
 

@@ -21,6 +21,8 @@
     UIImageView *kazaljka1;
     UIImageView *kazaljka2;
     UIImageView *kazaljka3;
+    UIImageView *prekidac;
+    UIImageView *podlogaPrekidaca;
     UIImageView *trigonom;
     __weak IBOutlet UINavigationBar *navBar;
     CGSize velicina;

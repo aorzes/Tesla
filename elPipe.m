@@ -88,11 +88,7 @@
     strelica1.center = CGPointMake(pocetna.center.x, pocetna.center.y+dimenzija);
     [self.view addSubview:strelica1];
     
-    strelica2 = [[UIImageView alloc]init];
-    strelica2.image = [UIImage imageNamed:@"strelica"];
-    strelica2.frame = CGRectMake(pocetna.frame.origin.x , pocetna.frame.origin.y+dimenzija, dimenzija*0.75, dimenzija*0.75);
-    strelica2.center = CGPointMake(velicina.size.width-dimenzija/2, zavrsna.center.y-dimenzija);
-    [self.view addSubview:strelica2];
+    
     
     zarulja = [[UIImageView alloc]init];
     zarulja.image = [UIImage imageNamed:@"zarulja0000"];
@@ -119,6 +115,11 @@
         ciljana=6;
     }
     
+    strelica2 = [[UIImageView alloc]init];
+    strelica2.image = [UIImage imageNamed:@"strelica"];
+    strelica2.frame = CGRectMake(pocetna.frame.origin.x , pocetna.frame.origin.y+dimenzija, dimenzija*0.75, dimenzija*0.75);
+    strelica2.center = CGPointMake(velicina.size.width-dimenzija/2, zavrsna.center.y-dimenzija);
+    [self.view addSubview:strelica2];
     [self.view bringSubviewToFront:navBar];
     
     NSLog(@"odnos:%f",proporcije);

@@ -68,6 +68,12 @@
 
     [self.view bringSubviewToFront:navBar];
     
+    UITextView *textpolje = [[UITextView alloc]init];
+    textpolje.text =@"Roentgen's letter to Tesla dated July 20th, 1901. The letter reads: 'Dear Sir! You have surprised me tremendously with the beautiful photographs of wonderful discharges and I tell you thank you very much for that. If only I knew how you make such things! With the expression of special respect I remain yours devoted, W. C. Roentgen.'";
+    [textpolje setFont:[UIFont systemFontOfSize:17]];
+    textpolje.frame = CGRectMake(tube.frame.origin.x, tube.frame.origin.y+tube.frame.size.height + 20,
+                                 tube.frame.size.width, velicina.height - (tube.frame.origin.y+tube.frame.size.height + 30));
+    [self.view addSubview:textpolje];
 
 }
 

@@ -26,6 +26,9 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KHd-PU-WpA">
                                         <rect key="frame" x="0.0" y="0.0" width="800" height="1118"/>
                                         <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="podlogaG.png" translatesAutoresizingMaskIntoConstraints="NO" id="YSK-aM-KRa">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                            </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rwc-oU-qIq" userLabel="Bio">
                                                 <rect key="frame" x="89" y="92" width="100" height="100"/>
                                                 <constraints>
@@ -71,7 +74,7 @@
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
-                                                <state key="normal" title="Induction Motor" backgroundImage="tesla200.png">
+                                                <state key="normal" title="Induction Motor" backgroundImage="stator2.png">
                                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <variation key="default">
@@ -154,7 +157,10 @@
                                                     <constraint firstAttribute="width" constant="200" id="qWQ-MN-hXX"/>
                                                     <constraint firstAttribute="height" constant="200" id="vwB-2C-w5u"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="tesla200.png"/>
+                                                <size key="titleShadowOffset" width="1" height="1"/>
+                                                <state key="normal" title="Coil" backgroundImage="coil.png">
+                                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
                                                 <variation key="default">
                                                     <mask key="constraints">
                                                         <exclude reference="OFJ-og-qG4"/>
@@ -317,7 +323,7 @@
                                                     <constraint firstAttribute="height" constant="80" id="dKJ-gS-L1U"/>
                                                 </constraints>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
-                                                <state key="normal" title="xRay" backgroundImage="tesla200.png">
+                                                <state key="normal" title="xRay" backgroundImage="xrayTubeIco.png">
                                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <variation key="default">
@@ -353,7 +359,7 @@
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
-                                                <state key="normal" title="Hydropower" backgroundImage="tesla200.png">
+                                                <state key="normal" title="Hydropower" backgroundImage="turbina3.png">
                                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <variation key="default">
@@ -480,6 +486,7 @@
                                             <constraint firstItem="Znw-ZF-7q1" firstAttribute="width" secondItem="rwc-oU-qIq" secondAttribute="width" id="0sv-vF-LLe"/>
                                             <constraint firstItem="3Yl-ze-wSL" firstAttribute="top" secondItem="WGT-dE-89j" secondAttribute="bottom" constant="8" symbolic="YES" id="13P-fT-hsi"/>
                                             <constraint firstItem="1lO-Wp-NfF" firstAttribute="width" secondItem="JIP-ah-SMR" secondAttribute="width" id="17p-I1-X69"/>
+                                            <constraint firstItem="YSK-aM-KRa" firstAttribute="centerX" secondItem="I2x-CG-kX1" secondAttribute="centerX" id="1CE-WS-kz5"/>
                                             <constraint firstItem="3Yl-ze-wSL" firstAttribute="height" secondItem="JIP-ah-SMR" secondAttribute="height" id="21z-WQ-8CM"/>
                                             <constraint firstItem="rwc-oU-qIq" firstAttribute="leading" secondItem="KHd-PU-WpA" secondAttribute="leading" constant="20" symbolic="YES" id="29t-XD-sSD"/>
                                             <constraint firstItem="JIP-ah-SMR" firstAttribute="width" secondItem="rwc-oU-qIq" secondAttribute="width" id="2pl-H5-sDp"/>
@@ -498,6 +505,7 @@
                                             <constraint firstItem="X5t-7d-thb" firstAttribute="height" secondItem="rwc-oU-qIq" secondAttribute="height" id="A2Q-UT-cy7"/>
                                             <constraint firstItem="WGT-dE-89j" firstAttribute="centerX" secondItem="KHd-PU-WpA" secondAttribute="centerX" id="Bf4-Mw-Esi"/>
                                             <constraint firstItem="3Yl-ze-wSL" firstAttribute="width" secondItem="rwc-oU-qIq" secondAttribute="width" id="C0r-lz-Has"/>
+                                            <constraint firstAttribute="bottom" secondItem="YSK-aM-KRa" secondAttribute="bottom" id="CBn-Jn-OZa"/>
                                             <constraint firstAttribute="trailing" secondItem="AAd-N4-89K" secondAttribute="trailing" constant="20" symbolic="YES" id="CHt-rM-bZF"/>
                                             <constraint firstItem="UTF-Gj-1KE" firstAttribute="leading" secondItem="KHd-PU-WpA" secondAttribute="leading" constant="20" symbolic="YES" id="ChO-Nr-mzD"/>
                                             <constraint firstItem="Znw-ZF-7q1" firstAttribute="centerX" secondItem="KHd-PU-WpA" secondAttribute="centerX" id="DPL-PH-JPo"/>
@@ -537,6 +545,7 @@
                                             <constraint firstItem="UTF-Gj-1KE" firstAttribute="height" secondItem="rwc-oU-qIq" secondAttribute="height" id="RlO-dK-Uzz"/>
                                             <constraint firstItem="c9S-1r-G1e" firstAttribute="height" secondItem="rwc-oU-qIq" secondAttribute="height" id="SHc-uV-69m"/>
                                             <constraint firstItem="1lO-Wp-NfF" firstAttribute="leading" secondItem="KHd-PU-WpA" secondAttribute="leading" constant="20" symbolic="YES" id="SYg-Jz-rBV"/>
+                                            <constraint firstItem="YSK-aM-KRa" firstAttribute="top" secondItem="KHd-PU-WpA" secondAttribute="top" id="UFh-5Y-aNy"/>
                                             <constraint firstItem="X5t-7d-thb" firstAttribute="top" secondItem="rwc-oU-qIq" secondAttribute="bottom" constant="8" symbolic="YES" id="UcA-Id-4PB"/>
                                             <constraint firstItem="LWj-Kv-Lgy" firstAttribute="width" secondItem="rwc-oU-qIq" secondAttribute="width" id="UwD-Y6-J05"/>
                                             <constraint firstItem="AAd-N4-89K" firstAttribute="top" secondItem="KHd-PU-WpA" secondAttribute="top" constant="20" symbolic="YES" id="Wwh-Bv-fMv"/>
@@ -564,6 +573,7 @@
                                             <constraint firstItem="I2x-CG-kX1" firstAttribute="height" secondItem="rwc-oU-qIq" secondAttribute="height" id="db0-Hs-6Cw"/>
                                             <constraint firstItem="JIP-ah-SMR" firstAttribute="leading" secondItem="KHd-PU-WpA" secondAttribute="leading" constant="20" symbolic="YES" id="drI-Tx-d8O"/>
                                             <constraint firstItem="Znw-ZF-7q1" firstAttribute="top" secondItem="KHd-PU-WpA" secondAttribute="top" constant="20" symbolic="YES" id="eJr-u8-EbP"/>
+                                            <constraint firstAttribute="trailing" secondItem="YSK-aM-KRa" secondAttribute="trailing" id="exN-WT-67D"/>
                                             <constraint firstItem="BIt-a3-mST" firstAttribute="width" secondItem="rwc-oU-qIq" secondAttribute="width" id="fLh-3J-DQT"/>
                                             <constraint firstItem="BIt-a3-mST" firstAttribute="width" secondItem="rwc-oU-qIq" secondAttribute="width" id="h0w-e5-QQj"/>
                                             <constraint firstItem="WGT-dE-89j" firstAttribute="top" secondItem="oHr-jN-ncY" secondAttribute="bottom" constant="8" symbolic="YES" id="hB6-Kl-gDm"/>
@@ -575,6 +585,7 @@
                                             <constraint firstItem="c9S-1r-G1e" firstAttribute="centerX" secondItem="KHd-PU-WpA" secondAttribute="centerX" id="k7b-jF-ZwP"/>
                                             <constraint firstAttribute="trailing" secondItem="AAd-N4-89K" secondAttribute="trailing" constant="20" symbolic="YES" id="kSm-0H-Fxn"/>
                                             <constraint firstItem="I2x-CG-kX1" firstAttribute="width" secondItem="JIP-ah-SMR" secondAttribute="width" id="ksv-I9-hDM"/>
+                                            <constraint firstItem="YSK-aM-KRa" firstAttribute="leading" secondItem="KHd-PU-WpA" secondAttribute="leading" id="oOA-zZ-XXA"/>
                                             <constraint firstItem="1lO-Wp-NfF" firstAttribute="top" secondItem="JIP-ah-SMR" secondAttribute="bottom" constant="8" symbolic="YES" id="oWf-qk-W0D"/>
                                             <constraint firstItem="JIP-ah-SMR" firstAttribute="height" secondItem="rwc-oU-qIq" secondAttribute="height" id="pOl-kk-9MG"/>
                                             <constraint firstItem="UTF-Gj-1KE" firstAttribute="top" secondItem="1lO-Wp-NfF" secondAttribute="bottom" constant="8" symbolic="YES" id="q1o-Ck-7Dg"/>
@@ -590,13 +601,25 @@
                                             <constraint firstItem="Clr-lQ-s1u" firstAttribute="width" secondItem="rwc-oU-qIq" secondAttribute="width" id="w9z-ll-Jq5"/>
                                             <constraint firstItem="X5t-7d-thb" firstAttribute="leading" secondItem="KHd-PU-WpA" secondAttribute="leading" constant="20" symbolic="YES" id="y7p-je-Saz"/>
                                             <constraint firstItem="oHr-jN-ncY" firstAttribute="width" secondItem="rwc-oU-qIq" secondAttribute="width" id="yiP-8B-iWn"/>
+                                            <constraint firstItem="YSK-aM-KRa" firstAttribute="leading" secondItem="KHd-PU-WpA" secondAttribute="leading" id="z9d-mw-EZf"/>
+                                            <constraint firstItem="YSK-aM-KRa" firstAttribute="top" secondItem="KHd-PU-WpA" secondAttribute="top" id="zBi-ow-2Ug"/>
                                             <constraint firstItem="c9S-1r-G1e" firstAttribute="width" secondItem="rwc-oU-qIq" secondAttribute="width" id="zGM-yc-wqb"/>
                                             <constraint firstItem="LWj-Kv-Lgy" firstAttribute="top" secondItem="3Yl-ze-wSL" secondAttribute="bottom" constant="8" symbolic="YES" id="zWB-Og-RNe"/>
                                             <constraint firstItem="LWj-Kv-Lgy" firstAttribute="centerX" secondItem="KHd-PU-WpA" secondAttribute="centerX" id="zcu-Ph-trP"/>
                                             <constraint firstItem="1lO-Wp-NfF" firstAttribute="leading" secondItem="KHd-PU-WpA" secondAttribute="leading" constant="20" symbolic="YES" id="zeR-ZI-kjn"/>
                                         </constraints>
                                         <variation key="default">
+                                            <mask key="subviews">
+                                                <exclude reference="YSK-aM-KRa"/>
+                                            </mask>
                                             <mask key="constraints">
+                                                <exclude reference="1CE-WS-kz5"/>
+                                                <exclude reference="CBn-Jn-OZa"/>
+                                                <exclude reference="UFh-5Y-aNy"/>
+                                                <exclude reference="exN-WT-67D"/>
+                                                <exclude reference="oOA-zZ-XXA"/>
+                                                <exclude reference="z9d-mw-EZf"/>
+                                                <exclude reference="zBi-ow-2Ug"/>
                                                 <exclude reference="CHt-rM-bZF"/>
                                                 <exclude reference="DmJ-rQ-ykO"/>
                                                 <exclude reference="Jay-7f-a6N"/>
@@ -717,10 +740,18 @@
                                         </variation>
                                         <variation key="widthClass=compact">
                                             <mask key="subviews">
+                                                <include reference="YSK-aM-KRa"/>
                                                 <include reference="AAd-N4-89K"/>
                                                 <include reference="Znw-ZF-7q1"/>
                                             </mask>
                                             <mask key="constraints">
+                                                <include reference="1CE-WS-kz5"/>
+                                                <include reference="CBn-Jn-OZa"/>
+                                                <include reference="UFh-5Y-aNy"/>
+                                                <include reference="exN-WT-67D"/>
+                                                <include reference="oOA-zZ-XXA"/>
+                                                <include reference="z9d-mw-EZf"/>
+                                                <include reference="zBi-ow-2Ug"/>
                                                 <include reference="CHt-rM-bZF"/>
                                                 <include reference="DmJ-rQ-ykO"/>
                                                 <include reference="Wwh-Bv-fMv"/>
@@ -870,7 +901,7 @@
                                     </constraint>
                                 </constraints>
                             </scrollView>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f7h-ug-eSG">
+                            <navigationBar alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f7h-ug-eSG">
                                 <rect key="frame" x="0.0" y="20" width="800" height="44"/>
                                 <items>
                                     <navigationItem title="MC Nikola Tesla" id="eXZ-c1-fPy">
@@ -1996,6 +2027,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="navBar" destination="RCq-dc-ksv" id="ht6-ox-q2s"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nFt-QF-mWp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2221,13 +2255,18 @@
     </scenes>
     <resources>
         <image name="auto.png" width="100" height="50"/>
+        <image name="coil.png" width="320" height="460"/>
         <image name="left.png" width="30" height="60"/>
+        <image name="podlogaG.png" width="1536" height="2048"/>
         <image name="right.png" width="30" height="60"/>
+        <image name="stator2.png" width="640" height="640"/>
         <image name="tesla200.png" width="200" height="200"/>
+        <image name="turbina3.png" width="320" height="320"/>
+        <image name="xrayTubeIco.png" width="200" height="155"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="GjW-ow-PJV"/>
-        <segue reference="cxa-I2-Vvz"/>
-        <segue reference="R5T-TK-2S4"/>
+        <segue reference="acu-Nf-8dN"/>
+        <segue reference="Fvh-Om-ZhG"/>
+        <segue reference="IVs-Os-ns3"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -30,7 +30,7 @@
     UIImageView *trigonom =[[UIImageView alloc]init];
     trigonom.image =[UIImage imageNamed:@"trigonom1"];
     trigonom.frame = CGRectMake(velicina.width/10, stator.center.y+stator.frame.size.height/2+velicina.width/30, velicina.width/1.25, velicina.width/3.75);
-    trigonom.center = stator.center;
+    trigonom.center = CGPointMake(stator.center.x + velicina.width/3.7, stator.center.y) ;
     [self.view addSubview:trigonom];
     trigonom.animationImages=[NSArray arrayWithObjects:
                               [UIImage imageNamed: @"trigonom1"],
@@ -61,9 +61,27 @@
     trigonom.animationDuration=2.5;
     trigonom.animationRepeatCount=0;
     [trigonom startAnimating];
+    trigonom.layer.shadowColor = [UIColor blackColor].CGColor;
+    trigonom.layer.shadowOffset = CGSizeMake(-3, 3);
+    trigonom.layer.shadowOpacity = 0.6;
+    trigonom.layer.shadowRadius = 1.0;
+    
+    trigonom.userInteractionEnabled = YES;
+    UIPanGestureRecognizer *panGesture =   [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(paneMe:)];
+    [trigonom addGestureRecognizer:panGesture];
+    [self.view bringSubviewToFront:stator];
 
 
 }
+
+-(IBAction)paneMe:(UIPanGestureRecognizer *)recognizer{
+    
+    CGPoint translation=[recognizer translationInView:self.view];
+    recognizer.view.center=CGPointMake(recognizer.view.center.x+translation.x,recognizer.view.center.y+translation.y);
+    [recognizer setTranslation:CGPointMake(0, 0) inView:self.view];
+    
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
