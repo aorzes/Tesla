@@ -1445,17 +1445,40 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zZV-Nl-UnC">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="EPO-so-iPX">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EPO-so-iPX" id="2N8-ju-luE">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="nQe-Wb-YjZ" id="hcc-V7-Znm"/>
+                                    <outlet property="delegate" destination="nQe-Wb-YjZ" id="1cF-jA-esg"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Lem-oT-UzT" secondAttribute="trailing" id="8nU-nE-Vvf"/>
+                            <constraint firstItem="zZV-Nl-UnC" firstAttribute="top" secondItem="Lem-oT-UzT" secondAttribute="bottom" id="Emb-eL-dfR"/>
                             <constraint firstItem="Lem-oT-UzT" firstAttribute="leading" secondItem="0oi-DV-L4y" secondAttribute="leading" id="GLt-wz-5DL"/>
                             <constraint firstItem="Lem-oT-UzT" firstAttribute="leading" secondItem="0oi-DV-L4y" secondAttribute="leading" id="OA4-dU-TMK"/>
+                            <constraint firstItem="zZV-Nl-UnC" firstAttribute="leading" secondItem="Lem-oT-UzT" secondAttribute="leading" id="e6U-2Y-WCR"/>
+                            <constraint firstItem="zZV-Nl-UnC" firstAttribute="bottom" secondItem="Yyt-cT-T3c" secondAttribute="top" id="eMU-VK-n8x"/>
                             <constraint firstItem="Lem-oT-UzT" firstAttribute="top" secondItem="18P-MG-jZt" secondAttribute="bottom" id="eT3-Lo-ZJG"/>
                             <constraint firstAttribute="trailing" secondItem="Lem-oT-UzT" secondAttribute="trailing" id="gzi-u8-AbV"/>
+                            <constraint firstItem="zZV-Nl-UnC" firstAttribute="trailing" secondItem="Lem-oT-UzT" secondAttribute="trailing" id="nNx-eI-fdN"/>
                             <constraint firstItem="Lem-oT-UzT" firstAttribute="top" secondItem="18P-MG-jZt" secondAttribute="bottom" id="wYn-4n-zph"/>
                         </constraints>
                         <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="zZV-Nl-UnC"/>
+                            </mask>
                             <mask key="constraints">
                                 <exclude reference="8nU-nE-Vvf"/>
                                 <exclude reference="GLt-wz-5DL"/>
@@ -1463,16 +1486,25 @@
                                 <exclude reference="eT3-Lo-ZJG"/>
                                 <exclude reference="gzi-u8-AbV"/>
                                 <exclude reference="wYn-4n-zph"/>
+                                <exclude reference="Emb-eL-dfR"/>
+                                <exclude reference="e6U-2Y-WCR"/>
+                                <exclude reference="eMU-VK-n8x"/>
+                                <exclude reference="nNx-eI-fdN"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="Lem-oT-UzT"/>
+                                <include reference="zZV-Nl-UnC"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="GLt-wz-5DL"/>
                                 <include reference="eT3-Lo-ZJG"/>
                                 <include reference="gzi-u8-AbV"/>
+                                <include reference="Emb-eL-dfR"/>
+                                <include reference="e6U-2Y-WCR"/>
+                                <include reference="eMU-VK-n8x"/>
+                                <include reference="nNx-eI-fdN"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
@@ -1483,6 +1515,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="tablica" destination="zZV-Nl-UnC" id="eH0-aG-OQA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mJ0-oW-Me7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1579,6 +1614,7 @@
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="Far-d1-ENW"/>
+                                <exclude reference="gn0-jn-sXv"/>
                                 <exclude reference="Hul-Vu-zBK"/>
                                 <exclude reference="Xzl-Kc-3ru"/>
                                 <exclude reference="idk-Va-QF6"/>
@@ -1586,25 +1622,24 @@
                                 <exclude reference="txK-wj-pzv"/>
                                 <exclude reference="woC-TB-Z2S"/>
                                 <exclude reference="yKc-3y-qxZ"/>
-                                <exclude reference="gn0-jn-sXv"/>
-                                <exclude reference="llI-VC-jRj"/>
                                 <exclude reference="2JW-cI-HGg"/>
                                 <exclude reference="Bi9-gY-Xnr"/>
                                 <exclude reference="U2p-Dq-z7m"/>
                                 <exclude reference="UGh-q4-zzu"/>
                                 <exclude reference="VKy-fS-UwM"/>
                                 <exclude reference="Znm-VZ-eDf"/>
+                                <exclude reference="llI-VC-jRj"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="constraints">
+                                <include reference="gn0-jn-sXv"/>
                                 <include reference="Hul-Vu-zBK"/>
                                 <include reference="idk-Va-QF6"/>
                                 <include reference="kvh-LA-Evx"/>
                                 <include reference="txK-wj-pzv"/>
                                 <include reference="woC-TB-Z2S"/>
                                 <include reference="yKc-3y-qxZ"/>
-                                <include reference="gn0-jn-sXv"/>
                                 <include reference="U2p-Dq-z7m"/>
                                 <include reference="UGh-q4-zzu"/>
                                 <include reference="Znm-VZ-eDf"/>
@@ -1618,10 +1653,10 @@
                             <mask key="constraints">
                                 <include reference="Far-d1-ENW"/>
                                 <include reference="Xzl-Kc-3ru"/>
-                                <include reference="llI-VC-jRj"/>
                                 <include reference="2JW-cI-HGg"/>
                                 <include reference="Bi9-gY-Xnr"/>
                                 <include reference="VKy-fS-UwM"/>
+                                <include reference="llI-VC-jRj"/>
                             </mask>
                         </variation>
                     </view>
@@ -2031,6 +2066,6 @@
         <image name="tesla200.png" width="200" height="200"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="J6Y-MY-w8r"/>
+        <segue reference="4yP-pA-Vft"/>
     </inferredMetricsTieBreakers>
 </document>
