@@ -34,11 +34,12 @@ float sgn(float n) { return (n < 0.0) ? -1.0 : (n > 0.0) ? 1.0 : 0.0; }
     
     coilImage = [[UIImageView alloc]init];
     coilImage.image = [UIImage imageNamed:@"coil"];
-    coilImage.frame = CGRectMake(velicina.width/6, velicina.width/2, velicina.width/1.5, velicina.width);
+    coilImage.frame = CGRectMake(velicina.width/6, velicina.width/2, velicina.width/1.52, velicina.width);
     coilImage.tag=1;
     [self.view addSubview:coilImage];
     navBar.tag = 1;
     [self.view bringSubviewToFront:navBar];
+    [self startT];
 
 
 }
@@ -66,7 +67,7 @@ float sgn(float n) { return (n < 0.0) ? -1.0 : (n > 0.0) ? 1.0 : 0.0; }
     //priprema
     UIGraphicsBeginImageContext(drawImage.frame.size);
     
-    CGRect myImageRect = CGRectMake(0, 0, 320, 480);//NAPRAVI kvadrat za sliku
+    CGRect myImageRect = CGRectMake(0, 0, velicina.width, velicina.height);//NAPRAVI kvadrat za sliku
     drawImage=[[UIImageView alloc] initWithFrame:myImageRect];//alociraj memoriju
     [self.view addSubview:drawImage];
     
