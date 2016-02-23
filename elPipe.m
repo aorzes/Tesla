@@ -88,11 +88,7 @@
     strelica1.center = CGPointMake(pocetna.center.x, pocetna.center.y+dimenzija);
     [self.view addSubview:strelica1];
     
-    strelica2 = [[UIImageView alloc]init];
-    strelica2.image = [UIImage imageNamed:@"strelica"];
-    strelica2.frame = CGRectMake(pocetna.frame.origin.x , pocetna.frame.origin.y+dimenzija, dimenzija*0.75, dimenzija*0.75);
-    strelica2.center = CGPointMake(velicina.size.width-dimenzija/2, zavrsna.center.y-dimenzija);
-    [self.view addSubview:strelica2];
+    
     
     zarulja = [[UIImageView alloc]init];
     zarulja.image = [UIImage imageNamed:@"zarulja0000"];
@@ -119,6 +115,11 @@
         ciljana=6;
     }
     
+    strelica2 = [[UIImageView alloc]init];
+    strelica2.image = [UIImage imageNamed:@"strelica"];
+    strelica2.frame = CGRectMake(pocetna.frame.origin.x , pocetna.frame.origin.y+dimenzija, dimenzija*0.75, dimenzija*0.75);
+    strelica2.center = CGPointMake(velicina.size.width-dimenzija/2, zavrsna.center.y-dimenzija);
+    [self.view addSubview:strelica2];
     [self.view bringSubviewToFront:navBar];
     
     NSLog(@"odnos:%f",proporcije);
@@ -349,7 +350,7 @@
                 if((polje[i+1][j]==3 || polje[i+1][j]==4 || polje[i+1][j]==6) && vektor == 1) //odozgo prema dolje
                 {
                     i++; //ide desno
-                    NSLog(@"AsHa!");
+                  
                     if(i>5) { curiX=i;curiY=j;return false;}
                     if(polje[i][j]==3) vektor = 2; //s lijeva dolje
                     if(polje[i][j]==4) vektor = 0; //s lijeva gore

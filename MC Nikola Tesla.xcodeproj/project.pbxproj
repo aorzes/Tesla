@@ -96,7 +96,56 @@
 		EC5C627A1C581F9700608AEC /* ticon.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C62791C581F9700608AEC /* ticon.png */; };
 		EC5C62811C58331900608AEC /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C627F1C58331900608AEC /* left.png */; };
 		EC5C62821C58331900608AEC /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C62801C58331900608AEC /* right.png */; };
+		EC645D391C7C522B007E4ECB /* victorian.png in Resources */ = {isa = PBXBuildFile; fileRef = EC645D381C7C522B007E4ECB /* victorian.png */; };
+		EC645D3B1C7C5528007E4ECB /* podlogaG2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC645D3A1C7C5527007E4ECB /* podlogaG2.png */; };
+		EC74B6DA1C7462360016444E /* stator2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B6D91C7462360016444E /* stator2.png */; };
+		EC74B6DC1C7462450016444E /* rotor3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B6DB1C7462450016444E /* rotor3.png */; };
+		EC74B6DE1C7462510016444E /* instrument.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B6DD1C7462510016444E /* instrument.png */; };
+		EC74B6E01C74625B0016444E /* kaz2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B6DF1C74625B0016444E /* kaz2.png */; };
+		EC74B6E21C74F8050016444E /* bomba.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B6E11C74F8050016444E /* bomba.png */; };
+		EC74B71F1C752AF60016444E /* trigonom24.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B7071C752AF60016444E /* trigonom24.png */; };
+		EC74B7201C752AF60016444E /* trigonom23.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B7081C752AF60016444E /* trigonom23.png */; };
+		EC74B7211C752AF60016444E /* trigonom22.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B7091C752AF60016444E /* trigonom22.png */; };
+		EC74B7221C752AF60016444E /* trigonom21.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B70A1C752AF60016444E /* trigonom21.png */; };
+		EC74B7231C752AF60016444E /* trigonom20.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B70B1C752AF60016444E /* trigonom20.png */; };
+		EC74B7241C752AF60016444E /* trigonom19.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B70C1C752AF60016444E /* trigonom19.png */; };
+		EC74B7251C752AF60016444E /* trigonom18.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B70D1C752AF60016444E /* trigonom18.png */; };
+		EC74B7261C752AF60016444E /* trigonom17.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B70E1C752AF60016444E /* trigonom17.png */; };
+		EC74B7271C752AF60016444E /* trigonom16.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B70F1C752AF60016444E /* trigonom16.png */; };
+		EC74B7281C752AF60016444E /* trigonom15.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B7101C752AF60016444E /* trigonom15.png */; };
+		EC74B7291C752AF60016444E /* trigonom14.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B7111C752AF60016444E /* trigonom14.png */; };
+		EC74B72A1C752AF60016444E /* trigonom13.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B7121C752AF60016444E /* trigonom13.png */; };
+		EC74B72B1C752AF60016444E /* trigonom12.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B7131C752AF60016444E /* trigonom12.png */; };
+		EC74B72C1C752AF60016444E /* trigonom11.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B7141C752AF60016444E /* trigonom11.png */; };
+		EC74B72D1C752AF60016444E /* trigonom10.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B7151C752AF60016444E /* trigonom10.png */; };
+		EC74B72E1C752AF60016444E /* trigonom9.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B7161C752AF60016444E /* trigonom9.png */; };
+		EC74B72F1C752AF60016444E /* trigonom8.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B7171C752AF60016444E /* trigonom8.png */; };
+		EC74B7301C752AF60016444E /* trigonom7.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B7181C752AF60016444E /* trigonom7.png */; };
+		EC74B7311C752AF60016444E /* trigonom6.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B7191C752AF60016444E /* trigonom6.png */; };
+		EC74B7321C752AF60016444E /* trigonom5.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B71A1C752AF60016444E /* trigonom5.png */; };
+		EC74B7331C752AF60016444E /* trigonom4.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B71B1C752AF60016444E /* trigonom4.png */; };
+		EC74B7341C752AF60016444E /* trigonom3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B71C1C752AF60016444E /* trigonom3.png */; };
+		EC74B7351C752AF60016444E /* trigonom2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B71D1C752AF60016444E /* trigonom2.png */; };
+		EC8B2A4A1C787E2900680ABD /* coil.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B2A491C787E2900680ABD /* coil.png */; };
 		ECCD0F741C63BB1900A1A4D7 /* tesla200.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCD0F731C63BB1900A1A4D7 /* tesla200.png */; };
+		ECF6EDFC1C7307F70070C7D2 /* xRayInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF6EDFB1C7307F70070C7D2 /* xRayInfo.m */; };
+		ECF6EE031C73135E0070C7D2 /* elektron.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE021C73135E0070C7D2 /* elektron.png */; };
+		ECF6EE0C1C731DF20070C7D2 /* xReyBeam8.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE041C731DF20070C7D2 /* xReyBeam8.png */; };
+		ECF6EE0D1C731DF20070C7D2 /* xReyBeam7.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE051C731DF20070C7D2 /* xReyBeam7.png */; };
+		ECF6EE0E1C731DF20070C7D2 /* xReyBeam6.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE061C731DF20070C7D2 /* xReyBeam6.png */; };
+		ECF6EE0F1C731DF20070C7D2 /* xReyBeam5.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE071C731DF20070C7D2 /* xReyBeam5.png */; };
+		ECF6EE101C731DF20070C7D2 /* xReyBeam4.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE081C731DF20070C7D2 /* xReyBeam4.png */; };
+		ECF6EE111C731DF20070C7D2 /* xReyBeam3.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE091C731DF20070C7D2 /* xReyBeam3.png */; };
+		ECF6EE121C731DF20070C7D2 /* xReyBeam2.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE0A1C731DF20070C7D2 /* xReyBeam2.png */; };
+		ECF6EE131C731DF20070C7D2 /* xReyBeam1.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE0B1C731DF20070C7D2 /* xReyBeam1.png */; };
+		ECF6EE151C7323330070C7D2 /* daska.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE141C7323330070C7D2 /* daska.png */; };
+		ECF6EE191C7363620070C7D2 /* xrayTube.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE181C7363620070C7D2 /* xrayTube.png */; };
+		ECF6EE1B1C736DBF0070C7D2 /* treca.html in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE1A1C736DBF0070C7D2 /* treca.html */; };
+		ECF6EE1D1C736DD20070C7D2 /* cetvrta.html in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE1C1C736DD20070C7D2 /* cetvrta.html */; };
+		ECF6EE1F1C736DDD0070C7D2 /* peta.html in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE1E1C736DDD0070C7D2 /* peta.html */; };
+		ECF6EE211C736DE80070C7D2 /* sesta.html in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE201C736DE80070C7D2 /* sesta.html */; };
+		ECF6EE231C736E310070C7D2 /* stator3.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE221C736E310070C7D2 /* stator3.png */; };
+		ECF6EE251C736E4D0070C7D2 /* coil.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE241C736E4D0070C7D2 /* coil.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -210,7 +259,57 @@
 		EC5C62791C581F9700608AEC /* ticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ticon.png; sourceTree = "<group>"; };
 		EC5C627F1C58331900608AEC /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
 		EC5C62801C58331900608AEC /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		EC645D381C7C522B007E4ECB /* victorian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = victorian.png; sourceTree = "<group>"; };
+		EC645D3A1C7C5527007E4ECB /* podlogaG2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podlogaG2.png; sourceTree = "<group>"; };
+		EC74B6D91C7462360016444E /* stator2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stator2.png; sourceTree = "<group>"; };
+		EC74B6DB1C7462450016444E /* rotor3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotor3.png; sourceTree = "<group>"; };
+		EC74B6DD1C7462510016444E /* instrument.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrument.png; sourceTree = "<group>"; };
+		EC74B6DF1C74625B0016444E /* kaz2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kaz2.png; sourceTree = "<group>"; };
+		EC74B6E11C74F8050016444E /* bomba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bomba.png; sourceTree = "<group>"; };
+		EC74B7071C752AF60016444E /* trigonom24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom24.png; sourceTree = "<group>"; };
+		EC74B7081C752AF60016444E /* trigonom23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom23.png; sourceTree = "<group>"; };
+		EC74B7091C752AF60016444E /* trigonom22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom22.png; sourceTree = "<group>"; };
+		EC74B70A1C752AF60016444E /* trigonom21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom21.png; sourceTree = "<group>"; };
+		EC74B70B1C752AF60016444E /* trigonom20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom20.png; sourceTree = "<group>"; };
+		EC74B70C1C752AF60016444E /* trigonom19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom19.png; sourceTree = "<group>"; };
+		EC74B70D1C752AF60016444E /* trigonom18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom18.png; sourceTree = "<group>"; };
+		EC74B70E1C752AF60016444E /* trigonom17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom17.png; sourceTree = "<group>"; };
+		EC74B70F1C752AF60016444E /* trigonom16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom16.png; sourceTree = "<group>"; };
+		EC74B7101C752AF60016444E /* trigonom15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom15.png; sourceTree = "<group>"; };
+		EC74B7111C752AF60016444E /* trigonom14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom14.png; sourceTree = "<group>"; };
+		EC74B7121C752AF60016444E /* trigonom13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom13.png; sourceTree = "<group>"; };
+		EC74B7131C752AF60016444E /* trigonom12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom12.png; sourceTree = "<group>"; };
+		EC74B7141C752AF60016444E /* trigonom11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom11.png; sourceTree = "<group>"; };
+		EC74B7151C752AF60016444E /* trigonom10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom10.png; sourceTree = "<group>"; };
+		EC74B7161C752AF60016444E /* trigonom9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom9.png; sourceTree = "<group>"; };
+		EC74B7171C752AF60016444E /* trigonom8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom8.png; sourceTree = "<group>"; };
+		EC74B7181C752AF60016444E /* trigonom7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom7.png; sourceTree = "<group>"; };
+		EC74B7191C752AF60016444E /* trigonom6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom6.png; sourceTree = "<group>"; };
+		EC74B71A1C752AF60016444E /* trigonom5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom5.png; sourceTree = "<group>"; };
+		EC74B71B1C752AF60016444E /* trigonom4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom4.png; sourceTree = "<group>"; };
+		EC74B71C1C752AF60016444E /* trigonom3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom3.png; sourceTree = "<group>"; };
+		EC74B71D1C752AF60016444E /* trigonom2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom2.png; sourceTree = "<group>"; };
+		EC8B2A491C787E2900680ABD /* coil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coil.png; sourceTree = "<group>"; };
 		ECCD0F731C63BB1900A1A4D7 /* tesla200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tesla200.png; sourceTree = "<group>"; };
+		ECF6EDFA1C7307F70070C7D2 /* xRayInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xRayInfo.h; sourceTree = "<group>"; };
+		ECF6EDFB1C7307F70070C7D2 /* xRayInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xRayInfo.m; sourceTree = "<group>"; };
+		ECF6EE021C73135E0070C7D2 /* elektron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elektron.png; sourceTree = "<group>"; };
+		ECF6EE041C731DF20070C7D2 /* xReyBeam8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam8.png; sourceTree = "<group>"; };
+		ECF6EE051C731DF20070C7D2 /* xReyBeam7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam7.png; sourceTree = "<group>"; };
+		ECF6EE061C731DF20070C7D2 /* xReyBeam6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam6.png; sourceTree = "<group>"; };
+		ECF6EE071C731DF20070C7D2 /* xReyBeam5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam5.png; sourceTree = "<group>"; };
+		ECF6EE081C731DF20070C7D2 /* xReyBeam4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam4.png; sourceTree = "<group>"; };
+		ECF6EE091C731DF20070C7D2 /* xReyBeam3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam3.png; sourceTree = "<group>"; };
+		ECF6EE0A1C731DF20070C7D2 /* xReyBeam2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam2.png; sourceTree = "<group>"; };
+		ECF6EE0B1C731DF20070C7D2 /* xReyBeam1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam1.png; sourceTree = "<group>"; };
+		ECF6EE141C7323330070C7D2 /* daska.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daska.png; sourceTree = "<group>"; };
+		ECF6EE181C7363620070C7D2 /* xrayTube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xrayTube.png; sourceTree = "<group>"; };
+		ECF6EE1A1C736DBF0070C7D2 /* treca.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = treca.html; sourceTree = "<group>"; };
+		ECF6EE1C1C736DD20070C7D2 /* cetvrta.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cetvrta.html; sourceTree = "<group>"; };
+		ECF6EE1E1C736DDD0070C7D2 /* peta.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = peta.html; sourceTree = "<group>"; };
+		ECF6EE201C736DE80070C7D2 /* sesta.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sesta.html; sourceTree = "<group>"; };
+		ECF6EE221C736E310070C7D2 /* stator3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stator3.png; sourceTree = "<group>"; };
+		ECF6EE241C736E4D0070C7D2 /* coil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coil.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -273,11 +372,23 @@
 		EC570DDF1C723EEC00B02555 /* xRaySlike */ = {
 			isa = PBXGroup;
 			children = (
+				EC1C68541C775C28001516D2 /* xrayTubeIco.png */,
+				ECF6EE141C7323330070C7D2 /* daska.png */,
+				ECF6EE041C731DF20070C7D2 /* xReyBeam8.png */,
+				ECF6EE051C731DF20070C7D2 /* xReyBeam7.png */,
+				ECF6EE061C731DF20070C7D2 /* xReyBeam6.png */,
+				ECF6EE071C731DF20070C7D2 /* xReyBeam5.png */,
+				ECF6EE081C731DF20070C7D2 /* xReyBeam4.png */,
+				ECF6EE091C731DF20070C7D2 /* xReyBeam3.png */,
+				ECF6EE0A1C731DF20070C7D2 /* xReyBeam2.png */,
+				ECF6EE0B1C731DF20070C7D2 /* xReyBeam1.png */,
 				EC570DE81C723F2B00B02555 /* zidXray.png */,
 				EC570DE01C723F1500B02555 /* konzola.png */,
 				EC570DE11C723F1500B02555 /* podlogaXekrana.png */,
 				EC570DE21C723F1500B02555 /* tijelo.png */,
 				EC570DE31C723F1500B02555 /* tijelo1.png */,
+				ECF6EE021C73135E0070C7D2 /* elektron.png */,
+				ECF6EE181C7363620070C7D2 /* xrayTube.png */,
 			);
 			name = xRaySlike;
 			sourceTree = "<group>";
@@ -320,6 +431,8 @@
 				EC5C62581C56B20600608AEC /* jaje.m */,
 				EC5C62541C56B1D000608AEC /* xray.h */,
 				EC5C62551C56B1D000608AEC /* xray.m */,
+				ECF6EDFA1C7307F70070C7D2 /* xRayInfo.h */,
+				ECF6EDFB1C7307F70070C7D2 /* xRayInfo.m */,
 				EC5C62511C56B1A700608AEC /* Faradey.h */,
 				EC5C62521C56B1A700608AEC /* Faradey.m */,
 				EC5C624E1C56B15200608AEC /* findus.h */,
@@ -353,6 +466,8 @@
 				EC5C62401C56AFFC00608AEC /* wireless.m */,
 				EC5C623C1C56AF8C00608AEC /* motor.h */,
 				EC5C623D1C56AF8C00608AEC /* motor.m */,
+				EC1F5C421C7610770009E731 /* motorInfo.h */,
+				EC1F5C431C7610770009E731 /* motorInfo.m */,
 				EC5C62391C56AE5F00608AEC /* energy.h */,
 				EC5C623A1C56AE5F00608AEC /* energy.m */,
 				EC5C62361C56ADFA00608AEC /* bio.h */,
@@ -379,11 +494,17 @@
 			children = (
 				EC5C626B1C58034F00608AEC /* prva.html */,
 				EC5C62731C5818ED00608AEC /* druga.html */,
+				ECF6EE1A1C736DBF0070C7D2 /* treca.html */,
+				ECF6EE1C1C736DD20070C7D2 /* cetvrta.html */,
+				ECF6EE1E1C736DDD0070C7D2 /* peta.html */,
+				ECF6EE201C736DE80070C7D2 /* sesta.html */,
 				EC5C626F1C58117600608AEC /* teslaSmiljan.jpg */,
 				EC5C62711C58119200608AEC /* TeslaSjedi.png */,
 				EC5C62751C581C4D00608AEC /* brodizvan.png */,
 				EC5C627F1C58331900608AEC /* left.png */,
 				EC5C62801C58331900608AEC /* right.png */,
+				ECF6EE221C736E310070C7D2 /* stator3.png */,
+				ECF6EE241C736E4D0070C7D2 /* coil.png */,
 			);
 			name = webStranice;
 			path = "MC Nikola Tesla";
@@ -392,6 +513,11 @@
 		EC5C62771C581F6B00608AEC /* slike */ = {
 			isa = PBXGroup;
 			children = (
+				EC1C68521C775364001516D2 /* podlogaG.png */,
+				EC645D3A1C7C5527007E4ECB /* podlogaG2.png */,
+				EC645D381C7C522B007E4ECB /* victorian.png */,
+				EC8B2A491C787E2900680ABD /* coil.png */,
+				EC74B6D81C7462070016444E /* motorSlike */,
 				EC570DDF1C723EEC00B02555 /* xRaySlike */,
 				EC38B1F91C6FCCFC00BD6E6D /* auto.png */,
 				EC46578B1C67D60200F6509E /* pipeSlike */,
@@ -406,6 +532,53 @@
 				EC5C62791C581F9700608AEC /* ticon.png */,
 			);
 			name = ikone;
+			sourceTree = "<group>";
+		};
+		EC74B6D81C7462070016444E /* motorSlike */ = {
+			isa = PBXGroup;
+			children = (
+				EC74B7061C752AE10016444E /* trigoSlike */,
+				EC74B6D91C7462360016444E /* stator2.png */,
+				EC1F5C3E1C75BDFA0009E731 /* stator3.png */,
+				EC74B6DB1C7462450016444E /* rotor3.png */,
+				EC74B6DD1C7462510016444E /* instrument.png */,
+				EC74B6DF1C74625B0016444E /* kaz2.png */,
+				EC74B6E11C74F8050016444E /* bomba.png */,
+				EC1F5C451C7671250009E731 /* ruckaPrekidaca.png */,
+				EC1F5C471C76712E0009E731 /* podlogaPrekidaca.png */,
+			);
+			name = motorSlike;
+			sourceTree = "<group>";
+		};
+		EC74B7061C752AE10016444E /* trigoSlike */ = {
+			isa = PBXGroup;
+			children = (
+				EC74B7071C752AF60016444E /* trigonom24.png */,
+				EC74B7081C752AF60016444E /* trigonom23.png */,
+				EC74B7091C752AF60016444E /* trigonom22.png */,
+				EC74B70A1C752AF60016444E /* trigonom21.png */,
+				EC74B70B1C752AF60016444E /* trigonom20.png */,
+				EC74B70C1C752AF60016444E /* trigonom19.png */,
+				EC74B70D1C752AF60016444E /* trigonom18.png */,
+				EC74B70E1C752AF60016444E /* trigonom17.png */,
+				EC74B70F1C752AF60016444E /* trigonom16.png */,
+				EC74B7101C752AF60016444E /* trigonom15.png */,
+				EC74B7111C752AF60016444E /* trigonom14.png */,
+				EC74B7121C752AF60016444E /* trigonom13.png */,
+				EC74B7131C752AF60016444E /* trigonom12.png */,
+				EC74B7141C752AF60016444E /* trigonom11.png */,
+				EC74B7151C752AF60016444E /* trigonom10.png */,
+				EC74B7161C752AF60016444E /* trigonom9.png */,
+				EC74B7171C752AF60016444E /* trigonom8.png */,
+				EC74B7181C752AF60016444E /* trigonom7.png */,
+				EC74B7191C752AF60016444E /* trigonom6.png */,
+				EC74B71A1C752AF60016444E /* trigonom5.png */,
+				EC74B71B1C752AF60016444E /* trigonom4.png */,
+				EC74B71C1C752AF60016444E /* trigonom3.png */,
+				EC74B71D1C752AF60016444E /* trigonom2.png */,
+				EC1F5C401C760B720009E731 /* trigonom1.png */,
+			);
+			name = trigoSlike;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -466,7 +639,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECF6EE1D1C736DD20070C7D2 /* cetvrta.html in Resources */,
 				EC4657CF1C67D65D00F6509E /* strelica.png in Resources */,
+				ECF6EE251C736E4D0070C7D2 /* coil.png in Resources */,
+				EC74B72C1C752AF60016444E /* trigonom11.png in Resources */,
 				EC570DE51C723F1500B02555 /* podlogaXekrana.png in Resources */,
 				ACE8A89B1C7BB01500EC9A83 /* sest.png in Resources */,
 				EC4657B31C67D65D00F6509E /* cijevi2.png in Resources */,
@@ -477,16 +653,31 @@
 				EC4657D51C67D65D00F6509E /* zarulja0008.png in Resources */,
 				ACE8A8961C7BB01500EC9A83 /* jedan.png in Resources */,
 				EC4657D71C67D65D00F6509E /* zarulja0010.png in Resources */,
+				ECF6EE191C7363620070C7D2 /* xrayTube.png in Resources */,
 				EC4657B21C67D65D00F6509E /* cijevi1.png in Resources */,
+				ECF6EE111C731DF20070C7D2 /* xReyBeam3.png in Resources */,
 				EC4657D61C67D65D00F6509E /* zarulja0009.png in Resources */,
 				ACE8A8971C7BB01500EC9A83 /* jedanaest.png in Resources */,
 				EC4657CA1C67D65D00F6509E /* mlazVodeD1.png in Resources */,
 				EC4657D41C67D65D00F6509E /* zarulja0007.png in Resources */,
+				EC74B72B1C752AF60016444E /* trigonom12.png in Resources */,
+				EC74B71F1C752AF60016444E /* trigonom24.png in Resources */,
+				EC74B7251C752AF60016444E /* trigonom18.png in Resources */,
 				EC4657C71C67D65D00F6509E /* mlazVodeC1.png in Resources */,
+				EC1C68551C775C28001516D2 /* xrayTubeIco.png in Resources */,
+				EC74B7331C752AF60016444E /* trigonom4.png in Resources */,
 				EC4657C21C67D65D00F6509E /* mlazVodeA3.png in Resources */,
+				EC1F5C481C76712E0009E731 /* podlogaPrekidaca.png in Resources */,
+				EC74B7341C752AF60016444E /* trigonom3.png in Resources */,
+				ECF6EE0F1C731DF20070C7D2 /* xReyBeam5.png in Resources */,
+				ECF6EE1B1C736DBF0070C7D2 /* treca.html in Resources */,
+				ECF6EE121C731DF20070C7D2 /* xReyBeam2.png in Resources */,
+				ECF6EE0C1C731DF20070C7D2 /* xReyBeam8.png in Resources */,
 				EC4657C81C67D65D00F6509E /* mlazVodeC3.png in Resources */,
+				EC645D3B1C7C5528007E4ECB /* podlogaG2.png in Resources */,
 				EC570DE61C723F1500B02555 /* tijelo.png in Resources */,
 				EC4657BD1C67D65D00F6509E /* mlazVode1.png in Resources */,
+				ECF6EE131C731DF20070C7D2 /* xReyBeam1.png in Resources */,
 				EC5C622F1C567FC400608AEC /* LaunchScreen.storyboard in Resources */,
 				EC5C62721C58119200608AEC /* TeslaSjedi.png in Resources */,
 				ECCD0F741C63BB1900A1A4D7 /* tesla200.png in Resources */,
@@ -495,21 +686,35 @@
 				EC4657B41C67D65D00F6509E /* cijevi3.png in Resources */,
 				EC5C62701C58117600608AEC /* teslaSmiljan.jpg in Resources */,
 				EC4657BC1C67D65D00F6509E /* mlazVode0.png in Resources */,
+				EC74B7231C752AF60016444E /* trigonom20.png in Resources */,
 				EC4657D01C67D65D00F6509E /* turbina3.png in Resources */,
+				ECF6EE1F1C736DDD0070C7D2 /* peta.html in Resources */,
+				ECF6EE0D1C731DF20070C7D2 /* xReyBeam7.png in Resources */,
+				EC74B7221C752AF60016444E /* trigonom21.png in Resources */,
 				EC5C626C1C58034F00608AEC /* prva.html in Resources */,
 				EC570DE71C723F1500B02555 /* tijelo1.png in Resources */,
 				EC4657B61C67D65D00F6509E /* cijevi5.png in Resources */,
+				ECF6EE231C736E310070C7D2 /* stator3.png in Resources */,
 				EC4657C31C67D65D00F6509E /* mlazVodeB0.png in Resources */,
+				EC74B7271C752AF60016444E /* trigonom16.png in Resources */,
 				EC4657C01C67D65D00F6509E /* mlazVodeA0.png in Resources */,
 				EC5C622C1C567FC400608AEC /* Assets.xcassets in Resources */,
 				ACE8A8931C7BB01500EC9A83 /* deset.png in Resources */,
 				ACE8A8951C7BB01500EC9A83 /* dva.png in Resources */,
 				EC5C62741C5818ED00608AEC /* druga.html in Resources */,
+				EC74B7211C752AF60016444E /* trigonom22.png in Resources */,
+				ECF6EE0E1C731DF20070C7D2 /* xReyBeam6.png in Resources */,
+				EC74B72A1C752AF60016444E /* trigonom13.png in Resources */,
+				EC1F5C461C7671250009E731 /* ruckaPrekidaca.png in Resources */,
 				EC4657CB1C67D65D00F6509E /* mlazVodeD3.png in Resources */,
+				EC74B7351C752AF60016444E /* trigonom2.png in Resources */,
 				EC4657B71C67D65D00F6509E /* cijevi6.png in Resources */,
+				EC74B6E21C74F8050016444E /* bomba.png in Resources */,
 				EC4657D11C67D65D00F6509E /* turbinaStator.png in Resources */,
+				EC8B2A4A1C787E2900680ABD /* coil.png in Resources */,
 				EC4657BF1C67D65D00F6509E /* mlazVode3.png in Resources */,
 				EC5C62811C58331900608AEC /* left.png in Resources */,
+				EC1C68531C775364001516D2 /* podlogaG.png in Resources */,
 				EC4657CC1C67D65D00F6509E /* podlogaPipe.png in Resources */,
 				ACE8A8861C7BAA0900EC9A83 /* TableViewCell.xib in Resources */,
 				EC4657C61C67D65D00F6509E /* mlazVodeC0.png in Resources */,
@@ -520,6 +725,9 @@
 				EC4657C51C67D65D00F6509E /* mlazVodeB3.png in Resources */,
 				EC4657C41C67D65D00F6509E /* mlazVodeB1.png in Resources */,
 				EC5C62761C581C4D00608AEC /* brodizvan.png in Resources */,
+				EC1F5C3F1C75BDFA0009E731 /* stator3.png in Resources */,
+				EC74B7261C752AF60016444E /* trigonom17.png in Resources */,
+				EC74B6DA1C7462360016444E /* stator2.png in Resources */,
 				EC4657D21C67D65D00F6509E /* zarulja0000.png in Resources */,
 				EC4657CD1C67D65D00F6509E /* podlogaPipe2.png in Resources */,
 				EC570DE41C723F1500B02555 /* konzola.png in Resources */,
@@ -532,7 +740,9 @@
 				ACE8A89E1C7BB0B300EC9A83 /* brodizvan.png in Resources */,
 				ACE8A89A1C7BB01500EC9A83 /* sedam.png in Resources */,
 				EC5C627A1C581F9700608AEC /* ticon.png in Resources */,
+				EC74B72D1C752AF60016444E /* trigonom10.png in Resources */,
 				EC4657C91C67D65D00F6509E /* mlazVodeD0.png in Resources */,
+				EC1F5C411C760B720009E731 /* trigonom1.png in Resources */,
 				EC4657CE1C67D65D00F6509E /* ruckaVentila.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -548,11 +758,13 @@
 				EC5C62271C567FC400608AEC /* ViewController.m in Sources */,
 				EC5C623B1C56AE5F00608AEC /* energy.m in Sources */,
 				EC5C62621C56B27B00608AEC /* laser.m in Sources */,
+				EC1F5C441C7610770009E731 /* motorInfo.m in Sources */,
 				EC5C62411C56AFFC00608AEC /* wireless.m in Sources */,
 				EC5C624A1C56B09000608AEC /* transmision.m in Sources */,
 				EC5C62591C56B20600608AEC /* jaje.m in Sources */,
 				EC5C62561C56B1D000608AEC /* xray.m in Sources */,
 				EC5C62241C567FC400608AEC /* AppDelegate.m in Sources */,
+				ECF6EDFC1C7307F70070C7D2 /* xRayInfo.m in Sources */,
 				EC5C625F1C56B25800608AEC /* radio.m in Sources */,
 				EC5C623E1C56AF8C00608AEC /* motor.m in Sources */,
 				ACA4DA3B1C6E67A80017C18B /* MapAnnotations.m in Sources */,
