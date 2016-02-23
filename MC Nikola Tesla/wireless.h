@@ -9,5 +9,18 @@
 #import <UIKit/UIKit.h>
 
 @interface wireless : UIViewController
+{
+    UIImageView *wire1;
+    UIImageView *wire2;
+    UIImageView *stator;
+    UIImageView *rotor;
+    UIImageView *zarulja;
+    UIImageView *zarulja2;
+
+    __weak IBOutlet UINavigationBar *navBar;
+    double kutp;
+    double pomak;
+    NSTimer * timerR;
+}
 
 @end

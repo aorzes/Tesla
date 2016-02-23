@@ -101,7 +101,10 @@
                                                     <constraint firstAttribute="height" constant="200" id="Y4c-gj-NjO"/>
                                                     <constraint firstAttribute="width" constant="80" id="YmB-lS-UYm"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="tesla200.png"/>
+                                                <size key="titleShadowOffset" width="1" height="1"/>
+                                                <state key="normal" title="Wireles" backgroundImage="tesla200.png">
+                                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
                                                 <variation key="default">
                                                     <mask key="constraints">
                                                         <exclude reference="Man-Db-0Ub"/>
@@ -1715,7 +1718,7 @@
                             <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cHZ-gc-VmG">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
-                                    <navigationItem title="Wireles energy transmition (provjeriti)" id="s0d-wq-syb">
+                                    <navigationItem title="Wireles energy" id="s0d-wq-syb">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="KIT-Lt-zvd">
                                             <connections>
                                                 <segue destination="BYZ-38-t0r" kind="presentation" id="fbp-5h-gGN"/>
@@ -1762,6 +1765,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="navBar" destination="cHZ-gc-VmG" id="ycA-g4-t40"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B5g-zf-gOt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2273,7 +2279,7 @@
         <image name="xrayTubeIco.png" width="200" height="155"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="acu-Nf-8dN"/>
+        <segue reference="fbp-5h-gGN"/>
         <segue reference="Fvh-Om-ZhG"/>
         <segue reference="IVs-Os-ns3"/>
     </inferredMetricsTieBreakers>
