@@ -89,6 +89,8 @@
 		EC5C627A1C581F9700608AEC /* ticon.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C62791C581F9700608AEC /* ticon.png */; };
 		EC5C62811C58331900608AEC /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C627F1C58331900608AEC /* left.png */; };
 		EC5C62821C58331900608AEC /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C62801C58331900608AEC /* right.png */; };
+		EC645D391C7C522B007E4ECB /* victorian.png in Resources */ = {isa = PBXBuildFile; fileRef = EC645D381C7C522B007E4ECB /* victorian.png */; };
+		EC645D3B1C7C5528007E4ECB /* podlogaG2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC645D3A1C7C5527007E4ECB /* podlogaG2.png */; };
 		EC74B6DA1C7462360016444E /* stator2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B6D91C7462360016444E /* stator2.png */; };
 		EC74B6DC1C7462450016444E /* rotor3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B6DB1C7462450016444E /* rotor3.png */; };
 		EC74B6DE1C7462510016444E /* instrument.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B6DD1C7462510016444E /* instrument.png */; };
@@ -243,6 +245,8 @@
 		EC5C62791C581F9700608AEC /* ticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ticon.png; sourceTree = "<group>"; };
 		EC5C627F1C58331900608AEC /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
 		EC5C62801C58331900608AEC /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		EC645D381C7C522B007E4ECB /* victorian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = victorian.png; sourceTree = "<group>"; };
+		EC645D3A1C7C5527007E4ECB /* podlogaG2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podlogaG2.png; sourceTree = "<group>"; };
 		EC74B6D91C7462360016444E /* stator2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stator2.png; sourceTree = "<group>"; };
 		EC74B6DB1C7462450016444E /* rotor3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotor3.png; sourceTree = "<group>"; };
 		EC74B6DD1C7462510016444E /* instrument.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrument.png; sourceTree = "<group>"; };
@@ -481,6 +485,8 @@
 			isa = PBXGroup;
 			children = (
 				EC1C68521C775364001516D2 /* podlogaG.png */,
+				EC645D3A1C7C5527007E4ECB /* podlogaG2.png */,
+				EC645D381C7C522B007E4ECB /* victorian.png */,
 				EC8B2A491C787E2900680ABD /* coil.png */,
 				EC74B6D81C7462070016444E /* motorSlike */,
 				EC570DDF1C723EEC00B02555 /* xRaySlike */,
@@ -637,6 +643,7 @@
 				ECF6EE121C731DF20070C7D2 /* xReyBeam2.png in Resources */,
 				ECF6EE0C1C731DF20070C7D2 /* xReyBeam8.png in Resources */,
 				EC4657C81C67D65D00F6509E /* mlazVodeC3.png in Resources */,
+				EC645D3B1C7C5528007E4ECB /* podlogaG2.png in Resources */,
 				EC570DE61C723F1500B02555 /* tijelo.png in Resources */,
 				EC4657BD1C67D65D00F6509E /* mlazVode1.png in Resources */,
 				ECF6EE131C731DF20070C7D2 /* xReyBeam1.png in Resources */,
@@ -703,6 +710,7 @@
 				EC4657B91C67D65D00F6509E /* cijevVentil.png in Resources */,
 				EC4657BE1C67D65D00F6509E /* mlazVode2.png in Resources */,
 				EC4657C11C67D65D00F6509E /* mlazVodeA1.png in Resources */,
+				EC645D391C7C522B007E4ECB /* victorian.png in Resources */,
 				EC4657D31C67D65D00F6509E /* zarulja0006.png in Resources */,
 				EC4657B81C67D65D00F6509E /* cijevTurbine.png in Resources */,
 				EC74B7321C752AF60016444E /* trigonom5.png in Resources */,
