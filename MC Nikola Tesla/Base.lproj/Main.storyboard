@@ -1452,6 +1452,7 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="EPO-so-iPX">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EPO-so-iPX" id="2N8-ju-luE">
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -1480,16 +1481,16 @@
                                 <exclude reference="zZV-Nl-UnC"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="Emb-eL-dfR"/>
+                                <exclude reference="e6U-2Y-WCR"/>
+                                <exclude reference="eMU-VK-n8x"/>
+                                <exclude reference="nNx-eI-fdN"/>
                                 <exclude reference="8nU-nE-Vvf"/>
                                 <exclude reference="GLt-wz-5DL"/>
                                 <exclude reference="OA4-dU-TMK"/>
                                 <exclude reference="eT3-Lo-ZJG"/>
                                 <exclude reference="gzi-u8-AbV"/>
                                 <exclude reference="wYn-4n-zph"/>
-                                <exclude reference="Emb-eL-dfR"/>
-                                <exclude reference="e6U-2Y-WCR"/>
-                                <exclude reference="eMU-VK-n8x"/>
-                                <exclude reference="nNx-eI-fdN"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -1498,13 +1499,13 @@
                                 <include reference="zZV-Nl-UnC"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="GLt-wz-5DL"/>
-                                <include reference="eT3-Lo-ZJG"/>
-                                <include reference="gzi-u8-AbV"/>
                                 <include reference="Emb-eL-dfR"/>
                                 <include reference="e6U-2Y-WCR"/>
                                 <include reference="eMU-VK-n8x"/>
                                 <include reference="nNx-eI-fdN"/>
+                                <include reference="GLt-wz-5DL"/>
+                                <include reference="eT3-Lo-ZJG"/>
+                                <include reference="gzi-u8-AbV"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
