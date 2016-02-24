@@ -136,6 +136,10 @@
 		EC5FDC061C7E300200AAD01C /* motorInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5FDC051C7E300200AAD01C /* motorInfo.m */; };
 		EC5FDC081C7E3DC400AAD01C /* spring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDC071C7E3DC400AAD01C /* spring.jpg */; };
 		EC5FDC0A1C7E572200AAD01C /* US645576-0.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDC091C7E572200AAD01C /* US645576-0.png */; };
+		EC5FDC0C1C7E5C2000AAD01C /* Frederic_Edwin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDC0B1C7E5C2000AAD01C /* Frederic_Edwin.jpg */; };
+		EC5FDC0E1C7E60E800AAD01C /* sesta.html in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDC0D1C7E60E800AAD01C /* sesta.html */; };
+		EC5FDC101C7E611B00AAD01C /* sedma.html in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDC0F1C7E611B00AAD01C /* sedma.html */; };
+		EC5FDC121C7E616400AAD01C /* teslaSwitch0000.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDC111C7E616400AAD01C /* teslaSwitch0000.png */; };
 		EC645D3B1C7C5528007E4ECB /* podlogaG2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC645D3A1C7C5527007E4ECB /* podlogaG2.png */; };
 		EC74B6DA1C7462360016444E /* stator2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B6D91C7462360016444E /* stator2.png */; };
 		EC74B6E21C74F8050016444E /* bomba.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B6E11C74F8050016444E /* bomba.png */; };
@@ -323,6 +327,10 @@
 		EC5FDC051C7E300200AAD01C /* motorInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = motorInfo.m; sourceTree = "<group>"; };
 		EC5FDC071C7E3DC400AAD01C /* spring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spring.jpg; sourceTree = "<group>"; };
 		EC5FDC091C7E572200AAD01C /* US645576-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "US645576-0.png"; sourceTree = "<group>"; };
+		EC5FDC0B1C7E5C2000AAD01C /* Frederic_Edwin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Frederic_Edwin.jpg; sourceTree = "<group>"; };
+		EC5FDC0D1C7E60E800AAD01C /* sesta.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sesta.html; sourceTree = "<group>"; };
+		EC5FDC0F1C7E611B00AAD01C /* sedma.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sedma.html; sourceTree = "<group>"; };
+		EC5FDC111C7E616400AAD01C /* teslaSwitch0000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teslaSwitch0000.png; sourceTree = "<group>"; };
 		EC645D381C7C522B007E4ECB /* victorian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = victorian.png; sourceTree = "<group>"; };
 		EC645D3A1C7C5527007E4ECB /* podlogaG2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podlogaG2.png; sourceTree = "<group>"; };
 		EC74B6D91C7462360016444E /* stator2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stator2.png; sourceTree = "<group>"; };
@@ -371,7 +379,6 @@
 		ECF6EE1A1C736DBF0070C7D2 /* treca.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = treca.html; sourceTree = "<group>"; };
 		ECF6EE1C1C736DD20070C7D2 /* cetvrta.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cetvrta.html; sourceTree = "<group>"; };
 		ECF6EE1E1C736DDD0070C7D2 /* peta.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = peta.html; sourceTree = "<group>"; };
-		ECF6EE201C736DE80070C7D2 /* sesta.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sesta.html; sourceTree = "<group>"; };
 		ECF6EE221C736E310070C7D2 /* stator3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stator3.png; sourceTree = "<group>"; };
 		ECF6EE241C736E4D0070C7D2 /* coil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coil.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -548,14 +555,17 @@
 				ECF6EE1A1C736DBF0070C7D2 /* treca.html */,
 				ECF6EE1C1C736DD20070C7D2 /* cetvrta.html */,
 				ECF6EE1E1C736DDD0070C7D2 /* peta.html */,
-				ECF6EE201C736DE80070C7D2 /* sesta.html */,
+				EC5FDC0D1C7E60E800AAD01C /* sesta.html */,
+				EC5FDC0F1C7E611B00AAD01C /* sedma.html */,
 				EC5FDC071C7E3DC400AAD01C /* spring.jpg */,
 				EC5C626F1C58117600608AEC /* teslaSmiljan.jpg */,
 				EC5C62711C58119200608AEC /* TeslaSjedi.png */,
 				EC5C62751C581C4D00608AEC /* brodizvan.png */,
+				EC5FDC0B1C7E5C2000AAD01C /* Frederic_Edwin.jpg */,
 				EC5C627F1C58331900608AEC /* left.png */,
 				EC5C62801C58331900608AEC /* right.png */,
 				ECF6EE221C736E310070C7D2 /* stator3.png */,
+				EC5FDC111C7E616400AAD01C /* teslaSwitch0000.png */,
 				ECF6EE241C736E4D0070C7D2 /* coil.png */,
 			);
 			name = webStranice;
@@ -779,6 +789,7 @@
 				EC4657D41C67D65D00F6509E /* zarulja0007.png in Resources */,
 				EC5FDBFD1C7E2DE900AAD01C /* trigonom24.png in Resources */,
 				EC5FDBF41C7E2DE900AAD01C /* trigonom15.png in Resources */,
+				EC5FDC101C7E611B00AAD01C /* sedma.html in Resources */,
 				EC5FDBF51C7E2DE900AAD01C /* trigonom16.png in Resources */,
 				EC5FDBC71C7E2AF400AAD01C /* xrayTubeIco.png in Resources */,
 				EC74B72B1C752AF60016444E /* trigonom12.png in Resources */,
@@ -863,10 +874,12 @@
 				EC5FDBE71C7E2DE900AAD01C /* trigonom2.png in Resources */,
 				EC5FDBC51C7E277400AAD01C /* radioVal1.png in Resources */,
 				EC5C622A1C567FC400608AEC /* Main.storyboard in Resources */,
+				EC5FDC0E1C7E60E800AAD01C /* sesta.html in Resources */,
 				ACE8A8981C7BB01500EC9A83 /* osam.png in Resources */,
 				EC38B1FA1C6FCCFC00BD6E6D /* auto.png in Resources */,
 				EC4657C51C67D65D00F6509E /* mlazVodeB3.png in Resources */,
 				EC4657C41C67D65D00F6509E /* mlazVodeB1.png in Resources */,
+				EC5FDC0C1C7E5C2000AAD01C /* Frederic_Edwin.jpg in Resources */,
 				EC5FDBEA1C7E2DE900AAD01C /* trigonom5.png in Resources */,
 				EC5C62761C581C4D00608AEC /* brodizvan.png in Resources */,
 				EC74B7261C752AF60016444E /* trigonom17.png in Resources */,
@@ -888,6 +901,7 @@
 				EC5FDBFA1C7E2DE900AAD01C /* trigonom21.png in Resources */,
 				EC5FDBC91C7E2B7500AAD01C /* daska.png in Resources */,
 				EC4657CE1C67D65D00F6509E /* ruckaVentila.png in Resources */,
+				EC5FDC121C7E616400AAD01C /* teslaSwitch0000.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
