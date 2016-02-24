@@ -25,12 +25,9 @@
     
     
     CGSize velicina = self.view.frame.size;
-    /*
-    UIImageView *podloga = [[UIImageView alloc]init];
-    podloga.image = [UIImage imageNamed:@"daska"];
-    podloga.frame = CGRectMake(0, 0, velicina.width, velicina.height);
-    [self.view addSubview:podloga];
-    */
+    
+    
+    
     wire1 = [[UIImageView alloc]init];
     wire1.image = [UIImage imageNamed:@"wireles1"];
     wire1.frame = CGRectMake(10, navBar.frame.origin.y+navBar.frame.size.height+20, velicina.width/2-20, (velicina.width/2-20)*2.5);
@@ -91,8 +88,22 @@
     valovi.animationRepeatCount=0;
     [valovi startAnimating];
     
+    podloga = [[UIImageView alloc]init];
+    podloga.image = [UIImage imageNamed:@"US645576-0"];
+    podloga.frame = CGRectMake(0, 0, velicina.width, velicina.height);
+    [self.view addSubview:podloga];
+    podloga.alpha =0;
+    [self.view bringSubviewToFront:navBar];
 
 
+}
+- (IBAction)infoD:(id)sender {
+    if (podloga.alpha==0) {
+        podloga.alpha=1;
+    }
+    else{
+        podloga.alpha=0;
+    }
 }
 
 -(void)startR{

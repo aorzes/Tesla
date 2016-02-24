@@ -134,6 +134,8 @@
 		EC5FDC011C7E2E4100AAD01C /* podlogaPrekidaca.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDC001C7E2E4100AAD01C /* podlogaPrekidaca.png */; };
 		EC5FDC031C7E2E4A00AAD01C /* ruckaPrekidaca.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDC021C7E2E4A00AAD01C /* ruckaPrekidaca.png */; };
 		EC5FDC061C7E300200AAD01C /* motorInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5FDC051C7E300200AAD01C /* motorInfo.m */; };
+		EC5FDC081C7E3DC400AAD01C /* spring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDC071C7E3DC400AAD01C /* spring.jpg */; };
+		EC5FDC0A1C7E572200AAD01C /* US645576-0.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDC091C7E572200AAD01C /* US645576-0.png */; };
 		EC645D3B1C7C5528007E4ECB /* podlogaG2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC645D3A1C7C5527007E4ECB /* podlogaG2.png */; };
 		EC74B6DA1C7462360016444E /* stator2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B6D91C7462360016444E /* stator2.png */; };
 		EC74B6E21C74F8050016444E /* bomba.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B6E11C74F8050016444E /* bomba.png */; };
@@ -319,6 +321,8 @@
 		EC5FDC021C7E2E4A00AAD01C /* ruckaPrekidaca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ruckaPrekidaca.png; sourceTree = "<group>"; };
 		EC5FDC041C7E300200AAD01C /* motorInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = motorInfo.h; sourceTree = "<group>"; };
 		EC5FDC051C7E300200AAD01C /* motorInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = motorInfo.m; sourceTree = "<group>"; };
+		EC5FDC071C7E3DC400AAD01C /* spring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spring.jpg; sourceTree = "<group>"; };
+		EC5FDC091C7E572200AAD01C /* US645576-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "US645576-0.png"; sourceTree = "<group>"; };
 		EC645D381C7C522B007E4ECB /* victorian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = victorian.png; sourceTree = "<group>"; };
 		EC645D3A1C7C5527007E4ECB /* podlogaG2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podlogaG2.png; sourceTree = "<group>"; };
 		EC74B6D91C7462360016444E /* stator2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stator2.png; sourceTree = "<group>"; };
@@ -350,7 +354,7 @@
 		EC74B71C1C752AF60016444E /* trigonom3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom3.png; sourceTree = "<group>"; };
 		EC74B71D1C752AF60016444E /* trigonom2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom2.png; sourceTree = "<group>"; };
 		EC8B2A491C787E2900680ABD /* coil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coil.png; sourceTree = "<group>"; };
-		ECCD0F731C63BB1900A1A4D7 /* tesla200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tesla200.png; sourceTree = "<group>"; };
+		ECCD0F731C63BB1900A1A4D7 /* tesla200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tesla200.png; path = "MC Nikola Tesla/tesla200.png"; sourceTree = "<group>"; };
 		ECF6EDFA1C7307F70070C7D2 /* xRayInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xRayInfo.h; sourceTree = "<group>"; };
 		ECF6EDFB1C7307F70070C7D2 /* xRayInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xRayInfo.m; sourceTree = "<group>"; };
 		ECF6EE021C73135E0070C7D2 /* elektron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elektron.png; sourceTree = "<group>"; };
@@ -512,7 +516,6 @@
 				ACE8A8821C7BAA0900EC9A83 /* TableViewCell.h */,
 				ACE8A8831C7BAA0900EC9A83 /* TableViewCell.m */,
 				ACE8A8841C7BAA0900EC9A83 /* TableViewCell.xib */,
-				ECCD0F731C63BB1900A1A4D7 /* tesla200.png */,
 				EC5C62481C56B09000608AEC /* transmision.h */,
 				EC5C62491C56B09000608AEC /* transmision.m */,
 				EC5C62251C567FC400608AEC /* ViewController.h */,
@@ -546,6 +549,7 @@
 				ECF6EE1C1C736DD20070C7D2 /* cetvrta.html */,
 				ECF6EE1E1C736DDD0070C7D2 /* peta.html */,
 				ECF6EE201C736DE80070C7D2 /* sesta.html */,
+				EC5FDC071C7E3DC400AAD01C /* spring.jpg */,
 				EC5C626F1C58117600608AEC /* teslaSmiljan.jpg */,
 				EC5C62711C58119200608AEC /* TeslaSjedi.png */,
 				EC5C62751C581C4D00608AEC /* brodizvan.png */,
@@ -561,10 +565,11 @@
 		EC5C62771C581F6B00608AEC /* slike */ = {
 			isa = PBXGroup;
 			children = (
-				EC5FDBB91C7CD41600AAD01C /* wireless */,
+				ECCD0F731C63BB1900A1A4D7 /* tesla200.png */,
 				EC645D3A1C7C5527007E4ECB /* podlogaG2.png */,
 				EC645D381C7C522B007E4ECB /* victorian.png */,
 				EC8B2A491C787E2900680ABD /* coil.png */,
+				EC5FDBB91C7CD41600AAD01C /* wireless */,
 				ECABB6B31C7C957800243A21 /* o_nama */,
 				EC74B6D81C7462070016444E /* motorSlike */,
 				EC570DDF1C723EEC00B02555 /* xRaySlike */,
@@ -587,6 +592,7 @@
 		EC5FDBB91C7CD41600AAD01C /* wireless */ = {
 			isa = PBXGroup;
 			children = (
+				EC5FDC091C7E572200AAD01C /* US645576-0.png */,
 				EC5FDBC21C7E277400AAD01C /* radioVal1.png */,
 				EC5FDBC11C7E277400AAD01C /* radioVal2.png */,
 				EC5FDBC01C7E277400AAD01C /* radioVal3.png */,
@@ -606,8 +612,6 @@
 				EC5FDC001C7E2E4100AAD01C /* podlogaPrekidaca.png */,
 				EC5FDC021C7E2E4A00AAD01C /* ruckaPrekidaca.png */,
 				EC74B6D91C7462360016444E /* stator2.png */,
-				EC74B6DD1C7462510016444E /* instrument.png */,
-				EC74B6DF1C74625B0016444E /* kaz2.png */,
 				EC74B6E11C74F8050016444E /* bomba.png */,
 				EC74B7061C752AE10016444E /* trigoSlike */,
 				EC74B6DD1C7462510016444E /* instrument.png */,
@@ -829,9 +833,11 @@
 				EC5FDBE81C7E2DE900AAD01C /* trigonom3.png in Resources */,
 				ACE8A8931C7BB01500EC9A83 /* deset.png in Resources */,
 				EC5FDBCD1C7E2DB100AAD01C /* kaz2.png in Resources */,
+				EC5FDC0A1C7E572200AAD01C /* US645576-0.png in Resources */,
 				ACE8A8951C7BB01500EC9A83 /* dva.png in Resources */,
 				EC5FDBF91C7E2DE900AAD01C /* trigonom20.png in Resources */,
 				EC5C62741C5818ED00608AEC /* druga.html in Resources */,
+				EC5FDC081C7E3DC400AAD01C /* spring.jpg in Resources */,
 				EC74B7211C752AF60016444E /* trigonom22.png in Resources */,
 				ECF6EE0E1C731DF20070C7D2 /* xReyBeam6.png in Resources */,
 				EC5FDBED1C7E2DE900AAD01C /* trigonom8.png in Resources */,
