@@ -1957,21 +1957,89 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JA0-Mo-PuW">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="22" id="lBl-Jx-b3j"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="lBl-Jx-b3j"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="lBl-Jx-b3j"/>
+                                    </mask>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="MU7-lg-64D" firstAttribute="top" secondItem="Cee-Kh-ic8" secondAttribute="bottom" id="E7u-rZ-eX8"/>
                             <constraint firstItem="MU7-lg-64D" firstAttribute="leading" secondItem="7R5-TG-608" secondAttribute="leading" id="FXf-rE-jcz"/>
+                            <constraint firstItem="JdW-5G-Tms" firstAttribute="top" secondItem="MU7-lg-64D" secondAttribute="bottom" id="KaG-Cj-QKf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JA0-Mo-PuW" secondAttribute="trailing" constant="30" id="ONv-WK-LFX"/>
                             <constraint firstItem="MU7-lg-64D" firstAttribute="top" secondItem="Cee-Kh-ic8" secondAttribute="bottom" id="PJi-Zo-Cy6"/>
                             <constraint firstItem="JdW-5G-Tms" firstAttribute="leading" secondItem="7R5-TG-608" secondAttribute="leadingMargin" id="Ph5-jx-WmF"/>
+                            <constraint firstItem="JdW-5G-Tms" firstAttribute="centerX" secondItem="MU7-lg-64D" secondAttribute="centerX" id="Tve-ug-Yqy"/>
                             <constraint firstItem="JdW-5G-Tms" firstAttribute="centerX" secondItem="MU7-lg-64D" secondAttribute="centerX" id="WHU-e2-0SW"/>
                             <constraint firstAttribute="bottom" secondItem="JdW-5G-Tms" secondAttribute="bottom" id="Xi0-mR-EZZ"/>
+                            <constraint firstItem="MU7-lg-64D" firstAttribute="leading" secondItem="7R5-TG-608" secondAttribute="leading" id="bbD-ww-vM6"/>
                             <constraint firstAttribute="trailing" secondItem="MU7-lg-64D" secondAttribute="trailing" id="jAN-Nj-uMg"/>
+                            <constraint firstItem="MU7-lg-64D" firstAttribute="centerY" secondItem="JA0-Mo-PuW" secondAttribute="centerY" id="l4o-05-kHM"/>
                             <constraint firstItem="JdW-5G-Tms" firstAttribute="top" secondItem="MU7-lg-64D" secondAttribute="bottom" id="ood-wy-wLN"/>
+                            <constraint firstAttribute="bottom" secondItem="JdW-5G-Tms" secondAttribute="bottom" id="s9I-Ye-ESX"/>
+                            <constraint firstItem="JdW-5G-Tms" firstAttribute="leading" secondItem="7R5-TG-608" secondAttribute="leadingMargin" id="t1z-Ny-h2z"/>
+                            <constraint firstAttribute="trailing" secondItem="MU7-lg-64D" secondAttribute="trailing" id="xFR-Vk-NC3"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="JA0-Mo-PuW"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="E7u-rZ-eX8"/>
+                                <exclude reference="bbD-ww-vM6"/>
+                                <exclude reference="l4o-05-kHM"/>
+                                <exclude reference="xFR-Vk-NC3"/>
+                                <exclude reference="KaG-Cj-QKf"/>
+                                <exclude reference="Tve-ug-Yqy"/>
+                                <exclude reference="s9I-Ye-ESX"/>
+                                <exclude reference="t1z-Ny-h2z"/>
+                                <exclude reference="ONv-WK-LFX"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="JA0-Mo-PuW"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="E7u-rZ-eX8"/>
+                                <exclude reference="FXf-rE-jcz"/>
+                                <exclude reference="PJi-Zo-Cy6"/>
+                                <include reference="bbD-ww-vM6"/>
+                                <exclude reference="jAN-Nj-uMg"/>
+                                <include reference="l4o-05-kHM"/>
+                                <include reference="xFR-Vk-NC3"/>
+                                <include reference="KaG-Cj-QKf"/>
+                                <exclude reference="Ph5-jx-WmF"/>
+                                <include reference="Tve-ug-Yqy"/>
+                                <exclude reference="WHU-e2-0SW"/>
+                                <exclude reference="Xi0-mR-EZZ"/>
+                                <exclude reference="ood-wy-wLN"/>
+                                <include reference="s9I-Ye-ESX"/>
+                                <include reference="t1z-Ny-h2z"/>
+                                <include reference="ONv-WK-LFX"/>
+                            </mask>
+                        </variation>
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="labBr" destination="JA0-Mo-PuW" id="cz7-9q-0O8"/>
                         <outlet property="mWebView" destination="JdW-5G-Tms" id="gsR-93-r8S"/>
                     </connections>
                 </viewController>
@@ -2279,8 +2347,8 @@
         <image name="xrayTubeIco.png" width="200" height="155"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fbp-5h-gGN"/>
+        <segue reference="Wym-NO-IBm"/>
         <segue reference="Fvh-Om-ZhG"/>
-        <segue reference="IVs-Os-ns3"/>
+        <segue reference="cxa-I2-Vvz"/>
     </inferredMetricsTieBreakers>
 </document>

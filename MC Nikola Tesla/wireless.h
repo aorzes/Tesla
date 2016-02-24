@@ -16,6 +16,7 @@
     UIImageView *rotor;
     UIImageView *zarulja;
     UIImageView *zarulja2;
+    UIImageView *valovi;
 
     __weak IBOutlet UINavigationBar *navBar;
     double kutp;

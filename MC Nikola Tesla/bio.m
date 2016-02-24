@@ -19,25 +19,28 @@
 {
     [super viewDidLoad];
     historyfile=@"prva.html";
-    popis = @[@"prva.html",@"druga.html",@"treca.html",@"cetvrta.html",@"peta.html",@"sesta.html"];
+    popis = @[@"prva.html", @"druga.html", @"treca.html", @"cetvrta.html", @"peta.html", @"sesta.html"];
     n=0;
     //ucitaj stranicu
     [self ucitajStranicu];
 }
 - (IBAction)sljedeca:(id)sender {
     n++;
-    if (n>=popis.count) {
+   
+    if (n>=popis.count-1) {
         n=0;
     }
     historyfile = popis[n];
+    labBr.text = [NSString stringWithFormat:@"%ld",n+1];
     [self ucitajStranicu];
 }
 - (IBAction)prethodna:(id)sender {
     n--;
-    if (n<=0) {
+    if (n<0) {
         n=0;
     }
     historyfile = popis[n];
+    labBr.text = [NSString stringWithFormat:@"%ld",n+1];
     [self ucitajStranicu];
     
 }

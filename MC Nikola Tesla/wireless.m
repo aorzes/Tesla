@@ -25,12 +25,12 @@
     
     
     CGSize velicina = self.view.frame.size;
-    
+    /*
     UIImageView *podloga = [[UIImageView alloc]init];
     podloga.image = [UIImage imageNamed:@"daska"];
     podloga.frame = CGRectMake(0, 0, velicina.width, velicina.height);
     [self.view addSubview:podloga];
-    
+    */
     wire1 = [[UIImageView alloc]init];
     wire1.image = [UIImage imageNamed:@"wireles1"];
     wire1.frame = CGRectMake(10, navBar.frame.origin.y+navBar.frame.size.height+20, velicina.width/2-20, (velicina.width/2-20)*2.5);
@@ -76,6 +76,20 @@
     tekst.layer.borderColor = [UIColor lightGrayColor].CGColor;
     tekst.text =@"Wireless power transfer\nTesla je prvi osmislio wireless power transfer. Princip je jednostavan, ali se ne primjenjuje jer bi na taj način teško bilo naplatiti energiju. Kroz debelu žicu s malo namotaja protiče jaka struja niskog napona, a kroz veliki namotaj tanke žice slaba struja visokog napona. Ona je jednim krajem spojena na antenu koja širi radio valove, a drugi kraj je uzemljen.\nTe valove prima druga antena koja je spojena na svoj namotaj tanke žice (veliki broj namotaja). Visoki napon koji se tu generira transformira se u niski napon, a jaku struju, u malom broju namotaju debele žice i ta struja se vodi na žarulju. Broj namotaja je proporcionalan naponu i obrnuto proporcionalan struji. Naravno to vrijedi samo za AC.";
     [self.view addSubview:tekst];
+    
+    valovi = [[UIImageView alloc]init];
+    valovi.image = [UIImage imageNamed:@"radioVal1"];
+    valovi.frame = CGRectMake(wire1.frame.origin.x+wire1.frame.size.width/1.4, wire1.frame.origin.y+wire1.frame.size.height/40, wire1.frame.size.width, wire1.frame.size.height/8);
+    [self.view addSubview:valovi];
+    valovi.animationImages=[NSArray arrayWithObjects:
+                              [UIImage imageNamed: @"radioVal3.png"],
+                              [UIImage imageNamed: @"radioVal2.png"],
+                              [UIImage imageNamed: @"radioVal1.png"],
+                             
+                              nil];
+    valovi.animationDuration=0.50;
+    valovi.animationRepeatCount=0;
+    [valovi startAnimating];
     
 
 

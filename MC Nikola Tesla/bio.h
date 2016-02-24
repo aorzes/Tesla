@@ -16,6 +16,7 @@
     NSArray *popis;
     NSInteger n;
     
+    __weak IBOutlet UILabel *labBr;
     __weak IBOutlet UIWebView *mWebView;
 }
 
