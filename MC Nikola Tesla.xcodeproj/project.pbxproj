@@ -486,11 +486,11 @@
 		EC5C621E1C567FC400608AEC /* MC Nikola Tesla */ = {
 			isa = PBXGroup;
 			children = (
+				EC5C622B1C567FC400608AEC /* Assets.xcassets */,
 				EC5C624B1C56B11700608AEC /* about.h */,
 				EC5C624C1C56B11700608AEC /* about.m */,
 				EC5C62221C567FC400608AEC /* AppDelegate.h */,
 				EC5C62231C567FC400608AEC /* AppDelegate.m */,
-				EC5C622B1C567FC400608AEC /* Assets.xcassets */,
 				EC5C62361C56ADFA00608AEC /* bio.h */,
 				EC5C62371C56ADFA00608AEC /* bio.m */,
 				EC5C62421C56B02B00608AEC /* boat.h */,
