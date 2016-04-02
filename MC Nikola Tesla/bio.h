@@ -16,6 +16,11 @@
     NSArray *popis;
     NSInteger n;
     
+    CGSize velicina;
+    
+    __weak IBOutlet UIBarButtonItem *rightBA1;
+    __weak IBOutlet UIBarButtonItem *rightBA;
+    __weak IBOutlet UINavigationBar *navBar;
     __weak IBOutlet UILabel *labBr;
     __weak IBOutlet UIWebView *mWebView;
 }

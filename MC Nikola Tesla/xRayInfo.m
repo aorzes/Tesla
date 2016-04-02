@@ -23,6 +23,7 @@
    
     CGSize velicina = self.view.frame.size;
     
+    navBar.frame = CGRectMake(0, 20, self.view.frame.size.width, 44);
     UIImageView *daska = [[UIImageView alloc]init];
     daska.image = [UIImage imageNamed:@"daska"];
     daska.frame = CGRectMake(0, 0, velicina.width, velicina.height);
@@ -42,11 +43,14 @@
     elektron = [[UIImageView alloc]init];
     elektron.image = [UIImage imageNamed:@"elektron"];
     elektron.frame = CGRectMake(tube.center.x+tube.frame.size.width/11, tube.center.y-tube.frame.size.width/15, velicina.width/30, velicina.width/30);
+    
+   
+    
     [self.view addSubview:elektron];
     [self startE];
     
     xReyBeam = [[UIImageView alloc]init];
-    xReyBeam.image = [UIImage imageNamed:@"xReyBeam1"];
+    xReyBeam.image = [UIImage imageNamed:@"xReyBeam8"];
     xReyBeam.frame = CGRectMake(tube.center.x-tube.frame.size.width/11, tube.center.y- velicina.width/3-tube.frame.size.width/15, velicina.width/3, velicina.width/3);
     [self.view addSubview:xReyBeam];
     
@@ -59,14 +63,14 @@
                               [UIImage imageNamed: @"xReyBeam6.png"],
                               [UIImage imageNamed: @"xReyBeam7.png"],
                               [UIImage imageNamed: @"xReyBeam8.png"],
-                             nil];
-    xReyBeam.animationDuration=0.70;
+                              nil];
+    xReyBeam.animationDuration=1.90;
     xReyBeam.animationRepeatCount=0;
     [xReyBeam startAnimating];
     
-    [self startE];
+    
 
-    [self.view bringSubviewToFront:navBar];
+    
     
     UITextView *textpolje = [[UITextView alloc]init];
     textpolje.text =@"Roentgen's letter to Tesla dated July 20th, 1901. The letter reads: 'Dear Sir! You have surprised me tremendously with the beautiful photographs of wonderful discharges and I tell you thank you very much for that. If only I knew how you make such things! With the expression of special respect I remain yours devoted, W. C. Roentgen.'";
@@ -75,13 +79,16 @@
                                  tube.frame.size.width, velicina.height - (tube.frame.origin.y+tube.frame.size.height + 30));
     [self.view addSubview:textpolje];
 
+    [self.view bringSubviewToFront:navBar];
+    [self.view bringSubviewToFront:xReyBeam];
+    [self.view bringSubviewToFront:elektron];
 }
 
 
 -(void)startE{
     
     if(!timerE)
-    { timerE = [NSTimer scheduledTimerWithTimeInterval:0.01
+    { timerE = [NSTimer scheduledTimerWithTimeInterval:0.02
                                                 target:self
                                               selector:@selector(pucaj)
                                               userInfo:nil

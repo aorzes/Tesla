@@ -42,6 +42,10 @@
     int curiX;
     int curiY;
     int vektor;
+    int ukupnoC;
+    
+    UILabel *labela;
+    
 }
 
 

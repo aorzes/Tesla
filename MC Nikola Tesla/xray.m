@@ -26,6 +26,7 @@
 
 -(void)viewDidAppear:(BOOL)animated{
     
+    navBar.frame = CGRectMake(0, 20, self.view.frame.size.width, 44);
     tijelo = [[UIImageView alloc] init];
     tijelo.image = [UIImage imageNamed:@"tijelo"];
     tijelo.frame = CGRectMake(20, 50, (self.view.frame.size.height-50)*0.5625, self.view.frame.size.height-50);
@@ -74,7 +75,7 @@
     [self.view addSubview:konzola];
     
     CALayer *borderLayer = [CALayer layer];
-    CGRect borderFrame = CGRectMake(0, 0, okviric.frame.size.width, okviric.frame.size.width);
+    CGRect borderFrame = CGRectMake(-2, -2, okviric.frame.size.width+4, okviric.frame.size.width+4);
     [borderLayer setBackgroundColor:[[UIColor clearColor] CGColor]];
     [borderLayer setBorderColor:[[UIColor orangeColor] CGColor]];
     [borderLayer setFrame:borderFrame];

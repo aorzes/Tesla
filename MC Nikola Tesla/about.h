@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface about : UIViewController<UITableViewDataSource, UITableViewDelegate>
+{
+     CGSize velicina;
+
+    __weak IBOutlet UINavigationBar *navBar;
+}
+
 @property (weak, nonatomic) IBOutlet UITableView *tablica;
 
 @end

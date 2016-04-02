@@ -26,7 +26,7 @@
     
     CGSize velicina = self.view.frame.size;
     
-    
+    navBar.frame = CGRectMake(0, 20, velicina.width, 44);
     
     wire1 = [[UIImageView alloc]init];
     wire1.image = [UIImage imageNamed:@"wireles1"];

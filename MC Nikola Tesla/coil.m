@@ -24,6 +24,8 @@ float sgn(float n) { return (n < 0.0) ? -1.0 : (n > 0.0) ? 1.0 : 0.0; }
 -(void) viewDidAppear:(BOOL)animated{
 
     velicina = self.view.frame.size;
+    
+    navBar.frame = CGRectMake(0, 20, velicina.width, 44);
     drawImage = [[UIImageView alloc]init];
     drawImage.frame = CGRectMake(0, 0, velicina.width, velicina.height);
     drawImage.backgroundColor=[UIColor colorWithRed:0 green:0 blue:0 alpha:1.0];
@@ -121,6 +123,7 @@ float sgn(float n) { return (n < 0.0) ? -1.0 : (n > 0.0) ? 1.0 : 0.0; }
         CGContextSetRGBStrokeColor(UIGraphicsGetCurrentContext(), 1, 1, 1, 1.0);
         CGContextMoveToPoint(UIGraphicsGetCurrentContext(), xss, yss);
         CGContextAddLineToPoint(UIGraphicsGetCurrentContext(), xs,ys);
+        
         CGContextStrokePath(UIGraphicsGetCurrentContext());
         CGContextFlush(UIGraphicsGetCurrentContext());
         //if(i==3) AudioServicesPlayAlertSound(kSystemSoundID_Vibrate);

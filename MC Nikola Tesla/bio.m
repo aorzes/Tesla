@@ -24,14 +24,24 @@
     //ucitaj stranicu
     [self ucitajStranicu];
 }
+
+-(void)viewDidAppear:(BOOL)animated{
+
+    velicina = self.view.frame.size;
+    navBar.frame = CGRectMake(0, 20, velicina.width, 44);
+    mWebView.frame = CGRectMake(0, navBar.frame.origin.y+navBar.frame.size.height, velicina.width, velicina.height-navBar.frame.origin.y-navBar.frame.size.height);
+    labBr.frame = CGRectMake(velicina.width -70, navBar.frame.origin.y+10, 20, 20);
+    
+}
+
+
 - (IBAction)sljedeca:(id)sender {
     n++;
-   
     if (n>=popis.count-1) {
         n=0;
     }
     historyfile = popis[n];
-    labBr.text = [NSString stringWithFormat:@"%ld",n+1];
+    labBr.text = [NSString stringWithFormat:@"%ld",(long)n+1];
     [self ucitajStranicu];
 }
 - (IBAction)prethodna:(id)sender {
@@ -40,7 +50,7 @@
         n=0;
     }
     historyfile = popis[n];
-    labBr.text = [NSString stringWithFormat:@"%ld",n+1];
+    labBr.text = [NSString stringWithFormat:@"%ld",(long)n+1];
     [self ucitajStranicu];
     
 }

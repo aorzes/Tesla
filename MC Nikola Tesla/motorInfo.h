@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface motorInfo : UIViewController
+{
+
+    __weak IBOutlet UINavigationBar *navBar;
+}
 
 @end

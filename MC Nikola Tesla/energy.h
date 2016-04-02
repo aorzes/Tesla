@@ -9,5 +9,40 @@
 #import <UIKit/UIKit.h>
 
 @interface energy : UIViewController
+{
+    UIImageView *podloga;
+    UIImageView *ruckaVentila;
+    UIImageView *turbina;
+    UIImageView *rotor;
+    UIImageView *osovina1;
+    UIImageView *osovina2;
+    UIImageView *osovina3;
+    UIImageView *prekidac;
+    UIImageView *letva;
+    UIImageView *zupcanik1;
+    UIImageView *zupcanik2;
+    UIImageView *mlazG;
+    UIImageView *mlazD;
+    
+    
+    UITextView *textGen;
+    UITextView *textTurb;
+    UITextView *textUstav;
+    
+    
+    NSArray *turbinaA;
+    NSArray *rotorA;
+    NSArray *mlazDA;
+    NSArray *mlazGA;
+    
+     CGSize velicina;
+    __weak IBOutlet UINavigationBar *navBar;
+    BOOL otvorenVentil;
+    BOOL otvorenaUstava;
+    
+    NSTimer *timerR;
+    double kutP;
+    
+}
 
 @end

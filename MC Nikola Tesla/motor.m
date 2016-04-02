@@ -26,6 +26,8 @@
     pomak=0.1;
     
     velicina = self.view.frame.size;
+    
+    navBar.frame = CGRectMake(0, 20, velicina.width, 44);
     UIImageView *podloga =[[UIImageView alloc]init];
     podloga.image =[UIImage imageNamed:@"daska"];
     podloga.frame = CGRectMake(0, 0, velicina.width, velicina.height);

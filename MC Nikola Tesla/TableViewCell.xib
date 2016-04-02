@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -25,7 +25,10 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CvE-uv-mkT">
-                        <rect key="frame" x="97" y="164" width="240" height="116"/>
+                        <rect key="frame" x="8" y="164" width="419" height="116"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="116" id="HzE-6w-X6z"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
@@ -33,11 +36,10 @@
                 </subviews>
                 <constraints>
                     <constraint firstItem="D9h-eQ-S8P" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Aup-bn-yIX"/>
-                    <constraint firstItem="CvE-uv-mkT" firstAttribute="top" secondItem="D9h-eQ-S8P" secondAttribute="bottom" constant="28" id="Fha-IU-j17"/>
-                    <constraint firstAttribute="bottomMargin" secondItem="CvE-uv-mkT" secondAttribute="bottom" constant="16" id="SiF-6p-oB5"/>
-                    <constraint firstItem="CvE-uv-mkT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="156" id="iV0-VV-Iej"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="CvE-uv-mkT" secondAttribute="trailing" constant="90" id="kFM-62-n9e"/>
-                    <constraint firstItem="CvE-uv-mkT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="89" id="uSP-wn-03a"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="CvE-uv-mkT" secondAttribute="bottom" constant="16" id="KBC-cs-CDy"/>
+                    <constraint firstItem="CvE-uv-mkT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="nqd-BW-6a3"/>
+                    <constraint firstItem="CvE-uv-mkT" firstAttribute="top" secondItem="D9h-eQ-S8P" secondAttribute="bottom" constant="28" id="ryg-gh-ARd"/>
+                    <constraint firstItem="CvE-uv-mkT" firstAttribute="centerX" secondItem="D9h-eQ-S8P" secondAttribute="centerX" id="zn2-o9-LgL"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>

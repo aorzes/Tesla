@@ -53,6 +53,21 @@
     mapView.delegate = self;
 }
 
+-(void)viewDidAppear:(BOOL)animated{
+
+    velicina = self.view.frame.size;
+    
+    [UIView beginAnimations:nil context:NULL];
+    [UIView setAnimationDuration:0.5];
+    [UIView setAnimationDelegate:self];
+    navBar.frame = CGRectMake(0, 20, velicina.width, 44);
+    _mapView.frame = CGRectMake(0, navBar.frame.origin.y+navBar.frame.size.height, velicina.width, velicina.height-navBar.frame.origin.y-navBar.frame.size.height-10);
+    toolBar.frame = CGRectMake(0, velicina.height-44, velicina.width, 44);
+    [UIView commitAnimations];
+
+}
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

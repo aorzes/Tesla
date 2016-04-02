@@ -23,8 +23,110 @@
 		ACE8A89A1C7BB01500EC9A83 /* sedam.png in Resources */ = {isa = PBXBuildFile; fileRef = ACE8A88F1C7BB01500EC9A83 /* sedam.png */; };
 		ACE8A89B1C7BB01500EC9A83 /* sest.png in Resources */ = {isa = PBXBuildFile; fileRef = ACE8A8901C7BB01500EC9A83 /* sest.png */; };
 		ACE8A89C1C7BB01500EC9A83 /* tri.png in Resources */ = {isa = PBXBuildFile; fileRef = ACE8A8911C7BB01500EC9A83 /* tri.png */; };
-		ACE8A89E1C7BB0B300EC9A83 /* brodizvan.png in Resources */ = {isa = PBXBuildFile; fileRef = ACE8A89D1C7BB0B300EC9A83 /* brodizvan.png */; };
+		EC0A5CFE1CAEE16B002147BF /* broduvod.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0A5CFD1CAEE16B002147BF /* broduvod.m */; };
+		EC0A5D011CAEFA04002147BF /* brodVozi.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0A5D001CAEFA04002147BF /* brodVozi.m */; };
+		EC0A5D041CAEFBB9002147BF /* scenaBrod.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0A5D031CAEFBB9002147BF /* scenaBrod.m */; };
+		EC0A5D071CAEFCA7002147BF /* kolekcijas.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0A5D061CAEFCA7002147BF /* kolekcijas.m */; };
+		EC0A5D091CAF03B2002147BF /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0A5D081CAF03B2002147BF /* SpriteKit.framework */; };
+		EC0A5D0B1CAF04EA002147BF /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D0A1CAF04EA002147BF /* MyScene.sks */; };
+		EC0A5D0F1CAF1054002147BF /* papir.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D0E1CAF1054002147BF /* papir.png */; };
+		EC0A5D251CAF1297002147BF /* instrumentt1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D101CAF1297002147BF /* instrumentt1.png */; };
+		EC0A5D261CAF1297002147BF /* instrumentt2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D111CAF1297002147BF /* instrumentt2.png */; };
+		EC0A5D271CAF1297002147BF /* instrumentt3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D121CAF1297002147BF /* instrumentt3.png */; };
+		EC0A5D281CAF1297002147BF /* instrumentt4.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D131CAF1297002147BF /* instrumentt4.png */; };
+		EC0A5D2A1CAF1297002147BF /* instrumentt6.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D151CAF1297002147BF /* instrumentt6.png */; };
+		EC0A5D2B1CAF1297002147BF /* instrumentt7.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D161CAF1297002147BF /* instrumentt7.png */; };
+		EC0A5D2C1CAF1297002147BF /* instrumentt8.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D171CAF1297002147BF /* instrumentt8.png */; };
+		EC0A5D2D1CAF1297002147BF /* instrumentt9.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D181CAF1297002147BF /* instrumentt9.png */; };
+		EC0A5D2E1CAF1297002147BF /* instrumentt10.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D191CAF1297002147BF /* instrumentt10.png */; };
+		EC0A5D2F1CAF1297002147BF /* instrumentt11.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D1A1CAF1297002147BF /* instrumentt11.png */; };
+		EC0A5D301CAF1297002147BF /* instrumentt12.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D1B1CAF1297002147BF /* instrumentt12.png */; };
+		EC0A5D311CAF1297002147BF /* instrumentt13.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D1C1CAF1297002147BF /* instrumentt13.png */; };
+		EC0A5D321CAF1297002147BF /* instrumentt14.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D1D1CAF1297002147BF /* instrumentt14.png */; };
+		EC0A5D331CAF1297002147BF /* instrumentt15.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D1E1CAF1297002147BF /* instrumentt15.png */; };
+		EC0A5D341CAF1297002147BF /* instrumentt16.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D1F1CAF1297002147BF /* instrumentt16.png */; };
+		EC0A5D351CAF1297002147BF /* instrumentt17.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D201CAF1297002147BF /* instrumentt17.png */; };
+		EC0A5D361CAF1297002147BF /* instrumentt18.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D211CAF1297002147BF /* instrumentt18.png */; };
+		EC0A5D371CAF1297002147BF /* instrumentt19.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D221CAF1297002147BF /* instrumentt19.png */; };
+		EC0A5D381CAF1297002147BF /* instrumentt20.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D231CAF1297002147BF /* instrumentt20.png */; };
+		EC0A5D391CAF1297002147BF /* instrumentt21.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D241CAF1297002147BF /* instrumentt21.png */; };
+		EC0A5D3F1CAF12AC002147BF /* mjestaInstrumenta1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D3A1CAF12AC002147BF /* mjestaInstrumenta1.png */; };
+		EC0A5D401CAF12AC002147BF /* mjestaInstrumenta2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D3B1CAF12AC002147BF /* mjestaInstrumenta2.png */; };
+		EC0A5D411CAF12AC002147BF /* mjestaInstrumenta3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D3C1CAF12AC002147BF /* mjestaInstrumenta3.png */; };
+		EC0A5D421CAF12AC002147BF /* mjestaInstrumenta4.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D3D1CAF12AC002147BF /* mjestaInstrumenta4.png */; };
+		EC0A5D431CAF12AC002147BF /* mjestaInstrumenta5.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D3E1CAF12AC002147BF /* mjestaInstrumenta5.png */; };
+		EC0A5D451CAF12B8002147BF /* sivaPodloga.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D441CAF12B8002147BF /* sivaPodloga.png */; };
+		EC0A5D471CAF12D8002147BF /* collection.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D461CAF12D8002147BF /* collection.png */; };
+		EC0A5D4C1CAF12F2002147BF /* off.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D4A1CAF12F2002147BF /* off.png */; };
+		EC0A5D4D1CAF12F2002147BF /* on.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D4B1CAF12F2002147BF /* on.png */; };
+		EC0A5D561CAF1314002147BF /* otok1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D501CAF1314002147BF /* otok1.png */; };
+		EC0A5D571CAF1314002147BF /* otok2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D511CAF1314002147BF /* otok2.png */; };
+		EC0A5D581CAF1314002147BF /* otok3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D521CAF1314002147BF /* otok3.png */; };
+		EC0A5D591CAF1314002147BF /* otok4.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D531CAF1314002147BF /* otok4.png */; };
+		EC0A5D5A1CAF1314002147BF /* otok5.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D541CAF1314002147BF /* otok5.png */; };
+		EC0A5D5B1CAF1314002147BF /* otok6.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D551CAF1314002147BF /* otok6.png */; };
+		EC0A5D5D1CAF1590002147BF /* brododozgo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D5C1CAF1590002147BF /* brododozgo.png */; };
+		EC0A5D5F1CAF15A8002147BF /* zPada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D5E1CAF15A8002147BF /* zPada.mp3 */; };
+		EC0A5D611CAF15C4002147BF /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D601CAF15C4002147BF /* spark.png */; };
+		EC0A5D631CAF15CC002147BF /* kazaljka.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D621CAF15CC002147BF /* kazaljka.png */; };
+		EC0A5D651CAF1783002147BF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0A5D641CAF1783002147BF /* AVFoundation.framework */; };
+		EC0A5D681CAF1CC5002147BF /* rightB.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D661CAF1CC5002147BF /* rightB.png */; };
+		EC0A5D691CAF1CC5002147BF /* leftB.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D671CAF1CC5002147BF /* leftB.png */; };
+		EC0A5D6B1CAF1DEC002147BF /* more3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D6A1CAF1DEC002147BF /* more3.png */; };
+		EC0A5D6D1CAF258F002147BF /* instrumentt5.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D6C1CAF258F002147BF /* instrumentt5.png */; };
+		EC30EC5B1C874B55004BEC86 /* planine.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC5A1C874B55004BEC86 /* planine.png */; };
+		EC30EC5D1C874B5E004BEC86 /* crnaPodloga.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC5C1C874B5E004BEC86 /* crnaPodloga.png */; };
+		EC30EC621C874B6F004BEC86 /* cage.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC5E1C874B6F004BEC86 /* cage.png */; };
+		EC30EC631C874B6F004BEC86 /* cage2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC5F1C874B6F004BEC86 /* cage2.png */; };
+		EC30EC641C874B6F004BEC86 /* tcoil2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC601C874B6F004BEC86 /* tcoil2.png */; };
+		EC30EC651C874B6F004BEC86 /* zemlja.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC611C874B6F004BEC86 /* zemlja.png */; };
+		EC30EC671C874B78004BEC86 /* boyDead.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC661C874B78004BEC86 /* boyDead.png */; };
+		EC30EC6C1C874BB3004BEC86 /* crawling1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC691C874BB3004BEC86 /* crawling1.png */; };
+		EC30EC6D1C874BB3004BEC86 /* crawling2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC6A1C874BB3004BEC86 /* crawling2.png */; };
+		EC30EC6E1C874BB3004BEC86 /* crawling3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC6B1C874BB3004BEC86 /* crawling3.png */; };
+		EC30EC781C874BD9004BEC86 /* stop1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC701C874BD9004BEC86 /* stop1.png */; };
+		EC30EC791C874BD9004BEC86 /* stop2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC711C874BD9004BEC86 /* stop2.png */; };
+		EC30EC7A1C874BD9004BEC86 /* stop3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC721C874BD9004BEC86 /* stop3.png */; };
+		EC30EC7B1C874BD9004BEC86 /* stop4.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC731C874BD9004BEC86 /* stop4.png */; };
+		EC30EC7C1C874BD9004BEC86 /* stop5.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC741C874BD9004BEC86 /* stop5.png */; };
+		EC30EC7D1C874BD9004BEC86 /* stop6.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC751C874BD9004BEC86 /* stop6.png */; };
+		EC30EC7E1C874BD9004BEC86 /* stop7.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC761C874BD9004BEC86 /* stop7.png */; };
+		EC30EC7F1C874BD9004BEC86 /* stop8.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC771C874BD9004BEC86 /* stop8.png */; };
+		EC30EC891C874BF6004BEC86 /* boyWalk1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC811C874BF6004BEC86 /* boyWalk1.png */; };
+		EC30EC8A1C874BF6004BEC86 /* boyWalk2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC821C874BF6004BEC86 /* boyWalk2.png */; };
+		EC30EC8B1C874BF6004BEC86 /* boyWalk3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC831C874BF6004BEC86 /* boyWalk3.png */; };
+		EC30EC8C1C874BF6004BEC86 /* boyWalk4.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC841C874BF6004BEC86 /* boyWalk4.png */; };
+		EC30EC8D1C874BF6004BEC86 /* boyWalk5.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC851C874BF6004BEC86 /* boyWalk5.png */; };
+		EC30EC8E1C874BF6004BEC86 /* boyWalk6.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC861C874BF6004BEC86 /* boyWalk6.png */; };
+		EC30EC8F1C874BF6004BEC86 /* boyWalk7.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC871C874BF6004BEC86 /* boyWalk7.png */; };
+		EC30EC901C874BF6004BEC86 /* boyWalk8.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC881C874BF6004BEC86 /* boyWalk8.png */; };
 		EC38B1FA1C6FCCFC00BD6E6D /* auto.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38B1F91C6FCCFC00BD6E6D /* auto.png */; };
+		EC3B395D1CA6FA98003D5D19 /* zutaTipkaS.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3B395A1CA6FA98003D5D19 /* zutaTipkaS.png */; };
+		EC3B395E1CA6FA98003D5D19 /* crvenaTipkaS.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3B395B1CA6FA98003D5D19 /* crvenaTipkaS.png */; };
+		EC3B395F1CA6FA98003D5D19 /* zelenaTipkaS.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3B395C1CA6FA98003D5D19 /* zelenaTipkaS.png */; };
+		EC3B39611CA70284003D5D19 /* brojcanik.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3B39601CA70284003D5D19 /* brojcanik.png */; };
+		EC3B39631CA71255003D5D19 /* instrument1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3B39621CA71255003D5D19 /* instrument1.png */; };
+		EC3B39651CA7140A003D5D19 /* kaza1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3B39641CA7140A003D5D19 /* kaza1.png */; };
+		EC3C23801C8B0E6400FBBA2F /* turbinaH1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3C23791C8B0E6400FBBA2F /* turbinaH1.png */; };
+		EC3C23811C8B0E6400FBBA2F /* turbinaH2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3C237A1C8B0E6400FBBA2F /* turbinaH2.png */; };
+		EC3C23821C8B0E6400FBBA2F /* turbinaH3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3C237B1C8B0E6400FBBA2F /* turbinaH3.png */; };
+		EC3C23831C8B0E6400FBBA2F /* turbinaH4.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3C237C1C8B0E6400FBBA2F /* turbinaH4.png */; };
+		EC3C23841C8B0E6400FBBA2F /* turbinaH5.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3C237D1C8B0E6400FBBA2F /* turbinaH5.png */; };
+		EC3C23851C8B0E6400FBBA2F /* turbinaH6.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3C237E1C8B0E6400FBBA2F /* turbinaH6.png */; };
+		EC3C23881C8B0E6E00FBBA2F /* turbinaH.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3C23871C8B0E6E00FBBA2F /* turbinaH.png */; };
+		EC3C238A1C8B12F800FBBA2F /* turbinaH7.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3C23891C8B12F800FBBA2F /* turbinaH7.png */; };
+		EC3C23911C8B1CB800FBBA2F /* rotorH2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3C238B1C8B1CB800FBBA2F /* rotorH2.png */; };
+		EC3C23921C8B1CB800FBBA2F /* rotorH3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3C238C1C8B1CB800FBBA2F /* rotorH3.png */; };
+		EC3C23931C8B1CB800FBBA2F /* rotorH4.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3C238D1C8B1CB800FBBA2F /* rotorH4.png */; };
+		EC3C23941C8B1CB800FBBA2F /* rotorH5.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3C238E1C8B1CB800FBBA2F /* rotorH5.png */; };
+		EC3C23951C8B1CB800FBBA2F /* rotorH6.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3C238F1C8B1CB800FBBA2F /* rotorH6.png */; };
+		EC3C23961C8B1CB800FBBA2F /* rotorH7.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3C23901C8B1CB800FBBA2F /* rotorH7.png */; };
+		EC3C23981C8B1D0900FBBA2F /* rotorH1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3C23971C8B1D0900FBBA2F /* rotorH1.png */; };
+		EC3C239E1C8B30E000FBBA2F /* kazaljkaT.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3C239D1C8B30E000FBBA2F /* kazaljkaT.png */; };
+		EC3C23A01C8B32E800FBBA2F /* bijelaMrlja.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3C239F1C8B32E800FBBA2F /* bijelaMrlja.png */; };
+		EC3C23B61C8B46AB00FBBA2F /* mlazD1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3C23B31C8B46AB00FBBA2F /* mlazD1.png */; };
+		EC3C23B71C8B46AB00FBBA2F /* mlazD2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3C23B41C8B46AB00FBBA2F /* mlazD2.png */; };
+		EC3C23B81C8B46AB00FBBA2F /* mlazD3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3C23B51C8B46AB00FBBA2F /* mlazD3.png */; };
 		EC4657B21C67D65D00F6509E /* cijevi1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC46578C1C67D65D00F6509E /* cijevi1.png */; };
 		EC4657B31C67D65D00F6509E /* cijevi2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC46578D1C67D65D00F6509E /* cijevi2.png */; };
 		EC4657B41C67D65D00F6509E /* cijevi3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC46578E1C67D65D00F6509E /* cijevi3.png */; };
@@ -62,11 +164,112 @@
 		EC4657D51C67D65D00F6509E /* zarulja0008.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4657AF1C67D65D00F6509E /* zarulja0008.png */; };
 		EC4657D61C67D65D00F6509E /* zarulja0009.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4657B01C67D65D00F6509E /* zarulja0009.png */; };
 		EC4657D71C67D65D00F6509E /* zarulja0010.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4657B11C67D65D00F6509E /* zarulja0010.png */; };
+		EC4DA8141CA7E59300CB5351 /* moreab.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4DA8131CA7E59300CB5351 /* moreab.png */; };
+		EC4DA8161CA8226600CB5351 /* teslaBoatb.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4DA8151CA8226600CB5351 /* teslaBoatb.png */; };
+		EC4DA8181CA82C1100CB5351 /* brodizvan.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4DA8171CA82C1100CB5351 /* brodizvan.png */; };
+		EC4DA81A1CA82D6B00CB5351 /* energyIco.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4DA8191CA82D6B00CB5351 /* energyIco.png */; };
+		EC4DA81C1CA8306F00CB5351 /* energyPico.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4DA81B1CA8306F00CB5351 /* energyPico.png */; };
+		EC4ECFEF1CA4077800D532EB /* elCircuit.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4ECFEE1CA4077800D532EB /* elCircuit.m */; };
+		EC4ED0041CA40FA000D532EB /* sklopkaZ.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4ECFF21CA40FA000D532EB /* sklopkaZ.png */; };
+		EC4ED0051CA40FA000D532EB /* sklopkaO.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4ECFF31CA40FA000D532EB /* sklopkaO.png */; };
+		EC4ED0061CA40FA000D532EB /* zicaPZ.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4ECFF41CA40FA000D532EB /* zicaPZ.png */; };
+		EC4ED0071CA40FA000D532EB /* baterija.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4ECFF51CA40FA000D532EB /* baterija.png */; };
+		EC4ED0081CA40FA000D532EB /* zicaKut.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4ECFF61CA40FA000D532EB /* zicaKut.png */; };
+		EC4ED0091CA40FA000D532EB /* zicaNaT.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4ECFF71CA40FA000D532EB /* zicaNaT.png */; };
+		EC4ED00A1CA40FA000D532EB /* zicaKriz.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4ECFF81CA40FA000D532EB /* zicaKriz.png */; };
+		EC4ED00B1CA40FA000D532EB /* zicaRavno.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4ECFF91CA40FA000D532EB /* zicaRavno.png */; };
+		EC4ED00C1CA40FA000D532EB /* zaruljaS.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4ECFFA1CA40FA000D532EB /* zaruljaS.png */; };
+		EC4ED00D1CA40FA000D532EB /* zarulja.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4ECFFB1CA40FA000D532EB /* zarulja.png */; };
+		EC4ED00E1CA40FA000D532EB /* zicaZS.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4ECFFC1CA40FA000D532EB /* zicaZS.png */; };
+		EC4ED00F1CA40FA000D532EB /* zicaX.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4ECFFD1CA40FA000D532EB /* zicaX.png */; };
+		EC4ED0101CA40FA000D532EB /* zicaT.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4ECFFE1CA40FA000D532EB /* zicaT.png */; };
+		EC4ED0111CA40FA000D532EB /* zicaP.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4ECFFF1CA40FA000D532EB /* zicaP.png */; };
+		EC4ED0121CA40FA000D532EB /* zicaB.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4ED0001CA40FA000D532EB /* zicaB.png */; };
+		EC4ED0131CA40FA000D532EB /* zicaZ.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4ED0011CA40FA000D532EB /* zicaZ.png */; };
+		EC4ED0141CA40FA000D532EB /* zicaK.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4ED0021CA40FA000D532EB /* zicaK.png */; };
+		EC4ED0151CA40FA000D532EB /* zicaV.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4ED0031CA40FA000D532EB /* zicaV.png */; };
+		EC4ED0171CA4114E00D532EB /* podlogaG.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4ED0161CA4114E00D532EB /* podlogaG.png */; };
+		EC4ED0191CA4198B00D532EB /* elCircIco.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4ED0181CA4198B00D532EB /* elCircIco.png */; };
+		EC4ED01B1CA41DF100D532EB /* smece.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4ED01A1CA41DF100D532EB /* smece.png */; };
+		EC4F115D1CAFC30F00D4331C /* sky.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4F115C1CAFC30F00D4331C /* sky.png */; };
+		EC4F115F1CAFCAE300D4331C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4F115E1CAFCAE300D4331C /* CoreMotion.framework */; };
+		EC5224AD1CA534EC00559613 /* kormiloc0000.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224831CA534EC00559613 /* kormiloc0000.png */; };
+		EC5224AE1CA534EC00559613 /* kormiloc0001.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224841CA534EC00559613 /* kormiloc0001.png */; };
+		EC5224AF1CA534EC00559613 /* kormiloc0002.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224851CA534EC00559613 /* kormiloc0002.png */; };
+		EC5224B01CA534EC00559613 /* kormiloc0003.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224861CA534EC00559613 /* kormiloc0003.png */; };
+		EC5224B11CA534EC00559613 /* kormiloc0004.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224871CA534EC00559613 /* kormiloc0004.png */; };
+		EC5224B21CA534EC00559613 /* kormiloc0005.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224881CA534EC00559613 /* kormiloc0005.png */; };
+		EC5224B31CA534EC00559613 /* kormiloc0006.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224891CA534EC00559613 /* kormiloc0006.png */; };
+		EC5224B41CA534EC00559613 /* kormiloc0007.png in Resources */ = {isa = PBXBuildFile; fileRef = EC52248A1CA534EC00559613 /* kormiloc0007.png */; };
+		EC5224B51CA534EC00559613 /* kormiloc0008.png in Resources */ = {isa = PBXBuildFile; fileRef = EC52248B1CA534EC00559613 /* kormiloc0008.png */; };
+		EC5224B61CA534EC00559613 /* kormiloc0009.png in Resources */ = {isa = PBXBuildFile; fileRef = EC52248C1CA534EC00559613 /* kormiloc0009.png */; };
+		EC5224B71CA534EC00559613 /* kormiloc0010.png in Resources */ = {isa = PBXBuildFile; fileRef = EC52248D1CA534EC00559613 /* kormiloc0010.png */; };
+		EC5224B81CA534EC00559613 /* kormiloc0011.png in Resources */ = {isa = PBXBuildFile; fileRef = EC52248E1CA534EC00559613 /* kormiloc0011.png */; };
+		EC5224B91CA534EC00559613 /* kormiloc0012.png in Resources */ = {isa = PBXBuildFile; fileRef = EC52248F1CA534EC00559613 /* kormiloc0012.png */; };
+		EC5224BA1CA534EC00559613 /* kormiloc0013.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224901CA534EC00559613 /* kormiloc0013.png */; };
+		EC5224BB1CA534EC00559613 /* kormiloc0014.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224911CA534EC00559613 /* kormiloc0014.png */; };
+		EC5224BC1CA534EC00559613 /* kormiloc0015.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224921CA534EC00559613 /* kormiloc0015.png */; };
+		EC5224BD1CA534EC00559613 /* kormiloc0016.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224931CA534EC00559613 /* kormiloc0016.png */; };
+		EC5224BE1CA534EC00559613 /* kormiloc0017.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224941CA534EC00559613 /* kormiloc0017.png */; };
+		EC5224BF1CA534EC00559613 /* kormiloc0018.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224951CA534EC00559613 /* kormiloc0018.png */; };
+		EC5224C01CA534EC00559613 /* kormiloc0019.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224961CA534EC00559613 /* kormiloc0019.png */; };
+		EC5224C11CA534EC00559613 /* kormiloc0020.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224971CA534EC00559613 /* kormiloc0020.png */; };
+		EC5224C21CA534EC00559613 /* tboprop0000.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224981CA534EC00559613 /* tboprop0000.png */; };
+		EC5224C31CA534EC00559613 /* tboprop0001.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224991CA534EC00559613 /* tboprop0001.png */; };
+		EC5224C41CA534EC00559613 /* tboprop0002.png in Resources */ = {isa = PBXBuildFile; fileRef = EC52249A1CA534EC00559613 /* tboprop0002.png */; };
+		EC5224C51CA534EC00559613 /* tboprop0003.png in Resources */ = {isa = PBXBuildFile; fileRef = EC52249B1CA534EC00559613 /* tboprop0003.png */; };
+		EC5224C61CA534EC00559613 /* tboprop0004.png in Resources */ = {isa = PBXBuildFile; fileRef = EC52249C1CA534EC00559613 /* tboprop0004.png */; };
+		EC5224C71CA534EC00559613 /* tboprop0005.png in Resources */ = {isa = PBXBuildFile; fileRef = EC52249D1CA534EC00559613 /* tboprop0005.png */; };
+		EC5224C81CA534EC00559613 /* tboprop0006.png in Resources */ = {isa = PBXBuildFile; fileRef = EC52249E1CA534EC00559613 /* tboprop0006.png */; };
+		EC5224C91CA534EC00559613 /* tboprop0007.png in Resources */ = {isa = PBXBuildFile; fileRef = EC52249F1CA534EC00559613 /* tboprop0007.png */; };
+		EC5224CA1CA534EC00559613 /* tboprop0008.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224A01CA534EC00559613 /* tboprop0008.png */; };
+		EC5224CB1CA534EC00559613 /* tboprop0009.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224A11CA534EC00559613 /* tboprop0009.png */; };
+		EC5224CC1CA534EC00559613 /* tboprop0010.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224A21CA534EC00559613 /* tboprop0010.png */; };
+		EC5224CD1CA534EC00559613 /* tboprop0011.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224A31CA534EC00559613 /* tboprop0011.png */; };
+		EC5224CE1CA534EC00559613 /* tboprop0012.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224A41CA534EC00559613 /* tboprop0012.png */; };
+		EC5224CF1CA534EC00559613 /* tboprop0013.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224A51CA534EC00559613 /* tboprop0013.png */; };
+		EC5224D01CA534EC00559613 /* tboprop0014.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224A61CA534EC00559613 /* tboprop0014.png */; };
+		EC5224D11CA534EC00559613 /* tboprop0015.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224A71CA534EC00559613 /* tboprop0015.png */; };
+		EC5224D21CA534EC00559613 /* tboprop0016.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224A81CA534EC00559613 /* tboprop0016.png */; };
+		EC5224D31CA534EC00559613 /* tboprop0017.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224A91CA534EC00559613 /* tboprop0017.png */; };
+		EC5224D41CA534EC00559613 /* tboprop0018.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224AA1CA534EC00559613 /* tboprop0018.png */; };
+		EC5224D51CA534EC00559613 /* tboprop0019.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224AB1CA534EC00559613 /* tboprop0019.png */; };
+		EC5224D61CA534EC00559613 /* tboprop0020.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224AC1CA534EC00559613 /* tboprop0020.png */; };
+		EC5224D81CA5350C00559613 /* korito.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224D71CA5350C00559613 /* korito.png */; };
+		EC5224EF1CA5356F00559613 /* mjehurici0043.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224DA1CA5356F00559613 /* mjehurici0043.png */; };
+		EC5224F01CA5356F00559613 /* mjehurici0044.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224DB1CA5356F00559613 /* mjehurici0044.png */; };
+		EC5224F11CA5356F00559613 /* mjehurici0045.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224DC1CA5356F00559613 /* mjehurici0045.png */; };
+		EC5224F21CA5356F00559613 /* mjehurici0046.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224DD1CA5356F00559613 /* mjehurici0046.png */; };
+		EC5224F31CA5356F00559613 /* mjehurici0047.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224DE1CA5356F00559613 /* mjehurici0047.png */; };
+		EC5224F41CA5356F00559613 /* mjehurici0048.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224DF1CA5356F00559613 /* mjehurici0048.png */; };
+		EC5224F51CA5356F00559613 /* mjehurici0049.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224E01CA5356F00559613 /* mjehurici0049.png */; };
+		EC5224F61CA5356F00559613 /* mjehurici0050.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224E11CA5356F00559613 /* mjehurici0050.png */; };
+		EC5224F71CA5356F00559613 /* mjehurici0051.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224E21CA5356F00559613 /* mjehurici0051.png */; };
+		EC5224F81CA5356F00559613 /* mjehurici0052.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224E31CA5356F00559613 /* mjehurici0052.png */; };
+		EC5224F91CA5356F00559613 /* mjehurici0053.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224E41CA5356F00559613 /* mjehurici0053.png */; };
+		EC5224FA1CA5356F00559613 /* mjehurici0054.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224E51CA5356F00559613 /* mjehurici0054.png */; };
+		EC5224FB1CA5356F00559613 /* mjehurici0055.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224E61CA5356F00559613 /* mjehurici0055.png */; };
+		EC5224FC1CA5356F00559613 /* mjehurici0056.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224E71CA5356F00559613 /* mjehurici0056.png */; };
+		EC5224FD1CA5356F00559613 /* mjehurici0057.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224E81CA5356F00559613 /* mjehurici0057.png */; };
+		EC5224FE1CA5356F00559613 /* mjehurici0058.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224E91CA5356F00559613 /* mjehurici0058.png */; };
+		EC5224FF1CA5356F00559613 /* mjehurici0059.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224EA1CA5356F00559613 /* mjehurici0059.png */; };
+		EC5225001CA5356F00559613 /* mjehurici0060.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224EB1CA5356F00559613 /* mjehurici0060.png */; };
+		EC5225011CA5356F00559613 /* mjehurici0061.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224EC1CA5356F00559613 /* mjehurici0061.png */; };
+		EC5225021CA5356F00559613 /* mjehurici0062.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224ED1CA5356F00559613 /* mjehurici0062.png */; };
+		EC5225031CA5356F00559613 /* mjehurici0063.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224EE1CA5356F00559613 /* mjehurici0063.png */; };
+		EC5225081CA5DAB300559613 /* komandnaBrod.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5225071CA5DAB300559613 /* komandnaBrod.png */; };
+		EC52250A1CA5DB0D00559613 /* zutaTipka.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5225091CA5DB0D00559613 /* zutaTipka.png */; };
+		EC52250D1CA5E54800559613 /* crvenaTipka.png in Resources */ = {isa = PBXBuildFile; fileRef = EC52250B1CA5E54800559613 /* crvenaTipka.png */; };
+		EC52250E1CA5E54800559613 /* zelenaTipka.png in Resources */ = {isa = PBXBuildFile; fileRef = EC52250C1CA5E54800559613 /* zelenaTipka.png */; };
 		EC570DE41C723F1500B02555 /* konzola.png in Resources */ = {isa = PBXBuildFile; fileRef = EC570DE01C723F1500B02555 /* konzola.png */; };
 		EC570DE51C723F1500B02555 /* podlogaXekrana.png in Resources */ = {isa = PBXBuildFile; fileRef = EC570DE11C723F1500B02555 /* podlogaXekrana.png */; };
 		EC570DE61C723F1500B02555 /* tijelo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC570DE21C723F1500B02555 /* tijelo.png */; };
 		EC570DE71C723F1500B02555 /* tijelo1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC570DE31C723F1500B02555 /* tijelo1.png */; };
 		EC570DE91C723F2B00B02555 /* zidXray.png in Resources */ = {isa = PBXBuildFile; fileRef = EC570DE81C723F2B00B02555 /* zidXray.png */; };
+		EC5C0F081C8C3257002233E8 /* mlazG3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C0F051C8C3257002233E8 /* mlazG3.png */; };
+		EC5C0F091C8C3257002233E8 /* mlazG2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C0F061C8C3257002233E8 /* mlazG2.png */; };
+		EC5C0F0A1C8C3257002233E8 /* mlazG1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C0F071C8C3257002233E8 /* mlazG1.png */; };
+		EC5C0F0C1C8C3C7D002233E8 /* powerProduction.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C0F0B1C8C3C7D002233E8 /* powerProduction.png */; };
 		EC5C62211C567FC400608AEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62201C567FC400608AEC /* main.m */; };
 		EC5C62241C567FC400608AEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62231C567FC400608AEC /* AppDelegate.m */; };
 		EC5C62271C567FC400608AEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62261C567FC400608AEC /* ViewController.m */; };
@@ -86,13 +289,11 @@
 		EC5C62561C56B1D000608AEC /* xray.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62551C56B1D000608AEC /* xray.m */; };
 		EC5C62591C56B20600608AEC /* jaje.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62581C56B20600608AEC /* jaje.m */; };
 		EC5C625F1C56B25800608AEC /* radio.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C625E1C56B25800608AEC /* radio.m */; };
-		EC5C62621C56B27B00608AEC /* laser.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62611C56B27B00608AEC /* laser.m */; };
 		EC5C62651C56B31500608AEC /* elPipe.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C62641C56B31500608AEC /* elPipe.m */; };
 		EC5C626C1C58034F00608AEC /* prva.html in Resources */ = {isa = PBXBuildFile; fileRef = EC5C626B1C58034F00608AEC /* prva.html */; };
 		EC5C62701C58117600608AEC /* teslaSmiljan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC5C626F1C58117600608AEC /* teslaSmiljan.jpg */; };
 		EC5C62721C58119200608AEC /* TeslaSjedi.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C62711C58119200608AEC /* TeslaSjedi.png */; };
 		EC5C62741C5818ED00608AEC /* druga.html in Resources */ = {isa = PBXBuildFile; fileRef = EC5C62731C5818ED00608AEC /* druga.html */; };
-		EC5C62761C581C4D00608AEC /* brodizvan.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C62751C581C4D00608AEC /* brodizvan.png */; };
 		EC5C627A1C581F9700608AEC /* ticon.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C62791C581F9700608AEC /* ticon.png */; };
 		EC5C62811C58331900608AEC /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C627F1C58331900608AEC /* left.png */; };
 		EC5C62821C58331900608AEC /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C62801C58331900608AEC /* right.png */; };
@@ -106,30 +307,6 @@
 		EC5FDBC91C7E2B7500AAD01C /* daska.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBC81C7E2B7500AAD01C /* daska.png */; };
 		EC5FDBCB1C7E2BC000AAD01C /* instrument.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBCA1C7E2BC000AAD01C /* instrument.png */; };
 		EC5FDBCD1C7E2DB100AAD01C /* kaz2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBCC1C7E2DB100AAD01C /* kaz2.png */; };
-		EC5FDBE61C7E2DE900AAD01C /* trigonom1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBCE1C7E2DE900AAD01C /* trigonom1.png */; };
-		EC5FDBE71C7E2DE900AAD01C /* trigonom2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBCF1C7E2DE900AAD01C /* trigonom2.png */; };
-		EC5FDBE81C7E2DE900AAD01C /* trigonom3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBD01C7E2DE900AAD01C /* trigonom3.png */; };
-		EC5FDBE91C7E2DE900AAD01C /* trigonom4.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBD11C7E2DE900AAD01C /* trigonom4.png */; };
-		EC5FDBEA1C7E2DE900AAD01C /* trigonom5.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBD21C7E2DE900AAD01C /* trigonom5.png */; };
-		EC5FDBEB1C7E2DE900AAD01C /* trigonom6.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBD31C7E2DE900AAD01C /* trigonom6.png */; };
-		EC5FDBEC1C7E2DE900AAD01C /* trigonom7.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBD41C7E2DE900AAD01C /* trigonom7.png */; };
-		EC5FDBED1C7E2DE900AAD01C /* trigonom8.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBD51C7E2DE900AAD01C /* trigonom8.png */; };
-		EC5FDBEE1C7E2DE900AAD01C /* trigonom9.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBD61C7E2DE900AAD01C /* trigonom9.png */; };
-		EC5FDBEF1C7E2DE900AAD01C /* trigonom10.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBD71C7E2DE900AAD01C /* trigonom10.png */; };
-		EC5FDBF01C7E2DE900AAD01C /* trigonom11.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBD81C7E2DE900AAD01C /* trigonom11.png */; };
-		EC5FDBF11C7E2DE900AAD01C /* trigonom12.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBD91C7E2DE900AAD01C /* trigonom12.png */; };
-		EC5FDBF21C7E2DE900AAD01C /* trigonom13.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBDA1C7E2DE900AAD01C /* trigonom13.png */; };
-		EC5FDBF31C7E2DE900AAD01C /* trigonom14.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBDB1C7E2DE900AAD01C /* trigonom14.png */; };
-		EC5FDBF41C7E2DE900AAD01C /* trigonom15.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBDC1C7E2DE900AAD01C /* trigonom15.png */; };
-		EC5FDBF51C7E2DE900AAD01C /* trigonom16.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBDD1C7E2DE900AAD01C /* trigonom16.png */; };
-		EC5FDBF61C7E2DE900AAD01C /* trigonom17.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBDE1C7E2DE900AAD01C /* trigonom17.png */; };
-		EC5FDBF71C7E2DE900AAD01C /* trigonom18.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBDF1C7E2DE900AAD01C /* trigonom18.png */; };
-		EC5FDBF81C7E2DE900AAD01C /* trigonom19.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBE01C7E2DE900AAD01C /* trigonom19.png */; };
-		EC5FDBF91C7E2DE900AAD01C /* trigonom20.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBE11C7E2DE900AAD01C /* trigonom20.png */; };
-		EC5FDBFA1C7E2DE900AAD01C /* trigonom21.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBE21C7E2DE900AAD01C /* trigonom21.png */; };
-		EC5FDBFB1C7E2DE900AAD01C /* trigonom22.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBE31C7E2DE900AAD01C /* trigonom22.png */; };
-		EC5FDBFC1C7E2DE900AAD01C /* trigonom23.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBE41C7E2DE900AAD01C /* trigonom23.png */; };
-		EC5FDBFD1C7E2DE900AAD01C /* trigonom24.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBE51C7E2DE900AAD01C /* trigonom24.png */; };
 		EC5FDBFF1C7E2E2C00AAD01C /* rotor3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBFE1C7E2E2C00AAD01C /* rotor3.png */; };
 		EC5FDC011C7E2E4100AAD01C /* podlogaPrekidaca.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDC001C7E2E4100AAD01C /* podlogaPrekidaca.png */; };
 		EC5FDC031C7E2E4A00AAD01C /* ruckaPrekidaca.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDC021C7E2E4A00AAD01C /* ruckaPrekidaca.png */; };
@@ -143,36 +320,51 @@
 		EC645D3B1C7C5528007E4ECB /* podlogaG2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC645D3A1C7C5527007E4ECB /* podlogaG2.png */; };
 		EC74B6DA1C7462360016444E /* stator2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B6D91C7462360016444E /* stator2.png */; };
 		EC74B6E21C74F8050016444E /* bomba.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B6E11C74F8050016444E /* bomba.png */; };
-		EC74B71F1C752AF60016444E /* trigonom24.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B7071C752AF60016444E /* trigonom24.png */; };
-		EC74B7211C752AF60016444E /* trigonom22.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B7091C752AF60016444E /* trigonom22.png */; };
-		EC74B7221C752AF60016444E /* trigonom21.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B70A1C752AF60016444E /* trigonom21.png */; };
-		EC74B7231C752AF60016444E /* trigonom20.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B70B1C752AF60016444E /* trigonom20.png */; };
-		EC74B7251C752AF60016444E /* trigonom18.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B70D1C752AF60016444E /* trigonom18.png */; };
-		EC74B7261C752AF60016444E /* trigonom17.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B70E1C752AF60016444E /* trigonom17.png */; };
-		EC74B7271C752AF60016444E /* trigonom16.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B70F1C752AF60016444E /* trigonom16.png */; };
-		EC74B72A1C752AF60016444E /* trigonom13.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B7121C752AF60016444E /* trigonom13.png */; };
-		EC74B72B1C752AF60016444E /* trigonom12.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B7131C752AF60016444E /* trigonom12.png */; };
-		EC74B72C1C752AF60016444E /* trigonom11.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B7141C752AF60016444E /* trigonom11.png */; };
-		EC74B72D1C752AF60016444E /* trigonom10.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B7151C752AF60016444E /* trigonom10.png */; };
-		EC74B7331C752AF60016444E /* trigonom4.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B71B1C752AF60016444E /* trigonom4.png */; };
-		EC74B7341C752AF60016444E /* trigonom3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B71C1C752AF60016444E /* trigonom3.png */; };
-		EC74B7351C752AF60016444E /* trigonom2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B71D1C752AF60016444E /* trigonom2.png */; };
 		EC8B2A4A1C787E2900680ABD /* coil.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B2A491C787E2900680ABD /* coil.png */; };
+		ECA1BD7B1C89D72700DFDA10 /* steamP.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA1BD7A1C89D72700DFDA10 /* steamP.png */; };
+		ECB8F8AB1C91F18300FA00B0 /* teslaBoatc.png in Resources */ = {isa = PBXBuildFile; fileRef = ECB8F8AA1C91F18300FA00B0 /* teslaBoatc.png */; };
 		ECCD0F741C63BB1900A1A4D7 /* tesla200.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCD0F731C63BB1900A1A4D7 /* tesla200.png */; };
+		ECE9F2D81C8B932B00238AFD /* zupcanik1.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE9F2D71C8B932B00238AFD /* zupcanik1.png */; };
+		ECE9F2DA1C8B9C4200238AFD /* zupcastaLetva.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE9F2D91C8B9C4200238AFD /* zupcastaLetva.png */; };
+		ECF27AAD1C882DE7007C9BAD /* trigonom1.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF27A951C882DE7007C9BAD /* trigonom1.png */; };
+		ECF27AAE1C882DE7007C9BAD /* trigonom2.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF27A961C882DE7007C9BAD /* trigonom2.png */; };
+		ECF27AAF1C882DE7007C9BAD /* trigonom3.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF27A971C882DE7007C9BAD /* trigonom3.png */; };
+		ECF27AB01C882DE7007C9BAD /* trigonom4.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF27A981C882DE7007C9BAD /* trigonom4.png */; };
+		ECF27AB11C882DE7007C9BAD /* trigonom5.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF27A991C882DE7007C9BAD /* trigonom5.png */; };
+		ECF27AB21C882DE7007C9BAD /* trigonom6.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF27A9A1C882DE7007C9BAD /* trigonom6.png */; };
+		ECF27AB31C882DE7007C9BAD /* trigonom7.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF27A9B1C882DE7007C9BAD /* trigonom7.png */; };
+		ECF27AB41C882DE7007C9BAD /* trigonom8.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF27A9C1C882DE7007C9BAD /* trigonom8.png */; };
+		ECF27AB51C882DE7007C9BAD /* trigonom9.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF27A9D1C882DE7007C9BAD /* trigonom9.png */; };
+		ECF27AB61C882DE7007C9BAD /* trigonom10.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF27A9E1C882DE7007C9BAD /* trigonom10.png */; };
+		ECF27AB71C882DE7007C9BAD /* trigonom11.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF27A9F1C882DE7007C9BAD /* trigonom11.png */; };
+		ECF27AB81C882DE7007C9BAD /* trigonom12.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF27AA01C882DE7007C9BAD /* trigonom12.png */; };
+		ECF27AB91C882DE7007C9BAD /* trigonom13.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF27AA11C882DE7007C9BAD /* trigonom13.png */; };
+		ECF27ABA1C882DE7007C9BAD /* trigonom14.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF27AA21C882DE7007C9BAD /* trigonom14.png */; };
+		ECF27ABB1C882DE7007C9BAD /* trigonom15.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF27AA31C882DE7007C9BAD /* trigonom15.png */; };
+		ECF27ABC1C882DE7007C9BAD /* trigonom16.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF27AA41C882DE7007C9BAD /* trigonom16.png */; };
+		ECF27ABD1C882DE7007C9BAD /* trigonom17.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF27AA51C882DE7007C9BAD /* trigonom17.png */; };
+		ECF27ABE1C882DE7007C9BAD /* trigonom18.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF27AA61C882DE7007C9BAD /* trigonom18.png */; };
+		ECF27ABF1C882DE7007C9BAD /* trigonom19.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF27AA71C882DE7007C9BAD /* trigonom19.png */; };
+		ECF27AC01C882DE7007C9BAD /* trigonom20.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF27AA81C882DE7007C9BAD /* trigonom20.png */; };
+		ECF27AC11C882DE7007C9BAD /* trigonom21.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF27AA91C882DE7007C9BAD /* trigonom21.png */; };
+		ECF27AC21C882DE7007C9BAD /* trigonom22.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF27AAA1C882DE7007C9BAD /* trigonom22.png */; };
+		ECF27AC31C882DE7007C9BAD /* trigonom23.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF27AAB1C882DE7007C9BAD /* trigonom23.png */; };
+		ECF27AC41C882DE7007C9BAD /* trigonom24.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF27AAC1C882DE7007C9BAD /* trigonom24.png */; };
 		ECF6EDFC1C7307F70070C7D2 /* xRayInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF6EDFB1C7307F70070C7D2 /* xRayInfo.m */; };
-		ECF6EE0C1C731DF20070C7D2 /* xReyBeam8.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE041C731DF20070C7D2 /* xReyBeam8.png */; };
-		ECF6EE0D1C731DF20070C7D2 /* xReyBeam7.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE051C731DF20070C7D2 /* xReyBeam7.png */; };
-		ECF6EE0E1C731DF20070C7D2 /* xReyBeam6.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE061C731DF20070C7D2 /* xReyBeam6.png */; };
-		ECF6EE0F1C731DF20070C7D2 /* xReyBeam5.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE071C731DF20070C7D2 /* xReyBeam5.png */; };
-		ECF6EE111C731DF20070C7D2 /* xReyBeam3.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE091C731DF20070C7D2 /* xReyBeam3.png */; };
-		ECF6EE121C731DF20070C7D2 /* xReyBeam2.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE0A1C731DF20070C7D2 /* xReyBeam2.png */; };
-		ECF6EE131C731DF20070C7D2 /* xReyBeam1.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE0B1C731DF20070C7D2 /* xReyBeam1.png */; };
 		ECF6EE191C7363620070C7D2 /* xrayTube.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE181C7363620070C7D2 /* xrayTube.png */; };
 		ECF6EE1B1C736DBF0070C7D2 /* treca.html in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE1A1C736DBF0070C7D2 /* treca.html */; };
 		ECF6EE1D1C736DD20070C7D2 /* cetvrta.html in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE1C1C736DD20070C7D2 /* cetvrta.html */; };
 		ECF6EE1F1C736DDD0070C7D2 /* peta.html in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE1E1C736DDD0070C7D2 /* peta.html */; };
 		ECF6EE231C736E310070C7D2 /* stator3.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE221C736E310070C7D2 /* stator3.png */; };
-		ECF6EE251C736E4D0070C7D2 /* coil.png in Resources */ = {isa = PBXBuildFile; fileRef = ECF6EE241C736E4D0070C7D2 /* coil.png */; };
+		ECFF899D1C88A00B00AF51E2 /* xReyBeam1.png in Resources */ = {isa = PBXBuildFile; fileRef = ECFF89951C88A00B00AF51E2 /* xReyBeam1.png */; };
+		ECFF899E1C88A00B00AF51E2 /* xReyBeam2.png in Resources */ = {isa = PBXBuildFile; fileRef = ECFF89961C88A00B00AF51E2 /* xReyBeam2.png */; };
+		ECFF899F1C88A00B00AF51E2 /* xReyBeam3.png in Resources */ = {isa = PBXBuildFile; fileRef = ECFF89971C88A00B00AF51E2 /* xReyBeam3.png */; };
+		ECFF89A01C88A00B00AF51E2 /* xReyBeam4.png in Resources */ = {isa = PBXBuildFile; fileRef = ECFF89981C88A00B00AF51E2 /* xReyBeam4.png */; };
+		ECFF89A11C88A00B00AF51E2 /* xReyBeam5.png in Resources */ = {isa = PBXBuildFile; fileRef = ECFF89991C88A00B00AF51E2 /* xReyBeam5.png */; };
+		ECFF89A21C88A00B00AF51E2 /* xReyBeam6.png in Resources */ = {isa = PBXBuildFile; fileRef = ECFF899A1C88A00B00AF51E2 /* xReyBeam6.png */; };
+		ECFF89A31C88A00B00AF51E2 /* xReyBeam7.png in Resources */ = {isa = PBXBuildFile; fileRef = ECFF899B1C88A00B00AF51E2 /* xReyBeam7.png */; };
+		ECFF89A41C88A00B00AF51E2 /* xReyBeam8.png in Resources */ = {isa = PBXBuildFile; fileRef = ECFF899C1C88A00B00AF51E2 /* xReyBeam8.png */; };
+		ECFF89A61C88A02900AF51E2 /* elektron.png in Resources */ = {isa = PBXBuildFile; fileRef = ECFF89A51C88A02900AF51E2 /* elektron.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -194,8 +386,114 @@
 		ACE8A88F1C7BB01500EC9A83 /* sedam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sedam.png; path = "MC Nikola Tesla/sedam.png"; sourceTree = "<group>"; };
 		ACE8A8901C7BB01500EC9A83 /* sest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sest.png; path = "MC Nikola Tesla/sest.png"; sourceTree = "<group>"; };
 		ACE8A8911C7BB01500EC9A83 /* tri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tri.png; path = "MC Nikola Tesla/tri.png"; sourceTree = "<group>"; };
-		ACE8A89D1C7BB0B300EC9A83 /* brodizvan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brodizvan.png; sourceTree = "<group>"; };
+		EC0A5CFC1CAEE16B002147BF /* broduvod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = broduvod.h; sourceTree = "<group>"; };
+		EC0A5CFD1CAEE16B002147BF /* broduvod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = broduvod.m; sourceTree = "<group>"; };
+		EC0A5CFF1CAEFA04002147BF /* brodVozi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brodVozi.h; sourceTree = "<group>"; };
+		EC0A5D001CAEFA04002147BF /* brodVozi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = brodVozi.m; sourceTree = "<group>"; };
+		EC0A5D021CAEFBB9002147BF /* scenaBrod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scenaBrod.h; sourceTree = "<group>"; };
+		EC0A5D031CAEFBB9002147BF /* scenaBrod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scenaBrod.m; sourceTree = "<group>"; };
+		EC0A5D051CAEFCA7002147BF /* kolekcijas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kolekcijas.h; sourceTree = "<group>"; };
+		EC0A5D061CAEFCA7002147BF /* kolekcijas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kolekcijas.m; sourceTree = "<group>"; };
+		EC0A5D081CAF03B2002147BF /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		EC0A5D0A1CAF04EA002147BF /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
+		EC0A5D0E1CAF1054002147BF /* papir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = papir.png; sourceTree = "<group>"; };
+		EC0A5D101CAF1297002147BF /* instrumentt1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentt1.png; sourceTree = "<group>"; };
+		EC0A5D111CAF1297002147BF /* instrumentt2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentt2.png; sourceTree = "<group>"; };
+		EC0A5D121CAF1297002147BF /* instrumentt3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentt3.png; sourceTree = "<group>"; };
+		EC0A5D131CAF1297002147BF /* instrumentt4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentt4.png; sourceTree = "<group>"; };
+		EC0A5D151CAF1297002147BF /* instrumentt6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentt6.png; sourceTree = "<group>"; };
+		EC0A5D161CAF1297002147BF /* instrumentt7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentt7.png; sourceTree = "<group>"; };
+		EC0A5D171CAF1297002147BF /* instrumentt8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentt8.png; sourceTree = "<group>"; };
+		EC0A5D181CAF1297002147BF /* instrumentt9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentt9.png; sourceTree = "<group>"; };
+		EC0A5D191CAF1297002147BF /* instrumentt10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentt10.png; sourceTree = "<group>"; };
+		EC0A5D1A1CAF1297002147BF /* instrumentt11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentt11.png; sourceTree = "<group>"; };
+		EC0A5D1B1CAF1297002147BF /* instrumentt12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentt12.png; sourceTree = "<group>"; };
+		EC0A5D1C1CAF1297002147BF /* instrumentt13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentt13.png; sourceTree = "<group>"; };
+		EC0A5D1D1CAF1297002147BF /* instrumentt14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentt14.png; sourceTree = "<group>"; };
+		EC0A5D1E1CAF1297002147BF /* instrumentt15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentt15.png; sourceTree = "<group>"; };
+		EC0A5D1F1CAF1297002147BF /* instrumentt16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentt16.png; sourceTree = "<group>"; };
+		EC0A5D201CAF1297002147BF /* instrumentt17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentt17.png; sourceTree = "<group>"; };
+		EC0A5D211CAF1297002147BF /* instrumentt18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentt18.png; sourceTree = "<group>"; };
+		EC0A5D221CAF1297002147BF /* instrumentt19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentt19.png; sourceTree = "<group>"; };
+		EC0A5D231CAF1297002147BF /* instrumentt20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentt20.png; sourceTree = "<group>"; };
+		EC0A5D241CAF1297002147BF /* instrumentt21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentt21.png; sourceTree = "<group>"; };
+		EC0A5D3A1CAF12AC002147BF /* mjestaInstrumenta1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjestaInstrumenta1.png; sourceTree = "<group>"; };
+		EC0A5D3B1CAF12AC002147BF /* mjestaInstrumenta2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjestaInstrumenta2.png; sourceTree = "<group>"; };
+		EC0A5D3C1CAF12AC002147BF /* mjestaInstrumenta3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjestaInstrumenta3.png; sourceTree = "<group>"; };
+		EC0A5D3D1CAF12AC002147BF /* mjestaInstrumenta4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjestaInstrumenta4.png; sourceTree = "<group>"; };
+		EC0A5D3E1CAF12AC002147BF /* mjestaInstrumenta5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjestaInstrumenta5.png; sourceTree = "<group>"; };
+		EC0A5D441CAF12B8002147BF /* sivaPodloga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sivaPodloga.png; sourceTree = "<group>"; };
+		EC0A5D461CAF12D8002147BF /* collection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = collection.png; sourceTree = "<group>"; };
+		EC0A5D4A1CAF12F2002147BF /* off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = off.png; sourceTree = "<group>"; };
+		EC0A5D4B1CAF12F2002147BF /* on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = on.png; sourceTree = "<group>"; };
+		EC0A5D501CAF1314002147BF /* otok1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otok1.png; sourceTree = "<group>"; };
+		EC0A5D511CAF1314002147BF /* otok2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otok2.png; sourceTree = "<group>"; };
+		EC0A5D521CAF1314002147BF /* otok3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otok3.png; sourceTree = "<group>"; };
+		EC0A5D531CAF1314002147BF /* otok4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otok4.png; sourceTree = "<group>"; };
+		EC0A5D541CAF1314002147BF /* otok5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otok5.png; sourceTree = "<group>"; };
+		EC0A5D551CAF1314002147BF /* otok6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otok6.png; sourceTree = "<group>"; };
+		EC0A5D5C1CAF1590002147BF /* brododozgo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brododozgo.png; sourceTree = "<group>"; };
+		EC0A5D5E1CAF15A8002147BF /* zPada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zPada.mp3; sourceTree = "<group>"; };
+		EC0A5D601CAF15C4002147BF /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		EC0A5D621CAF15CC002147BF /* kazaljka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kazaljka.png; sourceTree = "<group>"; };
+		EC0A5D641CAF1783002147BF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EC0A5D661CAF1CC5002147BF /* rightB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightB.png; sourceTree = "<group>"; };
+		EC0A5D671CAF1CC5002147BF /* leftB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftB.png; sourceTree = "<group>"; };
+		EC0A5D6A1CAF1DEC002147BF /* more3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more3.png; sourceTree = "<group>"; };
+		EC0A5D6C1CAF258F002147BF /* instrumentt5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentt5.png; sourceTree = "<group>"; };
+		EC30EC5A1C874B55004BEC86 /* planine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planine.png; sourceTree = "<group>"; };
+		EC30EC5C1C874B5E004BEC86 /* crnaPodloga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crnaPodloga.png; sourceTree = "<group>"; };
+		EC30EC5E1C874B6F004BEC86 /* cage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cage.png; sourceTree = "<group>"; };
+		EC30EC5F1C874B6F004BEC86 /* cage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cage2.png; sourceTree = "<group>"; };
+		EC30EC601C874B6F004BEC86 /* tcoil2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tcoil2.png; sourceTree = "<group>"; };
+		EC30EC611C874B6F004BEC86 /* zemlja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zemlja.png; sourceTree = "<group>"; };
+		EC30EC661C874B78004BEC86 /* boyDead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boyDead.png; sourceTree = "<group>"; };
+		EC30EC691C874BB3004BEC86 /* crawling1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crawling1.png; sourceTree = "<group>"; };
+		EC30EC6A1C874BB3004BEC86 /* crawling2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crawling2.png; sourceTree = "<group>"; };
+		EC30EC6B1C874BB3004BEC86 /* crawling3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crawling3.png; sourceTree = "<group>"; };
+		EC30EC701C874BD9004BEC86 /* stop1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop1.png; sourceTree = "<group>"; };
+		EC30EC711C874BD9004BEC86 /* stop2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop2.png; sourceTree = "<group>"; };
+		EC30EC721C874BD9004BEC86 /* stop3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop3.png; sourceTree = "<group>"; };
+		EC30EC731C874BD9004BEC86 /* stop4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop4.png; sourceTree = "<group>"; };
+		EC30EC741C874BD9004BEC86 /* stop5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop5.png; sourceTree = "<group>"; };
+		EC30EC751C874BD9004BEC86 /* stop6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop6.png; sourceTree = "<group>"; };
+		EC30EC761C874BD9004BEC86 /* stop7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop7.png; sourceTree = "<group>"; };
+		EC30EC771C874BD9004BEC86 /* stop8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop8.png; sourceTree = "<group>"; };
+		EC30EC811C874BF6004BEC86 /* boyWalk1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boyWalk1.png; sourceTree = "<group>"; };
+		EC30EC821C874BF6004BEC86 /* boyWalk2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boyWalk2.png; sourceTree = "<group>"; };
+		EC30EC831C874BF6004BEC86 /* boyWalk3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boyWalk3.png; sourceTree = "<group>"; };
+		EC30EC841C874BF6004BEC86 /* boyWalk4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boyWalk4.png; sourceTree = "<group>"; };
+		EC30EC851C874BF6004BEC86 /* boyWalk5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boyWalk5.png; sourceTree = "<group>"; };
+		EC30EC861C874BF6004BEC86 /* boyWalk6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boyWalk6.png; sourceTree = "<group>"; };
+		EC30EC871C874BF6004BEC86 /* boyWalk7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boyWalk7.png; sourceTree = "<group>"; };
+		EC30EC881C874BF6004BEC86 /* boyWalk8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boyWalk8.png; sourceTree = "<group>"; };
 		EC38B1F91C6FCCFC00BD6E6D /* auto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = auto.png; sourceTree = "<group>"; };
+		EC3B395A1CA6FA98003D5D19 /* zutaTipkaS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zutaTipkaS.png; sourceTree = "<group>"; };
+		EC3B395B1CA6FA98003D5D19 /* crvenaTipkaS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crvenaTipkaS.png; sourceTree = "<group>"; };
+		EC3B395C1CA6FA98003D5D19 /* zelenaTipkaS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zelenaTipkaS.png; sourceTree = "<group>"; };
+		EC3B39601CA70284003D5D19 /* brojcanik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brojcanik.png; sourceTree = "<group>"; };
+		EC3B39621CA71255003D5D19 /* instrument1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrument1.png; sourceTree = "<group>"; };
+		EC3B39641CA7140A003D5D19 /* kaza1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kaza1.png; sourceTree = "<group>"; };
+		EC3C23791C8B0E6400FBBA2F /* turbinaH1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turbinaH1.png; sourceTree = "<group>"; };
+		EC3C237A1C8B0E6400FBBA2F /* turbinaH2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turbinaH2.png; sourceTree = "<group>"; };
+		EC3C237B1C8B0E6400FBBA2F /* turbinaH3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turbinaH3.png; sourceTree = "<group>"; };
+		EC3C237C1C8B0E6400FBBA2F /* turbinaH4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turbinaH4.png; sourceTree = "<group>"; };
+		EC3C237D1C8B0E6400FBBA2F /* turbinaH5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turbinaH5.png; sourceTree = "<group>"; };
+		EC3C237E1C8B0E6400FBBA2F /* turbinaH6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turbinaH6.png; sourceTree = "<group>"; };
+		EC3C23871C8B0E6E00FBBA2F /* turbinaH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turbinaH.png; sourceTree = "<group>"; };
+		EC3C23891C8B12F800FBBA2F /* turbinaH7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turbinaH7.png; sourceTree = "<group>"; };
+		EC3C238B1C8B1CB800FBBA2F /* rotorH2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotorH2.png; sourceTree = "<group>"; };
+		EC3C238C1C8B1CB800FBBA2F /* rotorH3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotorH3.png; sourceTree = "<group>"; };
+		EC3C238D1C8B1CB800FBBA2F /* rotorH4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotorH4.png; sourceTree = "<group>"; };
+		EC3C238E1C8B1CB800FBBA2F /* rotorH5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotorH5.png; sourceTree = "<group>"; };
+		EC3C238F1C8B1CB800FBBA2F /* rotorH6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotorH6.png; sourceTree = "<group>"; };
+		EC3C23901C8B1CB800FBBA2F /* rotorH7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotorH7.png; sourceTree = "<group>"; };
+		EC3C23971C8B1D0900FBBA2F /* rotorH1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotorH1.png; sourceTree = "<group>"; };
+		EC3C239D1C8B30E000FBBA2F /* kazaljkaT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kazaljkaT.png; sourceTree = "<group>"; };
+		EC3C239F1C8B32E800FBBA2F /* bijelaMrlja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bijelaMrlja.png; sourceTree = "<group>"; };
+		EC3C23B31C8B46AB00FBBA2F /* mlazD1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mlazD1.png; sourceTree = "<group>"; };
+		EC3C23B41C8B46AB00FBBA2F /* mlazD2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mlazD2.png; sourceTree = "<group>"; };
+		EC3C23B51C8B46AB00FBBA2F /* mlazD3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mlazD3.png; sourceTree = "<group>"; };
 		EC46578C1C67D65D00F6509E /* cijevi1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cijevi1.png; sourceTree = "<group>"; };
 		EC46578D1C67D65D00F6509E /* cijevi2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cijevi2.png; sourceTree = "<group>"; };
 		EC46578E1C67D65D00F6509E /* cijevi3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cijevi3.png; sourceTree = "<group>"; };
@@ -233,11 +531,113 @@
 		EC4657AF1C67D65D00F6509E /* zarulja0008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zarulja0008.png; sourceTree = "<group>"; };
 		EC4657B01C67D65D00F6509E /* zarulja0009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zarulja0009.png; sourceTree = "<group>"; };
 		EC4657B11C67D65D00F6509E /* zarulja0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zarulja0010.png; sourceTree = "<group>"; };
+		EC4DA8131CA7E59300CB5351 /* moreab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moreab.png; sourceTree = "<group>"; };
+		EC4DA8151CA8226600CB5351 /* teslaBoatb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teslaBoatb.png; sourceTree = "<group>"; };
+		EC4DA8171CA82C1100CB5351 /* brodizvan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brodizvan.png; sourceTree = "<group>"; };
+		EC4DA8191CA82D6B00CB5351 /* energyIco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = energyIco.png; sourceTree = "<group>"; };
+		EC4DA81B1CA8306F00CB5351 /* energyPico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = energyPico.png; sourceTree = "<group>"; };
+		EC4ECFEE1CA4077800D532EB /* elCircuit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = elCircuit.m; sourceTree = "<group>"; };
+		EC4ECFF01CA4078D00D532EB /* elCircuit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = elCircuit.h; sourceTree = "<group>"; };
+		EC4ECFF21CA40FA000D532EB /* sklopkaZ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sklopkaZ.png; sourceTree = "<group>"; };
+		EC4ECFF31CA40FA000D532EB /* sklopkaO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sklopkaO.png; sourceTree = "<group>"; };
+		EC4ECFF41CA40FA000D532EB /* zicaPZ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zicaPZ.png; sourceTree = "<group>"; };
+		EC4ECFF51CA40FA000D532EB /* baterija.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baterija.png; sourceTree = "<group>"; };
+		EC4ECFF61CA40FA000D532EB /* zicaKut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zicaKut.png; sourceTree = "<group>"; };
+		EC4ECFF71CA40FA000D532EB /* zicaNaT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zicaNaT.png; sourceTree = "<group>"; };
+		EC4ECFF81CA40FA000D532EB /* zicaKriz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zicaKriz.png; sourceTree = "<group>"; };
+		EC4ECFF91CA40FA000D532EB /* zicaRavno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zicaRavno.png; sourceTree = "<group>"; };
+		EC4ECFFA1CA40FA000D532EB /* zaruljaS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zaruljaS.png; sourceTree = "<group>"; };
+		EC4ECFFB1CA40FA000D532EB /* zarulja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zarulja.png; sourceTree = "<group>"; };
+		EC4ECFFC1CA40FA000D532EB /* zicaZS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zicaZS.png; sourceTree = "<group>"; };
+		EC4ECFFD1CA40FA000D532EB /* zicaX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zicaX.png; sourceTree = "<group>"; };
+		EC4ECFFE1CA40FA000D532EB /* zicaT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zicaT.png; sourceTree = "<group>"; };
+		EC4ECFFF1CA40FA000D532EB /* zicaP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zicaP.png; sourceTree = "<group>"; };
+		EC4ED0001CA40FA000D532EB /* zicaB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zicaB.png; sourceTree = "<group>"; };
+		EC4ED0011CA40FA000D532EB /* zicaZ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zicaZ.png; sourceTree = "<group>"; };
+		EC4ED0021CA40FA000D532EB /* zicaK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zicaK.png; sourceTree = "<group>"; };
+		EC4ED0031CA40FA000D532EB /* zicaV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zicaV.png; sourceTree = "<group>"; };
+		EC4ED0161CA4114E00D532EB /* podlogaG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podlogaG.png; sourceTree = "<group>"; };
+		EC4ED0181CA4198B00D532EB /* elCircIco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elCircIco.png; sourceTree = "<group>"; };
+		EC4ED01A1CA41DF100D532EB /* smece.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smece.png; sourceTree = "<group>"; };
+		EC4F115C1CAFC30F00D4331C /* sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sky.png; sourceTree = "<group>"; };
+		EC4F115E1CAFCAE300D4331C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		EC5224831CA534EC00559613 /* kormiloc0000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kormiloc0000.png; sourceTree = "<group>"; };
+		EC5224841CA534EC00559613 /* kormiloc0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kormiloc0001.png; sourceTree = "<group>"; };
+		EC5224851CA534EC00559613 /* kormiloc0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kormiloc0002.png; sourceTree = "<group>"; };
+		EC5224861CA534EC00559613 /* kormiloc0003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kormiloc0003.png; sourceTree = "<group>"; };
+		EC5224871CA534EC00559613 /* kormiloc0004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kormiloc0004.png; sourceTree = "<group>"; };
+		EC5224881CA534EC00559613 /* kormiloc0005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kormiloc0005.png; sourceTree = "<group>"; };
+		EC5224891CA534EC00559613 /* kormiloc0006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kormiloc0006.png; sourceTree = "<group>"; };
+		EC52248A1CA534EC00559613 /* kormiloc0007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kormiloc0007.png; sourceTree = "<group>"; };
+		EC52248B1CA534EC00559613 /* kormiloc0008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kormiloc0008.png; sourceTree = "<group>"; };
+		EC52248C1CA534EC00559613 /* kormiloc0009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kormiloc0009.png; sourceTree = "<group>"; };
+		EC52248D1CA534EC00559613 /* kormiloc0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kormiloc0010.png; sourceTree = "<group>"; };
+		EC52248E1CA534EC00559613 /* kormiloc0011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kormiloc0011.png; sourceTree = "<group>"; };
+		EC52248F1CA534EC00559613 /* kormiloc0012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kormiloc0012.png; sourceTree = "<group>"; };
+		EC5224901CA534EC00559613 /* kormiloc0013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kormiloc0013.png; sourceTree = "<group>"; };
+		EC5224911CA534EC00559613 /* kormiloc0014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kormiloc0014.png; sourceTree = "<group>"; };
+		EC5224921CA534EC00559613 /* kormiloc0015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kormiloc0015.png; sourceTree = "<group>"; };
+		EC5224931CA534EC00559613 /* kormiloc0016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kormiloc0016.png; sourceTree = "<group>"; };
+		EC5224941CA534EC00559613 /* kormiloc0017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kormiloc0017.png; sourceTree = "<group>"; };
+		EC5224951CA534EC00559613 /* kormiloc0018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kormiloc0018.png; sourceTree = "<group>"; };
+		EC5224961CA534EC00559613 /* kormiloc0019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kormiloc0019.png; sourceTree = "<group>"; };
+		EC5224971CA534EC00559613 /* kormiloc0020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kormiloc0020.png; sourceTree = "<group>"; };
+		EC5224981CA534EC00559613 /* tboprop0000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tboprop0000.png; sourceTree = "<group>"; };
+		EC5224991CA534EC00559613 /* tboprop0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tboprop0001.png; sourceTree = "<group>"; };
+		EC52249A1CA534EC00559613 /* tboprop0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tboprop0002.png; sourceTree = "<group>"; };
+		EC52249B1CA534EC00559613 /* tboprop0003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tboprop0003.png; sourceTree = "<group>"; };
+		EC52249C1CA534EC00559613 /* tboprop0004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tboprop0004.png; sourceTree = "<group>"; };
+		EC52249D1CA534EC00559613 /* tboprop0005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tboprop0005.png; sourceTree = "<group>"; };
+		EC52249E1CA534EC00559613 /* tboprop0006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tboprop0006.png; sourceTree = "<group>"; };
+		EC52249F1CA534EC00559613 /* tboprop0007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tboprop0007.png; sourceTree = "<group>"; };
+		EC5224A01CA534EC00559613 /* tboprop0008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tboprop0008.png; sourceTree = "<group>"; };
+		EC5224A11CA534EC00559613 /* tboprop0009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tboprop0009.png; sourceTree = "<group>"; };
+		EC5224A21CA534EC00559613 /* tboprop0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tboprop0010.png; sourceTree = "<group>"; };
+		EC5224A31CA534EC00559613 /* tboprop0011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tboprop0011.png; sourceTree = "<group>"; };
+		EC5224A41CA534EC00559613 /* tboprop0012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tboprop0012.png; sourceTree = "<group>"; };
+		EC5224A51CA534EC00559613 /* tboprop0013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tboprop0013.png; sourceTree = "<group>"; };
+		EC5224A61CA534EC00559613 /* tboprop0014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tboprop0014.png; sourceTree = "<group>"; };
+		EC5224A71CA534EC00559613 /* tboprop0015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tboprop0015.png; sourceTree = "<group>"; };
+		EC5224A81CA534EC00559613 /* tboprop0016.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tboprop0016.png; sourceTree = "<group>"; };
+		EC5224A91CA534EC00559613 /* tboprop0017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tboprop0017.png; sourceTree = "<group>"; };
+		EC5224AA1CA534EC00559613 /* tboprop0018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tboprop0018.png; sourceTree = "<group>"; };
+		EC5224AB1CA534EC00559613 /* tboprop0019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tboprop0019.png; sourceTree = "<group>"; };
+		EC5224AC1CA534EC00559613 /* tboprop0020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tboprop0020.png; sourceTree = "<group>"; };
+		EC5224D71CA5350C00559613 /* korito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = korito.png; sourceTree = "<group>"; };
+		EC5224DA1CA5356F00559613 /* mjehurici0043.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehurici0043.png; sourceTree = "<group>"; };
+		EC5224DB1CA5356F00559613 /* mjehurici0044.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehurici0044.png; sourceTree = "<group>"; };
+		EC5224DC1CA5356F00559613 /* mjehurici0045.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehurici0045.png; sourceTree = "<group>"; };
+		EC5224DD1CA5356F00559613 /* mjehurici0046.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehurici0046.png; sourceTree = "<group>"; };
+		EC5224DE1CA5356F00559613 /* mjehurici0047.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehurici0047.png; sourceTree = "<group>"; };
+		EC5224DF1CA5356F00559613 /* mjehurici0048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehurici0048.png; sourceTree = "<group>"; };
+		EC5224E01CA5356F00559613 /* mjehurici0049.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehurici0049.png; sourceTree = "<group>"; };
+		EC5224E11CA5356F00559613 /* mjehurici0050.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehurici0050.png; sourceTree = "<group>"; };
+		EC5224E21CA5356F00559613 /* mjehurici0051.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehurici0051.png; sourceTree = "<group>"; };
+		EC5224E31CA5356F00559613 /* mjehurici0052.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehurici0052.png; sourceTree = "<group>"; };
+		EC5224E41CA5356F00559613 /* mjehurici0053.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehurici0053.png; sourceTree = "<group>"; };
+		EC5224E51CA5356F00559613 /* mjehurici0054.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehurici0054.png; sourceTree = "<group>"; };
+		EC5224E61CA5356F00559613 /* mjehurici0055.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehurici0055.png; sourceTree = "<group>"; };
+		EC5224E71CA5356F00559613 /* mjehurici0056.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehurici0056.png; sourceTree = "<group>"; };
+		EC5224E81CA5356F00559613 /* mjehurici0057.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehurici0057.png; sourceTree = "<group>"; };
+		EC5224E91CA5356F00559613 /* mjehurici0058.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehurici0058.png; sourceTree = "<group>"; };
+		EC5224EA1CA5356F00559613 /* mjehurici0059.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehurici0059.png; sourceTree = "<group>"; };
+		EC5224EB1CA5356F00559613 /* mjehurici0060.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehurici0060.png; sourceTree = "<group>"; };
+		EC5224EC1CA5356F00559613 /* mjehurici0061.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehurici0061.png; sourceTree = "<group>"; };
+		EC5224ED1CA5356F00559613 /* mjehurici0062.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehurici0062.png; sourceTree = "<group>"; };
+		EC5224EE1CA5356F00559613 /* mjehurici0063.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mjehurici0063.png; sourceTree = "<group>"; };
+		EC5225071CA5DAB300559613 /* komandnaBrod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = komandnaBrod.png; sourceTree = "<group>"; };
+		EC5225091CA5DB0D00559613 /* zutaTipka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zutaTipka.png; sourceTree = "<group>"; };
+		EC52250B1CA5E54800559613 /* crvenaTipka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crvenaTipka.png; sourceTree = "<group>"; };
+		EC52250C1CA5E54800559613 /* zelenaTipka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zelenaTipka.png; sourceTree = "<group>"; };
 		EC570DE01C723F1500B02555 /* konzola.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = konzola.png; sourceTree = "<group>"; };
 		EC570DE11C723F1500B02555 /* podlogaXekrana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podlogaXekrana.png; sourceTree = "<group>"; };
 		EC570DE21C723F1500B02555 /* tijelo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tijelo.png; sourceTree = "<group>"; };
 		EC570DE31C723F1500B02555 /* tijelo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tijelo1.png; sourceTree = "<group>"; };
 		EC570DE81C723F2B00B02555 /* zidXray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zidXray.png; sourceTree = "<group>"; };
+		EC5C0F051C8C3257002233E8 /* mlazG3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mlazG3.png; sourceTree = "<group>"; };
+		EC5C0F061C8C3257002233E8 /* mlazG2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mlazG2.png; sourceTree = "<group>"; };
+		EC5C0F071C8C3257002233E8 /* mlazG1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mlazG1.png; sourceTree = "<group>"; };
+		EC5C0F0B1C8C3C7D002233E8 /* powerProduction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerProduction.png; sourceTree = "<group>"; };
 		EC5C621C1C567FC400608AEC /* MC Nikola Tesla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MC Nikola Tesla.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5C62201C567FC400608AEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC5C62221C567FC400608AEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -274,15 +674,12 @@
 		EC5C62581C56B20600608AEC /* jaje.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jaje.m; sourceTree = "<group>"; };
 		EC5C625D1C56B25800608AEC /* radio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = radio.h; sourceTree = "<group>"; };
 		EC5C625E1C56B25800608AEC /* radio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = radio.m; sourceTree = "<group>"; };
-		EC5C62601C56B27B00608AEC /* laser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = laser.h; sourceTree = "<group>"; };
-		EC5C62611C56B27B00608AEC /* laser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = laser.m; sourceTree = "<group>"; };
 		EC5C62631C56B31500608AEC /* elPipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = elPipe.h; path = ../elPipe.h; sourceTree = "<group>"; };
 		EC5C62641C56B31500608AEC /* elPipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = elPipe.m; path = ../elPipe.m; sourceTree = "<group>"; };
 		EC5C626B1C58034F00608AEC /* prva.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = prva.html; sourceTree = "<group>"; };
 		EC5C626F1C58117600608AEC /* teslaSmiljan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teslaSmiljan.jpg; sourceTree = "<group>"; };
 		EC5C62711C58119200608AEC /* TeslaSjedi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TeslaSjedi.png; sourceTree = "<group>"; };
 		EC5C62731C5818ED00608AEC /* druga.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = druga.html; sourceTree = "<group>"; };
-		EC5C62751C581C4D00608AEC /* brodizvan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brodizvan.png; sourceTree = "<group>"; };
 		EC5C62791C581F9700608AEC /* ticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ticon.png; sourceTree = "<group>"; };
 		EC5C627F1C58331900608AEC /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
 		EC5C62801C58331900608AEC /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
@@ -296,30 +693,6 @@
 		EC5FDBC81C7E2B7500AAD01C /* daska.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daska.png; sourceTree = "<group>"; };
 		EC5FDBCA1C7E2BC000AAD01C /* instrument.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrument.png; sourceTree = "<group>"; };
 		EC5FDBCC1C7E2DB100AAD01C /* kaz2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kaz2.png; sourceTree = "<group>"; };
-		EC5FDBCE1C7E2DE900AAD01C /* trigonom1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom1.png; sourceTree = "<group>"; };
-		EC5FDBCF1C7E2DE900AAD01C /* trigonom2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom2.png; sourceTree = "<group>"; };
-		EC5FDBD01C7E2DE900AAD01C /* trigonom3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom3.png; sourceTree = "<group>"; };
-		EC5FDBD11C7E2DE900AAD01C /* trigonom4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom4.png; sourceTree = "<group>"; };
-		EC5FDBD21C7E2DE900AAD01C /* trigonom5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom5.png; sourceTree = "<group>"; };
-		EC5FDBD31C7E2DE900AAD01C /* trigonom6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom6.png; sourceTree = "<group>"; };
-		EC5FDBD41C7E2DE900AAD01C /* trigonom7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom7.png; sourceTree = "<group>"; };
-		EC5FDBD51C7E2DE900AAD01C /* trigonom8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom8.png; sourceTree = "<group>"; };
-		EC5FDBD61C7E2DE900AAD01C /* trigonom9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom9.png; sourceTree = "<group>"; };
-		EC5FDBD71C7E2DE900AAD01C /* trigonom10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom10.png; sourceTree = "<group>"; };
-		EC5FDBD81C7E2DE900AAD01C /* trigonom11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom11.png; sourceTree = "<group>"; };
-		EC5FDBD91C7E2DE900AAD01C /* trigonom12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom12.png; sourceTree = "<group>"; };
-		EC5FDBDA1C7E2DE900AAD01C /* trigonom13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom13.png; sourceTree = "<group>"; };
-		EC5FDBDB1C7E2DE900AAD01C /* trigonom14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom14.png; sourceTree = "<group>"; };
-		EC5FDBDC1C7E2DE900AAD01C /* trigonom15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom15.png; sourceTree = "<group>"; };
-		EC5FDBDD1C7E2DE900AAD01C /* trigonom16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom16.png; sourceTree = "<group>"; };
-		EC5FDBDE1C7E2DE900AAD01C /* trigonom17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom17.png; sourceTree = "<group>"; };
-		EC5FDBDF1C7E2DE900AAD01C /* trigonom18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom18.png; sourceTree = "<group>"; };
-		EC5FDBE01C7E2DE900AAD01C /* trigonom19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom19.png; sourceTree = "<group>"; };
-		EC5FDBE11C7E2DE900AAD01C /* trigonom20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom20.png; sourceTree = "<group>"; };
-		EC5FDBE21C7E2DE900AAD01C /* trigonom21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom21.png; sourceTree = "<group>"; };
-		EC5FDBE31C7E2DE900AAD01C /* trigonom22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom22.png; sourceTree = "<group>"; };
-		EC5FDBE41C7E2DE900AAD01C /* trigonom23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom23.png; sourceTree = "<group>"; };
-		EC5FDBE51C7E2DE900AAD01C /* trigonom24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom24.png; sourceTree = "<group>"; };
 		EC5FDBFE1C7E2E2C00AAD01C /* rotor3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotor3.png; sourceTree = "<group>"; };
 		EC5FDC001C7E2E4100AAD01C /* podlogaPrekidaca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podlogaPrekidaca.png; sourceTree = "<group>"; };
 		EC5FDC021C7E2E4A00AAD01C /* ruckaPrekidaca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ruckaPrekidaca.png; sourceTree = "<group>"; };
@@ -338,49 +711,53 @@
 		EC74B6DD1C7462510016444E /* instrument.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrument.png; sourceTree = "<group>"; };
 		EC74B6DF1C74625B0016444E /* kaz2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kaz2.png; sourceTree = "<group>"; };
 		EC74B6E11C74F8050016444E /* bomba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bomba.png; sourceTree = "<group>"; };
-		EC74B7071C752AF60016444E /* trigonom24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom24.png; sourceTree = "<group>"; };
-		EC74B7081C752AF60016444E /* trigonom23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom23.png; sourceTree = "<group>"; };
-		EC74B7091C752AF60016444E /* trigonom22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom22.png; sourceTree = "<group>"; };
-		EC74B70A1C752AF60016444E /* trigonom21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom21.png; sourceTree = "<group>"; };
-		EC74B70B1C752AF60016444E /* trigonom20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom20.png; sourceTree = "<group>"; };
-		EC74B70C1C752AF60016444E /* trigonom19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom19.png; sourceTree = "<group>"; };
-		EC74B70D1C752AF60016444E /* trigonom18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom18.png; sourceTree = "<group>"; };
-		EC74B70E1C752AF60016444E /* trigonom17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom17.png; sourceTree = "<group>"; };
-		EC74B70F1C752AF60016444E /* trigonom16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom16.png; sourceTree = "<group>"; };
-		EC74B7101C752AF60016444E /* trigonom15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom15.png; sourceTree = "<group>"; };
-		EC74B7111C752AF60016444E /* trigonom14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom14.png; sourceTree = "<group>"; };
-		EC74B7121C752AF60016444E /* trigonom13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom13.png; sourceTree = "<group>"; };
-		EC74B7131C752AF60016444E /* trigonom12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom12.png; sourceTree = "<group>"; };
-		EC74B7141C752AF60016444E /* trigonom11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom11.png; sourceTree = "<group>"; };
-		EC74B7151C752AF60016444E /* trigonom10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom10.png; sourceTree = "<group>"; };
-		EC74B7161C752AF60016444E /* trigonom9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom9.png; sourceTree = "<group>"; };
-		EC74B7171C752AF60016444E /* trigonom8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom8.png; sourceTree = "<group>"; };
-		EC74B7181C752AF60016444E /* trigonom7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom7.png; sourceTree = "<group>"; };
-		EC74B7191C752AF60016444E /* trigonom6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom6.png; sourceTree = "<group>"; };
-		EC74B71A1C752AF60016444E /* trigonom5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom5.png; sourceTree = "<group>"; };
-		EC74B71B1C752AF60016444E /* trigonom4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom4.png; sourceTree = "<group>"; };
-		EC74B71C1C752AF60016444E /* trigonom3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom3.png; sourceTree = "<group>"; };
-		EC74B71D1C752AF60016444E /* trigonom2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom2.png; sourceTree = "<group>"; };
 		EC8B2A491C787E2900680ABD /* coil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coil.png; sourceTree = "<group>"; };
+		ECA1BD7A1C89D72700DFDA10 /* steamP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steamP.png; sourceTree = "<group>"; };
+		ECB8F8AA1C91F18300FA00B0 /* teslaBoatc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teslaBoatc.png; sourceTree = "<group>"; };
 		ECCD0F731C63BB1900A1A4D7 /* tesla200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tesla200.png; path = "MC Nikola Tesla/tesla200.png"; sourceTree = "<group>"; };
+		ECE9F2D71C8B932B00238AFD /* zupcanik1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zupcanik1.png; sourceTree = "<group>"; };
+		ECE9F2D91C8B9C4200238AFD /* zupcastaLetva.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zupcastaLetva.png; sourceTree = "<group>"; };
+		ECF27A951C882DE7007C9BAD /* trigonom1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom1.png; sourceTree = "<group>"; };
+		ECF27A961C882DE7007C9BAD /* trigonom2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom2.png; sourceTree = "<group>"; };
+		ECF27A971C882DE7007C9BAD /* trigonom3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom3.png; sourceTree = "<group>"; };
+		ECF27A981C882DE7007C9BAD /* trigonom4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom4.png; sourceTree = "<group>"; };
+		ECF27A991C882DE7007C9BAD /* trigonom5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom5.png; sourceTree = "<group>"; };
+		ECF27A9A1C882DE7007C9BAD /* trigonom6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom6.png; sourceTree = "<group>"; };
+		ECF27A9B1C882DE7007C9BAD /* trigonom7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom7.png; sourceTree = "<group>"; };
+		ECF27A9C1C882DE7007C9BAD /* trigonom8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom8.png; sourceTree = "<group>"; };
+		ECF27A9D1C882DE7007C9BAD /* trigonom9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom9.png; sourceTree = "<group>"; };
+		ECF27A9E1C882DE7007C9BAD /* trigonom10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom10.png; sourceTree = "<group>"; };
+		ECF27A9F1C882DE7007C9BAD /* trigonom11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom11.png; sourceTree = "<group>"; };
+		ECF27AA01C882DE7007C9BAD /* trigonom12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom12.png; sourceTree = "<group>"; };
+		ECF27AA11C882DE7007C9BAD /* trigonom13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom13.png; sourceTree = "<group>"; };
+		ECF27AA21C882DE7007C9BAD /* trigonom14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom14.png; sourceTree = "<group>"; };
+		ECF27AA31C882DE7007C9BAD /* trigonom15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom15.png; sourceTree = "<group>"; };
+		ECF27AA41C882DE7007C9BAD /* trigonom16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom16.png; sourceTree = "<group>"; };
+		ECF27AA51C882DE7007C9BAD /* trigonom17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom17.png; sourceTree = "<group>"; };
+		ECF27AA61C882DE7007C9BAD /* trigonom18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom18.png; sourceTree = "<group>"; };
+		ECF27AA71C882DE7007C9BAD /* trigonom19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom19.png; sourceTree = "<group>"; };
+		ECF27AA81C882DE7007C9BAD /* trigonom20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom20.png; sourceTree = "<group>"; };
+		ECF27AA91C882DE7007C9BAD /* trigonom21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom21.png; sourceTree = "<group>"; };
+		ECF27AAA1C882DE7007C9BAD /* trigonom22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom22.png; sourceTree = "<group>"; };
+		ECF27AAB1C882DE7007C9BAD /* trigonom23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom23.png; sourceTree = "<group>"; };
+		ECF27AAC1C882DE7007C9BAD /* trigonom24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trigonom24.png; sourceTree = "<group>"; };
 		ECF6EDFA1C7307F70070C7D2 /* xRayInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xRayInfo.h; sourceTree = "<group>"; };
 		ECF6EDFB1C7307F70070C7D2 /* xRayInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xRayInfo.m; sourceTree = "<group>"; };
-		ECF6EE021C73135E0070C7D2 /* elektron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elektron.png; sourceTree = "<group>"; };
-		ECF6EE041C731DF20070C7D2 /* xReyBeam8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam8.png; sourceTree = "<group>"; };
-		ECF6EE051C731DF20070C7D2 /* xReyBeam7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam7.png; sourceTree = "<group>"; };
-		ECF6EE061C731DF20070C7D2 /* xReyBeam6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam6.png; sourceTree = "<group>"; };
-		ECF6EE071C731DF20070C7D2 /* xReyBeam5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam5.png; sourceTree = "<group>"; };
-		ECF6EE081C731DF20070C7D2 /* xReyBeam4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam4.png; sourceTree = "<group>"; };
-		ECF6EE091C731DF20070C7D2 /* xReyBeam3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam3.png; sourceTree = "<group>"; };
-		ECF6EE0A1C731DF20070C7D2 /* xReyBeam2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam2.png; sourceTree = "<group>"; };
-		ECF6EE0B1C731DF20070C7D2 /* xReyBeam1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam1.png; sourceTree = "<group>"; };
 		ECF6EE141C7323330070C7D2 /* daska.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daska.png; sourceTree = "<group>"; };
 		ECF6EE181C7363620070C7D2 /* xrayTube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xrayTube.png; sourceTree = "<group>"; };
 		ECF6EE1A1C736DBF0070C7D2 /* treca.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = treca.html; sourceTree = "<group>"; };
 		ECF6EE1C1C736DD20070C7D2 /* cetvrta.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cetvrta.html; sourceTree = "<group>"; };
 		ECF6EE1E1C736DDD0070C7D2 /* peta.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = peta.html; sourceTree = "<group>"; };
 		ECF6EE221C736E310070C7D2 /* stator3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stator3.png; sourceTree = "<group>"; };
-		ECF6EE241C736E4D0070C7D2 /* coil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coil.png; sourceTree = "<group>"; };
+		ECFF89951C88A00B00AF51E2 /* xReyBeam1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam1.png; sourceTree = "<group>"; };
+		ECFF89961C88A00B00AF51E2 /* xReyBeam2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam2.png; sourceTree = "<group>"; };
+		ECFF89971C88A00B00AF51E2 /* xReyBeam3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam3.png; sourceTree = "<group>"; };
+		ECFF89981C88A00B00AF51E2 /* xReyBeam4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam4.png; sourceTree = "<group>"; };
+		ECFF89991C88A00B00AF51E2 /* xReyBeam5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam5.png; sourceTree = "<group>"; };
+		ECFF899A1C88A00B00AF51E2 /* xReyBeam6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam6.png; sourceTree = "<group>"; };
+		ECFF899B1C88A00B00AF51E2 /* xReyBeam7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam7.png; sourceTree = "<group>"; };
+		ECFF899C1C88A00B00AF51E2 /* xReyBeam8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xReyBeam8.png; sourceTree = "<group>"; };
+		ECFF89A51C88A02900AF51E2 /* elektron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elektron.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -388,6 +765,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC4F115F1CAFCAE300D4331C /* CoreMotion.framework in Frameworks */,
+				EC0A5D651CAF1783002147BF /* AVFoundation.framework in Frameworks */,
+				EC0A5D091CAF03B2002147BF /* SpriteKit.framework in Frameworks */,
 				AC6E8ABF1C6BA45E0034219D /* CoreLocation.framework in Frameworks */,
 				AC6E8ABD1C6B947D0034219D /* MapKit.framework in Frameworks */,
 			);
@@ -396,6 +776,156 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC0A5D0C1CAF0FEC002147BF /* brodSlike */ = {
+			isa = PBXGroup;
+			children = (
+				EC4F115C1CAFC30F00D4331C /* sky.png */,
+				EC0A5D6A1CAF1DEC002147BF /* more3.png */,
+				EC0A5D661CAF1CC5002147BF /* rightB.png */,
+				EC0A5D671CAF1CC5002147BF /* leftB.png */,
+				EC0A5D621CAF15CC002147BF /* kazaljka.png */,
+				EC0A5D601CAF15C4002147BF /* spark.png */,
+				EC0A5D5E1CAF15A8002147BF /* zPada.mp3 */,
+				EC0A5D5C1CAF1590002147BF /* brododozgo.png */,
+				EC0A5D0E1CAF1054002147BF /* papir.png */,
+				EC0A5D461CAF12D8002147BF /* collection.png */,
+				EC0A5D4A1CAF12F2002147BF /* off.png */,
+				EC0A5D4B1CAF12F2002147BF /* on.png */,
+				EC0A5D501CAF1314002147BF /* otok1.png */,
+				EC0A5D511CAF1314002147BF /* otok2.png */,
+				EC0A5D521CAF1314002147BF /* otok3.png */,
+				EC0A5D531CAF1314002147BF /* otok4.png */,
+				EC0A5D541CAF1314002147BF /* otok5.png */,
+				EC0A5D551CAF1314002147BF /* otok6.png */,
+				EC0A5D0D1CAF1007002147BF /* kolekcijaSlike */,
+			);
+			name = brodSlike;
+			sourceTree = "<group>";
+		};
+		EC0A5D0D1CAF1007002147BF /* kolekcijaSlike */ = {
+			isa = PBXGroup;
+			children = (
+				EC0A5D101CAF1297002147BF /* instrumentt1.png */,
+				EC0A5D111CAF1297002147BF /* instrumentt2.png */,
+				EC0A5D121CAF1297002147BF /* instrumentt3.png */,
+				EC0A5D131CAF1297002147BF /* instrumentt4.png */,
+				EC0A5D6C1CAF258F002147BF /* instrumentt5.png */,
+				EC0A5D151CAF1297002147BF /* instrumentt6.png */,
+				EC0A5D161CAF1297002147BF /* instrumentt7.png */,
+				EC0A5D171CAF1297002147BF /* instrumentt8.png */,
+				EC0A5D181CAF1297002147BF /* instrumentt9.png */,
+				EC0A5D191CAF1297002147BF /* instrumentt10.png */,
+				EC0A5D1A1CAF1297002147BF /* instrumentt11.png */,
+				EC0A5D1B1CAF1297002147BF /* instrumentt12.png */,
+				EC0A5D1C1CAF1297002147BF /* instrumentt13.png */,
+				EC0A5D1D1CAF1297002147BF /* instrumentt14.png */,
+				EC0A5D1E1CAF1297002147BF /* instrumentt15.png */,
+				EC0A5D1F1CAF1297002147BF /* instrumentt16.png */,
+				EC0A5D201CAF1297002147BF /* instrumentt17.png */,
+				EC0A5D211CAF1297002147BF /* instrumentt18.png */,
+				EC0A5D221CAF1297002147BF /* instrumentt19.png */,
+				EC0A5D231CAF1297002147BF /* instrumentt20.png */,
+				EC0A5D241CAF1297002147BF /* instrumentt21.png */,
+				EC0A5D3A1CAF12AC002147BF /* mjestaInstrumenta1.png */,
+				EC0A5D3B1CAF12AC002147BF /* mjestaInstrumenta2.png */,
+				EC0A5D3C1CAF12AC002147BF /* mjestaInstrumenta3.png */,
+				EC0A5D3D1CAF12AC002147BF /* mjestaInstrumenta4.png */,
+				EC0A5D3E1CAF12AC002147BF /* mjestaInstrumenta5.png */,
+				EC0A5D441CAF12B8002147BF /* sivaPodloga.png */,
+			);
+			name = kolekcijaSlike;
+			sourceTree = "<group>";
+		};
+		EC30EC591C874B2E004BEC86 /* faradeySlike */ = {
+			isa = PBXGroup;
+			children = (
+				EC30EC801C874BE5004BEC86 /* trci */,
+				EC30EC6F1C874BBE004BEC86 /* stoji */,
+				EC30EC681C874B99004BEC86 /* crawling */,
+				EC30EC5A1C874B55004BEC86 /* planine.png */,
+				EC30EC5C1C874B5E004BEC86 /* crnaPodloga.png */,
+				EC30EC5E1C874B6F004BEC86 /* cage.png */,
+				EC30EC5F1C874B6F004BEC86 /* cage2.png */,
+				EC30EC601C874B6F004BEC86 /* tcoil2.png */,
+				EC30EC611C874B6F004BEC86 /* zemlja.png */,
+				EC30EC661C874B78004BEC86 /* boyDead.png */,
+			);
+			name = faradeySlike;
+			sourceTree = "<group>";
+		};
+		EC30EC681C874B99004BEC86 /* crawling */ = {
+			isa = PBXGroup;
+			children = (
+				EC30EC691C874BB3004BEC86 /* crawling1.png */,
+				EC30EC6A1C874BB3004BEC86 /* crawling2.png */,
+				EC30EC6B1C874BB3004BEC86 /* crawling3.png */,
+			);
+			name = crawling;
+			sourceTree = "<group>";
+		};
+		EC30EC6F1C874BBE004BEC86 /* stoji */ = {
+			isa = PBXGroup;
+			children = (
+				EC30EC701C874BD9004BEC86 /* stop1.png */,
+				EC30EC711C874BD9004BEC86 /* stop2.png */,
+				EC30EC721C874BD9004BEC86 /* stop3.png */,
+				EC30EC731C874BD9004BEC86 /* stop4.png */,
+				EC30EC741C874BD9004BEC86 /* stop5.png */,
+				EC30EC751C874BD9004BEC86 /* stop6.png */,
+				EC30EC761C874BD9004BEC86 /* stop7.png */,
+				EC30EC771C874BD9004BEC86 /* stop8.png */,
+			);
+			name = stoji;
+			sourceTree = "<group>";
+		};
+		EC30EC801C874BE5004BEC86 /* trci */ = {
+			isa = PBXGroup;
+			children = (
+				EC30EC811C874BF6004BEC86 /* boyWalk1.png */,
+				EC30EC821C874BF6004BEC86 /* boyWalk2.png */,
+				EC30EC831C874BF6004BEC86 /* boyWalk3.png */,
+				EC30EC841C874BF6004BEC86 /* boyWalk4.png */,
+				EC30EC851C874BF6004BEC86 /* boyWalk5.png */,
+				EC30EC861C874BF6004BEC86 /* boyWalk6.png */,
+				EC30EC871C874BF6004BEC86 /* boyWalk7.png */,
+				EC30EC881C874BF6004BEC86 /* boyWalk8.png */,
+			);
+			name = trci;
+			sourceTree = "<group>";
+		};
+		EC3C23681C8AD61E00FBBA2F /* energyPSlike */ = {
+			isa = PBXGroup;
+			children = (
+				EC5C0F0B1C8C3C7D002233E8 /* powerProduction.png */,
+				EC5C0F051C8C3257002233E8 /* mlazG3.png */,
+				EC5C0F061C8C3257002233E8 /* mlazG2.png */,
+				EC5C0F071C8C3257002233E8 /* mlazG1.png */,
+				ECE9F2D91C8B9C4200238AFD /* zupcastaLetva.png */,
+				ECE9F2D71C8B932B00238AFD /* zupcanik1.png */,
+				EC3C23B31C8B46AB00FBBA2F /* mlazD1.png */,
+				EC3C23B41C8B46AB00FBBA2F /* mlazD2.png */,
+				EC3C23B51C8B46AB00FBBA2F /* mlazD3.png */,
+				EC3C23871C8B0E6E00FBBA2F /* turbinaH.png */,
+				EC3C23791C8B0E6400FBBA2F /* turbinaH1.png */,
+				EC3C237A1C8B0E6400FBBA2F /* turbinaH2.png */,
+				EC3C237B1C8B0E6400FBBA2F /* turbinaH3.png */,
+				EC3C237C1C8B0E6400FBBA2F /* turbinaH4.png */,
+				EC3C237D1C8B0E6400FBBA2F /* turbinaH5.png */,
+				EC3C237E1C8B0E6400FBBA2F /* turbinaH6.png */,
+				EC3C23891C8B12F800FBBA2F /* turbinaH7.png */,
+				EC3C23971C8B1D0900FBBA2F /* rotorH1.png */,
+				EC3C238B1C8B1CB800FBBA2F /* rotorH2.png */,
+				EC3C238C1C8B1CB800FBBA2F /* rotorH3.png */,
+				EC3C238D1C8B1CB800FBBA2F /* rotorH4.png */,
+				EC3C238E1C8B1CB800FBBA2F /* rotorH5.png */,
+				EC3C238F1C8B1CB800FBBA2F /* rotorH6.png */,
+				EC3C23901C8B1CB800FBBA2F /* rotorH7.png */,
+				EC3C239D1C8B30E000FBBA2F /* kazaljkaT.png */,
+				EC3C239F1C8B32E800FBBA2F /* bijelaMrlja.png */,
+			);
+			name = energyPSlike;
+			sourceTree = "<group>";
+		};
 		EC46578B1C67D60200F6509E /* pipeSlike */ = {
 			isa = PBXGroup;
 			children = (
@@ -440,25 +970,137 @@
 			name = pipeSlike;
 			sourceTree = "<group>";
 		};
+		EC4ECFF11CA40F0C00D532EB /* elCircuitSlike */ = {
+			isa = PBXGroup;
+			children = (
+				EC4ED01A1CA41DF100D532EB /* smece.png */,
+				EC4ED0181CA4198B00D532EB /* elCircIco.png */,
+				EC4ED0161CA4114E00D532EB /* podlogaG.png */,
+				EC4ECFF21CA40FA000D532EB /* sklopkaZ.png */,
+				EC4ECFF31CA40FA000D532EB /* sklopkaO.png */,
+				EC4ECFF41CA40FA000D532EB /* zicaPZ.png */,
+				EC4ECFF51CA40FA000D532EB /* baterija.png */,
+				EC4ECFF61CA40FA000D532EB /* zicaKut.png */,
+				EC4ECFF71CA40FA000D532EB /* zicaNaT.png */,
+				EC4ECFF81CA40FA000D532EB /* zicaKriz.png */,
+				EC4ECFF91CA40FA000D532EB /* zicaRavno.png */,
+				EC4ECFFA1CA40FA000D532EB /* zaruljaS.png */,
+				EC4ECFFB1CA40FA000D532EB /* zarulja.png */,
+				EC4ECFFC1CA40FA000D532EB /* zicaZS.png */,
+				EC4ECFFD1CA40FA000D532EB /* zicaX.png */,
+				EC4ECFFE1CA40FA000D532EB /* zicaT.png */,
+				EC4ECFFF1CA40FA000D532EB /* zicaP.png */,
+				EC4ED0001CA40FA000D532EB /* zicaB.png */,
+				EC4ED0011CA40FA000D532EB /* zicaZ.png */,
+				EC4ED0021CA40FA000D532EB /* zicaK.png */,
+				EC4ED0031CA40FA000D532EB /* zicaV.png */,
+			);
+			name = elCircuitSlike;
+			sourceTree = "<group>";
+		};
+		EC5224821CA534C200559613 /* kormilo */ = {
+			isa = PBXGroup;
+			children = (
+				EC5224831CA534EC00559613 /* kormiloc0000.png */,
+				EC5224841CA534EC00559613 /* kormiloc0001.png */,
+				EC5224851CA534EC00559613 /* kormiloc0002.png */,
+				EC5224861CA534EC00559613 /* kormiloc0003.png */,
+				EC5224871CA534EC00559613 /* kormiloc0004.png */,
+				EC5224881CA534EC00559613 /* kormiloc0005.png */,
+				EC5224891CA534EC00559613 /* kormiloc0006.png */,
+				EC52248A1CA534EC00559613 /* kormiloc0007.png */,
+				EC52248B1CA534EC00559613 /* kormiloc0008.png */,
+				EC52248C1CA534EC00559613 /* kormiloc0009.png */,
+				EC52248D1CA534EC00559613 /* kormiloc0010.png */,
+				EC52248E1CA534EC00559613 /* kormiloc0011.png */,
+				EC52248F1CA534EC00559613 /* kormiloc0012.png */,
+				EC5224901CA534EC00559613 /* kormiloc0013.png */,
+				EC5224911CA534EC00559613 /* kormiloc0014.png */,
+				EC5224921CA534EC00559613 /* kormiloc0015.png */,
+				EC5224931CA534EC00559613 /* kormiloc0016.png */,
+				EC5224941CA534EC00559613 /* kormiloc0017.png */,
+				EC5224951CA534EC00559613 /* kormiloc0018.png */,
+				EC5224961CA534EC00559613 /* kormiloc0019.png */,
+				EC5224971CA534EC00559613 /* kormiloc0020.png */,
+			);
+			name = kormilo;
+			sourceTree = "<group>";
+		};
+		EC5224D91CA5353F00559613 /* mjehurici */ = {
+			isa = PBXGroup;
+			children = (
+				EC5224DA1CA5356F00559613 /* mjehurici0043.png */,
+				EC5224DB1CA5356F00559613 /* mjehurici0044.png */,
+				EC5224DC1CA5356F00559613 /* mjehurici0045.png */,
+				EC5224DD1CA5356F00559613 /* mjehurici0046.png */,
+				EC5224DE1CA5356F00559613 /* mjehurici0047.png */,
+				EC5224DF1CA5356F00559613 /* mjehurici0048.png */,
+				EC5224E01CA5356F00559613 /* mjehurici0049.png */,
+				EC5224E11CA5356F00559613 /* mjehurici0050.png */,
+				EC5224E21CA5356F00559613 /* mjehurici0051.png */,
+				EC5224E31CA5356F00559613 /* mjehurici0052.png */,
+				EC5224E41CA5356F00559613 /* mjehurici0053.png */,
+				EC5224E51CA5356F00559613 /* mjehurici0054.png */,
+				EC5224E61CA5356F00559613 /* mjehurici0055.png */,
+				EC5224E71CA5356F00559613 /* mjehurici0056.png */,
+				EC5224E81CA5356F00559613 /* mjehurici0057.png */,
+				EC5224E91CA5356F00559613 /* mjehurici0058.png */,
+				EC5224EA1CA5356F00559613 /* mjehurici0059.png */,
+				EC5224EB1CA5356F00559613 /* mjehurici0060.png */,
+				EC5224EC1CA5356F00559613 /* mjehurici0061.png */,
+				EC5224ED1CA5356F00559613 /* mjehurici0062.png */,
+				EC5224EE1CA5356F00559613 /* mjehurici0063.png */,
+			);
+			name = mjehurici;
+			sourceTree = "<group>";
+		};
+		EC5225041CA5361100559613 /* propeler */ = {
+			isa = PBXGroup;
+			children = (
+				EC5224981CA534EC00559613 /* tboprop0000.png */,
+				EC5224991CA534EC00559613 /* tboprop0001.png */,
+				EC52249A1CA534EC00559613 /* tboprop0002.png */,
+				EC52249B1CA534EC00559613 /* tboprop0003.png */,
+				EC52249C1CA534EC00559613 /* tboprop0004.png */,
+				EC52249D1CA534EC00559613 /* tboprop0005.png */,
+				EC52249E1CA534EC00559613 /* tboprop0006.png */,
+				EC52249F1CA534EC00559613 /* tboprop0007.png */,
+				EC5224A01CA534EC00559613 /* tboprop0008.png */,
+				EC5224A11CA534EC00559613 /* tboprop0009.png */,
+				EC5224A21CA534EC00559613 /* tboprop0010.png */,
+				EC5224A31CA534EC00559613 /* tboprop0011.png */,
+				EC5224A41CA534EC00559613 /* tboprop0012.png */,
+				EC5224A51CA534EC00559613 /* tboprop0013.png */,
+				EC5224A61CA534EC00559613 /* tboprop0014.png */,
+				EC5224A71CA534EC00559613 /* tboprop0015.png */,
+				EC5224A81CA534EC00559613 /* tboprop0016.png */,
+				EC5224A91CA534EC00559613 /* tboprop0017.png */,
+				EC5224AA1CA534EC00559613 /* tboprop0018.png */,
+				EC5224AB1CA534EC00559613 /* tboprop0019.png */,
+				EC5224AC1CA534EC00559613 /* tboprop0020.png */,
+			);
+			name = propeler;
+			sourceTree = "<group>";
+		};
 		EC570DDF1C723EEC00B02555 /* xRaySlike */ = {
 			isa = PBXGroup;
 			children = (
+				ECFF89951C88A00B00AF51E2 /* xReyBeam1.png */,
+				ECFF89961C88A00B00AF51E2 /* xReyBeam2.png */,
+				ECFF89971C88A00B00AF51E2 /* xReyBeam3.png */,
+				ECFF89981C88A00B00AF51E2 /* xReyBeam4.png */,
+				ECFF89991C88A00B00AF51E2 /* xReyBeam5.png */,
+				ECFF899A1C88A00B00AF51E2 /* xReyBeam6.png */,
+				ECFF899B1C88A00B00AF51E2 /* xReyBeam7.png */,
+				ECFF899C1C88A00B00AF51E2 /* xReyBeam8.png */,
 				ECF6EE141C7323330070C7D2 /* daska.png */,
-				ECF6EE041C731DF20070C7D2 /* xReyBeam8.png */,
-				ECF6EE051C731DF20070C7D2 /* xReyBeam7.png */,
-				ECF6EE061C731DF20070C7D2 /* xReyBeam6.png */,
-				ECF6EE071C731DF20070C7D2 /* xReyBeam5.png */,
-				ECF6EE081C731DF20070C7D2 /* xReyBeam4.png */,
-				ECF6EE091C731DF20070C7D2 /* xReyBeam3.png */,
-				ECF6EE0A1C731DF20070C7D2 /* xReyBeam2.png */,
-				ECF6EE0B1C731DF20070C7D2 /* xReyBeam1.png */,
 				EC570DE81C723F2B00B02555 /* zidXray.png */,
 				EC570DE01C723F1500B02555 /* konzola.png */,
 				EC570DE11C723F1500B02555 /* podlogaXekrana.png */,
 				EC570DE21C723F1500B02555 /* tijelo.png */,
 				EC570DE31C723F1500B02555 /* tijelo1.png */,
-				ECF6EE021C73135E0070C7D2 /* elektron.png */,
 				ECF6EE181C7363620070C7D2 /* xrayTube.png */,
+				ECFF89A51C88A02900AF51E2 /* elektron.png */,
 			);
 			name = xRaySlike;
 			sourceTree = "<group>";
@@ -466,11 +1108,15 @@
 		EC5C62131C567FC400608AEC = {
 			isa = PBXGroup;
 			children = (
+				EC4F115E1CAFCAE300D4331C /* CoreMotion.framework */,
+				EC0A5D641CAF1783002147BF /* AVFoundation.framework */,
+				EC0A5D081CAF03B2002147BF /* SpriteKit.framework */,
 				AC6E8ABE1C6BA45E0034219D /* CoreLocation.framework */,
 				AC6E8ABC1C6B947D0034219D /* MapKit.framework */,
 				EC5C62771C581F6B00608AEC /* slike */,
 				EC5C626A1C57F44D00608AEC /* webStranice */,
 				EC5C621E1C567FC400608AEC /* MC Nikola Tesla */,
+				EC5C621F1C567FC400608AEC /* Supporting Files */,
 				EC5C621D1C567FC400608AEC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -487,12 +1133,21 @@
 			isa = PBXGroup;
 			children = (
 				EC5C622B1C567FC400608AEC /* Assets.xcassets */,
-				EC5C624B1C56B11700608AEC /* about.h */,
-				EC5C624C1C56B11700608AEC /* about.m */,
 				EC5C62221C567FC400608AEC /* AppDelegate.h */,
 				EC5C62231C567FC400608AEC /* AppDelegate.m */,
+				EC5C624B1C56B11700608AEC /* about.h */,
+				EC5C624C1C56B11700608AEC /* about.m */,
 				EC5C62361C56ADFA00608AEC /* bio.h */,
 				EC5C62371C56ADFA00608AEC /* bio.m */,
+				EC0A5D051CAEFCA7002147BF /* kolekcijas.h */,
+				EC0A5D061CAEFCA7002147BF /* kolekcijas.m */,
+				EC0A5D021CAEFBB9002147BF /* scenaBrod.h */,
+				EC0A5D031CAEFBB9002147BF /* scenaBrod.m */,
+				EC0A5CFF1CAEFA04002147BF /* brodVozi.h */,
+				EC0A5D001CAEFA04002147BF /* brodVozi.m */,
+				EC0A5D0A1CAF04EA002147BF /* MyScene.sks */,
+				EC0A5CFC1CAEE16B002147BF /* broduvod.h */,
+				EC0A5CFD1CAEE16B002147BF /* broduvod.m */,
 				EC5C62421C56B02B00608AEC /* boat.h */,
 				EC5C62431C56B02B00608AEC /* boat.m */,
 				EC5C62451C56B05C00608AEC /* coil.h */,
@@ -507,10 +1162,8 @@
 				EC5C624F1C56B15200608AEC /* findus.m */,
 				EC5C62571C56B20600608AEC /* jaje.h */,
 				EC5C62581C56B20600608AEC /* jaje.m */,
-				EC5C62601C56B27B00608AEC /* laser.h */,
-				EC5C62611C56B27B00608AEC /* laser.m */,
-				EC5C622D1C567FC400608AEC /* LaunchScreen.storyboard */,
-				EC5C62281C567FC400608AEC /* Main.storyboard */,
+				EC4ECFF01CA4078D00D532EB /* elCircuit.h */,
+				EC4ECFEE1CA4077800D532EB /* elCircuit.m */,
 				ACA4DA391C6E67A80017C18B /* MapAnnotations.h */,
 				ACA4DA3A1C6E67A80017C18B /* MapAnnotations.m */,
 				EC5C623C1C56AF8C00608AEC /* motor.h */,
@@ -519,7 +1172,6 @@
 				EC5FDC051C7E300200AAD01C /* motorInfo.m */,
 				EC5C625D1C56B25800608AEC /* radio.h */,
 				EC5C625E1C56B25800608AEC /* radio.m */,
-				EC5C621F1C567FC400608AEC /* Supporting Files */,
 				ACE8A8821C7BAA0900EC9A83 /* TableViewCell.h */,
 				ACE8A8831C7BAA0900EC9A83 /* TableViewCell.m */,
 				ACE8A8841C7BAA0900EC9A83 /* TableViewCell.xib */,
@@ -533,6 +1185,8 @@
 				EC5C62551C56B1D000608AEC /* xray.m */,
 				ECF6EDFA1C7307F70070C7D2 /* xRayInfo.h */,
 				ECF6EDFB1C7307F70070C7D2 /* xRayInfo.m */,
+				EC5C622D1C567FC400608AEC /* LaunchScreen.storyboard */,
+				EC5C62281C567FC400608AEC /* Main.storyboard */,
 			);
 			path = "MC Nikola Tesla";
 			sourceTree = "<group>";
@@ -544,12 +1198,12 @@
 				EC5C62201C567FC400608AEC /* main.m */,
 			);
 			name = "Supporting Files";
+			path = "MC Nikola Tesla";
 			sourceTree = "<group>";
 		};
 		EC5C626A1C57F44D00608AEC /* webStranice */ = {
 			isa = PBXGroup;
 			children = (
-				ACE8A89D1C7BB0B300EC9A83 /* brodizvan.png */,
 				EC5C626B1C58034F00608AEC /* prva.html */,
 				EC5C62731C5818ED00608AEC /* druga.html */,
 				ECF6EE1A1C736DBF0070C7D2 /* treca.html */,
@@ -557,16 +1211,15 @@
 				ECF6EE1E1C736DDD0070C7D2 /* peta.html */,
 				EC5FDC0D1C7E60E800AAD01C /* sesta.html */,
 				EC5FDC0F1C7E611B00AAD01C /* sedma.html */,
+				EC4DA8171CA82C1100CB5351 /* brodizvan.png */,
 				EC5FDC071C7E3DC400AAD01C /* spring.jpg */,
 				EC5C626F1C58117600608AEC /* teslaSmiljan.jpg */,
 				EC5C62711C58119200608AEC /* TeslaSjedi.png */,
-				EC5C62751C581C4D00608AEC /* brodizvan.png */,
 				EC5FDC0B1C7E5C2000AAD01C /* Frederic_Edwin.jpg */,
 				EC5C627F1C58331900608AEC /* left.png */,
 				EC5C62801C58331900608AEC /* right.png */,
 				ECF6EE221C736E310070C7D2 /* stator3.png */,
 				EC5FDC111C7E616400AAD01C /* teslaSwitch0000.png */,
-				ECF6EE241C736E4D0070C7D2 /* coil.png */,
 			);
 			name = webStranice;
 			path = "MC Nikola Tesla";
@@ -575,15 +1228,20 @@
 		EC5C62771C581F6B00608AEC /* slike */ = {
 			isa = PBXGroup;
 			children = (
+				EC0A5D0C1CAF0FEC002147BF /* brodSlike */,
+				EC4ECFF11CA40F0C00D532EB /* elCircuitSlike */,
+				ECB8F8A91C91F17000FA00B0 /* boatSlike */,
+				EC3C23681C8AD61E00FBBA2F /* energyPSlike */,
+				ECA1BD7A1C89D72700DFDA10 /* steamP.png */,
 				ECCD0F731C63BB1900A1A4D7 /* tesla200.png */,
 				EC645D3A1C7C5527007E4ECB /* podlogaG2.png */,
 				EC645D381C7C522B007E4ECB /* victorian.png */,
 				EC8B2A491C787E2900680ABD /* coil.png */,
+				EC30EC591C874B2E004BEC86 /* faradeySlike */,
 				EC5FDBB91C7CD41600AAD01C /* wireless */,
 				ECABB6B31C7C957800243A21 /* o_nama */,
 				EC74B6D81C7462070016444E /* motorSlike */,
 				EC570DDF1C723EEC00B02555 /* xRaySlike */,
-				EC38B1F91C6FCCFC00BD6E6D /* auto.png */,
 				EC46578B1C67D60200F6509E /* pipeSlike */,
 				EC5C62781C581F7900608AEC /* ikone */,
 			);
@@ -593,8 +1251,11 @@
 		EC5C62781C581F7900608AEC /* ikone */ = {
 			isa = PBXGroup;
 			children = (
+				EC38B1F91C6FCCFC00BD6E6D /* auto.png */,
 				EC5C62791C581F9700608AEC /* ticon.png */,
 				EC5FDBC61C7E2AF400AAD01C /* xrayTubeIco.png */,
+				EC4DA8191CA82D6B00CB5351 /* energyIco.png */,
+				EC4DA81B1CA8306F00CB5351 /* energyPico.png */,
 			);
 			name = ikone;
 			sourceTree = "<group>";
@@ -633,53 +1294,30 @@
 		EC74B7061C752AE10016444E /* trigoSlike */ = {
 			isa = PBXGroup;
 			children = (
-				EC5FDBCE1C7E2DE900AAD01C /* trigonom1.png */,
-				EC5FDBCF1C7E2DE900AAD01C /* trigonom2.png */,
-				EC5FDBD01C7E2DE900AAD01C /* trigonom3.png */,
-				EC5FDBD11C7E2DE900AAD01C /* trigonom4.png */,
-				EC5FDBD21C7E2DE900AAD01C /* trigonom5.png */,
-				EC5FDBD31C7E2DE900AAD01C /* trigonom6.png */,
-				EC5FDBD41C7E2DE900AAD01C /* trigonom7.png */,
-				EC5FDBD51C7E2DE900AAD01C /* trigonom8.png */,
-				EC5FDBD61C7E2DE900AAD01C /* trigonom9.png */,
-				EC5FDBD71C7E2DE900AAD01C /* trigonom10.png */,
-				EC5FDBD81C7E2DE900AAD01C /* trigonom11.png */,
-				EC5FDBD91C7E2DE900AAD01C /* trigonom12.png */,
-				EC5FDBDA1C7E2DE900AAD01C /* trigonom13.png */,
-				EC5FDBDB1C7E2DE900AAD01C /* trigonom14.png */,
-				EC5FDBDC1C7E2DE900AAD01C /* trigonom15.png */,
-				EC5FDBDD1C7E2DE900AAD01C /* trigonom16.png */,
-				EC5FDBDE1C7E2DE900AAD01C /* trigonom17.png */,
-				EC5FDBDF1C7E2DE900AAD01C /* trigonom18.png */,
-				EC5FDBE01C7E2DE900AAD01C /* trigonom19.png */,
-				EC5FDBE11C7E2DE900AAD01C /* trigonom20.png */,
-				EC5FDBE21C7E2DE900AAD01C /* trigonom21.png */,
-				EC5FDBE31C7E2DE900AAD01C /* trigonom22.png */,
-				EC5FDBE41C7E2DE900AAD01C /* trigonom23.png */,
-				EC5FDBE51C7E2DE900AAD01C /* trigonom24.png */,
-				EC74B7071C752AF60016444E /* trigonom24.png */,
-				EC74B7081C752AF60016444E /* trigonom23.png */,
-				EC74B7091C752AF60016444E /* trigonom22.png */,
-				EC74B70A1C752AF60016444E /* trigonom21.png */,
-				EC74B70B1C752AF60016444E /* trigonom20.png */,
-				EC74B70C1C752AF60016444E /* trigonom19.png */,
-				EC74B70D1C752AF60016444E /* trigonom18.png */,
-				EC74B70E1C752AF60016444E /* trigonom17.png */,
-				EC74B70F1C752AF60016444E /* trigonom16.png */,
-				EC74B7101C752AF60016444E /* trigonom15.png */,
-				EC74B7111C752AF60016444E /* trigonom14.png */,
-				EC74B7121C752AF60016444E /* trigonom13.png */,
-				EC74B7131C752AF60016444E /* trigonom12.png */,
-				EC74B7141C752AF60016444E /* trigonom11.png */,
-				EC74B7151C752AF60016444E /* trigonom10.png */,
-				EC74B7161C752AF60016444E /* trigonom9.png */,
-				EC74B7171C752AF60016444E /* trigonom8.png */,
-				EC74B7181C752AF60016444E /* trigonom7.png */,
-				EC74B7191C752AF60016444E /* trigonom6.png */,
-				EC74B71A1C752AF60016444E /* trigonom5.png */,
-				EC74B71B1C752AF60016444E /* trigonom4.png */,
-				EC74B71C1C752AF60016444E /* trigonom3.png */,
-				EC74B71D1C752AF60016444E /* trigonom2.png */,
+				ECF27A951C882DE7007C9BAD /* trigonom1.png */,
+				ECF27A961C882DE7007C9BAD /* trigonom2.png */,
+				ECF27A971C882DE7007C9BAD /* trigonom3.png */,
+				ECF27A981C882DE7007C9BAD /* trigonom4.png */,
+				ECF27A991C882DE7007C9BAD /* trigonom5.png */,
+				ECF27A9A1C882DE7007C9BAD /* trigonom6.png */,
+				ECF27A9B1C882DE7007C9BAD /* trigonom7.png */,
+				ECF27A9C1C882DE7007C9BAD /* trigonom8.png */,
+				ECF27A9D1C882DE7007C9BAD /* trigonom9.png */,
+				ECF27A9E1C882DE7007C9BAD /* trigonom10.png */,
+				ECF27A9F1C882DE7007C9BAD /* trigonom11.png */,
+				ECF27AA01C882DE7007C9BAD /* trigonom12.png */,
+				ECF27AA11C882DE7007C9BAD /* trigonom13.png */,
+				ECF27AA21C882DE7007C9BAD /* trigonom14.png */,
+				ECF27AA31C882DE7007C9BAD /* trigonom15.png */,
+				ECF27AA41C882DE7007C9BAD /* trigonom16.png */,
+				ECF27AA51C882DE7007C9BAD /* trigonom17.png */,
+				ECF27AA61C882DE7007C9BAD /* trigonom18.png */,
+				ECF27AA71C882DE7007C9BAD /* trigonom19.png */,
+				ECF27AA81C882DE7007C9BAD /* trigonom20.png */,
+				ECF27AA91C882DE7007C9BAD /* trigonom21.png */,
+				ECF27AAA1C882DE7007C9BAD /* trigonom22.png */,
+				ECF27AAB1C882DE7007C9BAD /* trigonom23.png */,
+				ECF27AAC1C882DE7007C9BAD /* trigonom24.png */,
 			);
 			name = trigoSlike;
 			sourceTree = "<group>";
@@ -700,6 +1338,30 @@
 				ACE8A88C1C7BB01400EC9A83 /* jedanaest.png */,
 			);
 			name = o_nama;
+			sourceTree = "<group>";
+		};
+		ECB8F8A91C91F17000FA00B0 /* boatSlike */ = {
+			isa = PBXGroup;
+			children = (
+				EC3B39641CA7140A003D5D19 /* kaza1.png */,
+				EC3B39621CA71255003D5D19 /* instrument1.png */,
+				EC3B39601CA70284003D5D19 /* brojcanik.png */,
+				EC5225071CA5DAB300559613 /* komandnaBrod.png */,
+				EC5225091CA5DB0D00559613 /* zutaTipka.png */,
+				EC52250B1CA5E54800559613 /* crvenaTipka.png */,
+				EC52250C1CA5E54800559613 /* zelenaTipka.png */,
+				EC3B395A1CA6FA98003D5D19 /* zutaTipkaS.png */,
+				EC3B395B1CA6FA98003D5D19 /* crvenaTipkaS.png */,
+				EC3B395C1CA6FA98003D5D19 /* zelenaTipkaS.png */,
+				EC5225041CA5361100559613 /* propeler */,
+				EC5224D91CA5353F00559613 /* mjehurici */,
+				EC5224821CA534C200559613 /* kormilo */,
+				ECB8F8AA1C91F18300FA00B0 /* teslaBoatc.png */,
+				EC5224D71CA5350C00559613 /* korito.png */,
+				EC4DA8151CA8226600CB5351 /* teslaBoatb.png */,
+				EC4DA8131CA7E59300CB5351 /* moreab.png */,
+			);
+			name = boatSlike;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -760,148 +1422,333 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC5FDBF61C7E2DE900AAD01C /* trigonom17.png in Resources */,
-				EC5FDBEF1C7E2DE900AAD01C /* trigonom10.png in Resources */,
+				EC4F115D1CAFC30F00D4331C /* sky.png in Resources */,
 				ECF6EE1D1C736DD20070C7D2 /* cetvrta.html in Resources */,
+				ECFF89A61C88A02900AF51E2 /* elektron.png in Resources */,
+				EC0A5D561CAF1314002147BF /* otok1.png in Resources */,
+				EC0A5D381CAF1297002147BF /* instrumentt20.png in Resources */,
 				EC4657CF1C67D65D00F6509E /* strelica.png in Resources */,
-				ECF6EE251C736E4D0070C7D2 /* coil.png in Resources */,
-				EC74B72C1C752AF60016444E /* trigonom11.png in Resources */,
+				EC3C23921C8B1CB800FBBA2F /* rotorH3.png in Resources */,
+				ECFF89A11C88A00B00AF51E2 /* xReyBeam5.png in Resources */,
+				EC30EC7D1C874BD9004BEC86 /* stop6.png in Resources */,
+				EC5224B01CA534EC00559613 /* kormiloc0003.png in Resources */,
+				EC30EC641C874B6F004BEC86 /* tcoil2.png in Resources */,
+				ECF27ABC1C882DE7007C9BAD /* trigonom16.png in Resources */,
+				EC0A5D331CAF1297002147BF /* instrumentt15.png in Resources */,
+				EC52250A1CA5DB0D00559613 /* zutaTipka.png in Resources */,
+				EC0A5D681CAF1CC5002147BF /* rightB.png in Resources */,
+				EC5224FA1CA5356F00559613 /* mjehurici0054.png in Resources */,
+				EC0A5D2F1CAF1297002147BF /* instrumentt11.png in Resources */,
 				EC570DE51C723F1500B02555 /* podlogaXekrana.png in Resources */,
+				EC5224F71CA5356F00559613 /* mjehurici0051.png in Resources */,
+				EC5224D51CA534EC00559613 /* tboprop0019.png in Resources */,
+				EC5224B21CA534EC00559613 /* kormiloc0005.png in Resources */,
 				ACE8A89B1C7BB01500EC9A83 /* sest.png in Resources */,
 				EC4657B31C67D65D00F6509E /* cijevi2.png in Resources */,
+				EC3C23931C8B1CB800FBBA2F /* rotorH4.png in Resources */,
+				EC0A5D591CAF1314002147BF /* otok4.png in Resources */,
+				EC3B39651CA7140A003D5D19 /* kaza1.png in Resources */,
+				ECE9F2D81C8B932B00238AFD /* zupcanik1.png in Resources */,
+				EC5224AF1CA534EC00559613 /* kormiloc0002.png in Resources */,
+				EC30EC7B1C874BD9004BEC86 /* stop4.png in Resources */,
 				ACE8A8991C7BB01500EC9A83 /* pet.png in Resources */,
-				EC5FDBF31C7E2DE900AAD01C /* trigonom14.png in Resources */,
+				EC5224F31CA5356F00559613 /* mjehurici0047.png in Resources */,
 				EC570DE91C723F2B00B02555 /* zidXray.png in Resources */,
+				EC3C23841C8B0E6400FBBA2F /* turbinaH5.png in Resources */,
 				EC4657BB1C67D65D00F6509E /* Default-568h@2x.png in Resources */,
 				ACE8A8921C7BB01500EC9A83 /* cetiri.png in Resources */,
+				ECF27AB11C882DE7007C9BAD /* trigonom5.png in Resources */,
+				EC5225011CA5356F00559613 /* mjehurici0061.png in Resources */,
 				EC4657D51C67D65D00F6509E /* zarulja0008.png in Resources */,
+				ECF27AB51C882DE7007C9BAD /* trigonom9.png in Resources */,
+				EC3C23981C8B1D0900FBBA2F /* rotorH1.png in Resources */,
+				EC3B395D1CA6FA98003D5D19 /* zutaTipkaS.png in Resources */,
+				EC4ED0121CA40FA000D532EB /* zicaB.png in Resources */,
+				EC0A5D411CAF12AC002147BF /* mjestaInstrumenta3.png in Resources */,
 				ACE8A8961C7BB01500EC9A83 /* jedan.png in Resources */,
+				EC4ED0131CA40FA000D532EB /* zicaZ.png in Resources */,
+				EC0A5D5B1CAF1314002147BF /* otok6.png in Resources */,
+				ECF27AB81C882DE7007C9BAD /* trigonom12.png in Resources */,
+				EC0A5D301CAF1297002147BF /* instrumentt12.png in Resources */,
+				EC4ED00E1CA40FA000D532EB /* zicaZS.png in Resources */,
+				EC0A5D5A1CAF1314002147BF /* otok5.png in Resources */,
 				EC4657D71C67D65D00F6509E /* zarulja0010.png in Resources */,
+				EC0A5D371CAF1297002147BF /* instrumentt19.png in Resources */,
+				ECF27ABF1C882DE7007C9BAD /* trigonom19.png in Resources */,
 				ECF6EE191C7363620070C7D2 /* xrayTube.png in Resources */,
+				EC3C23851C8B0E6400FBBA2F /* turbinaH6.png in Resources */,
+				ECF27AC11C882DE7007C9BAD /* trigonom21.png in Resources */,
+				EC5224BF1CA534EC00559613 /* kormiloc0018.png in Resources */,
+				EC5224CC1CA534EC00559613 /* tboprop0010.png in Resources */,
 				EC4657B21C67D65D00F6509E /* cijevi1.png in Resources */,
+				EC4ED0081CA40FA000D532EB /* zicaKut.png in Resources */,
+				EC3C238A1C8B12F800FBBA2F /* turbinaH7.png in Resources */,
+				EC4ED0061CA40FA000D532EB /* zicaPZ.png in Resources */,
+				ECF27ABA1C882DE7007C9BAD /* trigonom14.png in Resources */,
+				EC30EC791C874BD9004BEC86 /* stop2.png in Resources */,
+				EC5224F61CA5356F00559613 /* mjehurici0050.png in Resources */,
+				EC0A5D251CAF1297002147BF /* instrumentt1.png in Resources */,
 				EC5FDBBC1C7CD43200AAD01C /* wireles2.png in Resources */,
-				ECF6EE111C731DF20070C7D2 /* xReyBeam3.png in Resources */,
 				EC5FDBCB1C7E2BC000AAD01C /* instrument.png in Resources */,
+				EC3C23A01C8B32E800FBBA2F /* bijelaMrlja.png in Resources */,
 				EC4657D61C67D65D00F6509E /* zarulja0009.png in Resources */,
+				EC3C239E1C8B30E000FBBA2F /* kazaljkaT.png in Resources */,
 				ACE8A8971C7BB01500EC9A83 /* jedanaest.png in Resources */,
 				EC4657CA1C67D65D00F6509E /* mlazVodeD1.png in Resources */,
+				EC5224C41CA534EC00559613 /* tboprop0002.png in Resources */,
+				EC30EC8D1C874BF6004BEC86 /* boyWalk5.png in Resources */,
+				ECFF89A41C88A00B00AF51E2 /* xReyBeam8.png in Resources */,
+				EC4ED0051CA40FA000D532EB /* sklopkaO.png in Resources */,
 				EC5FDBBF1C7CDB2500AAD01C /* rotor2.png in Resources */,
 				EC4657D41C67D65D00F6509E /* zarulja0007.png in Resources */,
-				EC5FDBFD1C7E2DE900AAD01C /* trigonom24.png in Resources */,
-				EC5FDBF41C7E2DE900AAD01C /* trigonom15.png in Resources */,
+				EC5224B11CA534EC00559613 /* kormiloc0004.png in Resources */,
+				EC4ED0101CA40FA000D532EB /* zicaT.png in Resources */,
+				EC0A5D261CAF1297002147BF /* instrumentt2.png in Resources */,
+				ECF27ABB1C882DE7007C9BAD /* trigonom15.png in Resources */,
+				EC0A5D3F1CAF12AC002147BF /* mjestaInstrumenta1.png in Resources */,
+				EC5224BB1CA534EC00559613 /* kormiloc0014.png in Resources */,
+				EC5224B41CA534EC00559613 /* kormiloc0007.png in Resources */,
+				EC30EC901C874BF6004BEC86 /* boyWalk8.png in Resources */,
+				EC5224BE1CA534EC00559613 /* kormiloc0017.png in Resources */,
 				EC5FDC101C7E611B00AAD01C /* sedma.html in Resources */,
-				EC5FDBF51C7E2DE900AAD01C /* trigonom16.png in Resources */,
 				EC5FDBC71C7E2AF400AAD01C /* xrayTubeIco.png in Resources */,
-				EC74B72B1C752AF60016444E /* trigonom12.png in Resources */,
+				EC0A5D451CAF12B8002147BF /* sivaPodloga.png in Resources */,
+				EC0A5D471CAF12D8002147BF /* collection.png in Resources */,
 				EC5FDBFF1C7E2E2C00AAD01C /* rotor3.png in Resources */,
-				EC5FDBE61C7E2DE900AAD01C /* trigonom1.png in Resources */,
-				EC74B71F1C752AF60016444E /* trigonom24.png in Resources */,
-				EC74B7251C752AF60016444E /* trigonom18.png in Resources */,
 				EC4657C71C67D65D00F6509E /* mlazVodeC1.png in Resources */,
-				EC74B7331C752AF60016444E /* trigonom4.png in Resources */,
+				EC5C0F081C8C3257002233E8 /* mlazG3.png in Resources */,
+				EC5224AD1CA534EC00559613 /* kormiloc0000.png in Resources */,
+				EC4ED0041CA40FA000D532EB /* sklopkaZ.png in Resources */,
+				EC4ED00F1CA40FA000D532EB /* zicaX.png in Resources */,
+				EC30EC8B1C874BF6004BEC86 /* boyWalk3.png in Resources */,
 				EC5FDBC41C7E277400AAD01C /* radioVal2.png in Resources */,
+				EC0A5D691CAF1CC5002147BF /* leftB.png in Resources */,
+				EC0A5D351CAF1297002147BF /* instrumentt17.png in Resources */,
 				EC4657C21C67D65D00F6509E /* mlazVodeA3.png in Resources */,
+				EC0A5D0F1CAF1054002147BF /* papir.png in Resources */,
+				EC3C23801C8B0E6400FBBA2F /* turbinaH1.png in Resources */,
+				ECF27AB21C882DE7007C9BAD /* trigonom6.png in Resources */,
+				EC0A5D631CAF15CC002147BF /* kazaljka.png in Resources */,
 				EC5FDBBD1C7CD43200AAD01C /* wireles1.png in Resources */,
-				EC74B7341C752AF60016444E /* trigonom3.png in Resources */,
-				ECF6EE0F1C731DF20070C7D2 /* xReyBeam5.png in Resources */,
-				EC5FDBEB1C7E2DE900AAD01C /* trigonom6.png in Resources */,
 				ECF6EE1B1C736DBF0070C7D2 /* treca.html in Resources */,
-				ECF6EE121C731DF20070C7D2 /* xReyBeam2.png in Resources */,
-				ECF6EE0C1C731DF20070C7D2 /* xReyBeam8.png in Resources */,
+				EC0A5D571CAF1314002147BF /* otok2.png in Resources */,
+				EC30EC8E1C874BF6004BEC86 /* boyWalk6.png in Resources */,
+				EC5224FB1CA5356F00559613 /* mjehurici0055.png in Resources */,
+				EC3C23911C8B1CB800FBBA2F /* rotorH2.png in Resources */,
+				EC0A5D4C1CAF12F2002147BF /* off.png in Resources */,
+				EC3C23941C8B1CB800FBBA2F /* rotorH5.png in Resources */,
+				EC0A5D5D1CAF1590002147BF /* brododozgo.png in Resources */,
+				EC3C23811C8B0E6400FBBA2F /* turbinaH2.png in Resources */,
+				EC3C23B61C8B46AB00FBBA2F /* mlazD1.png in Resources */,
+				EC30EC7C1C874BD9004BEC86 /* stop5.png in Resources */,
+				ECF27AB41C882DE7007C9BAD /* trigonom8.png in Resources */,
+				EC5224CA1CA534EC00559613 /* tboprop0008.png in Resources */,
+				EC3C23951C8B1CB800FBBA2F /* rotorH6.png in Resources */,
+				EC0A5D2A1CAF1297002147BF /* instrumentt6.png in Resources */,
+				EC5224BD1CA534EC00559613 /* kormiloc0016.png in Resources */,
+				EC3B39631CA71255003D5D19 /* instrument1.png in Resources */,
+				ECF27AB01C882DE7007C9BAD /* trigonom4.png in Resources */,
+				EC0A5D4D1CAF12F2002147BF /* on.png in Resources */,
+				EC4ED01B1CA41DF100D532EB /* smece.png in Resources */,
+				EC5224F41CA5356F00559613 /* mjehurici0048.png in Resources */,
 				EC4657C81C67D65D00F6509E /* mlazVodeC3.png in Resources */,
-				EC5FDBF01C7E2DE900AAD01C /* trigonom11.png in Resources */,
 				EC645D3B1C7C5528007E4ECB /* podlogaG2.png in Resources */,
+				EC30EC8A1C874BF6004BEC86 /* boyWalk2.png in Resources */,
 				EC570DE61C723F1500B02555 /* tijelo.png in Resources */,
+				EC5224AE1CA534EC00559613 /* kormiloc0001.png in Resources */,
+				EC4ED0071CA40FA000D532EB /* baterija.png in Resources */,
 				EC4657BD1C67D65D00F6509E /* mlazVode1.png in Resources */,
+				EC30EC8F1C874BF6004BEC86 /* boyWalk7.png in Resources */,
+				EC4ED00B1CA40FA000D532EB /* zicaRavno.png in Resources */,
+				EC0A5D0B1CAF04EA002147BF /* MyScene.sks in Resources */,
+				ECE9F2DA1C8B9C4200238AFD /* zupcastaLetva.png in Resources */,
+				EC5224D11CA534EC00559613 /* tboprop0015.png in Resources */,
+				EC0A5D2C1CAF1297002147BF /* instrumentt8.png in Resources */,
+				EC4DA81C1CA8306F00CB5351 /* energyPico.png in Resources */,
+				EC0A5D281CAF1297002147BF /* instrumentt4.png in Resources */,
+				EC3C23961C8B1CB800FBBA2F /* rotorH7.png in Resources */,
+				EC5224D31CA534EC00559613 /* tboprop0017.png in Resources */,
 				EC5FDC011C7E2E4100AAD01C /* podlogaPrekidaca.png in Resources */,
-				ECF6EE131C731DF20070C7D2 /* xReyBeam1.png in Resources */,
 				EC5C622F1C567FC400608AEC /* LaunchScreen.storyboard in Resources */,
-				EC5FDBEC1C7E2DE900AAD01C /* trigonom7.png in Resources */,
+				ECF27AC01C882DE7007C9BAD /* trigonom20.png in Resources */,
+				EC30EC671C874B78004BEC86 /* boyDead.png in Resources */,
+				EC0A5D6B1CAF1DEC002147BF /* more3.png in Resources */,
 				EC5C62721C58119200608AEC /* TeslaSjedi.png in Resources */,
+				EC4ED0141CA40FA000D532EB /* zicaK.png in Resources */,
+				ECF27AAD1C882DE7007C9BAD /* trigonom1.png in Resources */,
 				ECCD0F741C63BB1900A1A4D7 /* tesla200.png in Resources */,
+				EC52250E1CA5E54800559613 /* zelenaTipka.png in Resources */,
+				ECFF89A01C88A00B00AF51E2 /* xReyBeam4.png in Resources */,
+				EC5224EF1CA5356F00559613 /* mjehurici0043.png in Resources */,
 				EC5C62821C58331900608AEC /* right.png in Resources */,
+				EC30EC6C1C874BB3004BEC86 /* crawling1.png in Resources */,
+				EC5225031CA5356F00559613 /* mjehurici0063.png in Resources */,
+				EC30EC5D1C874B5E004BEC86 /* crnaPodloga.png in Resources */,
 				ACE8A8941C7BB01500EC9A83 /* devet.png in Resources */,
+				ECFF89A31C88A00B00AF51E2 /* xReyBeam7.png in Resources */,
+				EC0A5D391CAF1297002147BF /* instrumentt21.png in Resources */,
 				EC4657B41C67D65D00F6509E /* cijevi3.png in Resources */,
+				ECF27AB71C882DE7007C9BAD /* trigonom11.png in Resources */,
 				EC5C62701C58117600608AEC /* teslaSmiljan.jpg in Resources */,
+				EC5224FF1CA5356F00559613 /* mjehurici0059.png in Resources */,
+				EC3B395F1CA6FA98003D5D19 /* zelenaTipkaS.png in Resources */,
 				EC4657BC1C67D65D00F6509E /* mlazVode0.png in Resources */,
-				EC74B7231C752AF60016444E /* trigonom20.png in Resources */,
+				ECF27AC21C882DE7007C9BAD /* trigonom22.png in Resources */,
+				EC5224F91CA5356F00559613 /* mjehurici0053.png in Resources */,
+				EC0A5D321CAF1297002147BF /* instrumentt14.png in Resources */,
 				EC4657D01C67D65D00F6509E /* turbina3.png in Resources */,
+				EC5224F51CA5356F00559613 /* mjehurici0049.png in Resources */,
 				ECF6EE1F1C736DDD0070C7D2 /* peta.html in Resources */,
-				EC5FDBE91C7E2DE900AAD01C /* trigonom4.png in Resources */,
-				ECF6EE0D1C731DF20070C7D2 /* xReyBeam7.png in Resources */,
-				EC74B7221C752AF60016444E /* trigonom21.png in Resources */,
+				EC5224C51CA534EC00559613 /* tboprop0003.png in Resources */,
+				EC5224D01CA534EC00559613 /* tboprop0014.png in Resources */,
+				ECF27AB91C882DE7007C9BAD /* trigonom13.png in Resources */,
+				ECB8F8AB1C91F18300FA00B0 /* teslaBoatc.png in Resources */,
+				ECF27ABE1C882DE7007C9BAD /* trigonom18.png in Resources */,
 				EC5C626C1C58034F00608AEC /* prva.html in Resources */,
+				EC5C0F0C1C8C3C7D002233E8 /* powerProduction.png in Resources */,
+				ECF27AC31C882DE7007C9BAD /* trigonom23.png in Resources */,
 				EC570DE71C723F1500B02555 /* tijelo1.png in Resources */,
+				EC5224BC1CA534EC00559613 /* kormiloc0015.png in Resources */,
 				EC4657B61C67D65D00F6509E /* cijevi5.png in Resources */,
-				EC5FDBF11C7E2DE900AAD01C /* trigonom12.png in Resources */,
 				ECF6EE231C736E310070C7D2 /* stator3.png in Resources */,
+				EC0A5D271CAF1297002147BF /* instrumentt3.png in Resources */,
 				EC5FDBC31C7E277400AAD01C /* radioVal3.png in Resources */,
+				EC3C23B71C8B46AB00FBBA2F /* mlazD2.png in Resources */,
 				EC4657C31C67D65D00F6509E /* mlazVodeB0.png in Resources */,
-				EC74B7271C752AF60016444E /* trigonom16.png in Resources */,
+				ECF27AB61C882DE7007C9BAD /* trigonom10.png in Resources */,
+				EC3B39611CA70284003D5D19 /* brojcanik.png in Resources */,
+				EC5224B61CA534EC00559613 /* kormiloc0009.png in Resources */,
+				EC5224D81CA5350C00559613 /* korito.png in Resources */,
 				EC4657C01C67D65D00F6509E /* mlazVodeA0.png in Resources */,
+				EC0A5D431CAF12AC002147BF /* mjestaInstrumenta5.png in Resources */,
 				EC5C622C1C567FC400608AEC /* Assets.xcassets in Resources */,
 				EC5FDC031C7E2E4A00AAD01C /* ruckaPrekidaca.png in Resources */,
-				EC5FDBE81C7E2DE900AAD01C /* trigonom3.png in Resources */,
+				ECFF899E1C88A00B00AF51E2 /* xReyBeam2.png in Resources */,
 				ACE8A8931C7BB01500EC9A83 /* deset.png in Resources */,
+				EC4ED00A1CA40FA000D532EB /* zicaKriz.png in Resources */,
+				EC0A5D311CAF1297002147BF /* instrumentt13.png in Resources */,
+				EC5225001CA5356F00559613 /* mjehurici0060.png in Resources */,
+				EC0A5D6D1CAF258F002147BF /* instrumentt5.png in Resources */,
 				EC5FDBCD1C7E2DB100AAD01C /* kaz2.png in Resources */,
+				EC3C23821C8B0E6400FBBA2F /* turbinaH3.png in Resources */,
 				EC5FDC0A1C7E572200AAD01C /* US645576-0.png in Resources */,
+				EC3B395E1CA6FA98003D5D19 /* crvenaTipkaS.png in Resources */,
+				EC5224B51CA534EC00559613 /* kormiloc0008.png in Resources */,
+				EC4DA8181CA82C1100CB5351 /* brodizvan.png in Resources */,
+				EC30EC6D1C874BB3004BEC86 /* crawling2.png in Resources */,
+				EC30EC8C1C874BF6004BEC86 /* boyWalk4.png in Resources */,
+				EC3C23881C8B0E6E00FBBA2F /* turbinaH.png in Resources */,
 				ACE8A8951C7BB01500EC9A83 /* dva.png in Resources */,
-				EC5FDBF91C7E2DE900AAD01C /* trigonom20.png in Resources */,
+				EC0A5D5F1CAF15A8002147BF /* zPada.mp3 in Resources */,
+				EC5224C61CA534EC00559613 /* tboprop0004.png in Resources */,
+				EC4ED0111CA40FA000D532EB /* zicaP.png in Resources */,
 				EC5C62741C5818ED00608AEC /* druga.html in Resources */,
 				EC5FDC081C7E3DC400AAD01C /* spring.jpg in Resources */,
-				EC74B7211C752AF60016444E /* trigonom22.png in Resources */,
-				ECF6EE0E1C731DF20070C7D2 /* xReyBeam6.png in Resources */,
-				EC5FDBED1C7E2DE900AAD01C /* trigonom8.png in Resources */,
-				EC74B72A1C752AF60016444E /* trigonom13.png in Resources */,
+				EC30EC7E1C874BD9004BEC86 /* stop7.png in Resources */,
+				EC3C23B81C8B46AB00FBBA2F /* mlazD3.png in Resources */,
 				EC4657CB1C67D65D00F6509E /* mlazVodeD3.png in Resources */,
-				EC74B7351C752AF60016444E /* trigonom2.png in Resources */,
+				EC5224C21CA534EC00559613 /* tboprop0000.png in Resources */,
 				EC4657B71C67D65D00F6509E /* cijevi6.png in Resources */,
-				EC5FDBFC1C7E2DE900AAD01C /* trigonom23.png in Resources */,
-				EC5FDBFB1C7E2DE900AAD01C /* trigonom22.png in Resources */,
 				EC74B6E21C74F8050016444E /* bomba.png in Resources */,
-				EC5FDBF71C7E2DE900AAD01C /* trigonom18.png in Resources */,
-				EC5FDBF81C7E2DE900AAD01C /* trigonom19.png in Resources */,
+				EC0A5D2B1CAF1297002147BF /* instrumentt7.png in Resources */,
+				EC5224B31CA534EC00559613 /* kormiloc0006.png in Resources */,
+				EC5224CF1CA534EC00559613 /* tboprop0013.png in Resources */,
+				EC30EC891C874BF6004BEC86 /* boyWalk1.png in Resources */,
+				EC5224FE1CA5356F00559613 /* mjehurici0058.png in Resources */,
+				EC5224D21CA534EC00559613 /* tboprop0016.png in Resources */,
 				EC4657D11C67D65D00F6509E /* turbinaStator.png in Resources */,
+				EC0A5D581CAF1314002147BF /* otok3.png in Resources */,
 				EC8B2A4A1C787E2900680ABD /* coil.png in Resources */,
+				EC5224CB1CA534EC00559613 /* tboprop0009.png in Resources */,
+				EC5224C81CA534EC00559613 /* tboprop0006.png in Resources */,
+				EC5224D61CA534EC00559613 /* tboprop0020.png in Resources */,
+				EC5224B81CA534EC00559613 /* kormiloc0011.png in Resources */,
+				EC4ED0191CA4198B00D532EB /* elCircIco.png in Resources */,
+				EC0A5D2D1CAF1297002147BF /* instrumentt9.png in Resources */,
+				EC5225021CA5356F00559613 /* mjehurici0062.png in Resources */,
 				EC4657BF1C67D65D00F6509E /* mlazVode3.png in Resources */,
+				EC0A5D2E1CAF1297002147BF /* instrumentt10.png in Resources */,
 				EC5C62811C58331900608AEC /* left.png in Resources */,
+				EC3C23831C8B0E6400FBBA2F /* turbinaH4.png in Resources */,
+				ECFF899F1C88A00B00AF51E2 /* xReyBeam3.png in Resources */,
+				ECF27ABD1C882DE7007C9BAD /* trigonom17.png in Resources */,
 				EC4657CC1C67D65D00F6509E /* podlogaPipe.png in Resources */,
-				EC5FDBF21C7E2DE900AAD01C /* trigonom13.png in Resources */,
 				ACE8A8861C7BAA0900EC9A83 /* TableViewCell.xib in Resources */,
-				EC5FDBEE1C7E2DE900AAD01C /* trigonom9.png in Resources */,
+				EC5224B91CA534EC00559613 /* kormiloc0012.png in Resources */,
+				EC30EC631C874B6F004BEC86 /* cage2.png in Resources */,
+				EC5224C01CA534EC00559613 /* kormiloc0019.png in Resources */,
+				EC4DA81A1CA82D6B00CB5351 /* energyIco.png in Resources */,
 				EC4657C61C67D65D00F6509E /* mlazVodeC0.png in Resources */,
+				EC5224C11CA534EC00559613 /* kormiloc0020.png in Resources */,
+				ECF27AAE1C882DE7007C9BAD /* trigonom2.png in Resources */,
+				EC5224FC1CA5356F00559613 /* mjehurici0056.png in Resources */,
+				EC5224CE1CA534EC00559613 /* tboprop0012.png in Resources */,
+				EC5224CD1CA534EC00559613 /* tboprop0011.png in Resources */,
 				EC4657B51C67D65D00F6509E /* cijevi4.png in Resources */,
-				EC5FDBE71C7E2DE900AAD01C /* trigonom2.png in Resources */,
+				EC5224D41CA534EC00559613 /* tboprop0018.png in Resources */,
+				ECF27AC41C882DE7007C9BAD /* trigonom24.png in Resources */,
+				EC5C0F091C8C3257002233E8 /* mlazG2.png in Resources */,
+				EC30EC7F1C874BD9004BEC86 /* stop8.png in Resources */,
+				EC5224F11CA5356F00559613 /* mjehurici0045.png in Resources */,
 				EC5FDBC51C7E277400AAD01C /* radioVal1.png in Resources */,
+				EC5224F21CA5356F00559613 /* mjehurici0046.png in Resources */,
 				EC5C622A1C567FC400608AEC /* Main.storyboard in Resources */,
 				EC5FDC0E1C7E60E800AAD01C /* sesta.html in Resources */,
+				EC4ED00C1CA40FA000D532EB /* zaruljaS.png in Resources */,
 				ACE8A8981C7BB01500EC9A83 /* osam.png in Resources */,
+				EC4ED0171CA4114E00D532EB /* podlogaG.png in Resources */,
+				EC5224C71CA534EC00559613 /* tboprop0005.png in Resources */,
 				EC38B1FA1C6FCCFC00BD6E6D /* auto.png in Resources */,
+				EC4DA8141CA7E59300CB5351 /* moreab.png in Resources */,
+				EC0A5D341CAF1297002147BF /* instrumentt16.png in Resources */,
+				EC0A5D361CAF1297002147BF /* instrumentt18.png in Resources */,
 				EC4657C51C67D65D00F6509E /* mlazVodeB3.png in Resources */,
+				EC5224B71CA534EC00559613 /* kormiloc0010.png in Resources */,
 				EC4657C41C67D65D00F6509E /* mlazVodeB1.png in Resources */,
+				EC4DA8161CA8226600CB5351 /* teslaBoatb.png in Resources */,
 				EC5FDC0C1C7E5C2000AAD01C /* Frederic_Edwin.jpg in Resources */,
-				EC5FDBEA1C7E2DE900AAD01C /* trigonom5.png in Resources */,
-				EC5C62761C581C4D00608AEC /* brodizvan.png in Resources */,
-				EC74B7261C752AF60016444E /* trigonom17.png in Resources */,
+				EC5225081CA5DAB300559613 /* komandnaBrod.png in Resources */,
+				EC30EC621C874B6F004BEC86 /* cage.png in Resources */,
+				EC5224F81CA5356F00559613 /* mjehurici0052.png in Resources */,
 				EC74B6DA1C7462360016444E /* stator2.png in Resources */,
 				EC4657D21C67D65D00F6509E /* zarulja0000.png in Resources */,
+				ECFF899D1C88A00B00AF51E2 /* xReyBeam1.png in Resources */,
 				EC4657CD1C67D65D00F6509E /* podlogaPipe2.png in Resources */,
+				EC4ED0091CA40FA000D532EB /* zicaNaT.png in Resources */,
+				EC0A5D611CAF15C4002147BF /* spark.png in Resources */,
 				EC570DE41C723F1500B02555 /* konzola.png in Resources */,
 				EC4657B91C67D65D00F6509E /* cijevVentil.png in Resources */,
+				EC30EC651C874B6F004BEC86 /* zemlja.png in Resources */,
+				EC30EC7A1C874BD9004BEC86 /* stop3.png in Resources */,
 				EC4657BE1C67D65D00F6509E /* mlazVode2.png in Resources */,
+				EC5224C31CA534EC00559613 /* tboprop0001.png in Resources */,
+				EC5224F01CA5356F00559613 /* mjehurici0044.png in Resources */,
+				EC5224BA1CA534EC00559613 /* kormiloc0013.png in Resources */,
 				EC4657C11C67D65D00F6509E /* mlazVodeA1.png in Resources */,
+				EC0A5D401CAF12AC002147BF /* mjestaInstrumenta2.png in Resources */,
+				EC30EC6E1C874BB3004BEC86 /* crawling3.png in Resources */,
 				ACE8A89C1C7BB01500EC9A83 /* tri.png in Resources */,
 				EC4657D31C67D65D00F6509E /* zarulja0006.png in Resources */,
+				EC52250D1CA5E54800559613 /* crvenaTipka.png in Resources */,
+				EC5224FD1CA5356F00559613 /* mjehurici0057.png in Resources */,
+				ECF27AAF1C882DE7007C9BAD /* trigonom3.png in Resources */,
+				EC4ED0151CA40FA000D532EB /* zicaV.png in Resources */,
 				EC4657B81C67D65D00F6509E /* cijevTurbine.png in Resources */,
-				ACE8A89E1C7BB0B300EC9A83 /* brodizvan.png in Resources */,
+				ECF27AB31C882DE7007C9BAD /* trigonom7.png in Resources */,
 				ACE8A89A1C7BB01500EC9A83 /* sedam.png in Resources */,
+				EC5C0F0A1C8C3257002233E8 /* mlazG1.png in Resources */,
+				EC30EC5B1C874B55004BEC86 /* planine.png in Resources */,
+				EC4ED00D1CA40FA000D532EB /* zarulja.png in Resources */,
+				ECFF89A21C88A00B00AF51E2 /* xReyBeam6.png in Resources */,
+				EC0A5D421CAF12AC002147BF /* mjestaInstrumenta4.png in Resources */,
+				EC30EC781C874BD9004BEC86 /* stop1.png in Resources */,
 				EC5C627A1C581F9700608AEC /* ticon.png in Resources */,
-				EC74B72D1C752AF60016444E /* trigonom10.png in Resources */,
 				EC4657C91C67D65D00F6509E /* mlazVodeD0.png in Resources */,
-				EC5FDBFA1C7E2DE900AAD01C /* trigonom21.png in Resources */,
 				EC5FDBC91C7E2B7500AAD01C /* daska.png in Resources */,
 				EC4657CE1C67D65D00F6509E /* ruckaVentila.png in Resources */,
 				EC5FDC121C7E616400AAD01C /* teslaSwitch0000.png in Resources */,
+				ECA1BD7B1C89D72700DFDA10 /* steamP.png in Resources */,
+				EC5224C91CA534EC00559613 /* tboprop0007.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -915,7 +1762,6 @@
 				EC5C62501C56B15200608AEC /* findus.m in Sources */,
 				EC5C62271C567FC400608AEC /* ViewController.m in Sources */,
 				EC5C623B1C56AE5F00608AEC /* energy.m in Sources */,
-				EC5C62621C56B27B00608AEC /* laser.m in Sources */,
 				EC5C62411C56AFFC00608AEC /* wireless.m in Sources */,
 				EC5C624A1C56B09000608AEC /* transmision.m in Sources */,
 				EC5C62591C56B20600608AEC /* jaje.m in Sources */,
@@ -925,15 +1771,20 @@
 				EC5C625F1C56B25800608AEC /* radio.m in Sources */,
 				EC5C623E1C56AF8C00608AEC /* motor.m in Sources */,
 				ACA4DA3B1C6E67A80017C18B /* MapAnnotations.m in Sources */,
+				EC4ECFEF1CA4077800D532EB /* elCircuit.m in Sources */,
 				EC5FDC061C7E300200AAD01C /* motorInfo.m in Sources */,
 				EC5C624D1C56B11700608AEC /* about.m in Sources */,
 				ACE8A8851C7BAA0900EC9A83 /* TableViewCell.m in Sources */,
 				EC5C62651C56B31500608AEC /* elPipe.m in Sources */,
+				EC0A5D041CAEFBB9002147BF /* scenaBrod.m in Sources */,
 				EC5C62531C56B1A700608AEC /* Faradey.m in Sources */,
 				EC5C62381C56ADFA00608AEC /* bio.m in Sources */,
 				EC5C62471C56B05C00608AEC /* coil.m in Sources */,
+				EC0A5D011CAEFA04002147BF /* brodVozi.m in Sources */,
 				EC5C62211C567FC400608AEC /* main.m in Sources */,
+				EC0A5CFE1CAEE16B002147BF /* broduvod.m in Sources */,
 				EC5C62441C56B02B00608AEC /* boat.m in Sources */,
+				EC0A5D071CAEFCA7002147BF /* kolekcijas.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1045,6 +1896,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "MC Nikola Tesla/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "orzes.MC-Nikola-Tesla";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1058,6 +1910,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "MC Nikola Tesla/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "orzes.MC-Nikola-Tesla";
 				PRODUCT_NAME = "$(TARGET_NAME)";

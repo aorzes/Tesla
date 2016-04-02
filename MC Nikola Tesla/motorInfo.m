@@ -22,6 +22,8 @@
 -(void)viewDidAppear:(BOOL)animated{
 
     CGSize velicina = self.view.frame.size;
+    
+    navBar.frame = CGRectMake(0, 20, velicina.width, 44);
     UIImageView *stator =[[UIImageView alloc]init];
     stator.image =[UIImage imageNamed:@"stator3"];
     stator.frame = CGRectMake(velicina.width/6, velicina.height/2, velicina.width/1.5, velicina.width/1.5);
