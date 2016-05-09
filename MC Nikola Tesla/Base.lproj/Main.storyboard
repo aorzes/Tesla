@@ -14,7 +14,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="800" height="1500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar alpha="0.69999999999999996" contentMode="scaleToFill" id="f7h-ug-eSG">
+                            <navigationBar alpha="0.65000000000000002" contentMode="scaleToFill" id="f7h-ug-eSG">
                                 <rect key="frame" x="0.0" y="20" width="800" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <items>
@@ -39,19 +39,19 @@
                                                 <rect key="frame" x="1" y="-7" width="800" height="1088"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="wordWrap" id="AAd-N4-89K" userLabel="Motor">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" id="AAd-N4-89K" userLabel="Motor">
                                                 <rect key="frame" x="674" y="22" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
-                                                <state key="normal" title="Induction Motor" backgroundImage="stator2.png">
+                                                <state key="normal" title="Induction Motor" backgroundImage="stator3.png">
                                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="fXd-HX-jMZ" kind="modal" id="IVs-Os-ns3"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="BIt-a3-mST" userLabel="Boat">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="BIt-a3-mST" userLabel="Boat">
                                                 <rect key="frame" x="350" y="148" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -63,16 +63,16 @@
                                                     <segue destination="Hok-ba-zWY" kind="modal" id="rjj-Zb-bGF"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="oHr-jN-ncY" userLabel="Coil">
-                                                <rect key="frame" x="674" y="150" width="100" height="100"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="oHr-jN-ncY" userLabel="Coil">
+                                                <rect key="frame" x="683" y="156" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <size key="titleShadowOffset" width="1" height="1"/>
-                                                <state key="normal" title="Coil" backgroundImage="coil.png">
+                                                <size key="titleShadowOffset" width="2" height="2"/>
+                                                <state key="normal" title="Light" backgroundImage="lightIco.png">
                                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="k0b-KW-ve5" kind="modal" id="bPb-3g-sTo"/>
+                                                    <segue destination="CNa-xU-xq8" kind="modal" id="ETv-CK-Vzf"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="WGT-dE-89j" userLabel="About">
@@ -80,14 +80,14 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
-                                                <state key="normal" title="About" backgroundImage="tesla200.png">
+                                                <state key="normal" title="About" backgroundImage="teslaSmiljan.jpg">
                                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="nQe-Wb-YjZ" kind="modal" id="Rs0-r0-exa"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="3Yl-ze-wSL" userLabel="Xray">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="3Yl-ze-wSL" userLabel="Xray">
                                                 <rect key="frame" x="674" y="397" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -111,31 +111,31 @@
                                                     <segue destination="dyd-za-N8U" kind="modal" id="pGc-lJ-wCW"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="I2x-CG-kX1" userLabel="Findus">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="I2x-CG-kX1" userLabel="Findus">
                                                 <rect key="frame" x="351" y="267" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
-                                                <state key="normal" title="Find Us" backgroundImage="tesla200.png">
+                                                <state key="normal" title="Find Us" backgroundImage="globeIco.png">
                                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="MT4-2o-Rsb" kind="modal" id="fJ9-Tu-veI"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="1lO-Wp-NfF" userLabel="Faradey">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="1lO-Wp-NfF" userLabel="Faradey">
                                                 <rect key="frame" x="30" y="397" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
-                                                <state key="normal" title="Faraday" backgroundImage="tesla200.png">
+                                                <state key="normal" title="Faraday" backgroundImage="tcoil2Ico.png">
                                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="5bw-UP-dVY" kind="modal" id="Ww9-s3-57n"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="rwc-oU-qIq" userLabel="Bio">
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="rwc-oU-qIq" userLabel="Bio">
                                                 <rect key="frame" x="30" y="20" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -148,7 +148,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" id="Znw-ZF-7q1" userLabel="Energy Production">
-                                                <rect key="frame" x="352" y="20" width="100" height="100"/>
+                                                <rect key="frame" x="351" y="20" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -159,43 +159,31 @@
                                                     <segue destination="XlY-Di-yin" kind="modal" id="c6s-3K-hsR"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="c9S-1r-G1e" userLabel="Jaje">
-                                                <rect key="frame" x="350" y="398" width="100" height="100"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <size key="titleShadowOffset" width="1" height="1"/>
-                                                <state key="normal" title="Egg" backgroundImage="tesla200.png">
-                                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <segue destination="jvL-WO-VsD" kind="modal" id="S8K-aD-1wr"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="JIP-ah-SMR" userLabel="Transmision">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="JIP-ah-SMR" userLabel="Transmision">
                                                 <rect key="frame" x="30" y="266" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
-                                                <state key="normal" title="Transmision" backgroundImage="tesla200.png">
+                                                <state key="normal" title="Transmision" backgroundImage="transmisionIco.png">
                                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="ekL-a4-i4e" kind="modal" id="gAr-sZ-65q"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="LWj-Kv-Lgy" userLabel="Radio">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="LWj-Kv-Lgy" userLabel="Radio">
                                                 <rect key="frame" x="350" y="523" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
-                                                <state key="normal" title="Radio" backgroundImage="tesla200.png">
+                                                <state key="normal" title="Radio" backgroundImage="radioAIco.png">
                                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="ueF-yw-PMp" kind="modal" id="lOz-XR-35G"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="X48-1L-gec">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="X48-1L-gec">
                                                 <rect key="frame" x="674" y="523" width="100" height="101"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -208,16 +196,28 @@
                                                     <segue destination="gFN-Or-kFj" kind="modal" id="LfU-9a-xwl"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="X5t-7d-thb" userLabel="Wireless">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="X5t-7d-thb" userLabel="Wireless">
                                                 <rect key="frame" x="30" y="149" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
-                                                <state key="normal" title="Wireles" backgroundImage="tesla200.png">
+                                                <state key="normal" title="Wireles" backgroundImage="wirelesIco.png">
                                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="Bnl-OJ-L87" kind="modal" id="g3k-Xk-TBO"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="c9S-1r-G1e" userLabel="Jaje">
+                                                <rect key="frame" x="350" y="398" width="100" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <size key="titleShadowOffset" width="1" height="1"/>
+                                                <state key="normal" title="Egg" backgroundImage="teslinoJajeIco.png">
+                                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="jvL-WO-VsD" kind="modal" id="S8K-aD-1wr"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -265,13 +265,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar alpha="0.80000000000000004" contentMode="scaleToFill" id="PHu-VL-C5Z">
-                                <rect key="frame" x="0.0" y="20" width="400" height="44"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Hydropower" id="56C-Cy-vFF">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="liJ-Y5-IAY">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" id="MDr-gh-WkZ"/>
+                                                <action selector="vratiSe:" destination="dyd-za-N8U" id="YbB-Zw-gje"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Reset" id="BMo-MI-phi">
@@ -291,7 +291,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yPZ-jz-HZ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="552" y="3020.3400000000001"/>
+            <point key="canvasLocation" x="608" y="3120"/>
         </scene>
         <!--Radio-->
         <scene sceneID="R1p-xl-YAQ">
@@ -302,25 +302,47 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" id="wPb-Gn-gaa">
-                                <rect key="frame" x="0.0" y="20" width="400" height="44"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Radio Transmision" id="pxQ-Jp-My9">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="vAt-JU-JHS">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" id="Kup-e8-aOm"/>
+                                                <action selector="vratiSe:" destination="ueF-yw-PMp" id="ET8-g9-sTr"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="joV-Ij-2Cg">
+                                <rect key="frame" x="17" y="435" width="64" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="TipkaRadia.png"/>
+                                <connections>
+                                    <action selector="playAction:" destination="ueF-yw-PMp" eventType="touchUpInside" id="7wC-7G-mje"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="9wn-Hi-FRD">
+                                <rect key="frame" x="183" y="435" width="64" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="TipkaRadia.png"/>
+                                <connections>
+                                    <action selector="playAction2:" destination="ueF-yw-PMp" eventType="touchUpInside" id="Ygg-DR-LvC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="navBar" destination="wPb-Gn-gaa" id="amL-bc-9LY"/>
+                        <outlet property="playB" destination="joV-Ij-2Cg" id="6DT-DX-vDZ"/>
+                        <outlet property="tipUkljuci" destination="joV-Ij-2Cg" id="zBu-PU-dFV"/>
+                        <outlet property="tipUkljuci2" destination="9wn-Hi-FRD" id="ZGz-Uz-BhV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RXF-Og-Cm8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="907.19999999999993" y="3020.3400000000001"/>
+            <point key="canvasLocation" x="995" y="3136"/>
         </scene>
         <!--El Circuit-->
         <scene sceneID="y6a-xa-mHw">
@@ -338,7 +360,7 @@
                                         <leftBarButtonItems>
                                             <barButtonItem title="Back" id="Q4J-9c-kY0">
                                                 <connections>
-                                                    <segue destination="BYZ-38-t0r" kind="modal" id="QPo-fZ-bQH"/>
+                                                    <action selector="vratiSe:" destination="gFN-Or-kFj" id="pBG-aA-RC8"/>
                                                 </connections>
                                             </barButtonItem>
                                             <barButtonItem systemItem="camera" id="Wjq-it-Wct">
@@ -373,7 +395,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D2B-o3-UoO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1261" y="3020"/>
+            <point key="canvasLocation" x="1409" y="3144"/>
         </scene>
         <!--Faradey-->
         <scene sceneID="PVU-vU-06F">
@@ -390,7 +412,7 @@
                                     <navigationItem title="Faraday Cage" id="SG5-09-eAk">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="FJZ-tA-4wH">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" id="oGj-8A-Zff"/>
+                                                <action selector="vratiSe:" destination="5bw-UP-dVY" id="Hbz-bf-d3i"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Reset" id="R6c-wM-aVq">
@@ -410,7 +432,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gPW-dT-nY3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="583" y="2389"/>
+            <point key="canvasLocation" x="644" y="2449"/>
         </scene>
         <!--Xray-->
         <scene sceneID="DrW-h1-wqP">
@@ -427,7 +449,7 @@
                                     <navigationItem title="X Rays" id="aQl-Cb-MVY">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="FbE-ms-Poa">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" id="Wpc-9z-EDq"/>
+                                                <action selector="vratiSe:" destination="hAN-JF-v27" id="Mub-j8-G0w"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Info" id="nxd-H1-maP">
@@ -447,7 +469,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ACh-gw-3Um" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="912" y="2389"/>
+            <point key="canvasLocation" x="1024" y="2457"/>
         </scene>
         <!--Jaje-->
         <scene sceneID="xjr-S2-309">
@@ -457,14 +479,70 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="teslaEgg.png" id="Iyw-03-ENV">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <navigationBar contentMode="scaleToFill" id="cXi-GS-3bg">
                                 <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Tesla Egg" id="kbV-2K-1vJ">
+                                    <navigationItem title="Tesla's Egg" id="kbV-2K-1vJ">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="LAs-6z-TZI">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" id="vdk-Z9-tdg"/>
+                                                <action selector="vratiSe:" destination="jvL-WO-VsD" id="Tup-Cg-qlU"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Play" id="49V-Gh-Fzy">
+                                            <connections>
+                                                <segue destination="5PN-mD-CHf" kind="modal" id="215-NA-xTF"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" id="Qj9-rz-eHX">
+                                <rect key="frame" x="40" y="97" width="240" height="421"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Kako bi demonstrirao svoje obrtno magnetsko polje Tesla je napravio metalno jaje koje se vrti u magnetskom polju. U izmjeničnom magnetskom polju u jajetu zbog indukcije nastaju struje koje stvaraju svoje magnetsko polje pa se inače bakreno jaje pretvara u magnet. Tako nastali magnet vrti se u obrtnom polju što demonstrira asinhroni motor, nazvan tako jer obrtanje rotora (jajeta) uvijek malo kasni za obrtnim poljem statora.</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="navBar" destination="cXi-GS-3bg" id="UKR-sq-tQL"/>
+                        <outlet property="podloga" destination="Iyw-03-ENV" id="bEu-Co-RMY"/>
+                        <outlet property="tekst" destination="Qj9-rz-eHX" id="Gc6-67-Cod"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DkW-yf-geY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1417" y="2469"/>
+        </scene>
+        <!--Jaje View Controller-->
+        <scene sceneID="ojP-PV-nbK">
+            <objects>
+                <viewController storyboardIdentifier="jajeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5PN-mD-CHf" customClass="jajeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Ld-16-AUq" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" id="qFU-DV-bqa">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Tesla's egg" id="EAe-D8-Kgw">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="BIC-Do-U7P">
+                                            <connections>
+                                                <action selector="vratiSe:" destination="5PN-mD-CHf" id="o75-DD-5lA"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Reset" id="c7E-aS-ZK4">
+                                            <connections>
+                                                <action selector="resetiranje:" destination="5PN-mD-CHf" id="QK6-Cg-i0Q"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -473,10 +551,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="navBar" destination="qFU-DV-bqa" id="MlK-ow-Q8W"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DkW-yf-geY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aXH-k4-rhY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1261" y="2389"/>
+            <point key="canvasLocation" x="1791" y="2468"/>
         </scene>
         <!--Transmision-->
         <scene sceneID="eI3-1D-zvJ">
@@ -493,7 +574,12 @@
                                     <navigationItem title="Power Transmision" id="75h-tG-GbI">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="Xnm-Jo-udQ">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" id="8Wc-3J-YXs"/>
+                                                <action selector="vratiSe:" destination="ekL-a4-i4e" id="qbu-Mg-Ph1"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Map" id="oFC-bQ-ZrJ">
+                                            <connections>
+                                                <action selector="prMapu:" destination="ekL-a4-i4e" id="Du2-Ul-n4q"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -502,10 +588,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="navBar" destination="CkO-Kb-95K" id="0MA-ZN-WKj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TU1-Uz-tCV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="552" y="1749"/>
+            <point key="canvasLocation" x="632" y="1793"/>
         </scene>
         <!--About-->
         <scene sceneID="8uI-fd-Uen">
@@ -522,7 +611,7 @@
                                     <navigationItem title="About" id="Xva-74-Lo1">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="Gcx-DT-cfp">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" id="4yP-pA-Vft"/>
+                                                <action selector="vratiSe:" destination="nQe-Wb-YjZ" id="GY5-KL-SOU"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -533,7 +622,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="EPO-so-iPX">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TableViewCell" id="EPO-so-iPX">
                                         <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EPO-so-iPX" id="2N8-ju-luE">
@@ -557,7 +646,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mJ0-oW-Me7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="907" y="1749"/>
+            <point key="canvasLocation" x="1015" y="1773"/>
         </scene>
         <!--Findus-->
         <scene sceneID="Tsu-mN-NSC">
@@ -612,7 +701,7 @@
                                     <navigationItem title="Find Us" id="HjV-mD-da6">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="1x3-Xi-O0g">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" id="J6Y-MY-w8r"/>
+                                                <action selector="vratiSe:" destination="MT4-2o-Rsb" id="w61-q2-nO3"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" image="auto.png" id="xAp-1v-FzJ">
@@ -635,7 +724,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QCd-Ke-KSp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1260" y="1770"/>
+            <point key="canvasLocation" x="1449" y="1798"/>
         </scene>
         <!--Wireless-->
         <scene sceneID="fs8-RC-onY">
@@ -652,14 +741,21 @@
                                     <navigationItem title="Wireles energy" id="s0d-wq-syb">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="KIT-Lt-zvd">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" id="fbp-5h-gGN"/>
+                                                <action selector="vratiSe:" destination="Bnl-OJ-L87" id="PuW-Nw-9SH"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Info" id="dEO-f4-Dsx">
-                                            <connections>
-                                                <action selector="infoD:" destination="Bnl-OJ-L87" id="IbB-I9-pth"/>
-                                            </connections>
-                                        </barButtonItem>
+                                        <rightBarButtonItems>
+                                            <barButtonItem title="Coill" id="d4Q-Z2-AKJ">
+                                                <connections>
+                                                    <segue destination="k0b-KW-ve5" kind="modal" id="ihS-Cx-4eq"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem systemItem="bookmarks" id="dEO-f4-Dsx">
+                                                <connections>
+                                                    <action selector="infoD:" destination="Bnl-OJ-L87" id="IbB-I9-pth"/>
+                                                </connections>
+                                            </barButtonItem>
+                                        </rightBarButtonItems>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -672,7 +768,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B5g-zf-gOt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="552" y="1108"/>
+            <point key="canvasLocation" x="652" y="1060"/>
         </scene>
         <!--Boat-->
         <scene sceneID="h7v-jJ-5a7">
@@ -689,7 +785,7 @@
                                     <navigationItem title="Electric Boat" id="OHV-fe-Lei">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="Vte-pV-3rB">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" id="ap0-SK-I5N"/>
+                                                <action selector="vratiSe:" destination="Hok-ba-zWY" id="f9w-kW-6Ji"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Try" id="7sx-ha-9LS">
@@ -709,7 +805,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9en-fm-iO8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="907" y="1108"/>
+            <point key="canvasLocation" x="1015" y="1108"/>
         </scene>
         <!--Motor-->
         <scene sceneID="sQ6-FO-Yf7">
@@ -726,7 +822,7 @@
                                     <navigationItem title="Induction Motor" id="S43-WL-BfQ">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="NUm-uj-Ko6">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" id="bzV-oF-HBX"/>
+                                                <action selector="vratiSe:" destination="fXd-HX-jMZ" id="C6J-dT-7UT"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Info" id="5kW-Rf-3e9">
@@ -746,7 +842,39 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D7d-wm-7yZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1261" y="373"/>
+            <point key="canvasLocation" x="1236" y="372"/>
+        </scene>
+        <!--Lighting-->
+        <scene sceneID="smt-QQ-IWi">
+            <objects>
+                <viewController id="CNa-xU-xq8" customClass="Lighting" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="r3w-Lx-E8r">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" id="cbg-aN-MNs">
+                                <rect key="frame" x="0.0" y="29" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Home lighting" id="EdS-BE-wXO">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="fdN-TE-kVy">
+                                            <connections>
+                                                <action selector="vratiSe:" destination="CNa-xU-xq8" id="JJ9-l7-NaH"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="navBar" destination="cbg-aN-MNs" id="kU4-5E-5PN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jRf-WX-qTx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1590" y="372"/>
         </scene>
         <!--Bio-->
         <scene sceneID="cFN-fA-guZ">
@@ -768,7 +896,7 @@
                                     <navigationItem title="Biography" id="l23-Ff-QQ9">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="d0S-rP-9SA">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" id="Wym-NO-IBm"/>
+                                                <action selector="vratiSe:" destination="Klb-N7-FKc" id="e4G-Tx-yNA"/>
                                             </connections>
                                         </barButtonItem>
                                         <rightBarButtonItems>
@@ -827,7 +955,7 @@
                                     <navigationItem title="Tesla Coil" id="F99-Xu-rFs">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="zwo-gK-hY7">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" id="acu-Nf-8dN"/>
+                                                <action selector="vratiSe:" destination="k0b-KW-ve5" id="4LT-sV-U9Z"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -842,7 +970,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nFt-QF-mWp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1261" y="1108"/>
+            <point key="canvasLocation" x="1393" y="1108"/>
         </scene>
         <!--Broduvod-->
         <scene sceneID="wla-lc-v46">
@@ -859,7 +987,7 @@
                                     <navigationItem title="Tesla's boat" id="Q0w-wP-WyN">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="a1W-5G-Cnb">
                                             <connections>
-                                                <segue destination="Hok-ba-zWY" kind="modal" id="NoR-fj-our"/>
+                                                <action selector="vratiSe:" destination="K8E-TM-YEq" id="9YU-XB-iGs"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Play" id="nvY-jO-vyM">
@@ -874,12 +1002,12 @@
                                 <rect key="frame" x="20" y="84" width="280" height="464"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="Owq-vR-fnw">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="Owq-vR-fnw">
                                 <rect key="frame" x="40" y="104" width="240" height="376"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Tesla je svoj brod na daljinsko upravljanje prikazao na izložbi 1898. Brod je opremljen električnim motorom za vožnju i motorom za pokretanje kormila. Preko radio veze Tesla je upravljao prvim vozilom na daljinsko upravljanje.
-Vozite Teslin brod, obiđite različite otoke i na svakom pokupite neki instrument koji je Tesla koristio u svom radu.</mutableString>
+                                <string key="text">Tesla je svoj brod na daljinsko upravljanje prikazao na izložbi 1898. Brod je opremljen električnim motorom za vožnju i motorom za pokretanje kormila. Preko radio veze Tesla je upravljao prvim vozilom na daljinsko upravljanje.
+Vozite Teslin brod, obiđite različite otoke i na svakom pokupite neki instrument koji je Tesla koristio u svom radu.</string>
                                 <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -894,7 +1022,7 @@ Vozite Teslin brod, obiđite različite otoke i na svakom pokupite neki instrume
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6bA-at-KVJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1620" y="1111"/>
+            <point key="canvasLocation" x="1752" y="1108"/>
         </scene>
         <!--Brod Vozi-->
         <scene sceneID="sfH-ci-nNB">
@@ -926,7 +1054,7 @@ Vozite Teslin brod, obiđite različite otoke i na svakom pokupite neki instrume
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eyy-Xb-hpL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2114" y="1111"/>
+            <point key="canvasLocation" x="2226" y="1108"/>
         </scene>
         <!--Title-->
         <scene sceneID="Duc-N3-igu">
@@ -943,7 +1071,7 @@ Vozite Teslin brod, obiđite različite otoke i na svakom pokupite neki instrume
                                     <navigationItem title="Energy Production" id="p80-FG-OO0">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="rqK-LY-rmE">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" id="cvS-r2-qLc"/>
+                                                <action selector="vratiSe:" destination="XlY-Di-yin" id="P4k-d5-VwF"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Info" id="ZOA-rb-AAw">
@@ -964,7 +1092,7 @@ Vozite Teslin brod, obiđite različite otoke i na svakom pokupite neki instrume
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bil-Y0-FVL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="907" y="372"/>
+            <point key="canvasLocation" x="900" y="372"/>
         </scene>
         <!--Ray Info-->
         <scene sceneID="RfF-eB-DHn">
@@ -981,7 +1109,7 @@ Vozite Teslin brod, obiđite različite otoke i na svakom pokupite neki instrume
                                     <navigationItem title="X Rays info" id="NQh-8I-NRn">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="LZr-QT-vLF">
                                             <connections>
-                                                <segue destination="hAN-JF-v27" kind="modal" id="R5T-TK-2S4"/>
+                                                <action selector="vratiSe:" destination="ZVL-lD-BS8" id="ok9-vU-zYx"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -1013,7 +1141,7 @@ Vozite Teslin brod, obiđite različite otoke i na svakom pokupite neki instrume
                                     <navigationItem title="Asynchronous motor" id="lpg-FX-WEP">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="y9h-v7-pDV">
                                             <connections>
-                                                <segue destination="fXd-HX-jMZ" kind="modal" id="cxa-I2-Vvz"/>
+                                                <action selector="vratiSe:" destination="oJx-I8-6ll" id="lQD-YC-EAm"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -1035,28 +1163,31 @@ Vozite Teslin brod, obiđite različite otoke i na svakom pokupite neki instrume
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rw4-RE-UtY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1197" y="3890"/>
+            <point key="canvasLocation" x="1277" y="3914"/>
         </scene>
     </scenes>
     <resources>
+        <image name="TipkaRadia.png" width="47" height="47"/>
         <image name="auto.png" width="100" height="50"/>
         <image name="brodizvan.png" width="200" height="200"/>
-        <image name="coil.png" width="320" height="460"/>
         <image name="elCircIco.png" width="200" height="200"/>
         <image name="energyPico.png" width="200" height="211"/>
+        <image name="globeIco.png" width="200" height="200"/>
         <image name="left.png" width="30" height="60"/>
+        <image name="lightIco.png" width="200" height="200"/>
         <image name="papir.png" width="200" height="300"/>
+        <image name="radioAIco.png" width="200" height="200"/>
         <image name="right.png" width="30" height="60"/>
-        <image name="stator2.png" width="640" height="640"/>
+        <image name="stator3.png" width="640" height="640"/>
         <image name="steamP.png" width="1024" height="768"/>
+        <image name="tcoil2Ico.png" width="200" height="200"/>
         <image name="tesla200.png" width="200" height="200"/>
+        <image name="teslaEgg.png" width="427" height="640"/>
+        <image name="teslaSmiljan.jpg" width="640" height="425"/>
+        <image name="teslinoJajeIco.png" width="200" height="200"/>
+        <image name="transmisionIco.png" width="200" height="200"/>
         <image name="turbina3.png" width="320" height="320"/>
+        <image name="wirelesIco.png" width="200" height="200"/>
         <image name="xrayTubeIco.png" width="200" height="155"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="ap0-SK-I5N"/>
-        <segue reference="NoR-fj-our"/>
-        <segue reference="Fvh-Om-ZhG"/>
-        <segue reference="IVs-Os-ns3"/>
-    </inferredMetricsTieBreakers>
 </document>

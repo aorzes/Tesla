@@ -25,5 +25,8 @@
     [tekst setFont:[UIFont fontWithName:@"Snell Roundhand" size:velicina.width*0.06]];
 }
 
+- (IBAction)vratiSe:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 @end

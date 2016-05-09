@@ -63,6 +63,11 @@
     [mWebView loadRequest:request];
 
 }
+
+- (IBAction)vratiSe:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 - (void)viewDidUnload
 {
     [super viewDidUnload];

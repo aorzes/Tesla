@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface jaje : UIViewController
+@interface jaje : UIViewController{
+
+
+    __weak IBOutlet UITextView *tekst;
+    __weak IBOutlet UIImageView *podloga;
+    CGSize velicina;
+    __weak IBOutlet UINavigationBar *navBar;
+}
 
 @end

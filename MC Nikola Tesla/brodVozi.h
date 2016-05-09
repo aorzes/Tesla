@@ -14,6 +14,7 @@
 {
     SKScene *scene;
     __weak IBOutlet UINavigationBar *navBar;
+    
 }
 
 @end

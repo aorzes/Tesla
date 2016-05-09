@@ -19,6 +19,22 @@
     // Do any additional setup after loading the view.
 }
 
+-(void)viewDidAppear:(BOOL)animated{
+
+    velicina = self.view.frame.size;
+    navBar.frame = CGRectMake(0, 20, velicina.width, 44);
+    tekst.frame = CGRectMake(20, 70, velicina.width-40, velicina.height-90);
+    tekst.font = [UIFont fontWithName:@"Snell Roundhand" size:velicina.height/30];
+    podloga.frame = CGRectMake(0, 0, velicina.width, velicina.height);
+    [self.view bringSubviewToFront:navBar];
+    
+
+
+}
+- (IBAction)vratiSe:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

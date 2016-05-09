@@ -33,9 +33,8 @@
 -(void)viewDidAppear:(BOOL)animated
 {
     velicina = self.view.frame;
-    
+
     ukupnoC=0;
-    
     navBar.frame = CGRectMake(0, 20, velicina.size.width, 44);
     podloga = [[UIImageView alloc]init];
     podloga.image = [UIImage imageNamed:@"podlogaPipe2"];
@@ -129,11 +128,11 @@
     NSLog(@"odnos:%f",proporcije);
     
     labela = [[UILabel alloc]init];
-    labela.frame = CGRectMake(zarulja.frame.origin.x+zarulja.frame.size.width, zarulja.frame.origin.y, 100, 40);
+    labela.frame = CGRectMake(0, 64, self.view.frame.size.width, 30);
     [self.view addSubview:labela];
     labela.font = [UIFont fontWithName:@"Helvetica" size:12];
-    labela.backgroundColor = [UIColor redColor];
-    labela.textColor = [UIColor whiteColor];
+    labela.backgroundColor = [UIColor whiteColor];
+    labela.textColor = [UIColor blackColor];
     labela.textAlignment = NSTextAlignmentCenter;
     labela.text =[NSString stringWithFormat:@"%.1f",0.0];
     labela.alpha = 0;
@@ -398,7 +397,7 @@
                 else if ((polje[i][j+1]==1 || polje[i][j+1]==4 || polje[i][j+1]==5) && vektor == 2)
                 {
                     j++;
-                    if(i==4 && j==ciljana) {labela.text =[NSString stringWithFormat:@"efficiency:%.2f",(float)(brP-1)/ukupnoC];labela.alpha=1;return true;}
+                    if(i==4 && j==ciljana) {labela.text =[NSString stringWithFormat:@"Efficiency:%.2f",(float)(brP-1)/ukupnoC];labela.alpha=0.8;return true;}
                     if(j>ciljana) {curiX=i;curiY=j;return false;}
                     if(polje[i][j]==1) vektor = 1; // odozgo pa desno
                     if(polje[i][j]==4) vektor = 3; // odozgo pa lijevo
@@ -420,7 +419,7 @@
                 else if ((polje[i][j+1]==1 || polje[i][j+1]==4 || polje[i][j+1]==5) && vektor == 2)
                 {
                     j++;
-                    if(i==4 && j==ciljana) {labela.text =[NSString stringWithFormat:@"efficiency:%.2f",(float)(brP-1)/ukupnoC];labela.alpha=1;return true;}
+                    if(i==4 && j==ciljana) {labela.text =[NSString stringWithFormat:@"efficiency:%.2f",(float)(brP-1)/ukupnoC];labela.alpha=0.8;return true;}
                     if(j>ciljana) {curiX=i;curiY=j;return false;}
                     if(polje[i][j]==1) vektor = 1; //odozgo desno
                     if(polje[i][j]==4) vektor = 3; // odozgo lijevo
@@ -463,7 +462,7 @@
                 else if ((polje[i][j+1]==1 || polje[i][j+1]==4 || polje[i][j+1]==5) && vektor == 2)
                 {
                     j++;
-                    if(i==4 && j==ciljana) {labela.text =[NSString stringWithFormat:@"efficiency:%.2f",(float)(brP-1)/ukupnoC];labela.alpha=1;return true;}
+                    if(i==4 && j==ciljana) {labela.text =[NSString stringWithFormat:@"efficiency:%.2f",(float)(brP-1)/ukupnoC];labela.alpha=0.8;return true;}
                     NSLog(@"HA!");
                     if(j>ciljana) {curiX=i;curiY=j;return false;}
                     if(polje[i][j]==1) vektor = 1; //odozgo desno
@@ -499,7 +498,7 @@
         //NSLog(@"kraj:%d",kraj);
     }
     while(!kraj);
-    labela.text =[NSString stringWithFormat:@"efficiency:%.2f",(float)(brP-1)/ukupnoC];labela.alpha=1;
+    labela.text =[NSString stringWithFormat:@"efficiency:%.2f",(float)(brP-1)/ukupnoC];labela.alpha=0.8;
     return kraj;
 }
 -(void) touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
@@ -607,6 +606,9 @@
         
     }
     
+}
+- (IBAction)vratiSe:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 

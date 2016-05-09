@@ -101,6 +101,9 @@
 }
 
 
+- (IBAction)vratiSe:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 
 

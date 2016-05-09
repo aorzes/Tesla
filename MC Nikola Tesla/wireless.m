@@ -23,19 +23,26 @@
 
 -(void)viewDidAppear:(BOOL)animated{
     
+    for (UIImageView *slika in self.view.subviews) {
+        if (slika.tag>0) {
+            [slika removeFromSuperview];
+        }
+        
+    }
     
     CGSize velicina = self.view.frame.size;
-    
     navBar.frame = CGRectMake(0, 20, velicina.width, 44);
     
     wire1 = [[UIImageView alloc]init];
     wire1.image = [UIImage imageNamed:@"wireles1"];
     wire1.frame = CGRectMake(10, navBar.frame.origin.y+navBar.frame.size.height+20, velicina.width/2-20, (velicina.width/2-20)*2.5);
+    wire1.tag=1;
     [self.view addSubview:wire1];
 
     wire2 = [[UIImageView alloc]init];
     wire2.image = [UIImage imageNamed:@"wireles2"];
     wire2.frame = CGRectMake(velicina.width-wire1.frame.size.width-20, wire1.frame.origin.y, wire1.frame.size.width, wire1.frame.size.height);
+    wire2.tag=0;
     [self.view addSubview:wire2];
     
     stator = [[UIImageView alloc]init];
@@ -47,6 +54,7 @@
     rotor.image = [UIImage imageNamed:@"rotor2"];
     rotor.frame = CGRectMake(10, 10, stator.frame.size.height/2.7, stator.frame.size.height/2.7);
     rotor.center = stator.center;
+    rotor.tag=1;
     [self.view addSubview:rotor];
     
     zarulja = [[UIImageView alloc]init];
@@ -56,6 +64,7 @@
                                wire2.frame.size.height/8,
                                wire2.frame.size.height/6);
     [self.view addSubview:zarulja];
+    zarulja.tag=1;
     
     zarulja2 = [[UIImageView alloc]init];
     zarulja2.image = [UIImage imageNamed:@"zarulja0010"];
@@ -64,7 +73,7 @@
                                wire2.frame.size.height/8,
                                wire2.frame.size.height/6);
     [self.view addSubview:zarulja2];
-    
+    zarulja2.tag=1;
     [self startR];
     
     UITextView *tekst = [[UITextView alloc]init];
@@ -73,7 +82,7 @@
     tekst.layer.borderColor = [UIColor lightGrayColor].CGColor;
     tekst.text =@"Wireless power transfer\nTesla je prvi osmislio wireless power transfer. Princip je jednostavan, ali se ne primjenjuje jer bi na taj način teško bilo naplatiti energiju. Kroz debelu žicu s malo namotaja protiče jaka struja niskog napona, a kroz veliki namotaj tanke žice slaba struja visokog napona. Ona je jednim krajem spojena na antenu koja širi radio valove, a drugi kraj je uzemljen.\nTe valove prima druga antena koja je spojena na svoj namotaj tanke žice (veliki broj namotaja). Visoki napon koji se tu generira transformira se u niski napon, a jaku struju, u malom broju namotaju debele žice i ta struja se vodi na žarulju. Broj namotaja je proporcionalan naponu i obrnuto proporcionalan struji. Naravno to vrijedi samo za AC.";
     [self.view addSubview:tekst];
-    
+    tekst.tag=1;
     valovi = [[UIImageView alloc]init];
     valovi.image = [UIImage imageNamed:@"radioVal1"];
     valovi.frame = CGRectMake(wire1.frame.origin.x+wire1.frame.size.width/1.4, wire1.frame.origin.y+wire1.frame.size.height/40, wire1.frame.size.width, wire1.frame.size.height/8);
@@ -87,11 +96,12 @@
     valovi.animationDuration=0.50;
     valovi.animationRepeatCount=0;
     [valovi startAnimating];
-    
+    valovi.tag=1;
     podloga = [[UIImageView alloc]init];
     podloga.image = [UIImage imageNamed:@"US645576-0"];
     podloga.frame = CGRectMake(0, 0, velicina.width, velicina.height);
     [self.view addSubview:podloga];
+    podloga.tag=1;
     podloga.alpha =0;
     [self.view bringSubviewToFront:navBar];
 
@@ -127,12 +137,17 @@
     [rotor setTransform:rotate1];
 }
 
+- (IBAction)vratiSe:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -140,6 +155,6 @@
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
 }
-*/
+
 
 @end

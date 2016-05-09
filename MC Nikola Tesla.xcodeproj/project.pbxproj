@@ -74,6 +74,45 @@
 		EC0A5D691CAF1CC5002147BF /* leftB.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D671CAF1CC5002147BF /* leftB.png */; };
 		EC0A5D6B1CAF1DEC002147BF /* more3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D6A1CAF1DEC002147BF /* more3.png */; };
 		EC0A5D6D1CAF258F002147BF /* instrumentt5.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0A5D6C1CAF258F002147BF /* instrumentt5.png */; };
+		EC0C21961CB6C9ED00C54DDA /* TipkaRadia.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0C21951CB6C9ED00C54DDA /* TipkaRadia.png */; };
+		EC0C21981CB703CA00C54DDA /* radioAB.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0C21971CB703CA00C54DDA /* radioAB.png */; };
+		EC10AA3D1CDF369400DBB24B /* teslaMotor.png in Resources */ = {isa = PBXBuildFile; fileRef = EC10AA3C1CDF369400DBB24B /* teslaMotor.png */; };
+		EC10AA3F1CDF3B0200DBB24B /* teslaLab.png in Resources */ = {isa = PBXBuildFile; fileRef = EC10AA3E1CDF3B0100DBB24B /* teslaLab.png */; };
+		EC10AA411CDF3CD300DBB24B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC10AA401CDF3CD300DBB24B /* QuartzCore.framework */; };
+		EC10AA511CDF4C7B00DBB24B /* vodaUlazi1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC10AA4C1CDF4C7B00DBB24B /* vodaUlazi1.png */; };
+		EC10AA521CDF4C7B00DBB24B /* vodaUlazi2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC10AA4D1CDF4C7B00DBB24B /* vodaUlazi2.png */; };
+		EC10AA531CDF4C7B00DBB24B /* vodaUlazi3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC10AA4E1CDF4C7B00DBB24B /* vodaUlazi3.png */; };
+		EC10AA541CDF4C7B00DBB24B /* vodaUlazi4.png in Resources */ = {isa = PBXBuildFile; fileRef = EC10AA4F1CDF4C7B00DBB24B /* vodaUlazi4.png */; };
+		EC10AA551CDF4C7B00DBB24B /* vodaUlazi5.png in Resources */ = {isa = PBXBuildFile; fileRef = EC10AA501CDF4C7B00DBB24B /* vodaUlazi5.png */; };
+		EC10AA571CDF504900DBB24B /* teslaSwitch0090.png in Resources */ = {isa = PBXBuildFile; fileRef = EC10AA561CDF504900DBB24B /* teslaSwitch0090.png */; };
+		EC10AA591CDF561700DBB24B /* click1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC10AA581CDF561700DBB24B /* click1.mp3 */; };
+		EC20C10C1CDFA5C00009AB7F /* zeleniKrug.png in Resources */ = {isa = PBXBuildFile; fileRef = EC20C10B1CDFA5C00009AB7F /* zeleniKrug.png */; };
+		EC224CD21CBF894000E6A829 /* teslaEgg.png in Resources */ = {isa = PBXBuildFile; fileRef = EC224CD11CBF894000E6A829 /* teslaEgg.png */; };
+		EC2DB17E1CD1F785005B6234 /* fasada.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB1661CD1F785005B6234 /* fasada.png */; };
+		EC2DB17F1CD1F785005B6234 /* grlo1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB1671CD1F785005B6234 /* grlo1.png */; };
+		EC2DB1801CD1F785005B6234 /* grlo2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB1681CD1F785005B6234 /* grlo2.png */; };
+		EC2DB1811CD1F785005B6234 /* grlo3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB1691CD1F785005B6234 /* grlo3.png */; };
+		EC2DB1821CD1F785005B6234 /* grlo4.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB16A1CD1F785005B6234 /* grlo4.png */; };
+		EC2DB1831CD1F785005B6234 /* grlo5.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB16B1CD1F785005B6234 /* grlo5.png */; };
+		EC2DB1841CD1F785005B6234 /* grlo6.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB16C1CD1F785005B6234 /* grlo6.png */; };
+		EC2DB1851CD1F785005B6234 /* klikP.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB16D1CD1F785005B6234 /* klikP.mp3 */; };
+		EC2DB1861CD1F785005B6234 /* nebo15.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB16E1CD1F785005B6234 /* nebo15.png */; };
+		EC2DB1871CD1F785005B6234 /* nosacZarulja.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB16F1CD1F785005B6234 /* nosacZarulja.png */; };
+		EC2DB1881CD1F785005B6234 /* prozor.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB1701CD1F785005B6234 /* prozor.png */; };
+		EC2DB1891CD1F785005B6234 /* prozorS.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB1711CD1F785005B6234 /* prozorS.png */; };
+		EC2DB18A1CD1F785005B6234 /* zarulja1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB1721CD1F785005B6234 /* zarulja1.png */; };
+		EC2DB18B1CD1F785005B6234 /* zarulja2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB1731CD1F785005B6234 /* zarulja2.png */; };
+		EC2DB18C1CD1F785005B6234 /* zarulja3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB1741CD1F785005B6234 /* zarulja3.png */; };
+		EC2DB18D1CD1F785005B6234 /* zarulja4.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB1751CD1F785005B6234 /* zarulja4.png */; };
+		EC2DB18E1CD1F785005B6234 /* zarulja5.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB1761CD1F785005B6234 /* zarulja5.png */; };
+		EC2DB18F1CD1F785005B6234 /* zarulja6.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB1771CD1F785005B6234 /* zarulja6.png */; };
+		EC2DB1901CD1F785005B6234 /* zaruljaS1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB1781CD1F785005B6234 /* zaruljaS1.png */; };
+		EC2DB1911CD1F785005B6234 /* zaruljaS2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB1791CD1F785005B6234 /* zaruljaS2.png */; };
+		EC2DB1921CD1F785005B6234 /* zaruljaS3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB17A1CD1F785005B6234 /* zaruljaS3.png */; };
+		EC2DB1931CD1F785005B6234 /* zaruljaS4.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB17B1CD1F785005B6234 /* zaruljaS4.png */; };
+		EC2DB1941CD1F785005B6234 /* zaruljaS5.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB17C1CD1F785005B6234 /* zaruljaS5.png */; };
+		EC2DB1951CD1F785005B6234 /* zaruljaS6.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB17D1CD1F785005B6234 /* zaruljaS6.png */; };
+		EC2DB1971CD1F9E3005B6234 /* lightIco.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2DB1961CD1F9E3005B6234 /* lightIco.png */; };
 		EC30EC5B1C874B55004BEC86 /* planine.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC5A1C874B55004BEC86 /* planine.png */; };
 		EC30EC5D1C874B5E004BEC86 /* crnaPodloga.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC5C1C874B5E004BEC86 /* crnaPodloga.png */; };
 		EC30EC621C874B6F004BEC86 /* cage.png in Resources */ = {isa = PBXBuildFile; fileRef = EC30EC5E1C874B6F004BEC86 /* cage.png */; };
@@ -127,6 +166,7 @@
 		EC3C23B61C8B46AB00FBBA2F /* mlazD1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3C23B31C8B46AB00FBBA2F /* mlazD1.png */; };
 		EC3C23B71C8B46AB00FBBA2F /* mlazD2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3C23B41C8B46AB00FBBA2F /* mlazD2.png */; };
 		EC3C23B81C8B46AB00FBBA2F /* mlazD3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3C23B51C8B46AB00FBBA2F /* mlazD3.png */; };
+		EC4114971CDE291600C4836A /* Lighting.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4114961CDE291600C4836A /* Lighting.m */; };
 		EC4657B21C67D65D00F6509E /* cijevi1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC46578C1C67D65D00F6509E /* cijevi1.png */; };
 		EC4657B31C67D65D00F6509E /* cijevi2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC46578D1C67D65D00F6509E /* cijevi2.png */; };
 		EC4657B41C67D65D00F6509E /* cijevi3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC46578E1C67D65D00F6509E /* cijevi3.png */; };
@@ -166,7 +206,6 @@
 		EC4657D71C67D65D00F6509E /* zarulja0010.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4657B11C67D65D00F6509E /* zarulja0010.png */; };
 		EC4DA8141CA7E59300CB5351 /* moreab.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4DA8131CA7E59300CB5351 /* moreab.png */; };
 		EC4DA8161CA8226600CB5351 /* teslaBoatb.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4DA8151CA8226600CB5351 /* teslaBoatb.png */; };
-		EC4DA8181CA82C1100CB5351 /* brodizvan.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4DA8171CA82C1100CB5351 /* brodizvan.png */; };
 		EC4DA81A1CA82D6B00CB5351 /* energyIco.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4DA8191CA82D6B00CB5351 /* energyIco.png */; };
 		EC4DA81C1CA8306F00CB5351 /* energyPico.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4DA81B1CA8306F00CB5351 /* energyPico.png */; };
 		EC4ECFEF1CA4077800D532EB /* elCircuit.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4ECFEE1CA4077800D532EB /* elCircuit.m */; };
@@ -193,6 +232,13 @@
 		EC4ED01B1CA41DF100D532EB /* smece.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4ED01A1CA41DF100D532EB /* smece.png */; };
 		EC4F115D1CAFC30F00D4331C /* sky.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4F115C1CAFC30F00D4331C /* sky.png */; };
 		EC4F115F1CAFCAE300D4331C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4F115E1CAFCAE300D4331C /* CoreMotion.framework */; };
+		EC4F11611CAFFEC000D4331C /* steamP.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4F11601CAFFEC000D4331C /* steamP.png */; };
+		EC4F11631CB003E200D4331C /* wirelesIco.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4F11621CB003E200D4331C /* wirelesIco.png */; };
+		EC4F11651CB005A500D4331C /* brodizvan.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4F11641CB005A500D4331C /* brodizvan.png */; };
+		EC4F11671CB0257800D4331C /* transmisionIco.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4F11661CB0257800D4331C /* transmisionIco.png */; };
+		EC4F11691CB02E9700D4331C /* globeIco.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4F11681CB02E9700D4331C /* globeIco.png */; };
+		EC4F116B1CB0327A00D4331C /* teslinoJajeIco.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4F116A1CB0327A00D4331C /* teslinoJajeIco.png */; };
+		EC4F116D1CB051BB00D4331C /* radioAIco.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4F116C1CB051BB00D4331C /* radioAIco.png */; };
 		EC5224AD1CA534EC00559613 /* kormiloc0000.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224831CA534EC00559613 /* kormiloc0000.png */; };
 		EC5224AE1CA534EC00559613 /* kormiloc0001.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224841CA534EC00559613 /* kormiloc0001.png */; };
 		EC5224AF1CA534EC00559613 /* kormiloc0002.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5224851CA534EC00559613 /* kormiloc0002.png */; };
@@ -261,11 +307,61 @@
 		EC52250A1CA5DB0D00559613 /* zutaTipka.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5225091CA5DB0D00559613 /* zutaTipka.png */; };
 		EC52250D1CA5E54800559613 /* crvenaTipka.png in Resources */ = {isa = PBXBuildFile; fileRef = EC52250B1CA5E54800559613 /* crvenaTipka.png */; };
 		EC52250E1CA5E54800559613 /* zelenaTipka.png in Resources */ = {isa = PBXBuildFile; fileRef = EC52250C1CA5E54800559613 /* zelenaTipka.png */; };
+		EC5508A01CBA6568002FD253 /* drvo1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5508891CBA6568002FD253 /* drvo1.png */; };
+		EC5508A11CBA6568002FD253 /* drvo2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC55088A1CBA6568002FD253 /* drvo2.png */; };
+		EC5508A21CBA6568002FD253 /* drvo3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC55088B1CBA6568002FD253 /* drvo3.png */; };
+		EC5508A31CBA6568002FD253 /* drvo4.png in Resources */ = {isa = PBXBuildFile; fileRef = EC55088C1CBA6568002FD253 /* drvo4.png */; };
+		EC5508A41CBA6568002FD253 /* drvo5.png in Resources */ = {isa = PBXBuildFile; fileRef = EC55088D1CBA6568002FD253 /* drvo5.png */; };
+		EC5508A51CBA6568002FD253 /* drvo6.png in Resources */ = {isa = PBXBuildFile; fileRef = EC55088E1CBA6568002FD253 /* drvo6.png */; };
+		EC5508A61CBA6568002FD253 /* drvo7.png in Resources */ = {isa = PBXBuildFile; fileRef = EC55088F1CBA6568002FD253 /* drvo7.png */; };
+		EC5508A71CBA6568002FD253 /* drvo8.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5508901CBA6568002FD253 /* drvo8.png */; };
+		EC5508A81CBA6568002FD253 /* drvo9.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5508911CBA6568002FD253 /* drvo9.png */; };
+		EC5508A91CBA6568002FD253 /* drvo10.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5508921CBA6568002FD253 /* drvo10.png */; };
+		EC5508AA1CBA6568002FD253 /* drvo11.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5508931CBA6568002FD253 /* drvo11.png */; };
+		EC5508AB1CBA6568002FD253 /* drvo12.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5508941CBA6568002FD253 /* drvo12.png */; };
+		EC5508AC1CBA6568002FD253 /* drvo13.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5508951CBA6568002FD253 /* drvo13.png */; };
+		EC5508AD1CBA6568002FD253 /* kucic1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5508961CBA6568002FD253 /* kucic1.png */; };
+		EC5508AE1CBA6568002FD253 /* kucic2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5508971CBA6568002FD253 /* kucic2.png */; };
+		EC5508AF1CBA6568002FD253 /* kucic3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5508981CBA6568002FD253 /* kucic3.png */; };
+		EC5508B01CBA6568002FD253 /* kucic4.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5508991CBA6568002FD253 /* kucic4.png */; };
+		EC5508B11CBA6568002FD253 /* kucic5.png in Resources */ = {isa = PBXBuildFile; fileRef = EC55089A1CBA6568002FD253 /* kucic5.png */; };
+		EC5508B21CBA6568002FD253 /* kucic6.png in Resources */ = {isa = PBXBuildFile; fileRef = EC55089B1CBA6568002FD253 /* kucic6.png */; };
+		EC5508B31CBA6568002FD253 /* kucic7.png in Resources */ = {isa = PBXBuildFile; fileRef = EC55089C1CBA6568002FD253 /* kucic7.png */; };
+		EC5508B41CBA6568002FD253 /* kucic8.png in Resources */ = {isa = PBXBuildFile; fileRef = EC55089D1CBA6568002FD253 /* kucic8.png */; };
+		EC5508B61CBA6568002FD253 /* stup.png in Resources */ = {isa = PBXBuildFile; fileRef = EC55089F1CBA6568002FD253 /* stup.png */; };
+		EC5508BD1CBACFC7002FD253 /* mapa.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5508BC1CBACFC7002FD253 /* mapa.png */; };
+		EC5519F71CC249F900836FFC /* TeslaSmiljan.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5519F61CC249F900836FFC /* TeslaSmiljan.png */; };
+		EC5519F91CC24D2D00836FFC /* tcoil2Ico.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5519F81CC24D2D00836FFC /* tcoil2Ico.png */; };
+		EC5558BF1CC0C39C0066329F /* jajeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5558BE1CC0C39C0066329F /* jajeViewController.m */; };
+		EC5558C21CC0C42D0066329F /* jajeScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5558C11CC0C42D0066329F /* jajeScene.m */; };
+		EC5558D71CC0C7C50066329F /* maliMagnet.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5558C31CC0C7C50066329F /* maliMagnet.png */; };
+		EC5558D81CC0C7C50066329F /* neboJS.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5558C41CC0C7C50066329F /* neboJS.png */; };
+		EC5558D91CC0C7C50066329F /* faca17.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5558C51CC0C7C50066329F /* faca17.png */; };
+		EC5558DA1CC0C7C50066329F /* faca16.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5558C61CC0C7C50066329F /* faca16.png */; };
+		EC5558DB1CC0C7C50066329F /* faca15.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5558C71CC0C7C50066329F /* faca15.png */; };
+		EC5558DC1CC0C7C50066329F /* faca14.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5558C81CC0C7C50066329F /* faca14.png */; };
+		EC5558DD1CC0C7C50066329F /* faca13.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5558C91CC0C7C50066329F /* faca13.png */; };
+		EC5558DE1CC0C7C50066329F /* faca12.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5558CA1CC0C7C50066329F /* faca12.png */; };
+		EC5558DF1CC0C7C50066329F /* faca11.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5558CB1CC0C7C50066329F /* faca11.png */; };
+		EC5558E01CC0C7C50066329F /* faca10.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5558CC1CC0C7C50066329F /* faca10.png */; };
+		EC5558E11CC0C7C50066329F /* faca9.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5558CD1CC0C7C50066329F /* faca9.png */; };
+		EC5558E21CC0C7C50066329F /* faca8.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5558CE1CC0C7C50066329F /* faca8.png */; };
+		EC5558E31CC0C7C50066329F /* faca7.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5558CF1CC0C7C50066329F /* faca7.png */; };
+		EC5558E41CC0C7C50066329F /* faca6.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5558D01CC0C7C50066329F /* faca6.png */; };
+		EC5558E51CC0C7C50066329F /* faca5.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5558D11CC0C7C50066329F /* faca5.png */; };
+		EC5558E61CC0C7C50066329F /* faca4.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5558D21CC0C7C50066329F /* faca4.png */; };
+		EC5558E71CC0C7C50066329F /* faca3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5558D31CC0C7C50066329F /* faca3.png */; };
+		EC5558E81CC0C7C50066329F /* faca2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5558D41CC0C7C50066329F /* faca2.png */; };
+		EC5558E91CC0C7C50066329F /* faca1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5558D51CC0C7C50066329F /* faca1.png */; };
+		EC5558EA1CC0C7C50066329F /* kamen.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5558D61CC0C7C50066329F /* kamen.png */; };
+		EC5558EC1CC0C7D90066329F /* elMagnet.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5558EB1CC0C7D90066329F /* elMagnet.png */; };
+		EC5558EE1CC0C7FD0066329F /* teslinoJaje.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5558ED1CC0C7FD0066329F /* teslinoJaje.png */; };
 		EC570DE41C723F1500B02555 /* konzola.png in Resources */ = {isa = PBXBuildFile; fileRef = EC570DE01C723F1500B02555 /* konzola.png */; };
 		EC570DE51C723F1500B02555 /* podlogaXekrana.png in Resources */ = {isa = PBXBuildFile; fileRef = EC570DE11C723F1500B02555 /* podlogaXekrana.png */; };
 		EC570DE61C723F1500B02555 /* tijelo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC570DE21C723F1500B02555 /* tijelo.png */; };
 		EC570DE71C723F1500B02555 /* tijelo1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC570DE31C723F1500B02555 /* tijelo1.png */; };
 		EC570DE91C723F2B00B02555 /* zidXray.png in Resources */ = {isa = PBXBuildFile; fileRef = EC570DE81C723F2B00B02555 /* zidXray.png */; };
+		EC58E4451CC60F9E0012FDFE /* teslaIcon1024.png in Resources */ = {isa = PBXBuildFile; fileRef = EC58E4441CC60F9E0012FDFE /* teslaIcon1024.png */; };
 		EC5C0F081C8C3257002233E8 /* mlazG3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C0F051C8C3257002233E8 /* mlazG3.png */; };
 		EC5C0F091C8C3257002233E8 /* mlazG2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C0F061C8C3257002233E8 /* mlazG2.png */; };
 		EC5C0F0A1C8C3257002233E8 /* mlazG1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C0F071C8C3257002233E8 /* mlazG1.png */; };
@@ -297,6 +393,8 @@
 		EC5C627A1C581F9700608AEC /* ticon.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C62791C581F9700608AEC /* ticon.png */; };
 		EC5C62811C58331900608AEC /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C627F1C58331900608AEC /* left.png */; };
 		EC5C62821C58331900608AEC /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5C62801C58331900608AEC /* right.png */; };
+		EC5F037B1CC3AE2100263781 /* gun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC5F037A1CC3AE2100263781 /* gun.mp3 */; };
+		EC5F037D1CC3B79900263781 /* aura0.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5F037C1CC3B79900263781 /* aura0.png */; };
 		EC5FDBBC1C7CD43200AAD01C /* wireles2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBBA1C7CD43200AAD01C /* wireles2.png */; };
 		EC5FDBBD1C7CD43200AAD01C /* wireles1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBBB1C7CD43200AAD01C /* wireles1.png */; };
 		EC5FDBBF1C7CDB2500AAD01C /* rotor2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5FDBBE1C7CDB2500AAD01C /* rotor2.png */; };
@@ -321,7 +419,6 @@
 		EC74B6DA1C7462360016444E /* stator2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B6D91C7462360016444E /* stator2.png */; };
 		EC74B6E21C74F8050016444E /* bomba.png in Resources */ = {isa = PBXBuildFile; fileRef = EC74B6E11C74F8050016444E /* bomba.png */; };
 		EC8B2A4A1C787E2900680ABD /* coil.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8B2A491C787E2900680ABD /* coil.png */; };
-		ECA1BD7B1C89D72700DFDA10 /* steamP.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA1BD7A1C89D72700DFDA10 /* steamP.png */; };
 		ECB8F8AB1C91F18300FA00B0 /* teslaBoatc.png in Resources */ = {isa = PBXBuildFile; fileRef = ECB8F8AA1C91F18300FA00B0 /* teslaBoatc.png */; };
 		ECCD0F741C63BB1900A1A4D7 /* tesla200.png in Resources */ = {isa = PBXBuildFile; fileRef = ECCD0F731C63BB1900A1A4D7 /* tesla200.png */; };
 		ECE9F2D81C8B932B00238AFD /* zupcanik1.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE9F2D71C8B932B00238AFD /* zupcanik1.png */; };
@@ -441,6 +538,45 @@
 		EC0A5D671CAF1CC5002147BF /* leftB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftB.png; sourceTree = "<group>"; };
 		EC0A5D6A1CAF1DEC002147BF /* more3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more3.png; sourceTree = "<group>"; };
 		EC0A5D6C1CAF258F002147BF /* instrumentt5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentt5.png; sourceTree = "<group>"; };
+		EC0C21951CB6C9ED00C54DDA /* TipkaRadia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TipkaRadia.png; sourceTree = "<group>"; };
+		EC0C21971CB703CA00C54DDA /* radioAB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radioAB.png; sourceTree = "<group>"; };
+		EC10AA3C1CDF369400DBB24B /* teslaMotor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teslaMotor.png; sourceTree = "<group>"; };
+		EC10AA3E1CDF3B0100DBB24B /* teslaLab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teslaLab.png; sourceTree = "<group>"; };
+		EC10AA401CDF3CD300DBB24B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EC10AA4C1CDF4C7B00DBB24B /* vodaUlazi1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vodaUlazi1.png; sourceTree = "<group>"; };
+		EC10AA4D1CDF4C7B00DBB24B /* vodaUlazi2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vodaUlazi2.png; sourceTree = "<group>"; };
+		EC10AA4E1CDF4C7B00DBB24B /* vodaUlazi3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vodaUlazi3.png; sourceTree = "<group>"; };
+		EC10AA4F1CDF4C7B00DBB24B /* vodaUlazi4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vodaUlazi4.png; sourceTree = "<group>"; };
+		EC10AA501CDF4C7B00DBB24B /* vodaUlazi5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vodaUlazi5.png; sourceTree = "<group>"; };
+		EC10AA561CDF504900DBB24B /* teslaSwitch0090.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teslaSwitch0090.png; sourceTree = "<group>"; };
+		EC10AA581CDF561700DBB24B /* click1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click1.mp3; sourceTree = "<group>"; };
+		EC20C10B1CDFA5C00009AB7F /* zeleniKrug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zeleniKrug.png; sourceTree = "<group>"; };
+		EC224CD11CBF894000E6A829 /* teslaEgg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teslaEgg.png; sourceTree = "<group>"; };
+		EC2DB1661CD1F785005B6234 /* fasada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fasada.png; sourceTree = "<group>"; };
+		EC2DB1671CD1F785005B6234 /* grlo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grlo1.png; sourceTree = "<group>"; };
+		EC2DB1681CD1F785005B6234 /* grlo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grlo2.png; sourceTree = "<group>"; };
+		EC2DB1691CD1F785005B6234 /* grlo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grlo3.png; sourceTree = "<group>"; };
+		EC2DB16A1CD1F785005B6234 /* grlo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grlo4.png; sourceTree = "<group>"; };
+		EC2DB16B1CD1F785005B6234 /* grlo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grlo5.png; sourceTree = "<group>"; };
+		EC2DB16C1CD1F785005B6234 /* grlo6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grlo6.png; sourceTree = "<group>"; };
+		EC2DB16D1CD1F785005B6234 /* klikP.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = klikP.mp3; sourceTree = "<group>"; };
+		EC2DB16E1CD1F785005B6234 /* nebo15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nebo15.png; sourceTree = "<group>"; };
+		EC2DB16F1CD1F785005B6234 /* nosacZarulja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nosacZarulja.png; sourceTree = "<group>"; };
+		EC2DB1701CD1F785005B6234 /* prozor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prozor.png; sourceTree = "<group>"; };
+		EC2DB1711CD1F785005B6234 /* prozorS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prozorS.png; sourceTree = "<group>"; };
+		EC2DB1721CD1F785005B6234 /* zarulja1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zarulja1.png; sourceTree = "<group>"; };
+		EC2DB1731CD1F785005B6234 /* zarulja2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zarulja2.png; sourceTree = "<group>"; };
+		EC2DB1741CD1F785005B6234 /* zarulja3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zarulja3.png; sourceTree = "<group>"; };
+		EC2DB1751CD1F785005B6234 /* zarulja4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zarulja4.png; sourceTree = "<group>"; };
+		EC2DB1761CD1F785005B6234 /* zarulja5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zarulja5.png; sourceTree = "<group>"; };
+		EC2DB1771CD1F785005B6234 /* zarulja6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zarulja6.png; sourceTree = "<group>"; };
+		EC2DB1781CD1F785005B6234 /* zaruljaS1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zaruljaS1.png; sourceTree = "<group>"; };
+		EC2DB1791CD1F785005B6234 /* zaruljaS2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zaruljaS2.png; sourceTree = "<group>"; };
+		EC2DB17A1CD1F785005B6234 /* zaruljaS3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zaruljaS3.png; sourceTree = "<group>"; };
+		EC2DB17B1CD1F785005B6234 /* zaruljaS4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zaruljaS4.png; sourceTree = "<group>"; };
+		EC2DB17C1CD1F785005B6234 /* zaruljaS5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zaruljaS5.png; sourceTree = "<group>"; };
+		EC2DB17D1CD1F785005B6234 /* zaruljaS6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zaruljaS6.png; sourceTree = "<group>"; };
+		EC2DB1961CD1F9E3005B6234 /* lightIco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightIco.png; sourceTree = "<group>"; };
 		EC30EC5A1C874B55004BEC86 /* planine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planine.png; sourceTree = "<group>"; };
 		EC30EC5C1C874B5E004BEC86 /* crnaPodloga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crnaPodloga.png; sourceTree = "<group>"; };
 		EC30EC5E1C874B6F004BEC86 /* cage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cage.png; sourceTree = "<group>"; };
@@ -494,6 +630,8 @@
 		EC3C23B31C8B46AB00FBBA2F /* mlazD1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mlazD1.png; sourceTree = "<group>"; };
 		EC3C23B41C8B46AB00FBBA2F /* mlazD2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mlazD2.png; sourceTree = "<group>"; };
 		EC3C23B51C8B46AB00FBBA2F /* mlazD3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mlazD3.png; sourceTree = "<group>"; };
+		EC4114951CDE291600C4836A /* Lighting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lighting.h; sourceTree = "<group>"; };
+		EC4114961CDE291600C4836A /* Lighting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lighting.m; sourceTree = "<group>"; };
 		EC46578C1C67D65D00F6509E /* cijevi1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cijevi1.png; sourceTree = "<group>"; };
 		EC46578D1C67D65D00F6509E /* cijevi2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cijevi2.png; sourceTree = "<group>"; };
 		EC46578E1C67D65D00F6509E /* cijevi3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cijevi3.png; sourceTree = "<group>"; };
@@ -533,7 +671,6 @@
 		EC4657B11C67D65D00F6509E /* zarulja0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zarulja0010.png; sourceTree = "<group>"; };
 		EC4DA8131CA7E59300CB5351 /* moreab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moreab.png; sourceTree = "<group>"; };
 		EC4DA8151CA8226600CB5351 /* teslaBoatb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teslaBoatb.png; sourceTree = "<group>"; };
-		EC4DA8171CA82C1100CB5351 /* brodizvan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brodizvan.png; sourceTree = "<group>"; };
 		EC4DA8191CA82D6B00CB5351 /* energyIco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = energyIco.png; sourceTree = "<group>"; };
 		EC4DA81B1CA8306F00CB5351 /* energyPico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = energyPico.png; sourceTree = "<group>"; };
 		EC4ECFEE1CA4077800D532EB /* elCircuit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = elCircuit.m; sourceTree = "<group>"; };
@@ -561,6 +698,13 @@
 		EC4ED01A1CA41DF100D532EB /* smece.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smece.png; sourceTree = "<group>"; };
 		EC4F115C1CAFC30F00D4331C /* sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sky.png; sourceTree = "<group>"; };
 		EC4F115E1CAFCAE300D4331C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		EC4F11601CAFFEC000D4331C /* steamP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steamP.png; sourceTree = "<group>"; };
+		EC4F11621CB003E200D4331C /* wirelesIco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wirelesIco.png; sourceTree = "<group>"; };
+		EC4F11641CB005A500D4331C /* brodizvan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brodizvan.png; sourceTree = "<group>"; };
+		EC4F11661CB0257800D4331C /* transmisionIco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transmisionIco.png; sourceTree = "<group>"; };
+		EC4F11681CB02E9700D4331C /* globeIco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globeIco.png; sourceTree = "<group>"; };
+		EC4F116A1CB0327A00D4331C /* teslinoJajeIco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teslinoJajeIco.png; sourceTree = "<group>"; };
+		EC4F116C1CB051BB00D4331C /* radioAIco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radioAIco.png; sourceTree = "<group>"; };
 		EC5224831CA534EC00559613 /* kormiloc0000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kormiloc0000.png; sourceTree = "<group>"; };
 		EC5224841CA534EC00559613 /* kormiloc0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kormiloc0001.png; sourceTree = "<group>"; };
 		EC5224851CA534EC00559613 /* kormiloc0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kormiloc0002.png; sourceTree = "<group>"; };
@@ -629,11 +773,63 @@
 		EC5225091CA5DB0D00559613 /* zutaTipka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zutaTipka.png; sourceTree = "<group>"; };
 		EC52250B1CA5E54800559613 /* crvenaTipka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crvenaTipka.png; sourceTree = "<group>"; };
 		EC52250C1CA5E54800559613 /* zelenaTipka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zelenaTipka.png; sourceTree = "<group>"; };
+		EC5508891CBA6568002FD253 /* drvo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drvo1.png; sourceTree = "<group>"; };
+		EC55088A1CBA6568002FD253 /* drvo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drvo2.png; sourceTree = "<group>"; };
+		EC55088B1CBA6568002FD253 /* drvo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drvo3.png; sourceTree = "<group>"; };
+		EC55088C1CBA6568002FD253 /* drvo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drvo4.png; sourceTree = "<group>"; };
+		EC55088D1CBA6568002FD253 /* drvo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drvo5.png; sourceTree = "<group>"; };
+		EC55088E1CBA6568002FD253 /* drvo6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drvo6.png; sourceTree = "<group>"; };
+		EC55088F1CBA6568002FD253 /* drvo7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drvo7.png; sourceTree = "<group>"; };
+		EC5508901CBA6568002FD253 /* drvo8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drvo8.png; sourceTree = "<group>"; };
+		EC5508911CBA6568002FD253 /* drvo9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drvo9.png; sourceTree = "<group>"; };
+		EC5508921CBA6568002FD253 /* drvo10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drvo10.png; sourceTree = "<group>"; };
+		EC5508931CBA6568002FD253 /* drvo11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drvo11.png; sourceTree = "<group>"; };
+		EC5508941CBA6568002FD253 /* drvo12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drvo12.png; sourceTree = "<group>"; };
+		EC5508951CBA6568002FD253 /* drvo13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drvo13.png; sourceTree = "<group>"; };
+		EC5508961CBA6568002FD253 /* kucic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kucic1.png; sourceTree = "<group>"; };
+		EC5508971CBA6568002FD253 /* kucic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kucic2.png; sourceTree = "<group>"; };
+		EC5508981CBA6568002FD253 /* kucic3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kucic3.png; sourceTree = "<group>"; };
+		EC5508991CBA6568002FD253 /* kucic4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kucic4.png; sourceTree = "<group>"; };
+		EC55089A1CBA6568002FD253 /* kucic5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kucic5.png; sourceTree = "<group>"; };
+		EC55089B1CBA6568002FD253 /* kucic6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kucic6.png; sourceTree = "<group>"; };
+		EC55089C1CBA6568002FD253 /* kucic7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kucic7.png; sourceTree = "<group>"; };
+		EC55089D1CBA6568002FD253 /* kucic8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kucic8.png; sourceTree = "<group>"; };
+		EC55089F1CBA6568002FD253 /* stup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stup.png; sourceTree = "<group>"; };
+		EC5508BC1CBACFC7002FD253 /* mapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapa.png; sourceTree = "<group>"; };
+		EC5519F61CC249F900836FFC /* TeslaSmiljan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TeslaSmiljan.png; sourceTree = "<group>"; };
+		EC5519F81CC24D2D00836FFC /* tcoil2Ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tcoil2Ico.png; sourceTree = "<group>"; };
+		EC5558BD1CC0C39C0066329F /* jajeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jajeViewController.h; sourceTree = "<group>"; };
+		EC5558BE1CC0C39C0066329F /* jajeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jajeViewController.m; sourceTree = "<group>"; };
+		EC5558C01CC0C42D0066329F /* jajeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jajeScene.h; sourceTree = "<group>"; };
+		EC5558C11CC0C42D0066329F /* jajeScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jajeScene.m; sourceTree = "<group>"; };
+		EC5558C31CC0C7C50066329F /* maliMagnet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maliMagnet.png; sourceTree = "<group>"; };
+		EC5558C41CC0C7C50066329F /* neboJS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neboJS.png; sourceTree = "<group>"; };
+		EC5558C51CC0C7C50066329F /* faca17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faca17.png; sourceTree = "<group>"; };
+		EC5558C61CC0C7C50066329F /* faca16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faca16.png; sourceTree = "<group>"; };
+		EC5558C71CC0C7C50066329F /* faca15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faca15.png; sourceTree = "<group>"; };
+		EC5558C81CC0C7C50066329F /* faca14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faca14.png; sourceTree = "<group>"; };
+		EC5558C91CC0C7C50066329F /* faca13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faca13.png; sourceTree = "<group>"; };
+		EC5558CA1CC0C7C50066329F /* faca12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faca12.png; sourceTree = "<group>"; };
+		EC5558CB1CC0C7C50066329F /* faca11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faca11.png; sourceTree = "<group>"; };
+		EC5558CC1CC0C7C50066329F /* faca10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faca10.png; sourceTree = "<group>"; };
+		EC5558CD1CC0C7C50066329F /* faca9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faca9.png; sourceTree = "<group>"; };
+		EC5558CE1CC0C7C50066329F /* faca8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faca8.png; sourceTree = "<group>"; };
+		EC5558CF1CC0C7C50066329F /* faca7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faca7.png; sourceTree = "<group>"; };
+		EC5558D01CC0C7C50066329F /* faca6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faca6.png; sourceTree = "<group>"; };
+		EC5558D11CC0C7C50066329F /* faca5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faca5.png; sourceTree = "<group>"; };
+		EC5558D21CC0C7C50066329F /* faca4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faca4.png; sourceTree = "<group>"; };
+		EC5558D31CC0C7C50066329F /* faca3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faca3.png; sourceTree = "<group>"; };
+		EC5558D41CC0C7C50066329F /* faca2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faca2.png; sourceTree = "<group>"; };
+		EC5558D51CC0C7C50066329F /* faca1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faca1.png; sourceTree = "<group>"; };
+		EC5558D61CC0C7C50066329F /* kamen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kamen.png; sourceTree = "<group>"; };
+		EC5558EB1CC0C7D90066329F /* elMagnet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elMagnet.png; sourceTree = "<group>"; };
+		EC5558ED1CC0C7FD0066329F /* teslinoJaje.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teslinoJaje.png; sourceTree = "<group>"; };
 		EC570DE01C723F1500B02555 /* konzola.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = konzola.png; sourceTree = "<group>"; };
 		EC570DE11C723F1500B02555 /* podlogaXekrana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podlogaXekrana.png; sourceTree = "<group>"; };
 		EC570DE21C723F1500B02555 /* tijelo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tijelo.png; sourceTree = "<group>"; };
 		EC570DE31C723F1500B02555 /* tijelo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tijelo1.png; sourceTree = "<group>"; };
 		EC570DE81C723F2B00B02555 /* zidXray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zidXray.png; sourceTree = "<group>"; };
+		EC58E4441CC60F9E0012FDFE /* teslaIcon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teslaIcon1024.png; sourceTree = "<group>"; };
 		EC5C0F051C8C3257002233E8 /* mlazG3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mlazG3.png; sourceTree = "<group>"; };
 		EC5C0F061C8C3257002233E8 /* mlazG2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mlazG2.png; sourceTree = "<group>"; };
 		EC5C0F071C8C3257002233E8 /* mlazG1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mlazG1.png; sourceTree = "<group>"; };
@@ -683,6 +879,8 @@
 		EC5C62791C581F9700608AEC /* ticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ticon.png; sourceTree = "<group>"; };
 		EC5C627F1C58331900608AEC /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
 		EC5C62801C58331900608AEC /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		EC5F037A1CC3AE2100263781 /* gun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gun.mp3; sourceTree = "<group>"; };
+		EC5F037C1CC3B79900263781 /* aura0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aura0.png; sourceTree = "<group>"; };
 		EC5FDBBA1C7CD43200AAD01C /* wireles2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wireles2.png; sourceTree = "<group>"; };
 		EC5FDBBB1C7CD43200AAD01C /* wireles1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wireles1.png; sourceTree = "<group>"; };
 		EC5FDBBE1C7CDB2500AAD01C /* rotor2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotor2.png; sourceTree = "<group>"; };
@@ -712,7 +910,6 @@
 		EC74B6DF1C74625B0016444E /* kaz2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kaz2.png; sourceTree = "<group>"; };
 		EC74B6E11C74F8050016444E /* bomba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bomba.png; sourceTree = "<group>"; };
 		EC8B2A491C787E2900680ABD /* coil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coil.png; sourceTree = "<group>"; };
-		ECA1BD7A1C89D72700DFDA10 /* steamP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steamP.png; sourceTree = "<group>"; };
 		ECB8F8AA1C91F18300FA00B0 /* teslaBoatc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teslaBoatc.png; sourceTree = "<group>"; };
 		ECCD0F731C63BB1900A1A4D7 /* tesla200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tesla200.png; path = "MC Nikola Tesla/tesla200.png"; sourceTree = "<group>"; };
 		ECE9F2D71C8B932B00238AFD /* zupcanik1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zupcanik1.png; sourceTree = "<group>"; };
@@ -765,6 +962,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC10AA411CDF3CD300DBB24B /* QuartzCore.framework in Frameworks */,
 				EC4F115F1CAFCAE300D4331C /* CoreMotion.framework in Frameworks */,
 				EC0A5D651CAF1783002147BF /* AVFoundation.framework in Frameworks */,
 				EC0A5D091CAF03B2002147BF /* SpriteKit.framework in Frameworks */,
@@ -836,9 +1034,71 @@
 			name = kolekcijaSlike;
 			sourceTree = "<group>";
 		};
+		EC224CD01CBF892500E6A829 /* teslinoJaje */ = {
+			isa = PBXGroup;
+			children = (
+				EC5558ED1CC0C7FD0066329F /* teslinoJaje.png */,
+				EC224CD11CBF894000E6A829 /* teslaEgg.png */,
+				EC5558C31CC0C7C50066329F /* maliMagnet.png */,
+				EC5558C41CC0C7C50066329F /* neboJS.png */,
+				EC5558C51CC0C7C50066329F /* faca17.png */,
+				EC5558C61CC0C7C50066329F /* faca16.png */,
+				EC5558C71CC0C7C50066329F /* faca15.png */,
+				EC5558C81CC0C7C50066329F /* faca14.png */,
+				EC5558C91CC0C7C50066329F /* faca13.png */,
+				EC5558CA1CC0C7C50066329F /* faca12.png */,
+				EC5558CB1CC0C7C50066329F /* faca11.png */,
+				EC5558CC1CC0C7C50066329F /* faca10.png */,
+				EC5558CD1CC0C7C50066329F /* faca9.png */,
+				EC5558CE1CC0C7C50066329F /* faca8.png */,
+				EC5558CF1CC0C7C50066329F /* faca7.png */,
+				EC5558D01CC0C7C50066329F /* faca6.png */,
+				EC5558D11CC0C7C50066329F /* faca5.png */,
+				EC5558D21CC0C7C50066329F /* faca4.png */,
+				EC5558D31CC0C7C50066329F /* faca3.png */,
+				EC5558D41CC0C7C50066329F /* faca2.png */,
+				EC5558D51CC0C7C50066329F /* faca1.png */,
+				EC5558D61CC0C7C50066329F /* kamen.png */,
+				EC5558EB1CC0C7D90066329F /* elMagnet.png */,
+			);
+			name = teslinoJaje;
+			sourceTree = "<group>";
+		};
+		EC2DB1651CD1F75B005B6234 /* LightSlike */ = {
+			isa = PBXGroup;
+			children = (
+				EC2DB1661CD1F785005B6234 /* fasada.png */,
+				EC2DB1671CD1F785005B6234 /* grlo1.png */,
+				EC2DB1681CD1F785005B6234 /* grlo2.png */,
+				EC2DB1691CD1F785005B6234 /* grlo3.png */,
+				EC2DB16A1CD1F785005B6234 /* grlo4.png */,
+				EC2DB16B1CD1F785005B6234 /* grlo5.png */,
+				EC2DB16C1CD1F785005B6234 /* grlo6.png */,
+				EC2DB16D1CD1F785005B6234 /* klikP.mp3 */,
+				EC2DB16E1CD1F785005B6234 /* nebo15.png */,
+				EC2DB16F1CD1F785005B6234 /* nosacZarulja.png */,
+				EC2DB1701CD1F785005B6234 /* prozor.png */,
+				EC2DB1711CD1F785005B6234 /* prozorS.png */,
+				EC2DB1721CD1F785005B6234 /* zarulja1.png */,
+				EC2DB1731CD1F785005B6234 /* zarulja2.png */,
+				EC2DB1741CD1F785005B6234 /* zarulja3.png */,
+				EC2DB1751CD1F785005B6234 /* zarulja4.png */,
+				EC2DB1761CD1F785005B6234 /* zarulja5.png */,
+				EC2DB1771CD1F785005B6234 /* zarulja6.png */,
+				EC2DB1781CD1F785005B6234 /* zaruljaS1.png */,
+				EC2DB1791CD1F785005B6234 /* zaruljaS2.png */,
+				EC2DB17A1CD1F785005B6234 /* zaruljaS3.png */,
+				EC2DB17B1CD1F785005B6234 /* zaruljaS4.png */,
+				EC2DB17C1CD1F785005B6234 /* zaruljaS5.png */,
+				EC2DB17D1CD1F785005B6234 /* zaruljaS6.png */,
+			);
+			name = LightSlike;
+			sourceTree = "<group>";
+		};
 		EC30EC591C874B2E004BEC86 /* faradeySlike */ = {
 			isa = PBXGroup;
 			children = (
+				EC5F037C1CC3B79900263781 /* aura0.png */,
 				EC30EC801C874BE5004BEC86 /* trci */,
 				EC30EC6F1C874BBE004BEC86 /* stoji */,
 				EC30EC681C874B99004BEC86 /* crawling */,
@@ -896,6 +1156,11 @@
 		EC3C23681C8AD61E00FBBA2F /* energyPSlike */ = {
 			isa = PBXGroup;
 			children = (
+				EC10AA4C1CDF4C7B00DBB24B /* vodaUlazi1.png */,
+				EC10AA4D1CDF4C7B00DBB24B /* vodaUlazi2.png */,
+				EC10AA4E1CDF4C7B00DBB24B /* vodaUlazi3.png */,
+				EC10AA4F1CDF4C7B00DBB24B /* vodaUlazi4.png */,
+				EC10AA501CDF4C7B00DBB24B /* vodaUlazi5.png */,
 				EC5C0F0B1C8C3C7D002233E8 /* powerProduction.png */,
 				EC5C0F051C8C3257002233E8 /* mlazG3.png */,
 				EC5C0F061C8C3257002233E8 /* mlazG2.png */,
@@ -922,6 +1187,7 @@
 				EC3C23901C8B1CB800FBBA2F /* rotorH7.png */,
 				EC3C239D1C8B30E000FBBA2F /* kazaljkaT.png */,
 				EC3C239F1C8B32E800FBBA2F /* bijelaMrlja.png */,
+				EC10AA561CDF504900DBB24B /* teslaSwitch0090.png */,
 			);
 			name = energyPSlike;
 			sourceTree = "<group>";
@@ -1082,6 +1348,38 @@
 			name = propeler;
 			sourceTree = "<group>";
 		};
+		EC5508881CBA6547002FD253 /* dalekovod */ = {
+			isa = PBXGroup;
+			children = (
+				EC20C10B1CDFA5C00009AB7F /* zeleniKrug.png */,
+				EC10AA581CDF561700DBB24B /* click1.mp3 */,
+				EC5508BC1CBACFC7002FD253 /* mapa.png */,
+				EC5508891CBA6568002FD253 /* drvo1.png */,
+				EC55088A1CBA6568002FD253 /* drvo2.png */,
+				EC55088B1CBA6568002FD253 /* drvo3.png */,
+				EC55088C1CBA6568002FD253 /* drvo4.png */,
+				EC55088D1CBA6568002FD253 /* drvo5.png */,
+				EC55088E1CBA6568002FD253 /* drvo6.png */,
+				EC55088F1CBA6568002FD253 /* drvo7.png */,
+				EC5508901CBA6568002FD253 /* drvo8.png */,
+				EC5508911CBA6568002FD253 /* drvo9.png */,
+				EC5508921CBA6568002FD253 /* drvo10.png */,
+				EC5508931CBA6568002FD253 /* drvo11.png */,
+				EC5508941CBA6568002FD253 /* drvo12.png */,
+				EC5508951CBA6568002FD253 /* drvo13.png */,
+				EC5508961CBA6568002FD253 /* kucic1.png */,
+				EC5508971CBA6568002FD253 /* kucic2.png */,
+				EC5508981CBA6568002FD253 /* kucic3.png */,
+				EC5508991CBA6568002FD253 /* kucic4.png */,
+				EC55089A1CBA6568002FD253 /* kucic5.png */,
+				EC55089B1CBA6568002FD253 /* kucic6.png */,
+				EC55089C1CBA6568002FD253 /* kucic7.png */,
+				EC55089D1CBA6568002FD253 /* kucic8.png */,
+				EC55089F1CBA6568002FD253 /* stup.png */,
+			);
+			name = dalekovod;
+			sourceTree = "<group>";
+		};
 		EC570DDF1C723EEC00B02555 /* xRaySlike */ = {
 			isa = PBXGroup;
 			children = (
@@ -1108,6 +1406,7 @@
 		EC5C62131C567FC400608AEC = {
 			isa = PBXGroup;
 			children = (
+				EC10AA401CDF3CD300DBB24B /* QuartzCore.framework */,
 				EC4F115E1CAFCAE300D4331C /* CoreMotion.framework */,
 				EC0A5D641CAF1783002147BF /* AVFoundation.framework */,
 				EC0A5D081CAF03B2002147BF /* SpriteKit.framework */,
@@ -1135,6 +1434,8 @@
 				EC5C622B1C567FC400608AEC /* Assets.xcassets */,
 				EC5C62221C567FC400608AEC /* AppDelegate.h */,
 				EC5C62231C567FC400608AEC /* AppDelegate.m */,
+				EC4114951CDE291600C4836A /* Lighting.h */,
+				EC4114961CDE291600C4836A /* Lighting.m */,
 				EC5C624B1C56B11700608AEC /* about.h */,
 				EC5C624C1C56B11700608AEC /* about.m */,
 				EC5C62361C56ADFA00608AEC /* bio.h */,
@@ -1160,6 +1461,10 @@
 				EC5C62521C56B1A700608AEC /* Faradey.m */,
 				EC5C624E1C56B15200608AEC /* findus.h */,
 				EC5C624F1C56B15200608AEC /* findus.m */,
+				EC5558C01CC0C42D0066329F /* jajeScene.h */,
+				EC5558C11CC0C42D0066329F /* jajeScene.m */,
+				EC5558BD1CC0C39C0066329F /* jajeViewController.h */,
+				EC5558BE1CC0C39C0066329F /* jajeViewController.m */,
 				EC5C62571C56B20600608AEC /* jaje.h */,
 				EC5C62581C56B20600608AEC /* jaje.m */,
 				EC4ECFF01CA4078D00D532EB /* elCircuit.h */,
@@ -1211,7 +1516,8 @@
 				ECF6EE1E1C736DDD0070C7D2 /* peta.html */,
 				EC5FDC0D1C7E60E800AAD01C /* sesta.html */,
 				EC5FDC0F1C7E611B00AAD01C /* sedma.html */,
-				EC4DA8171CA82C1100CB5351 /* brodizvan.png */,
+				EC10AA3E1CDF3B0100DBB24B /* teslaLab.png */,
+				EC10AA3C1CDF369400DBB24B /* teslaMotor.png */,
 				EC5FDC071C7E3DC400AAD01C /* spring.jpg */,
 				EC5C626F1C58117600608AEC /* teslaSmiljan.jpg */,
 				EC5C62711C58119200608AEC /* TeslaSjedi.png */,
@@ -1228,15 +1534,21 @@
 		EC5C62771C581F6B00608AEC /* slike */ = {
 			isa = PBXGroup;
 			children = (
-				EC0A5D0C1CAF0FEC002147BF /* brodSlike */,
-				EC4ECFF11CA40F0C00D532EB /* elCircuitSlike */,
-				ECB8F8A91C91F17000FA00B0 /* boatSlike */,
-				EC3C23681C8AD61E00FBBA2F /* energyPSlike */,
-				ECA1BD7A1C89D72700DFDA10 /* steamP.png */,
+				EC5F037A1CC3AE2100263781 /* gun.mp3 */,
+				EC4F11601CAFFEC000D4331C /* steamP.png */,
+				EC0C21971CB703CA00C54DDA /* radioAB.png */,
+				EC0C21951CB6C9ED00C54DDA /* TipkaRadia.png */,
 				ECCD0F731C63BB1900A1A4D7 /* tesla200.png */,
 				EC645D3A1C7C5527007E4ECB /* podlogaG2.png */,
 				EC645D381C7C522B007E4ECB /* victorian.png */,
 				EC8B2A491C787E2900680ABD /* coil.png */,
+				EC2DB1651CD1F75B005B6234 /* LightSlike */,
+				EC224CD01CBF892500E6A829 /* teslinoJaje */,
+				EC5508881CBA6547002FD253 /* dalekovod */,
+				EC0A5D0C1CAF0FEC002147BF /* brodSlike */,
+				EC4ECFF11CA40F0C00D532EB /* elCircuitSlike */,
+				ECB8F8A91C91F17000FA00B0 /* boatSlike */,
+				EC3C23681C8AD61E00FBBA2F /* energyPSlike */,
 				EC30EC591C874B2E004BEC86 /* faradeySlike */,
 				EC5FDBB91C7CD41600AAD01C /* wireless */,
 				ECABB6B31C7C957800243A21 /* o_nama */,
@@ -1251,11 +1563,21 @@
 		EC5C62781C581F7900608AEC /* ikone */ = {
 			isa = PBXGroup;
 			children = (
+				EC2DB1961CD1F9E3005B6234 /* lightIco.png */,
+				EC58E4441CC60F9E0012FDFE /* teslaIcon1024.png */,
+				EC5519F81CC24D2D00836FFC /* tcoil2Ico.png */,
+				EC5519F61CC249F900836FFC /* TeslaSmiljan.png */,
+				EC4F116C1CB051BB00D4331C /* radioAIco.png */,
+				EC4F11681CB02E9700D4331C /* globeIco.png */,
+				EC4F11661CB0257800D4331C /* transmisionIco.png */,
+				EC4F11641CB005A500D4331C /* brodizvan.png */,
+				EC4F11621CB003E200D4331C /* wirelesIco.png */,
 				EC38B1F91C6FCCFC00BD6E6D /* auto.png */,
 				EC5C62791C581F9700608AEC /* ticon.png */,
 				EC5FDBC61C7E2AF400AAD01C /* xrayTubeIco.png */,
 				EC4DA8191CA82D6B00CB5351 /* energyIco.png */,
 				EC4DA81B1CA8306F00CB5351 /* energyPico.png */,
+				EC4F116A1CB0327A00D4331C /* teslinoJajeIco.png */,
 			);
 			name = ikone;
 			sourceTree = "<group>";
@@ -1423,28 +1745,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC4F115D1CAFC30F00D4331C /* sky.png in Resources */,
+				EC5508A91CBA6568002FD253 /* drvo10.png in Resources */,
+				EC4F11671CB0257800D4331C /* transmisionIco.png in Resources */,
 				ECF6EE1D1C736DD20070C7D2 /* cetvrta.html in Resources */,
 				ECFF89A61C88A02900AF51E2 /* elektron.png in Resources */,
 				EC0A5D561CAF1314002147BF /* otok1.png in Resources */,
 				EC0A5D381CAF1297002147BF /* instrumentt20.png in Resources */,
 				EC4657CF1C67D65D00F6509E /* strelica.png in Resources */,
+				EC5508A71CBA6568002FD253 /* drvo8.png in Resources */,
+				EC2DB1881CD1F785005B6234 /* prozor.png in Resources */,
+				EC5558DE1CC0C7C50066329F /* faca12.png in Resources */,
 				EC3C23921C8B1CB800FBBA2F /* rotorH3.png in Resources */,
 				ECFF89A11C88A00B00AF51E2 /* xReyBeam5.png in Resources */,
 				EC30EC7D1C874BD9004BEC86 /* stop6.png in Resources */,
 				EC5224B01CA534EC00559613 /* kormiloc0003.png in Resources */,
 				EC30EC641C874B6F004BEC86 /* tcoil2.png in Resources */,
+				EC5F037B1CC3AE2100263781 /* gun.mp3 in Resources */,
 				ECF27ABC1C882DE7007C9BAD /* trigonom16.png in Resources */,
 				EC0A5D331CAF1297002147BF /* instrumentt15.png in Resources */,
 				EC52250A1CA5DB0D00559613 /* zutaTipka.png in Resources */,
 				EC0A5D681CAF1CC5002147BF /* rightB.png in Resources */,
 				EC5224FA1CA5356F00559613 /* mjehurici0054.png in Resources */,
 				EC0A5D2F1CAF1297002147BF /* instrumentt11.png in Resources */,
+				EC5558E11CC0C7C50066329F /* faca9.png in Resources */,
 				EC570DE51C723F1500B02555 /* podlogaXekrana.png in Resources */,
 				EC5224F71CA5356F00559613 /* mjehurici0051.png in Resources */,
 				EC5224D51CA534EC00559613 /* tboprop0019.png in Resources */,
 				EC5224B21CA534EC00559613 /* kormiloc0005.png in Resources */,
 				ACE8A89B1C7BB01500EC9A83 /* sest.png in Resources */,
 				EC4657B31C67D65D00F6509E /* cijevi2.png in Resources */,
+				EC5558E91CC0C7C50066329F /* faca1.png in Resources */,
+				EC2DB1921CD1F785005B6234 /* zaruljaS3.png in Resources */,
 				EC3C23931C8B1CB800FBBA2F /* rotorH4.png in Resources */,
 				EC0A5D591CAF1314002147BF /* otok4.png in Resources */,
 				EC3B39651CA7140A003D5D19 /* kaza1.png in Resources */,
@@ -1454,13 +1785,18 @@
 				ACE8A8991C7BB01500EC9A83 /* pet.png in Resources */,
 				EC5224F31CA5356F00559613 /* mjehurici0047.png in Resources */,
 				EC570DE91C723F2B00B02555 /* zidXray.png in Resources */,
+				EC5558EC1CC0C7D90066329F /* elMagnet.png in Resources */,
 				EC3C23841C8B0E6400FBBA2F /* turbinaH5.png in Resources */,
 				EC4657BB1C67D65D00F6509E /* Default-568h@2x.png in Resources */,
+				EC2DB18A1CD1F785005B6234 /* zarulja1.png in Resources */,
+				EC224CD21CBF894000E6A829 /* teslaEgg.png in Resources */,
 				ACE8A8921C7BB01500EC9A83 /* cetiri.png in Resources */,
 				ECF27AB11C882DE7007C9BAD /* trigonom5.png in Resources */,
 				EC5225011CA5356F00559613 /* mjehurici0061.png in Resources */,
 				EC4657D51C67D65D00F6509E /* zarulja0008.png in Resources */,
+				EC2DB18E1CD1F785005B6234 /* zarulja5.png in Resources */,
 				ECF27AB51C882DE7007C9BAD /* trigonom9.png in Resources */,
+				EC2DB17F1CD1F785005B6234 /* grlo1.png in Resources */,
 				EC3C23981C8B1D0900FBBA2F /* rotorH1.png in Resources */,
 				EC3B395D1CA6FA98003D5D19 /* zutaTipkaS.png in Resources */,
 				EC4ED0121CA40FA000D532EB /* zicaB.png in Resources */,
@@ -1468,6 +1804,8 @@
 				ACE8A8961C7BB01500EC9A83 /* jedan.png in Resources */,
 				EC4ED0131CA40FA000D532EB /* zicaZ.png in Resources */,
 				EC0A5D5B1CAF1314002147BF /* otok6.png in Resources */,
+				EC5508A21CBA6568002FD253 /* drvo3.png in Resources */,
+				EC2DB18C1CD1F785005B6234 /* zarulja3.png in Resources */,
 				ECF27AB81C882DE7007C9BAD /* trigonom12.png in Resources */,
 				EC0A5D301CAF1297002147BF /* instrumentt12.png in Resources */,
 				EC4ED00E1CA40FA000D532EB /* zicaZS.png in Resources */,
@@ -1481,6 +1819,7 @@
 				EC5224BF1CA534EC00559613 /* kormiloc0018.png in Resources */,
 				EC5224CC1CA534EC00559613 /* tboprop0010.png in Resources */,
 				EC4657B21C67D65D00F6509E /* cijevi1.png in Resources */,
+				EC5558D91CC0C7C50066329F /* faca17.png in Resources */,
 				EC4ED0081CA40FA000D532EB /* zicaKut.png in Resources */,
 				EC3C238A1C8B12F800FBBA2F /* turbinaH7.png in Resources */,
 				EC4ED0061CA40FA000D532EB /* zicaPZ.png in Resources */,
@@ -1488,37 +1827,63 @@
 				EC30EC791C874BD9004BEC86 /* stop2.png in Resources */,
 				EC5224F61CA5356F00559613 /* mjehurici0050.png in Resources */,
 				EC0A5D251CAF1297002147BF /* instrumentt1.png in Resources */,
+				EC2DB1821CD1F785005B6234 /* grlo4.png in Resources */,
+				EC5558E01CC0C7C50066329F /* faca10.png in Resources */,
 				EC5FDBBC1C7CD43200AAD01C /* wireles2.png in Resources */,
+				EC2DB1901CD1F785005B6234 /* zaruljaS1.png in Resources */,
+				EC5508A51CBA6568002FD253 /* drvo6.png in Resources */,
 				EC5FDBCB1C7E2BC000AAD01C /* instrument.png in Resources */,
 				EC3C23A01C8B32E800FBBA2F /* bijelaMrlja.png in Resources */,
+				EC2DB1831CD1F785005B6234 /* grlo5.png in Resources */,
 				EC4657D61C67D65D00F6509E /* zarulja0009.png in Resources */,
 				EC3C239E1C8B30E000FBBA2F /* kazaljkaT.png in Resources */,
+				EC5508B01CBA6568002FD253 /* kucic4.png in Resources */,
+				EC5F037D1CC3B79900263781 /* aura0.png in Resources */,
+				EC5508AC1CBA6568002FD253 /* drvo13.png in Resources */,
+				EC4F11631CB003E200D4331C /* wirelesIco.png in Resources */,
+				EC5558E51CC0C7C50066329F /* faca5.png in Resources */,
 				ACE8A8971C7BB01500EC9A83 /* jedanaest.png in Resources */,
+				EC5508A01CBA6568002FD253 /* drvo1.png in Resources */,
 				EC4657CA1C67D65D00F6509E /* mlazVodeD1.png in Resources */,
 				EC5224C41CA534EC00559613 /* tboprop0002.png in Resources */,
 				EC30EC8D1C874BF6004BEC86 /* boyWalk5.png in Resources */,
+				EC4F11691CB02E9700D4331C /* globeIco.png in Resources */,
+				EC2DB18F1CD1F785005B6234 /* zarulja6.png in Resources */,
+				EC5558D81CC0C7C50066329F /* neboJS.png in Resources */,
+				EC5558D71CC0C7C50066329F /* maliMagnet.png in Resources */,
 				ECFF89A41C88A00B00AF51E2 /* xReyBeam8.png in Resources */,
 				EC4ED0051CA40FA000D532EB /* sklopkaO.png in Resources */,
+				EC2DB17E1CD1F785005B6234 /* fasada.png in Resources */,
 				EC5FDBBF1C7CDB2500AAD01C /* rotor2.png in Resources */,
+				EC10AA3F1CDF3B0200DBB24B /* teslaLab.png in Resources */,
 				EC4657D41C67D65D00F6509E /* zarulja0007.png in Resources */,
+				EC0C21981CB703CA00C54DDA /* radioAB.png in Resources */,
 				EC5224B11CA534EC00559613 /* kormiloc0004.png in Resources */,
 				EC4ED0101CA40FA000D532EB /* zicaT.png in Resources */,
 				EC0A5D261CAF1297002147BF /* instrumentt2.png in Resources */,
 				ECF27ABB1C882DE7007C9BAD /* trigonom15.png in Resources */,
 				EC0A5D3F1CAF12AC002147BF /* mjestaInstrumenta1.png in Resources */,
+				EC5508B61CBA6568002FD253 /* stup.png in Resources */,
 				EC5224BB1CA534EC00559613 /* kormiloc0014.png in Resources */,
+				EC10AA591CDF561700DBB24B /* click1.mp3 in Resources */,
 				EC5224B41CA534EC00559613 /* kormiloc0007.png in Resources */,
 				EC30EC901C874BF6004BEC86 /* boyWalk8.png in Resources */,
+				EC5508AD1CBA6568002FD253 /* kucic1.png in Resources */,
 				EC5224BE1CA534EC00559613 /* kormiloc0017.png in Resources */,
 				EC5FDC101C7E611B00AAD01C /* sedma.html in Resources */,
 				EC5FDBC71C7E2AF400AAD01C /* xrayTubeIco.png in Resources */,
+				EC5519F71CC249F900836FFC /* TeslaSmiljan.png in Resources */,
 				EC0A5D451CAF12B8002147BF /* sivaPodloga.png in Resources */,
+				EC5508A41CBA6568002FD253 /* drvo5.png in Resources */,
 				EC0A5D471CAF12D8002147BF /* collection.png in Resources */,
 				EC5FDBFF1C7E2E2C00AAD01C /* rotor3.png in Resources */,
+				EC5558DB1CC0C7C50066329F /* faca15.png in Resources */,
+				EC2DB1971CD1F9E3005B6234 /* lightIco.png in Resources */,
 				EC4657C71C67D65D00F6509E /* mlazVodeC1.png in Resources */,
 				EC5C0F081C8C3257002233E8 /* mlazG3.png in Resources */,
 				EC5224AD1CA534EC00559613 /* kormiloc0000.png in Resources */,
 				EC4ED0041CA40FA000D532EB /* sklopkaZ.png in Resources */,
+				EC4F116D1CB051BB00D4331C /* radioAIco.png in Resources */,
 				EC4ED00F1CA40FA000D532EB /* zicaX.png in Resources */,
 				EC30EC8B1C874BF6004BEC86 /* boyWalk3.png in Resources */,
 				EC5FDBC41C7E277400AAD01C /* radioVal2.png in Resources */,
@@ -1532,6 +1897,7 @@
 				EC5FDBBD1C7CD43200AAD01C /* wireles1.png in Resources */,
 				ECF6EE1B1C736DBF0070C7D2 /* treca.html in Resources */,
 				EC0A5D571CAF1314002147BF /* otok2.png in Resources */,
+				EC2DB18B1CD1F785005B6234 /* zarulja2.png in Resources */,
 				EC30EC8E1C874BF6004BEC86 /* boyWalk6.png in Resources */,
 				EC5224FB1CA5356F00559613 /* mjehurici0055.png in Resources */,
 				EC3C23911C8B1CB800FBBA2F /* rotorH2.png in Resources */,
@@ -1539,6 +1905,7 @@
 				EC3C23941C8B1CB800FBBA2F /* rotorH5.png in Resources */,
 				EC0A5D5D1CAF1590002147BF /* brododozgo.png in Resources */,
 				EC3C23811C8B0E6400FBBA2F /* turbinaH2.png in Resources */,
+				EC2DB1841CD1F785005B6234 /* grlo6.png in Resources */,
 				EC3C23B61C8B46AB00FBBA2F /* mlazD1.png in Resources */,
 				EC30EC7C1C874BD9004BEC86 /* stop5.png in Resources */,
 				ECF27AB41C882DE7007C9BAD /* trigonom8.png in Resources */,
@@ -1553,8 +1920,11 @@
 				EC5224F41CA5356F00559613 /* mjehurici0048.png in Resources */,
 				EC4657C81C67D65D00F6509E /* mlazVodeC3.png in Resources */,
 				EC645D3B1C7C5528007E4ECB /* podlogaG2.png in Resources */,
+				EC2DB1811CD1F785005B6234 /* grlo3.png in Resources */,
+				EC10AA551CDF4C7B00DBB24B /* vodaUlazi5.png in Resources */,
 				EC30EC8A1C874BF6004BEC86 /* boyWalk2.png in Resources */,
 				EC570DE61C723F1500B02555 /* tijelo.png in Resources */,
+				EC2DB1871CD1F785005B6234 /* nosacZarulja.png in Resources */,
 				EC5224AE1CA534EC00559613 /* kormiloc0001.png in Resources */,
 				EC4ED0071CA40FA000D532EB /* baterija.png in Resources */,
 				EC4657BD1C67D65D00F6509E /* mlazVode1.png in Resources */,
@@ -1562,26 +1932,35 @@
 				EC4ED00B1CA40FA000D532EB /* zicaRavno.png in Resources */,
 				EC0A5D0B1CAF04EA002147BF /* MyScene.sks in Resources */,
 				ECE9F2DA1C8B9C4200238AFD /* zupcastaLetva.png in Resources */,
+				EC2DB1911CD1F785005B6234 /* zaruljaS2.png in Resources */,
 				EC5224D11CA534EC00559613 /* tboprop0015.png in Resources */,
 				EC0A5D2C1CAF1297002147BF /* instrumentt8.png in Resources */,
 				EC4DA81C1CA8306F00CB5351 /* energyPico.png in Resources */,
 				EC0A5D281CAF1297002147BF /* instrumentt4.png in Resources */,
+				EC5558EE1CC0C7FD0066329F /* teslinoJaje.png in Resources */,
 				EC3C23961C8B1CB800FBBA2F /* rotorH7.png in Resources */,
 				EC5224D31CA534EC00559613 /* tboprop0017.png in Resources */,
 				EC5FDC011C7E2E4100AAD01C /* podlogaPrekidaca.png in Resources */,
 				EC5C622F1C567FC400608AEC /* LaunchScreen.storyboard in Resources */,
 				ECF27AC01C882DE7007C9BAD /* trigonom20.png in Resources */,
 				EC30EC671C874B78004BEC86 /* boyDead.png in Resources */,
+				EC5508AE1CBA6568002FD253 /* kucic2.png in Resources */,
 				EC0A5D6B1CAF1DEC002147BF /* more3.png in Resources */,
 				EC5C62721C58119200608AEC /* TeslaSjedi.png in Resources */,
 				EC4ED0141CA40FA000D532EB /* zicaK.png in Resources */,
 				ECF27AAD1C882DE7007C9BAD /* trigonom1.png in Resources */,
+				EC5558DF1CC0C7C50066329F /* faca11.png in Resources */,
 				ECCD0F741C63BB1900A1A4D7 /* tesla200.png in Resources */,
 				EC52250E1CA5E54800559613 /* zelenaTipka.png in Resources */,
 				ECFF89A01C88A00B00AF51E2 /* xReyBeam4.png in Resources */,
+				EC20C10C1CDFA5C00009AB7F /* zeleniKrug.png in Resources */,
+				EC5558EA1CC0C7C50066329F /* kamen.png in Resources */,
 				EC5224EF1CA5356F00559613 /* mjehurici0043.png in Resources */,
 				EC5C62821C58331900608AEC /* right.png in Resources */,
+				EC5519F91CC24D2D00836FFC /* tcoil2Ico.png in Resources */,
 				EC30EC6C1C874BB3004BEC86 /* crawling1.png in Resources */,
+				EC2DB1931CD1F785005B6234 /* zaruljaS4.png in Resources */,
+				EC5558DC1CC0C7C50066329F /* faca14.png in Resources */,
 				EC5225031CA5356F00559613 /* mjehurici0063.png in Resources */,
 				EC30EC5D1C874B5E004BEC86 /* crnaPodloga.png in Resources */,
 				ACE8A8941C7BB01500EC9A83 /* devet.png in Resources */,
@@ -1595,6 +1974,7 @@
 				EC4657BC1C67D65D00F6509E /* mlazVode0.png in Resources */,
 				ECF27AC21C882DE7007C9BAD /* trigonom22.png in Resources */,
 				EC5224F91CA5356F00559613 /* mjehurici0053.png in Resources */,
+				EC5558E21CC0C7C50066329F /* faca8.png in Resources */,
 				EC0A5D321CAF1297002147BF /* instrumentt14.png in Resources */,
 				EC4657D01C67D65D00F6509E /* turbina3.png in Resources */,
 				EC5224F51CA5356F00559613 /* mjehurici0049.png in Resources */,
@@ -1608,6 +1988,8 @@
 				EC5C0F0C1C8C3C7D002233E8 /* powerProduction.png in Resources */,
 				ECF27AC31C882DE7007C9BAD /* trigonom23.png in Resources */,
 				EC570DE71C723F1500B02555 /* tijelo1.png in Resources */,
+				EC5558E41CC0C7C50066329F /* faca6.png in Resources */,
+				EC10AA521CDF4C7B00DBB24B /* vodaUlazi2.png in Resources */,
 				EC5224BC1CA534EC00559613 /* kormiloc0015.png in Resources */,
 				EC4657B61C67D65D00F6509E /* cijevi5.png in Resources */,
 				ECF6EE231C736E310070C7D2 /* stator3.png in Resources */,
@@ -1615,12 +1997,14 @@
 				EC5FDBC31C7E277400AAD01C /* radioVal3.png in Resources */,
 				EC3C23B71C8B46AB00FBBA2F /* mlazD2.png in Resources */,
 				EC4657C31C67D65D00F6509E /* mlazVodeB0.png in Resources */,
+				EC58E4451CC60F9E0012FDFE /* teslaIcon1024.png in Resources */,
 				ECF27AB61C882DE7007C9BAD /* trigonom10.png in Resources */,
 				EC3B39611CA70284003D5D19 /* brojcanik.png in Resources */,
 				EC5224B61CA534EC00559613 /* kormiloc0009.png in Resources */,
 				EC5224D81CA5350C00559613 /* korito.png in Resources */,
 				EC4657C01C67D65D00F6509E /* mlazVodeA0.png in Resources */,
 				EC0A5D431CAF12AC002147BF /* mjestaInstrumenta5.png in Resources */,
+				EC5508BD1CBACFC7002FD253 /* mapa.png in Resources */,
 				EC5C622C1C567FC400608AEC /* Assets.xcassets in Resources */,
 				EC5FDC031C7E2E4A00AAD01C /* ruckaPrekidaca.png in Resources */,
 				ECFF899E1C88A00B00AF51E2 /* xReyBeam2.png in Resources */,
@@ -1628,13 +2012,13 @@
 				EC4ED00A1CA40FA000D532EB /* zicaKriz.png in Resources */,
 				EC0A5D311CAF1297002147BF /* instrumentt13.png in Resources */,
 				EC5225001CA5356F00559613 /* mjehurici0060.png in Resources */,
+				EC10AA3D1CDF369400DBB24B /* teslaMotor.png in Resources */,
 				EC0A5D6D1CAF258F002147BF /* instrumentt5.png in Resources */,
 				EC5FDBCD1C7E2DB100AAD01C /* kaz2.png in Resources */,
 				EC3C23821C8B0E6400FBBA2F /* turbinaH3.png in Resources */,
 				EC5FDC0A1C7E572200AAD01C /* US645576-0.png in Resources */,
 				EC3B395E1CA6FA98003D5D19 /* crvenaTipkaS.png in Resources */,
 				EC5224B51CA534EC00559613 /* kormiloc0008.png in Resources */,
-				EC4DA8181CA82C1100CB5351 /* brodizvan.png in Resources */,
 				EC30EC6D1C874BB3004BEC86 /* crawling2.png in Resources */,
 				EC30EC8C1C874BF6004BEC86 /* boyWalk4.png in Resources */,
 				EC3C23881C8B0E6E00FBBA2F /* turbinaH.png in Resources */,
@@ -1643,8 +2027,11 @@
 				EC5224C61CA534EC00559613 /* tboprop0004.png in Resources */,
 				EC4ED0111CA40FA000D532EB /* zicaP.png in Resources */,
 				EC5C62741C5818ED00608AEC /* druga.html in Resources */,
+				EC5508B31CBA6568002FD253 /* kucic7.png in Resources */,
+				EC5508A31CBA6568002FD253 /* drvo4.png in Resources */,
 				EC5FDC081C7E3DC400AAD01C /* spring.jpg in Resources */,
 				EC30EC7E1C874BD9004BEC86 /* stop7.png in Resources */,
+				EC0C21961CB6C9ED00C54DDA /* TipkaRadia.png in Resources */,
 				EC3C23B81C8B46AB00FBBA2F /* mlazD3.png in Resources */,
 				EC4657CB1C67D65D00F6509E /* mlazVodeD3.png in Resources */,
 				EC5224C21CA534EC00559613 /* tboprop0000.png in Resources */,
@@ -1661,6 +2048,7 @@
 				EC8B2A4A1C787E2900680ABD /* coil.png in Resources */,
 				EC5224CB1CA534EC00559613 /* tboprop0009.png in Resources */,
 				EC5224C81CA534EC00559613 /* tboprop0006.png in Resources */,
+				EC2DB1941CD1F785005B6234 /* zaruljaS5.png in Resources */,
 				EC5224D61CA534EC00559613 /* tboprop0020.png in Resources */,
 				EC5224B81CA534EC00559613 /* kormiloc0011.png in Resources */,
 				EC4ED0191CA4198B00D532EB /* elCircIco.png in Resources */,
@@ -1670,25 +2058,39 @@
 				EC0A5D2E1CAF1297002147BF /* instrumentt10.png in Resources */,
 				EC5C62811C58331900608AEC /* left.png in Resources */,
 				EC3C23831C8B0E6400FBBA2F /* turbinaH4.png in Resources */,
+				EC5508B41CBA6568002FD253 /* kucic8.png in Resources */,
 				ECFF899F1C88A00B00AF51E2 /* xReyBeam3.png in Resources */,
+				EC2DB1861CD1F785005B6234 /* nebo15.png in Resources */,
 				ECF27ABD1C882DE7007C9BAD /* trigonom17.png in Resources */,
 				EC4657CC1C67D65D00F6509E /* podlogaPipe.png in Resources */,
 				ACE8A8861C7BAA0900EC9A83 /* TableViewCell.xib in Resources */,
 				EC5224B91CA534EC00559613 /* kormiloc0012.png in Resources */,
 				EC30EC631C874B6F004BEC86 /* cage2.png in Resources */,
+				EC5508A81CBA6568002FD253 /* drvo9.png in Resources */,
 				EC5224C01CA534EC00559613 /* kormiloc0019.png in Resources */,
 				EC4DA81A1CA82D6B00CB5351 /* energyIco.png in Resources */,
 				EC4657C61C67D65D00F6509E /* mlazVodeC0.png in Resources */,
+				EC10AA571CDF504900DBB24B /* teslaSwitch0090.png in Resources */,
 				EC5224C11CA534EC00559613 /* kormiloc0020.png in Resources */,
+				EC10AA541CDF4C7B00DBB24B /* vodaUlazi4.png in Resources */,
 				ECF27AAE1C882DE7007C9BAD /* trigonom2.png in Resources */,
+				EC5508A11CBA6568002FD253 /* drvo2.png in Resources */,
+				EC5558E71CC0C7C50066329F /* faca3.png in Resources */,
 				EC5224FC1CA5356F00559613 /* mjehurici0056.png in Resources */,
+				EC5558DD1CC0C7C50066329F /* faca13.png in Resources */,
+				EC5508A61CBA6568002FD253 /* drvo7.png in Resources */,
 				EC5224CE1CA534EC00559613 /* tboprop0012.png in Resources */,
+				EC4F116B1CB0327A00D4331C /* teslinoJajeIco.png in Resources */,
+				EC10AA511CDF4C7B00DBB24B /* vodaUlazi1.png in Resources */,
 				EC5224CD1CA534EC00559613 /* tboprop0011.png in Resources */,
+				EC5558E31CC0C7C50066329F /* faca7.png in Resources */,
+				EC5508B21CBA6568002FD253 /* kucic6.png in Resources */,
 				EC4657B51C67D65D00F6509E /* cijevi4.png in Resources */,
 				EC5224D41CA534EC00559613 /* tboprop0018.png in Resources */,
 				ECF27AC41C882DE7007C9BAD /* trigonom24.png in Resources */,
 				EC5C0F091C8C3257002233E8 /* mlazG2.png in Resources */,
 				EC30EC7F1C874BD9004BEC86 /* stop8.png in Resources */,
+				EC4F11651CB005A500D4331C /* brodizvan.png in Resources */,
 				EC5224F11CA5356F00559613 /* mjehurici0045.png in Resources */,
 				EC5FDBC51C7E277400AAD01C /* radioVal1.png in Resources */,
 				EC5224F21CA5356F00559613 /* mjehurici0046.png in Resources */,
@@ -1698,16 +2100,20 @@
 				ACE8A8981C7BB01500EC9A83 /* osam.png in Resources */,
 				EC4ED0171CA4114E00D532EB /* podlogaG.png in Resources */,
 				EC5224C71CA534EC00559613 /* tboprop0005.png in Resources */,
+				EC10AA531CDF4C7B00DBB24B /* vodaUlazi3.png in Resources */,
 				EC38B1FA1C6FCCFC00BD6E6D /* auto.png in Resources */,
 				EC4DA8141CA7E59300CB5351 /* moreab.png in Resources */,
+				EC4F11611CAFFEC000D4331C /* steamP.png in Resources */,
 				EC0A5D341CAF1297002147BF /* instrumentt16.png in Resources */,
 				EC0A5D361CAF1297002147BF /* instrumentt18.png in Resources */,
 				EC4657C51C67D65D00F6509E /* mlazVodeB3.png in Resources */,
 				EC5224B71CA534EC00559613 /* kormiloc0010.png in Resources */,
 				EC4657C41C67D65D00F6509E /* mlazVodeB1.png in Resources */,
+				EC2DB1951CD1F785005B6234 /* zaruljaS6.png in Resources */,
 				EC4DA8161CA8226600CB5351 /* teslaBoatb.png in Resources */,
 				EC5FDC0C1C7E5C2000AAD01C /* Frederic_Edwin.jpg in Resources */,
 				EC5225081CA5DAB300559613 /* komandnaBrod.png in Resources */,
+				EC5558E81CC0C7C50066329F /* faca2.png in Resources */,
 				EC30EC621C874B6F004BEC86 /* cage.png in Resources */,
 				EC5224F81CA5356F00559613 /* mjehurici0052.png in Resources */,
 				EC74B6DA1C7462360016444E /* stator2.png in Resources */,
@@ -1719,7 +2125,9 @@
 				EC570DE41C723F1500B02555 /* konzola.png in Resources */,
 				EC4657B91C67D65D00F6509E /* cijevVentil.png in Resources */,
 				EC30EC651C874B6F004BEC86 /* zemlja.png in Resources */,
+				EC5508AA1CBA6568002FD253 /* drvo11.png in Resources */,
 				EC30EC7A1C874BD9004BEC86 /* stop3.png in Resources */,
+				EC5508B11CBA6568002FD253 /* kucic5.png in Resources */,
 				EC4657BE1C67D65D00F6509E /* mlazVode2.png in Resources */,
 				EC5224C31CA534EC00559613 /* tboprop0001.png in Resources */,
 				EC5224F01CA5356F00559613 /* mjehurici0044.png in Resources */,
@@ -1733,21 +2141,28 @@
 				EC5224FD1CA5356F00559613 /* mjehurici0057.png in Resources */,
 				ECF27AAF1C882DE7007C9BAD /* trigonom3.png in Resources */,
 				EC4ED0151CA40FA000D532EB /* zicaV.png in Resources */,
+				EC5558E61CC0C7C50066329F /* faca4.png in Resources */,
 				EC4657B81C67D65D00F6509E /* cijevTurbine.png in Resources */,
+				EC2DB18D1CD1F785005B6234 /* zarulja4.png in Resources */,
 				ECF27AB31C882DE7007C9BAD /* trigonom7.png in Resources */,
+				EC5508AF1CBA6568002FD253 /* kucic3.png in Resources */,
 				ACE8A89A1C7BB01500EC9A83 /* sedam.png in Resources */,
+				EC5508AB1CBA6568002FD253 /* drvo12.png in Resources */,
 				EC5C0F0A1C8C3257002233E8 /* mlazG1.png in Resources */,
 				EC30EC5B1C874B55004BEC86 /* planine.png in Resources */,
 				EC4ED00D1CA40FA000D532EB /* zarulja.png in Resources */,
 				ECFF89A21C88A00B00AF51E2 /* xReyBeam6.png in Resources */,
+				EC2DB1801CD1F785005B6234 /* grlo2.png in Resources */,
 				EC0A5D421CAF12AC002147BF /* mjestaInstrumenta4.png in Resources */,
 				EC30EC781C874BD9004BEC86 /* stop1.png in Resources */,
+				EC2DB1851CD1F785005B6234 /* klikP.mp3 in Resources */,
 				EC5C627A1C581F9700608AEC /* ticon.png in Resources */,
 				EC4657C91C67D65D00F6509E /* mlazVodeD0.png in Resources */,
+				EC5558DA1CC0C7C50066329F /* faca16.png in Resources */,
 				EC5FDBC91C7E2B7500AAD01C /* daska.png in Resources */,
+				EC2DB1891CD1F785005B6234 /* prozorS.png in Resources */,
 				EC4657CE1C67D65D00F6509E /* ruckaVentila.png in Resources */,
 				EC5FDC121C7E616400AAD01C /* teslaSwitch0000.png in Resources */,
-				ECA1BD7B1C89D72700DFDA10 /* steamP.png in Resources */,
 				EC5224C91CA534EC00559613 /* tboprop0007.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1763,11 +2178,13 @@
 				EC5C62271C567FC400608AEC /* ViewController.m in Sources */,
 				EC5C623B1C56AE5F00608AEC /* energy.m in Sources */,
 				EC5C62411C56AFFC00608AEC /* wireless.m in Sources */,
+				EC5558BF1CC0C39C0066329F /* jajeViewController.m in Sources */,
 				EC5C624A1C56B09000608AEC /* transmision.m in Sources */,
 				EC5C62591C56B20600608AEC /* jaje.m in Sources */,
 				EC5C62561C56B1D000608AEC /* xray.m in Sources */,
 				EC5C62241C567FC400608AEC /* AppDelegate.m in Sources */,
 				ECF6EDFC1C7307F70070C7D2 /* xRayInfo.m in Sources */,
+				EC5558C21CC0C42D0066329F /* jajeScene.m in Sources */,
 				EC5C625F1C56B25800608AEC /* radio.m in Sources */,
 				EC5C623E1C56AF8C00608AEC /* motor.m in Sources */,
 				ACA4DA3B1C6E67A80017C18B /* MapAnnotations.m in Sources */,
@@ -1785,6 +2202,7 @@
 				EC0A5CFE1CAEE16B002147BF /* broduvod.m in Sources */,
 				EC5C62441C56B02B00608AEC /* boat.m in Sources */,
 				EC0A5D071CAEFCA7002147BF /* kolekcijas.m in Sources */,
+				EC4114971CDE291600C4836A /* Lighting.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

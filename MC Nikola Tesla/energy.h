@@ -23,6 +23,7 @@
     UIImageView *zupcanik2;
     UIImageView *mlazG;
     UIImageView *mlazD;
+    UIImageView *ulazVode;
     
     
     UITextView *textGen;
@@ -34,6 +35,7 @@
     NSArray *rotorA;
     NSArray *mlazDA;
     NSArray *mlazGA;
+    NSArray *vodaUlaz;
     
      CGSize velicina;
     __weak IBOutlet UINavigationBar *navBar;

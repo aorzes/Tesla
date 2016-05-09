@@ -256,7 +256,7 @@
 
 -(void)prozirnost{
 
-    NSLog(@"gkjh");
+    
     CGPoint pp=more1.center;
     pp.x--;
     more1.center=pp;
@@ -337,6 +337,7 @@
         zutaUklj=false;
         tipkaL.image=[UIImage imageNamed:@"zutaTipka"];
         tipkaR.image=[UIImage imageNamed:@"zutaTipka"];
+        [osovina2 stopAnimating];
         [UIView beginAnimations:nil context:nil];
         [UIView setAnimationDuration: 1.0];
         [UIView setAnimationDelegate:self];
@@ -420,6 +421,9 @@
     
 }
 
+- (IBAction)vratiSe:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 
 

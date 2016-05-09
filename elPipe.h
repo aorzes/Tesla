@@ -10,7 +10,7 @@
 
 @interface elPipe : UIViewController
 {
-    //UIPanGestureRecognizer *panGesture;
+    
     CGRect velicina;
     NSArray *popisCijevi;
     UIImageView *podloga;

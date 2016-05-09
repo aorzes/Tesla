@@ -7,6 +7,7 @@
 //
 
 #import "energy.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface energy ()
 
@@ -45,6 +46,13 @@
               [UIImage imageNamed: @"mlazG1.png"],
               [UIImage imageNamed: @"mlazG2.png"],
               [UIImage imageNamed: @"mlazG3.png"],
+              nil];
+    vodaUlaz = [NSArray arrayWithObjects:
+                [UIImage imageNamed: @"vodaUlazi1.png"],
+                [UIImage imageNamed: @"vodaUlazi2.png"],
+                [UIImage imageNamed: @"vodaUlazi3.png"],
+                [UIImage imageNamed: @"vodaUlazi4.png"],
+                [UIImage imageNamed: @"vodaUlazi5.png"],
               nil];
 
 
@@ -85,6 +93,17 @@
     osovina3.image = [UIImage imageNamed:@"elektron"];
     osovina3.frame = CGRectMake( podloga.frame.size.width*0.046, podloga.frame.size.width*0.532,podloga.frame.size.width*0.006,podloga.frame.size.width*0.006);
     [podloga addSubview:osovina3];
+    
+    ulazVode = [[UIImageView alloc]init];
+    ulazVode.image = [UIImage imageNamed:@"vodaUlazi1"];
+    ulazVode.frame = CGRectMake( podloga.frame.size.width*0.17, podloga.frame.size.width*0.185,podloga.frame.size.width*0.1,podloga.frame.size.width*0.1);
+    [podloga addSubview:ulazVode];
+    ulazVode.animationImages=vodaUlaz;
+    ulazVode.animationDuration=0.35;
+    ulazVode.animationRepeatCount=0;
+    [ulazVode startAnimating];
+    ulazVode.alpha=0;
+    
     
     UIImageView *kazaljka1 = [[UIImageView alloc]init];
     kazaljka1.image = [UIImage imageNamed:@"kazaljkaT"];
@@ -180,13 +199,11 @@
     textUstav.font=[textUstav.font fontWithSize:12];
     textUstav.text =@"Fusegates are a mechanism designed to provide the controlled release of water in the event of exceptionally large floods.";
     [podloga addSubview:textUstav];
-    CALayer *borderLayer1 = [CALayer layer];
-    CGRect borderFrame = CGRectMake(0, 0, textUstav.frame.size.width, textUstav.frame.size.height);
-    [borderLayer1 setBorderColor:[[UIColor blackColor] CGColor]];
-    [borderLayer1 setFrame:borderFrame];
-    [borderLayer1 setCornerRadius:5];
-    [borderLayer1 setBorderWidth:1];
-    [textUstav.layer addSublayer:borderLayer1];
+    
+    [textUstav.layer setBorderColor:[[[UIColor grayColor] colorWithAlphaComponent:0.8] CGColor]];
+    [textUstav.layer setBorderWidth:2.0];
+    textUstav.layer.cornerRadius = 5;
+    textUstav.clipsToBounds = YES;
     
     textTurb = [[UITextView alloc]init];
     textTurb.frame = CGRectMake( podloga.frame.size.width*0.38, podloga.frame.size.width*0.38,podloga.frame.size.width*0.18,podloga.frame.size.width*0.1);
@@ -194,13 +211,10 @@
     textTurb.font=[textUstav.font fontWithSize:12];
     textTurb.text =@"Turbine is a rotary mechanical device that extracts energy from a fluid flow and converts it into useful work.";
     [podloga addSubview:textTurb];
-    CALayer *borderLayer2 = [CALayer layer];
-    borderFrame = CGRectMake(0, 0, textTurb.frame.size.width, textTurb.frame.size.height);
-    [borderLayer2 setBorderColor:[[UIColor blackColor] CGColor]];
-    [borderLayer2 setFrame:borderFrame];
-    [borderLayer2 setCornerRadius:5];
-    [borderLayer2 setBorderWidth:1];
-    [textTurb.layer addSublayer:borderLayer2];
+    [textTurb.layer setBorderColor:[[[UIColor grayColor] colorWithAlphaComponent:0.8] CGColor]];
+    [textTurb.layer setBorderWidth:2.0];
+    textTurb.layer.cornerRadius = 5;
+    textTurb.clipsToBounds = YES;
     
     textGen = [[UITextView alloc]init];
     textGen.frame = CGRectMake( podloga.frame.size.width*0.425, podloga.frame.size.width*0.622,podloga.frame.size.width*0.35,podloga.frame.size.width*0.08);
@@ -208,13 +222,12 @@
     textGen.font=[textUstav.font fontWithSize:12];
     textGen.text =@"Generator is a device that converts mechanical energy to electrical energy. Nikola Tesla developed polyphase alternating current system of generators.";
     [podloga addSubview:textGen];
-    CALayer *borderLayer3 = [CALayer layer];
-    borderFrame = CGRectMake(0, 0, textGen.frame.size.width, textGen.frame.size.height);
-    [borderLayer3 setBorderColor:[[UIColor blackColor] CGColor]];
-    [borderLayer3 setFrame:borderFrame];
-    [borderLayer3 setCornerRadius:5];
-    [borderLayer3 setBorderWidth:1];
-    [textGen.layer addSublayer:borderLayer3];
+    [textGen.layer setBorderColor:[[[UIColor grayColor] colorWithAlphaComponent:0.8] CGColor]];
+    [textGen.layer setBorderWidth:2.0];
+    textGen.layer.cornerRadius = 5;
+    textGen.clipsToBounds = YES;
+    
+    
     textUstav.alpha=0;
     textTurb.alpha=0;
     textGen.alpha=0;
@@ -255,8 +268,10 @@
         if (otvorenVentil) {
             rotate1 = CGAffineTransformMakeRotation(0);
             otvorenVentil = false;
-            
-            
+            [UIView beginAnimations:nil context:nil];
+            [UIView setAnimationDuration: 1.5];
+            ulazVode.alpha=0;
+            [UIView commitAnimations];
         }
         else
         {
@@ -277,7 +292,11 @@
             mlazD.animationDuration=0.40;
             mlazD.animationRepeatCount=0;
             [mlazD startAnimating];
-
+            
+            [UIView beginAnimations:nil context:nil];
+            [UIView setAnimationDuration: 1.5];
+            ulazVode.alpha=1;
+            [UIView commitAnimations];
 
             otvorenVentil = true;
         }
@@ -301,6 +320,7 @@
             otvorenaUstava = false;
             //mlazG.alpha=0;
             //[mlazG stopAnimating];
+            prekidac.image = [UIImage imageNamed:@"teslaSwitch0000"];
             
         }else
         {
@@ -310,6 +330,7 @@
             mlazG.animationDuration=0.40;
             mlazG.animationRepeatCount=0;
             [mlazG startAnimating];
+            prekidac.image = [UIImage imageNamed:@"teslaSwitch0090"];
     
         }
         [UIView beginAnimations:nil context:nil];
@@ -397,8 +418,9 @@
         
     }
     
-    
 }
+
+
 
 -(void)rotacija{
     kutP+=0.1;
@@ -409,6 +431,9 @@
     
 }
 
+- (IBAction)vratiSe:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 
 - (void)didReceiveMemoryWarning {

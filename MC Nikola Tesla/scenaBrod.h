@@ -37,5 +37,6 @@
     NSMutableArray *tragovi;
     AVAudioPlayer *zvuk1;
     NSString *pokupio;
+    
 }
 @end

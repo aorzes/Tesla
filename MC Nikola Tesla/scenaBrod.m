@@ -22,7 +22,7 @@
 -(void)ucitajsve{
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     pokupio=[userDefaults objectForKey:@"pokupio"];
-    NSLog(@"%@",pokupio);
+    
 }
 
 
@@ -346,7 +346,7 @@
         if([touchedNode.name isEqualToString:@"tipka3"])
         {
             if (brzina<2) {
-                brzina+=0.2;
+                brzina+=0.4;
             }
         }
         if([touchedNode.name isEqualToString:@"tipka4"])

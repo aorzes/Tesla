@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface Faradey : UIViewController
 
@@ -28,6 +29,8 @@
     
     NSTimer *timerZ;
     NSTimer *timerT;
+    NSTimer *timerB;
+    NSTimer *timerN;
     
     double a;
     double b;
@@ -44,14 +47,13 @@
     
     double da;
     double pda;
-    NSTimer *timerB;
-    NSTimer *timerN;
+   
     
     double presao;
     double najPresao;
     
     __weak IBOutlet UINavigationBar *navBar;
-    
+    AVAudioPlayer *zvuk1;
 }
 
 

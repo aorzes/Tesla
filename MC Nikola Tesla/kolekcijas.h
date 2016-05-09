@@ -17,6 +17,7 @@
     NSString *pokupio;
     UISwipeGestureRecognizer *swipeDownRecognizer;
     UISwipeGestureRecognizer *swipeUpRecognizer;
+    SKNode *povecaninode;
 }
 
 @end

@@ -15,12 +15,13 @@
 -(void)ucitajsve{
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     pokupio=[userDefaults objectForKey:@"pokupio"];
-    NSLog(@"%@",pokupio);
+   
 }
 
 -(void)didMoveToView:(SKView *)view {
     [self ucitajsve];
     NSLog(@"%@",pokupio);
+    povecaninode=nil;
     double dimenzija= (self.size.width-80)/3;
     double visinaPodloge = (dimenzija+20) * 7+40;
     podloga = [SKSpriteNode spriteNodeWithImageNamed:@"sivaPodloga"];
@@ -67,7 +68,7 @@
                 SKSpriteNode *instrument = [SKSpriteNode spriteNodeWithImageNamed:[imenainstrumenata objectAtIndex:n]];
                 instrument.size = CGSizeMake(dimenzija, dimenzija);
                 instrument.name = [NSString stringWithFormat:@"in%d",n];
-                instrument.zPosition=1;
+                instrument.zPosition=2;
                 [mjesto addChild:instrument];
                 SKSpriteNode *shadow = [SKSpriteNode spriteNodeWithImageNamed:[imenamjesta objectAtIndex:n]];
                 shadow.size = mjesto.size;
@@ -88,6 +89,39 @@
     
 }
 
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    /* Called when a touch begins */
+    if (povecaninode!=nil) {
+        return;
+    }
+    for (UITouch *touch in touches) {
+        CGPoint location = [touch locationInNode:self];
+        SKNode *node = [self nodeAtPoint:location];
+        NSString *ime= node.name;
+        if (ime.length>2) {
+            ime=[ime substringToIndex:2];
+            if ([ime isEqualToString:@"in"]) {
+                node.zPosition=3;
+                SKAction *povecaj=[SKAction scaleBy:2.0 duration:0.5];
+                [node runAction:povecaj];
+                povecaninode=node;
+            }
+        }
+    }
+}
+
+-(void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+
+    if (povecaninode!=nil) {
+        [povecaninode removeAllActions];
+        povecaninode.zPosition=2;
+        SKAction *smanji=[SKAction scaleTo:1.0 duration:0.2];
+        [povecaninode runAction:smanji];
+        povecaninode=nil;
+    }
+}
+
+
 - (void) handleSwipes: (UISwipeGestureRecognizer *)sender
 {
     if (sender.direction == UISwipeGestureRecognizerDirectionDown && podloga.position.y>0)
@@ -100,6 +134,14 @@
         CGFloat moveDown = 100.0f;
         [podloga runAction:[SKAction moveByX:0.0f y:moveDown duration:0.2]];
     }
+    if (povecaninode!=nil) {
+        [povecaninode removeAllActions];
+        povecaninode.zPosition=2;
+        SKAction *smanji=[SKAction scaleTo:1.0 duration:0.2];
+        [povecaninode runAction:smanji];
+        povecaninode=nil;
+    }
+
 }
 
 

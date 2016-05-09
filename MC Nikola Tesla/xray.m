@@ -82,7 +82,7 @@
     [borderLayer setCornerRadius:8];
     [borderLayer setBorderWidth:4];
     [okviric.layer addSublayer:borderLayer];
-    
+    //okviric.layer.masksToBounds = YES;
     okviric.userInteractionEnabled = YES;
     UIPanGestureRecognizer *panGesture =   [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(paneMe:)];
     [okviric addGestureRecognizer:panGesture];
@@ -126,6 +126,10 @@
     CGImageRelease(ref);
     konzola.frame = CGRectMake(okviric.frame.origin.x + okviric.frame.size.width/2-10, 0, 15, okviric.frame.origin.y);
     
+}
+
+- (IBAction)vratiSe:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 

@@ -155,6 +155,9 @@ float sgn(float n) { return (n < 0.0) ? -1.0 : (n > 0.0) ? 1.0 : 0.0; }
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
     [self brisanje];
 }
+- (IBAction)vratiSe:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 
 - (void)didReceiveMemoryWarning {

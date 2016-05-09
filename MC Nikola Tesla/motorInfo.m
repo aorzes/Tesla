@@ -83,6 +83,9 @@
     [recognizer setTranslation:CGPointMake(0, 0) inView:self.view];
     
 }
+- (IBAction)vratiSe:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

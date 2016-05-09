@@ -49,6 +49,11 @@
     
     ukavezu = true;
     
+    NSURL *Zvuk = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"gun" ofType:@"mp3"]];
+    zvuk1 = [[AVAudioPlayer alloc]initWithContentsOfURL:Zvuk error:nil];
+    [zvuk1 setVolume: 0.1];
+    [zvuk1 prepareToPlay];
+    
 }
 -(void)viewDidAppear:(BOOL)animated{
     // djecak je 2 zemlja je 3, coil 4, cage 5
@@ -93,6 +98,7 @@
     tcoil.tag = 4;
     tcoil.frame = CGRectMake(velicina.width-velicina.width/6, polozajZemlje-visinaCoila, velicina.width/4, visinaCoila );
     [self.view addSubview:tcoil];
+    
     
     djecak = [[UIImageView alloc]init];
     djecak.image = [UIImage imageNamed:@"stop1"];
@@ -244,17 +250,6 @@
     }
 }
 
--(void)startN{
-    
-    if(!timerN)
-    {
-        timerN = [NSTimer scheduledTimerWithTimeInterval:0.8
-                                                  target:self
-                                                selector:@selector(napraviMunju)
-                                                userInfo:nil
-                                                 repeats:YES];
-    }
-}
 
 -(void)startZ{
     
@@ -270,12 +265,12 @@
 }
 
 -(void)napraviMunju{
-    
     //CGPoint currentPoint = CGPointMake(arc4random()%(int)velicina.width, velicina.height-50);
     CGPoint currentPoint = tocka;
     double alp = atan2(currentPoint.y-(tcoil.center.y-tcoil.frame.size.height/2.5), currentPoint.x-tcoil.center.x);
     double duz = hypotf(currentPoint.x-tcoil.center.x, currentPoint.y-(tcoil.center.y-tcoil.frame.size.height/2.5));
     [self cMunju:alp duzina:duz kraj:currentPoint];
+    
     
 }
 
@@ -303,6 +298,7 @@
     double r=10;
     double oldx = tcoil.center.x;
     double oldy = tcoil.center.y-tcoil.frame.size.height/2.5;
+    
     double xx=0;
     double yy=0;
     for (int i=0; i<20; i++) {
@@ -346,7 +342,7 @@
     }
     
     [self nacrtajCrtu:CGPointMake(oldx, oldy) dotocke:CGPointMake(kraj.x, kraj.y) debljina:1];
-    
+    [zvuk1 play];
     
     
 }
@@ -446,11 +442,12 @@
 }
 
 -(void)miciTocku{
-    b+=0.5;
+    b+=0.4;
     tocka.x = sin(b)*velicina.width+tcoil.center.x;
     //tocka.y = sin(a)*velicina.width/1.2+tcoil.center.y-tcoil.frame.size.height/2.5;
     tocka.y = polozajZemlje-velicina.width/6;
     poluga.center = tocka;
+    
     [self napraviMunju];
 }
 
@@ -461,7 +458,7 @@
         [timerZ invalidate];
         timerZ=nil;
     }
-    double brzina = 0.3;
+    double brzina = 0.1;
     if (stoji) {
         brzina = 3.0;
     }
@@ -520,7 +517,6 @@
         djecak.animationDuration=1.0;
     }
     
-    
     djecak.animationRepeatCount=0;
     [djecak startAnimating];
     
@@ -543,9 +539,16 @@
         djecak.frame = CGRectMake(velicina.width/8, polozajZemlje-velicina.width/6, velicina.width/3, velicina.width/6);
         djecak.center = CGPointMake(velicina.width/7, polozajZemlje-velicina.width/12);
     }
+  
+}
+
+- (IBAction)vratiSe:(id)sender {
+    [timerB invalidate];
+    [timerN invalidate];
+    [timerT invalidate];
+    [timerZ invalidate];
     
-    
-    
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 

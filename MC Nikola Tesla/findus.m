@@ -66,6 +66,9 @@
     [UIView commitAnimations];
 
 }
+- (IBAction)vratiSe:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 
 - (void)didReceiveMemoryWarning {
