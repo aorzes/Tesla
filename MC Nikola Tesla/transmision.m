@@ -77,6 +77,10 @@
             UIImageView *drvo=[[UIImageView alloc]init];
             drvo.image=[UIImage imageNamed:imeDrveta];
             drvo.frame=CGRectMake(xd, yd, 50, 50);
+            drvo.layer.shadowColor=[UIColor blackColor].CGColor;
+            drvo.layer.shadowOffset = CGSizeMake(-5, 0);
+            drvo.layer.shadowOpacity = 0.6;
+            drvo.layer.shadowRadius = 5.0;
             drvo.tag=1;
             [podloga addSubview:drvo];
             n++;
@@ -93,7 +97,7 @@
             NSString *imeKuce=[NSString stringWithFormat:@"kucic%d",arc4random()%8+1];
             UIImageView *kuca=[[UIImageView alloc]init];
             kuca.image=[UIImage imageNamed:imeKuce];
-            kuca.frame=CGRectMake(xd, yd, 50, 50);
+            kuca.frame=CGRectMake(xd, yd, 70, 50);
             kuca.tag=2;
             [podloga addSubview:kuca];
             n++;
@@ -471,8 +475,8 @@
     [UIView setAnimationDuration: 1.0];
     [UIView setAnimationDidStopSelector:@selector(myAnimationEnded)];
     [UIView setAnimationDelegate:self];
-    zeleniKrug.transform = CGAffineTransformScale(zeleniKrug.transform, 10, 10);
-    zeleniKrug.alpha=1;
+    zeleniKrug.transform = CGAffineTransformScale(zeleniKrug.transform, 15, 15);
+    zeleniKrug.alpha=0.5;
     [UIView commitAnimations];
     
     
@@ -483,8 +487,8 @@
     stu++;
     for (UIView *kucica in podloga.subviews) {
         if (kucica.tag==2 && hypotf(kucica.center.x-polozaj.x, kucica.center.y -polozaj.y)<100) {
-            kucica.backgroundColor=[UIColor yellowColor];
-            kucica.layer.cornerRadius = 5;
+            kucica.backgroundColor=[UIColor colorWithRed:1.0 green:0.9 blue:0.0 alpha:0.7];
+            kucica.layer.cornerRadius = 10;
             kucica.clipsToBounds = NO;
             kucica.tag=3;
             brk++;
@@ -519,8 +523,8 @@
 -(void)myAnimationEnded{
 
     [UIView beginAnimations:nil context:nil];
-    [UIView setAnimationDuration: 1.0];
-    zeleniKrug.transform = CGAffineTransformScale(zeleniKrug.transform, 0.1, 0.1);
+    [UIView setAnimationDuration: 0.5];
+    zeleniKrug.transform = CGAffineTransformScale(zeleniKrug.transform, 1.0/15.0, 1.0/15.0);
     zeleniKrug.alpha=0;
     [UIView commitAnimations];
 

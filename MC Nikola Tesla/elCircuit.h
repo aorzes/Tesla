@@ -25,6 +25,7 @@
     int stariY;
     CGPoint granice;
 
+    __weak IBOutlet UIBarButtonItem *tipkaPlay;
     int osobineKomada[10][5];
     int poljeKomada[7][9][5];
     

@@ -68,14 +68,14 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <size key="titleShadowOffset" width="2" height="2"/>
-                                                <state key="normal" title="Light" backgroundImage="lightIco.png">
+                                                <state key="normal" title="Light" backgroundImage="lightIco2.png">
                                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="CNa-xU-xq8" kind="modal" id="ETv-CK-Vzf"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="WGT-dE-89j" userLabel="About">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="WGT-dE-89j" userLabel="About">
                                                 <rect key="frame" x="674" y="276" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -254,7 +254,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-47" y="508"/>
+            <point key="canvasLocation" x="-57" y="499"/>
         </scene>
         <!--El Pipe-->
         <scene sceneID="q8b-1P-bq0">
@@ -391,6 +391,7 @@
                         <outlet property="backButton" destination="Q4J-9c-kY0" id="MRK-HF-Ua9"/>
                         <outlet property="navBar" destination="O30-sy-dny" id="wdD-1n-eae"/>
                         <outlet property="resetTipka" destination="50p-pF-mb0" id="yMh-ea-2CP"/>
+                        <outlet property="tipkaPlay" destination="xbE-D2-yKB" id="4qp-I1-ccX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D2B-o3-UoO" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1174,7 +1175,7 @@ Vozite Teslin brod, obiđite različite otoke i na svakom pokupite neki instrume
         <image name="energyPico.png" width="200" height="211"/>
         <image name="globeIco.png" width="200" height="200"/>
         <image name="left.png" width="30" height="60"/>
-        <image name="lightIco.png" width="200" height="200"/>
+        <image name="lightIco2.png" width="200" height="200"/>
         <image name="papir.png" width="200" height="300"/>
         <image name="radioAIco.png" width="200" height="200"/>
         <image name="right.png" width="30" height="60"/>

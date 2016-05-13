@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface elPipe : UIViewController
 {
@@ -17,7 +18,7 @@
     UIImageView *prvaCijev;
     UIImageView *pocetna;
     UIImageView *ruckaVentila;
-    UIImageView *nadolazece;
+    //UIImageView *nadolazece;
     UIImageView *stator;
     UIImageView *rotor;
     __weak IBOutlet UINavigationBar *navBar;
@@ -37,13 +38,15 @@
     
     UIImageView *zarulja;
     UIImageView *zavrsna;
-    
+    double sredinaIzbora;
     int ciljana; // krajnja u matrici
     int curiX;
     int curiY;
     int vektor;
     int ukupnoC;
-    
+    AVAudioPlayer *zvuk1;
+    AVAudioPlayer *zvuk2;
+    AVAudioPlayer *zvuk3;
     UILabel *labela;
     
 }

@@ -27,8 +27,27 @@
         }
     }
     polje[0][1] = 5;
+    polje[1][1] = 5;
+    polje[2][1] = 5;
+    polje[3][1] = 5;
+    polje[4][1] = 5;
+    polje[5][1] = 5;
+   
     polje[4][8] = 1;
+    NSURL *Zvuk = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"Pipe" ofType:@"mp3"]];
+    zvuk1 = [[AVAudioPlayer alloc]initWithContentsOfURL:Zvuk error:nil];
+    [zvuk1 setVolume: 0.5];
+    [zvuk1 prepareToPlay];
     
+    NSURL *Zvuk2 = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"WinSound" ofType:@"mp3"]];
+    zvuk2 = [[AVAudioPlayer alloc]initWithContentsOfURL:Zvuk2 error:nil];
+    [zvuk2 setVolume: 0.8];
+    [zvuk2 prepareToPlay];
+    
+    NSURL *Zvuk3 = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"aaau" ofType:@"mp3"]];
+    zvuk3 = [[AVAudioPlayer alloc]initWithContentsOfURL:Zvuk3 error:nil];
+    [zvuk3 setVolume: 1];
+    [zvuk3 prepareToPlay];
 }
 -(void)viewDidAppear:(BOOL)animated
 {
@@ -58,16 +77,16 @@
     ruckaVentila.frame = CGRectMake(0, pocetna.frame.origin.y, dimenzija, dimenzija);
     [self.view addSubview:ruckaVentila];
     
-    nadolazece = [[UIImageView alloc]init];
-    nadolazece.image = [UIImage imageNamed:@"podlogaPipe2"];
-    nadolazece.frame = CGRectMake(dimenzija*2, pocetna.frame.origin.y, velicina.size.width-dimenzija*2,dimenzija );
-    [nadolazece setBackgroundColor:[UIColor orangeColor]];
-    nadolazece.userInteractionEnabled = YES;
-    [self.view addSubview:nadolazece];
-    
-    [self napraviIzbor];
-    UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(singleTapGestureCaptured:)];
-    [nadolazece addGestureRecognizer:singleTap];
+//    nadolazece = [[UIImageView alloc]init];
+//    nadolazece.image = [UIImage imageNamed:@"podlogaPipe2"];
+//    nadolazece.frame = CGRectMake(dimenzija*2, pocetna.frame.origin.y, velicina.size.width-dimenzija*2,dimenzija );
+//    [nadolazece setBackgroundColor:[UIColor orangeColor]];
+//    nadolazece.userInteractionEnabled = YES;
+//    [self.view addSubview:nadolazece];
+//    
+//    [self napraviIzbor];
+//    UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(singleTapGestureCaptured:)];
+//    [nadolazece addGestureRecognizer:singleTap];
     
     zavrsna = [[UIImageView alloc]init];
     zavrsna.image = [UIImage imageNamed:@"cijevTurbine"];
@@ -128,7 +147,7 @@
     NSLog(@"odnos:%f",proporcije);
     
     labela = [[UILabel alloc]init];
-    labela.frame = CGRectMake(0, 64, self.view.frame.size.width, 30);
+    labela.frame = CGRectMake(0, self.view.frame.size.height-30, self.view.frame.size.width, 30);
     [self.view addSubview:labela];
     labela.font = [UIFont fontWithName:@"Helvetica" size:12];
     labela.backgroundColor = [UIColor whiteColor];
@@ -136,8 +155,112 @@
     labela.textAlignment = NSTextAlignmentCenter;
     labela.text =[NSString stringWithFormat:@"%.1f",0.0];
     labela.alpha = 0;
+    [self napraviIzbor];
+    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Pipes"
+                                                                   message:@"Connect the pipes with a greater efficiency! Can you achieve 1.00?"
+                                                            preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
+                                                          handler:^(UIAlertAction * action) {
+                                                              [alert dismissViewControllerAnimated:YES completion:nil];
+
+                                                          }];
+    [alert addAction:defaultAction];
+    [self presentViewController:alert animated:YES completion:nil];
+
+}
+
+-(void)napraviIzbor{
+    float popisX = dimenzija;
+    izbornikArray = [[NSMutableArray alloc]init];
+    [izbornikArray addObject:[NSNumber numberWithFloat:popisX]];
+    for (int i=0; i<4; i++) {
+        int n= arc4random()%popisCijevi.count;
+        UIImageView *slikaIzbor = [[UIImageView alloc]init];
+        slikaIzbor.image = [UIImage imageNamed:popisCijevi[n]];
+        slikaIzbor.frame = CGRectMake(popisX, navBar.frame.origin.y+navBar.frame.size.height, dimenzija, dimenzija);
+        sredinaIzbora=slikaIzbor.center.y;
+        slikaIzbor.tag = n+1;
+        [self.view addSubview:slikaIzbor];
+        slikaIzbor.userInteractionEnabled=YES;
+        UIPanGestureRecognizer *panGesture =   [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(paneIzbor:)];
+        [slikaIzbor addGestureRecognizer:panGesture];
+        //obrub
+        [slikaIzbor.layer setCornerRadius:10];
+        [slikaIzbor.layer setBorderWidth:2];
+        popisX += slikaIzbor.frame.size.width;
+        [izbornikArray addObject:[NSNumber numberWithFloat:popisX]];
+    }
     
 }
+
+-(IBAction)paneIzbor:(UIPanGestureRecognizer *)recognizer{
+    if (ukljuceno) {
+        return;
+    }
+    CGPoint translation=[recognizer translationInView:self.view];
+    translation.y-=0.2;
+    recognizer.view.center=CGPointMake(recognizer.view.center.x+translation.x,recognizer.view.center.y+translation.y);
+    [recognizer setTranslation:CGPointMake(0, 0) inView:self.view];
+    aktivnaSlika = (UIImageView *)recognizer.view;
+    [self.view bringSubviewToFront:aktivnaSlika];
+    aktivnaSlika.layer.borderColor =[UIColor clearColor].CGColor;
+    aktivnaSlika.layer.shadowColor =[UIColor blackColor].CGColor;//sjena
+    aktivnaSlika.layer.shadowOffset = CGSizeMake(-6, 6);
+    aktivnaSlika.layer.shadowOpacity = 0.5;
+    aktivnaSlika.layer.shadowRadius = 2.5;
+    int brUizboru=0;
+    for(UIImageView *tempImage in self.view.subviews){
+        if ((int)tempImage.center.y==(int)sredinaIzbora && tempImage.tag>0) {
+            brUizboru++;
+        }
+    }
+    if (brUizboru<4) {
+        [self popuniIzbor];
+    }
+    //staro
+    if(recognizer.state == UIGestureRecognizerStateBegan)
+    {
+        staraPozicija = aktivnaSlika.frame.origin;
+        stariX=(int)roundf(aktivnaSlika.frame.origin.x / dimenzija);
+        stariY=(int)roundf(aktivnaSlika.frame.origin.y / dimenzija);
+        staraPozicija.x = dimenzija*(stariX);
+        staraPozicija.y = dimenzija*(stariY);
+        strelica1.alpha = 0;
+        strelica2.alpha = 0;
+        
+    }
+    if(recognizer.state == UIGestureRecognizerStateEnded)
+    {
+        CGPoint trenutnaPozicija = aktivnaSlika.frame.origin;
+        trenutnaPozicija.x = dimenzija*(roundf(trenutnaPozicija.x / dimenzija));
+        trenutnaPozicija.y = dimenzija*(roundf(trenutnaPozicija.y / dimenzija));
+        if (trenutnaPozicija.x<0) {trenutnaPozicija.x = 0;}
+        if (trenutnaPozicija.x>granice.x) {trenutnaPozicija.x = granice.x;}
+        if (trenutnaPozicija.y<dimenzija) {trenutnaPozicija.y = dimenzija;}
+        if (trenutnaPozicija.y>granice.y) {trenutnaPozicija.y = granice.y;}
+        int xx = (int)roundf(trenutnaPozicija.x / dimenzija);
+        int yy = (int)roundf(trenutnaPozicija.y / dimenzija);
+        [zvuk1 play];
+        if (polje[xx][yy]>0) {
+            trenutnaPozicija = staraPozicija;
+        }
+        else
+        {
+            polje[xx][yy] = (int)aktivnaSlika.tag;
+            if (stariY!=1) {
+                polje[stariX][stariY] = 0;
+                
+            }
+        }
+        NSLog(@"x:%d y:%d vrsta:%d",xx,yy,polje[xx][yy]);
+        aktivnaSlika.frame = CGRectMake(trenutnaPozicija.x, trenutnaPozicija.y, aktivnaSlika.frame.size.width, aktivnaSlika.frame.size.height);
+        
+    }
+    
+}
+
+
 - (IBAction)pokreniPonovo:(id)sender {
     [zarulja stopAnimating];
     ukupnoC = 0;
@@ -152,7 +275,13 @@
             polje[i][j]=0;
         }
     }
+    
     polje[0][1] = 5;
+    polje[1][1] = 5;
+    polje[2][1] = 5;
+    polje[3][1] = 5;
+    polje[4][1] = 5;
+    polje[5][1] = 5;
     polje[4][ciljana] = 1;
     
     for(UIImageView *tempImage in self.view.subviews){
@@ -160,7 +289,6 @@
         if (tempImage.tag>0) {
             [tempImage removeFromSuperview];
         }
-        
     }
     CGAffineTransform rotate1 = CGAffineTransformMakeRotation(0);
     [UIView beginAnimations:nil context:nil];
@@ -168,74 +296,111 @@
     [ruckaVentila setTransform:rotate1];
     [UIView commitAnimations];
     labela.alpha = 0;
-    
-}
-
--(void)napraviIzbor{
-    izbornikArray = [[NSMutableArray alloc]init];
-    float popisX = 0;
-    [izbornikArray addObject:[NSNumber numberWithFloat:popisX]];
-    for (int i=0; i<4; i++) {
-        int n= arc4random()%6;
-        UIImageView *slikaIzbor = [[UIImageView alloc]init];
-        slikaIzbor.image = [UIImage imageNamed:popisCijevi[n]];
-        slikaIzbor.frame = CGRectMake(popisX, 0, nadolazece.frame.size.height, nadolazece.frame.size.height);
-        slikaIzbor.tag = n+1;
-        [nadolazece addSubview:slikaIzbor];
-        
-        //obrub
-        CALayer *borderLayer = [CALayer layer];
-        CGRect borderFrame = CGRectMake(0, 0, slikaIzbor.frame.size.width, slikaIzbor.frame.size.width);
-        [borderLayer setBackgroundColor:[[UIColor clearColor] CGColor]];
-        [borderLayer setFrame:borderFrame];
-        [borderLayer setCornerRadius:10];
-        [borderLayer setBorderWidth:2];
-        [borderLayer setBorderColor:[[UIColor blackColor] CGColor]];
-        [slikaIzbor.layer addSublayer:borderLayer];
-        popisX += nadolazece.frame.size.height;
-        [izbornikArray addObject:[NSNumber numberWithFloat:popisX]];
-    }
+    [self napraviIzbor];
     
 }
 
 -(void)popuniIzbor{
     int i=0;
     float trazeni = [[izbornikArray objectAtIndex:i]floatValue];
-    for(UIImageView *tempImage in nadolazece.subviews)
+    for(UIImageView *tempImage in self.view.subviews)
     {
-        
-        if (trazeni<tempImage.center.x) {
-            // animiraj
-            [UIView beginAnimations:nil context:nil];
-            [UIView setAnimationDuration: 1.0];
-            tempImage.frame = CGRectMake(trazeni, tempImage.frame.origin.y, tempImage.frame.size.width, tempImage.frame.size.height);
-            [UIView commitAnimations];
-            i++;
-            trazeni = [[izbornikArray objectAtIndex:i]floatValue];
-            
+        if (tempImage.center.y==sredinaIzbora){
+            if (trazeni<tempImage.center.x) {
+                // animiraj
+                [UIView beginAnimations:nil context:nil];
+                [UIView setAnimationDuration: 1.0];
+                tempImage.frame = CGRectMake(trazeni, sredinaIzbora, tempImage.frame.size.width, tempImage.frame.size.height);
+                tempImage.center=CGPointMake(trazeni+dimenzija/2, sredinaIzbora);
+                [UIView commitAnimations];
+                i++;
+                trazeni = [[izbornikArray objectAtIndex:i]floatValue];
+            }
         }
-        
     }
     
-    int n= arc4random()%6;
+    int n= arc4random()%popisCijevi.count;
     UIImageView *slikaIzbor = [[UIImageView alloc]init];
     slikaIzbor.image = [UIImage imageNamed:popisCijevi[n]];
-    slikaIzbor.frame = CGRectMake([[izbornikArray lastObject]floatValue], 0, nadolazece.frame.size.height, nadolazece.frame.size.height);
-    [nadolazece addSubview:slikaIzbor];
+    slikaIzbor.frame = CGRectMake([[izbornikArray lastObject]floatValue], 0, dimenzija, dimenzija);
+    slikaIzbor.center= CGPointMake(trazeni+dimenzija/2, sredinaIzbora);
+    slikaIzbor.userInteractionEnabled=YES;
+    UIPanGestureRecognizer *panGesture =   [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(paneIzbor:)];
+    [slikaIzbor addGestureRecognizer:panGesture];
+    [self.view addSubview:slikaIzbor];
     slikaIzbor.tag=n+1;
     //obrub
-    CALayer *borderLayer = [CALayer layer];
-    CGRect borderFrame = CGRectMake(0, 0, slikaIzbor.frame.size.width, slikaIzbor.frame.size.width);
-    [borderLayer setBackgroundColor:[[UIColor clearColor] CGColor]];
-    [borderLayer setFrame:borderFrame];
-    [borderLayer setCornerRadius:10];
-    [borderLayer setBorderWidth:2];
-    [borderLayer setBorderColor:[[UIColor blackColor] CGColor]];
-    [slikaIzbor.layer addSublayer:borderLayer];
-    
-    
+    [slikaIzbor.layer setCornerRadius:10];
+    [slikaIzbor.layer setBorderWidth:2];
+    ukupnoC++;
     
 }
+
+//-(void)napraviIzbor{
+//    izbornikArray = [[NSMutableArray alloc]init];
+//    float popisX = 0;
+//    [izbornikArray addObject:[NSNumber numberWithFloat:popisX]];
+//    for (int i=0; i<4; i++) {
+//        int n= arc4random()%6;
+//        UIImageView *slikaIzbor = [[UIImageView alloc]init];
+//        slikaIzbor.image = [UIImage imageNamed:popisCijevi[n]];
+//        slikaIzbor.frame = CGRectMake(popisX, 0, nadolazece.frame.size.height, nadolazece.frame.size.height);
+//        slikaIzbor.tag = n+1;
+//        [nadolazece addSubview:slikaIzbor];
+//        
+//        //obrub
+//        CALayer *borderLayer = [CALayer layer];
+//        CGRect borderFrame = CGRectMake(0, 0, slikaIzbor.frame.size.width, slikaIzbor.frame.size.width);
+//        [borderLayer setBackgroundColor:[[UIColor clearColor] CGColor]];
+//        [borderLayer setFrame:borderFrame];
+//        [borderLayer setCornerRadius:10];
+//        [borderLayer setBorderWidth:2];
+//        [borderLayer setBorderColor:[[UIColor blackColor] CGColor]];
+//        [slikaIzbor.layer addSublayer:borderLayer];
+//        popisX += nadolazece.frame.size.height;
+//        [izbornikArray addObject:[NSNumber numberWithFloat:popisX]];
+//    }
+//    
+//}
+
+//-(void)popuniIzbor{
+//    int i=0;
+//    float trazeni = [[izbornikArray objectAtIndex:i]floatValue];
+//    for(UIImageView *tempImage in nadolazece.subviews)
+//    {
+//        
+//        if (trazeni<tempImage.center.x) {
+//            // animiraj
+//            [UIView beginAnimations:nil context:nil];
+//            [UIView setAnimationDuration: 1.0];
+//            tempImage.frame = CGRectMake(trazeni, tempImage.frame.origin.y, tempImage.frame.size.width, tempImage.frame.size.height);
+//            [UIView commitAnimations];
+//            i++;
+//            trazeni = [[izbornikArray objectAtIndex:i]floatValue];
+//            
+//        }
+//        
+//    }
+//    
+//    int n= arc4random()%6;
+//    UIImageView *slikaIzbor = [[UIImageView alloc]init];
+//    slikaIzbor.image = [UIImage imageNamed:popisCijevi[n]];
+//    slikaIzbor.frame = CGRectMake([[izbornikArray lastObject]floatValue], 0, nadolazece.frame.size.height, nadolazece.frame.size.height);
+//    [nadolazece addSubview:slikaIzbor];
+//    slikaIzbor.tag=n+1;
+//    //obrub
+//    CALayer *borderLayer = [CALayer layer];
+//    CGRect borderFrame = CGRectMake(0, 0, slikaIzbor.frame.size.width, slikaIzbor.frame.size.width);
+//    [borderLayer setBackgroundColor:[[UIColor clearColor] CGColor]];
+//    [borderLayer setFrame:borderFrame];
+//    [borderLayer setCornerRadius:10];
+//    [borderLayer setBorderWidth:2];
+//    [borderLayer setBorderColor:[[UIColor blackColor] CGColor]];
+//    [slikaIzbor.layer addSublayer:borderLayer];
+//    
+//    
+//    
+//}
 
 //pusti vodu
 - (void)provjera {
@@ -254,13 +419,14 @@
         zarulja.animationDuration=0.10;
         zarulja.animationRepeatCount=0;
         [zarulja startAnimating];
-        
+        [zvuk2 play];
     }
     else
     {
         
         [pocetna setBackgroundColor:[UIColor redColor]];
         [self poplava];
+        [zvuk3 play];
     }
     
 }
@@ -505,7 +671,7 @@
     
     UITouch *touch = [touches anyObject];
     CGPoint currentPoint = [touch locationInView:self.view];
-    if (CGRectContainsPoint(ruckaVentila.frame, currentPoint)){
+    if (CGRectContainsPoint(ruckaVentila.frame, currentPoint) && !ukljuceno){
         ukljuceno = true;
         CGAffineTransform rotate1 = CGAffineTransformMakeRotation(3);
         [UIView beginAnimations:nil context:nil];
@@ -520,93 +686,93 @@
     strelica2.alpha = 0;
 }
 
-- (void)singleTapGestureCaptured:(UITapGestureRecognizer *)gesture
-{
-    if (ukljuceno) return;
-    CGPoint pt=[gesture locationInView:nadolazece];
-    CGPoint prstPt = [gesture locationInView:self.view];
-    strelica1.alpha = 0;
-    strelica2.alpha = 0;
-    for(UIImageView *tempImage in nadolazece.subviews)
-    {
-        if (CGRectContainsPoint(tempImage.frame, pt))
-        {
-            tempImage.alpha = 0.5;
-            UIImageView *novaSlika = [[UIImageView alloc]init];
-            novaSlika.frame = tempImage.frame;
-            novaSlika.center = CGPointMake(prstPt.x-15, prstPt.y+5);
-            novaSlika.image = tempImage.image;
-            novaSlika.tag = tempImage.tag;
-            [self.view addSubview:novaSlika];
-            novaSlika.userInteractionEnabled = YES;
-            UIPanGestureRecognizer *panGesture =   [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(paneMe:)];
-            [novaSlika addGestureRecognizer:panGesture];
-            novaSlika.layer.shadowColor = [UIColor blackColor].CGColor;
-            novaSlika.layer.shadowOffset = CGSizeMake(-5, 5);
-            novaSlika.layer.shadowOpacity = 0.4;
-            novaSlika.layer.shadowRadius = 1.0;
-            
-            ukupnoC++;
-            
-            aktivnaSlika = novaSlika;
-            
-            [tempImage removeFromSuperview];
-            [self popuniIzbor];
-            return;
-        }
-        else
-        {
-            tempImage.alpha = 1.0;
-        }
-        
-    }
-    
-}
+//- (void)singleTapGestureCaptured:(UITapGestureRecognizer *)gesture
+//{
+//    if (ukljuceno) return;
+//    CGPoint pt=[gesture locationInView:nadolazece];
+//    CGPoint prstPt = [gesture locationInView:self.view];
+//    strelica1.alpha = 0;
+//    strelica2.alpha = 0;
+//    for(UIImageView *tempImage in nadolazece.subviews)
+//    {
+//        if (CGRectContainsPoint(tempImage.frame, pt))
+//        {
+//            tempImage.alpha = 0.5;
+//            UIImageView *novaSlika = [[UIImageView alloc]init];
+//            novaSlika.frame = tempImage.frame;
+//            novaSlika.center = CGPointMake(prstPt.x-15, prstPt.y+5);
+//            novaSlika.image = tempImage.image;
+//            novaSlika.tag = tempImage.tag;
+//            [self.view addSubview:novaSlika];
+//            novaSlika.userInteractionEnabled = YES;
+//            UIPanGestureRecognizer *panGesture =   [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(paneMe:)];
+//            [novaSlika addGestureRecognizer:panGesture];
+//            novaSlika.layer.shadowColor = [UIColor blackColor].CGColor;
+//            novaSlika.layer.shadowOffset = CGSizeMake(-5, 5);
+//            novaSlika.layer.shadowOpacity = 0.4;
+//            novaSlika.layer.shadowRadius = 1.0;
+//            
+//            ukupnoC++;
+//            
+//            aktivnaSlika = novaSlika;
+//            
+//            [tempImage removeFromSuperview];
+//            [self popuniIzbor];
+//            return;
+//        }
+//        else
+//        {
+//            tempImage.alpha = 1.0;
+//        }
+//        
+//    }
+//    
+//}
 
--(IBAction)paneMe:(UIPanGestureRecognizer *)recognizer{
-    
-    if (ukljuceno) {return;}
-    CGPoint translation=[recognizer translationInView:self.view];
-    recognizer.view.center=CGPointMake(recognizer.view.center.x+translation.x,recognizer.view.center.y+translation.y);
-    [recognizer setTranslation:CGPointMake(0, 0) inView:self.view];
-    aktivnaSlika = (UIImageView *)recognizer.view;
-    
-    
-    if(recognizer.state == UIGestureRecognizerStateBegan)
-    {
-        staraPozicija = aktivnaSlika.frame.origin;
-        stariX=(int)roundf(aktivnaSlika.frame.origin.x / dimenzija);
-        stariY=(int)roundf(aktivnaSlika.frame.origin.y / dimenzija);
-        staraPozicija.x = dimenzija*(stariX);
-        staraPozicija.y = dimenzija*(stariY);
-        
-    }
-    if(recognizer.state == UIGestureRecognizerStateEnded)
-    {
-        CGPoint trenutnaPozicija = aktivnaSlika.frame.origin;
-        trenutnaPozicija.x = dimenzija*(roundf(trenutnaPozicija.x / dimenzija));
-        trenutnaPozicija.y = dimenzija*(roundf(trenutnaPozicija.y / dimenzija));
-        if (trenutnaPozicija.x<0) {trenutnaPozicija.x = 0;}
-        if (trenutnaPozicija.x>granice.x) {trenutnaPozicija.x = granice.x;}
-        if (trenutnaPozicija.y<dimenzija) {trenutnaPozicija.y = dimenzija;}
-        if (trenutnaPozicija.y>granice.y) {trenutnaPozicija.y = granice.y;}
-        int xx = (int)roundf(trenutnaPozicija.x / dimenzija);
-        int yy = (int)roundf(trenutnaPozicija.y / dimenzija);
-        if (polje[xx][yy]>0) {
-            trenutnaPozicija = staraPozicija;
-        }
-        else
-        {
-            polje[xx][yy] = (int)aktivnaSlika.tag;
-            polje[stariX][stariY] = 0;
-        }
-        NSLog(@"x:%d y:%d vrsta:%d",xx,yy,polje[xx][yy]);
-        
-        aktivnaSlika.frame = CGRectMake(trenutnaPozicija.x, trenutnaPozicija.y, aktivnaSlika.frame.size.width, aktivnaSlika.frame.size.height);
-        
-    }
-    
-}
+//-(IBAction)paneMe:(UIPanGestureRecognizer *)recognizer{
+//    
+//    if (ukljuceno) {return;}
+//    CGPoint translation=[recognizer translationInView:self.view];
+//    recognizer.view.center=CGPointMake(recognizer.view.center.x+translation.x,recognizer.view.center.y+translation.y);
+//    [recognizer setTranslation:CGPointMake(0, 0) inView:self.view];
+//    
+//    
+//    aktivnaSlika = (UIImageView *)recognizer.view;
+//    if(recognizer.state == UIGestureRecognizerStateBegan)
+//    {
+//        staraPozicija = aktivnaSlika.frame.origin;
+//        stariX=(int)roundf(aktivnaSlika.frame.origin.x / dimenzija);
+//        stariY=(int)roundf(aktivnaSlika.frame.origin.y / dimenzija);
+//        staraPozicija.x = dimenzija*(stariX);
+//        staraPozicija.y = dimenzija*(stariY);
+//        
+//    }
+//    if(recognizer.state == UIGestureRecognizerStateEnded)
+//    {
+//        CGPoint trenutnaPozicija = aktivnaSlika.frame.origin;
+//        trenutnaPozicija.x = dimenzija*(roundf(trenutnaPozicija.x / dimenzija));
+//        trenutnaPozicija.y = dimenzija*(roundf(trenutnaPozicija.y / dimenzija));
+//        if (trenutnaPozicija.x<0) {trenutnaPozicija.x = 0;}
+//        if (trenutnaPozicija.x>granice.x) {trenutnaPozicija.x = granice.x;}
+//        if (trenutnaPozicija.y<dimenzija) {trenutnaPozicija.y = dimenzija;}
+//        if (trenutnaPozicija.y>granice.y) {trenutnaPozicija.y = granice.y;}
+//        int xx = (int)roundf(trenutnaPozicija.x / dimenzija);
+//        int yy = (int)roundf(trenutnaPozicija.y / dimenzija);
+//        if (polje[xx][yy]>0) {
+//            trenutnaPozicija = staraPozicija;
+//        }
+//        else
+//        {
+//            polje[xx][yy] = (int)aktivnaSlika.tag;
+//            polje[stariX][stariY] = 0;
+//            [zvuk1 play];
+//        }
+//        NSLog(@"x:%d y:%d vrsta:%d",xx,yy,polje[xx][yy]);
+//        aktivnaSlika.frame = CGRectMake(trenutnaPozicija.x, trenutnaPozicija.y, aktivnaSlika.frame.size.width, aktivnaSlika.frame.size.height);
+//        
+//    }
+//    
+//}
 - (IBAction)vratiSe:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }

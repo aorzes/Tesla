@@ -20,15 +20,15 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="teslaIcon1024.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qgb-HZ-iWf">
                                 <rect key="frame" x="132" y="132" width="336" height="336"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="336" id="LjE-rZ-2lU"/>
+                                    <constraint firstAttribute="width" constant="336" id="cAQ-op-6MD"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Qgb-HZ-iWf" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="112" id="IPV-2h-qEi"/>
-                            <constraint firstItem="Qgb-HZ-iWf" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Sug-DH-dUR"/>
-                            <constraint firstItem="Qgb-HZ-iWf" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="gJp-Va-lQF"/>
+                            <constraint firstItem="Qgb-HZ-iWf" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="7Oe-Qo-yiT"/>
+                            <constraint firstItem="Qgb-HZ-iWf" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="112" id="VrY-Uk-R0S"/>
+                            <constraint firstItem="Qgb-HZ-iWf" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="yvT-bK-Hzp"/>
                         </constraints>
                     </view>
                 </viewController>
