@@ -80,8 +80,9 @@
     tekst.frame = CGRectMake(wire1.frame.origin.x, wire1.frame.origin.y+wire1.frame.size.height+10, velicina.width-20, velicina.height-(wire1.frame.origin.y+wire1.frame.size.height+20));
     tekst.layer.borderWidth=1;
     tekst.layer.borderColor = [UIColor lightGrayColor].CGColor;
-    tekst.text =@"Wireless power transfer\nTesla je prvi osmislio wireless power transfer. Princip je jednostavan, ali se ne primjenjuje jer bi na taj način teško bilo naplatiti energiju. Kroz debelu žicu s malo namotaja protiče jaka struja niskog napona, a kroz veliki namotaj tanke žice slaba struja visokog napona. Ona je jednim krajem spojena na antenu koja širi radio valove, a drugi kraj je uzemljen.\nTe valove prima druga antena koja je spojena na svoj namotaj tanke žice (veliki broj namotaja). Visoki napon koji se tu generira transformira se u niski napon, a jaku struju, u malom broju namotaju debele žice i ta struja se vodi na žarulju. Broj namotaja je proporcionalan naponu i obrnuto proporcionalan struji. Naravno to vrijedi samo za AC.";
+    tekst.text =@"Wireless power transfer\nTesla is the first one who invented the wireless power transfer. The principle is simple, but it does not apply because it would be difficult to charge the energy. Through the thick wire with a little winding runs a strong current which has low voltage, and through a large coil of thin wire runs low current with high voltage. It has one end connected to the antenna that spreads the radio waves, and the other end is grounded. These waves are received by the second antenna that is connected to its winding of a thin wire (a large number of windings). High voltage that is generated here is transformed into a low voltage, but strong current, in a small number of windings of a thick wire and the current is sent to a light bulb. The number of windings is proportional to the voltage and inversely proportional to the current. Of course this is only valid for AC.";
     [self.view addSubview:tekst];
+    tekst.editable = NO;
     tekst.tag=1;
     valovi = [[UIImageView alloc]init];
     valovi.image = [UIImage imageNamed:@"radioVal1"];

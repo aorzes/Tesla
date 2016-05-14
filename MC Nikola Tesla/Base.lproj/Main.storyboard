@@ -505,7 +505,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" id="Qj9-rz-eHX">
                                 <rect key="frame" x="40" y="97" width="240" height="421"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Kako bi demonstrirao svoje obrtno magnetsko polje Tesla je napravio metalno jaje koje se vrti u magnetskom polju. U izmjeničnom magnetskom polju u jajetu zbog indukcije nastaju struje koje stvaraju svoje magnetsko polje pa se inače bakreno jaje pretvara u magnet. Tako nastali magnet vrti se u obrtnom polju što demonstrira asinhroni motor, nazvan tako jer obrtanje rotora (jajeta) uvijek malo kasni za obrtnim poljem statora.</string>
+                                <mutableString key="text">In order to demonstrate his rotating magnetic field, Tesla made a metal egg that spins in a magnetic field. In the alternating magnetic field in the egg, due to the induction,  the electricity is created and its generating its magnetic field, so the usual copper egg turns into a magnet. The resulting magnet rotates in the rotating field, which demonstrates the asynchronous motor, so named because the rotation of the rotor (egg) is always a little late behind the rotating field of the stator.</mutableString>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1007,8 +1007,9 @@
                                 <rect key="frame" x="40" y="104" width="240" height="376"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <string key="text">Tesla je svoj brod na daljinsko upravljanje prikazao na izložbi 1898. Brod je opremljen električnim motorom za vožnju i motorom za pokretanje kormila. Preko radio veze Tesla je upravljao prvim vozilom na daljinsko upravljanje.
-Vozite Teslin brod, obiđite različite otoke i na svakom pokupite neki instrument koji je Tesla koristio u svom radu.</string>
+                                <mutableString key="text">Tesla showed his remote controled ship on the exhibition in 1898. The ship is equipped with an electric motor for driving and the motor which controls the helm. Over the radio, Tesla operated with the first remote controled vehicle.
+
+Drive the Tesla's boat, visit various islands and at each one pick up an instrument which Tesla used in his work.</mutableString>
                                 <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>

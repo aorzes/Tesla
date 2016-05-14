@@ -99,6 +99,31 @@
     tcoil.frame = CGRectMake(velicina.width-velicina.width/6, polozajZemlje-visinaCoila, velicina.width/4, visinaCoila );
     [self.view addSubview:tcoil];
     
+    UIImageView *aura=[[UIImageView alloc]initWithFrame:CGRectMake(0, -tcoil.frame.size.width/8, tcoil.frame.size.width, tcoil.frame.size.width)];
+    aura.image = [UIImage imageNamed:@"aura0"];
+    [tcoil addSubview: aura];
+    [UIView animateWithDuration:2.5
+                          delay:0.0
+                        options: UIViewAnimationOptionRepeat
+                     animations:^{
+                         [aura setTransform: CGAffineTransformMakeRotation(M_PI)];
+                     }
+                     completion:NULL];
+    
+    
+    [UIView animateWithDuration:0.5f
+                    delay:0.0
+                    options: UIViewAnimationOptionRepeat | UIViewAnimationOptionCurveEaseInOut
+                     animations:^{
+                    [aura setAlpha:0.5f];
+    } completion:^(BOOL finished) {
+        //fade out
+        [UIView animateWithDuration:0.5f animations:^{
+            [aura setAlpha:1.0f];
+        } completion:nil];
+        
+    }];
+    
     
     djecak = [[UIImageView alloc]init];
     djecak.image = [UIImage imageNamed:@"stop1"];

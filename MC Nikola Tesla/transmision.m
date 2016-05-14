@@ -89,8 +89,8 @@
     //kucice
     n=0;
     while (n<100) {
-        double xd= arc4random()%2900+50;
-        double yd= arc4random()%2900+50;
+        double xd= arc4random()%2800+100;
+        double yd= arc4random()%2800+100;
         if (!CGRectContainsPoint(kv1, CGPointMake(xd, yd)) && !CGRectContainsPoint(kv2, CGPointMake(xd, yd)) &&
             !CGRectContainsPoint(kv3, CGPointMake(xd, yd)) && !CGRectContainsPoint(kv4, CGPointMake(xd, yd)) &&
             !CGRectContainsPoint(kv5, CGPointMake(xd, yd)) && ![self imaLiNatomMjestu:CGPointMake(xd, yd)]) {
