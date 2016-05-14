@@ -108,7 +108,7 @@
     [UIView commitAnimations];
     
     [self startP];
-    baneaAd.frame = CGRectMake(0, self.view.frame.size.height-50, self.view.frame.size.width, 50);
+    baneaAd.frame = CGRectMake(0, self.view.frame.size.height-51, self.view.frame.size.width, 50);
 
 }
 - (void)didReceiveMemoryWarning {
