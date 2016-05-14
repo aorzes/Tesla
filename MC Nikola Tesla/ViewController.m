@@ -108,6 +108,7 @@
     [UIView commitAnimations];
     
     [self startP];
+    baneaAd.frame = CGRectMake(0, self.view.frame.size.height-50, self.view.frame.size.width, 50);
 
 }
 - (void)didReceiveMemoryWarning {
@@ -165,6 +166,31 @@
     
     
 }
+
+#pragma mark iAd Delegate Methods
+
+
+-(void)bannerViewDidLoadAd:(ADBannerView *)banner{
+    
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:1];
+    [banner setAlpha:1];
+    [UIView commitAnimations];
+    
+}
+
+
+
+
+-(void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error {
+    
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:1];
+    [banner setAlpha:0];
+    [UIView commitAnimations];
+    
+}
+
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {

@@ -50,6 +50,16 @@
     zvuk1 = [[AVAudioPlayer alloc]initWithContentsOfURL:Zvuk error:nil];
     [zvuk1 setVolume: 1];
     [zvuk1 prepareToPlay];
+    NSURL *Zvuk2 = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"stkl4" ofType:@"mp3"]];
+    zvuk2 = [[AVAudioPlayer alloc]initWithContentsOfURL:Zvuk2 error:nil];
+    [zvuk2 setVolume: 0.5];
+    [zvuk2 prepareToPlay];
+    
+    NSURL *Zvuk3 = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"stkl1" ofType:@"mp3"]];
+    zvuk3 = [[AVAudioPlayer alloc]initWithContentsOfURL:Zvuk3 error:nil];
+    [zvuk3 setVolume: 0.5];
+    [zvuk3 prepareToPlay];
+
 }
 
 -(void)viewDidAppear:(BOOL)animated{
@@ -440,16 +450,24 @@
             }
         }
         
+        if (!uklopljeno) {
+            [UIView animateWithDuration:0.5
+                                  delay:0.0
+                                options:UIViewAnimationOptionTransitionCrossDissolve
+                             animations:^{
+                                 recognizer.view.center = CGPointMake(recognizer.view.center.x, self.view.frame.size.height+dimenzija);
+                                 
+                             } completion:^(BOOL finished){
+                                 [recognizer.view removeFromSuperview];
+                                 if (arc4random()%2==0) {
+                                     [zvuk2 play];
+                                 }else{
+                                     [zvuk3 play];
+                                 }
+                                 
+                             }];
+        }
         
-        [UIView animateWithDuration:0.5
-                              delay:0.0
-                            options:UIViewAnimationOptionTransitionCrossDissolve
-                         animations:^{
-                             recognizer.view.center = CGPointMake(recognizer.view.center.x, self.view.frame.size.height+dimenzija);
-                             
-                         } completion:^(BOOL finished){
-                             [recognizer.view removeFromSuperview];
-                         }];
         
         
     }

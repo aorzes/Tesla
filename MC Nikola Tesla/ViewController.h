@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <iAd/iAd.h>
 
 
 @interface ViewController : UIViewController
@@ -43,6 +44,7 @@
     double pomakP;
     CGSize velicina;
     
+    __weak IBOutlet ADBannerView *baneaAd;
 }
 
 @property (weak, nonatomic) IBOutlet UIScrollView *skrol;

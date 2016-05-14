@@ -35,6 +35,8 @@
     int upaljeniProzori[6][4];
     int brojUpaljenihProzora;
     AVAudioPlayer *zvuk1;
+    AVAudioPlayer *zvuk2;
+    AVAudioPlayer *zvuk3;
     NSInteger maxConnected;
 }
 

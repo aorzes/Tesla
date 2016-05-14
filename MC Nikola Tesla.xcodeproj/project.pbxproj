@@ -320,6 +320,9 @@
 		EC52250D1CA5E54800559613 /* crvenaTipka.png in Resources */ = {isa = PBXBuildFile; fileRef = EC52250B1CA5E54800559613 /* crvenaTipka.png */; };
 		EC52250E1CA5E54800559613 /* zelenaTipka.png in Resources */ = {isa = PBXBuildFile; fileRef = EC52250C1CA5E54800559613 /* zelenaTipka.png */; };
 		EC54A47F1CE771BB007A797B /* mapa.png in Resources */ = {isa = PBXBuildFile; fileRef = EC54A47E1CE771BB007A797B /* mapa.png */; };
+		EC54A4811CE7795E007A797B /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54A4801CE7795E007A797B /* iAd.framework */; };
+		EC54A4831CE782F5007A797B /* stkl4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC54A4821CE782F5007A797B /* stkl4.mp3 */; };
+		EC54A4851CE78623007A797B /* stkl1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC54A4841CE78623007A797B /* stkl1.mp3 */; };
 		EC5508A01CBA6568002FD253 /* drvo1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5508891CBA6568002FD253 /* drvo1.png */; };
 		EC5508A11CBA6568002FD253 /* drvo2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC55088A1CBA6568002FD253 /* drvo2.png */; };
 		EC5508A21CBA6568002FD253 /* drvo3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC55088B1CBA6568002FD253 /* drvo3.png */; };
@@ -790,6 +793,9 @@
 		EC52250B1CA5E54800559613 /* crvenaTipka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crvenaTipka.png; sourceTree = "<group>"; };
 		EC52250C1CA5E54800559613 /* zelenaTipka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zelenaTipka.png; sourceTree = "<group>"; };
 		EC54A47E1CE771BB007A797B /* mapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapa.png; sourceTree = "<group>"; };
+		EC54A4801CE7795E007A797B /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		EC54A4821CE782F5007A797B /* stkl4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stkl4.mp3; sourceTree = "<group>"; };
+		EC54A4841CE78623007A797B /* stkl1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stkl1.mp3; sourceTree = "<group>"; };
 		EC5508891CBA6568002FD253 /* drvo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drvo1.png; sourceTree = "<group>"; };
 		EC55088A1CBA6568002FD253 /* drvo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drvo2.png; sourceTree = "<group>"; };
 		EC55088B1CBA6568002FD253 /* drvo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drvo3.png; sourceTree = "<group>"; };
@@ -970,6 +976,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC54A4811CE7795E007A797B /* iAd.framework in Frameworks */,
 				EC10AA411CDF3CD300DBB24B /* QuartzCore.framework in Frameworks */,
 				EC4F115F1CAFCAE300D4331C /* CoreMotion.framework in Frameworks */,
 				EC0A5D651CAF1783002147BF /* AVFoundation.framework in Frameworks */,
@@ -1075,6 +1082,8 @@
 		EC2DB1651CD1F75B005B6234 /* LightSlike */ = {
 			isa = PBXGroup;
 			children = (
+				EC54A4841CE78623007A797B /* stkl1.mp3 */,
+				EC54A4821CE782F5007A797B /* stkl4.mp3 */,
 				EC2DB1661CD1F785005B6234 /* fasada.png */,
 				EC2DB1671CD1F785005B6234 /* grlo1.png */,
 				EC2DB1681CD1F785005B6234 /* grlo2.png */,
@@ -1417,6 +1426,7 @@
 		EC5C62131C567FC400608AEC = {
 			isa = PBXGroup;
 			children = (
+				EC54A4801CE7795E007A797B /* iAd.framework */,
 				EC10AA401CDF3CD300DBB24B /* QuartzCore.framework */,
 				EC4F115E1CAFCAE300D4331C /* CoreMotion.framework */,
 				EC0A5D641CAF1783002147BF /* AVFoundation.framework */,
@@ -1838,6 +1848,7 @@
 				EC4ED0061CA40FA000D532EB /* zicaPZ.png in Resources */,
 				ECF27ABA1C882DE7007C9BAD /* trigonom14.png in Resources */,
 				EC30EC791C874BD9004BEC86 /* stop2.png in Resources */,
+				EC54A4851CE78623007A797B /* stkl1.mp3 in Resources */,
 				EC5224F61CA5356F00559613 /* mjehurici0050.png in Resources */,
 				EC0A5D251CAF1297002147BF /* instrumentt1.png in Resources */,
 				EC2DB1821CD1F785005B6234 /* grlo4.png in Resources */,
@@ -1856,6 +1867,7 @@
 				EC5558E51CC0C7C50066329F /* faca5.png in Resources */,
 				ACE8A8971C7BB01500EC9A83 /* jedanaest.png in Resources */,
 				EC5508A01CBA6568002FD253 /* drvo1.png in Resources */,
+				EC54A4831CE782F5007A797B /* stkl4.mp3 in Resources */,
 				EC4657CA1C67D65D00F6509E /* mlazVodeD1.png in Resources */,
 				EC5224C41CA534EC00559613 /* tboprop0002.png in Resources */,
 				EC30EC8D1C874BF6004BEC86 /* boyWalk5.png in Resources */,
