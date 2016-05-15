@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -15,34 +14,24 @@
                 <rect key="frame" x="0.0" y="0.0" width="435" height="304"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D9h-eQ-S8P">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="D9h-eQ-S8P">
                         <rect key="frame" x="96" y="8" width="241" height="148"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="148" id="EOa-AQ-tI5"/>
-                        </constraints>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CvE-uv-mkT">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CvE-uv-mkT">
                         <rect key="frame" x="8" y="164" width="419" height="116"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
-                <constraints>
-                    <constraint firstItem="CvE-uv-mkT" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="1Jd-cw-rOg"/>
-                    <constraint firstItem="CvE-uv-mkT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="2X0-o6-ckl"/>
-                    <constraint firstAttribute="bottomMargin" secondItem="CvE-uv-mkT" secondAttribute="bottom" constant="16" id="6ba-kW-Lke"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="D9h-eQ-S8P" secondAttribute="trailing" constant="90" id="DQX-FV-g5d"/>
-                    <constraint firstItem="D9h-eQ-S8P" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="SHy-2A-TZf"/>
-                    <constraint firstItem="CvE-uv-mkT" firstAttribute="top" secondItem="D9h-eQ-S8P" secondAttribute="bottom" constant="8" symbolic="YES" id="gmz-nk-cO1"/>
-                    <constraint firstItem="D9h-eQ-S8P" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="88" id="rIL-AQ-OJq"/>
-                </constraints>
             </tableViewCellContentView>
             <connections>
                 <outlet property="opisSlikeUCeliji" destination="CvE-uv-mkT" id="EbR-vi-w8D"/>
                 <outlet property="slikaUCeliji" destination="D9h-eQ-S8P" id="ZKp-4A-vgN"/>
             </connections>
-            <point key="canvasLocation" x="601.5" y="582.5"/>
+            <point key="canvasLocation" x="93.5" y="416.5"/>
         </tableViewCell>
     </objects>
 </document>

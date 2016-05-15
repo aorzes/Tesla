@@ -655,7 +655,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mJ0-oW-Me7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1015" y="1773"/>
+            <point key="canvasLocation" x="1024" y="1793"/>
         </scene>
         <!--Findus-->
         <scene sceneID="Tsu-mN-NSC">
@@ -814,7 +814,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9en-fm-iO8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1015" y="1108"/>
+            <point key="canvasLocation" x="1015" y="1060"/>
         </scene>
         <!--Motor-->
         <scene sceneID="sQ6-FO-Yf7">
@@ -979,7 +979,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nFt-QF-mWp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1393" y="1108"/>
+            <point key="canvasLocation" x="1365" y="1060"/>
         </scene>
         <!--Broduvod-->
         <scene sceneID="wla-lc-v46">
