@@ -49,7 +49,6 @@
     osobineKomada[5][2]=1;
     osobineKomada[5][4]=1;
     
-    
     ukljuceno = false;
     
     for (int i=0; i<7; i++) {
@@ -61,7 +60,7 @@
     }
 }
 
--(void) viewDidAppear:(BOOL)animated{
+- (void)viewDidAppear:(BOOL)animated {
     
     velicina = self.view.frame;
     dimenzija=velicina.size.height/10;
@@ -93,7 +92,6 @@
     smece.image = [UIImage imageNamed:@"smece"];
     [self.view addSubview:smece];
     
-    
     drugaStrana = [[UIImageView alloc]init];
     drugaStrana.frame = CGRectMake(0, 0, velicina.size.width,velicina.size.height );
     [drugaStrana setBackgroundColor:[UIColor whiteColor]];
@@ -116,8 +114,7 @@
     navBar.frame = CGRectMake(0, 20, velicina.size.width, 44);
 }
 
--(void)napraviIzbor{
-    
+- (void)napraviIzbor {
     float popisX = 0;
     for (int i=0; i<popisElemenata.count-1; i++) {
         UIImageView *slikaIzbor = [[UIImageView alloc]init];
@@ -136,16 +133,12 @@
         [borderLayer setBorderColor:[[UIColor blackColor] CGColor]];
         [slikaIzbor.layer addSublayer:borderLayer];
         popisX += dimenzija;
-        
     }
-    
 }
 
-- (void)doDoubleTap:(UITapGestureRecognizer *)gesture{
+- (void)doDoubleTap:(UITapGestureRecognizer *)gesture {
     CGPoint prstPt = [gesture locationInView:self.view];
-    
-    for(UIImageView *tempImage in self.view.subviews)
-    {
+    for(UIImageView *tempImage in self.view.subviews) {
         if (CGRectContainsPoint(tempImage.frame, prstPt) && (tempImage.tag==7 || tempImage.tag==8)){
             if (tempImage.tag==7) {
                 tempImage.tag=8;
@@ -156,14 +149,10 @@
             }
         }
     }
-    
     [self testiraj2];
-    
 }
 
-
-- (void)singleTapGestureCaptured:(UITapGestureRecognizer *)gesture
-{
+- (void)singleTapGestureCaptured:(UITapGestureRecognizer *)gesture {
     if (ukljuceno) return;
     CGPoint pt=[gesture locationInView:izbornik];
     CGPoint prstPt = [gesture locationInView:self.view];
@@ -274,18 +263,12 @@
             [novaSlika addGestureRecognizer:panGesture];
             
             //ukupnoC++;
-            
             aktivnaSlika = novaSlika;
-            
             return;
-        }
-        else
-        {
+        } else {
             //tempImage.alpha = 1.0;
         }
-        
     }
-    
     for(UIImageView *tempImage in self.view.subviews){
         
         if (CGRectContainsPoint(tempImage.frame, prstPt) && tempImage.tag>0)
@@ -294,9 +277,9 @@
             [self testiraj2];
         }
     }
-    
 }
--(IBAction)miciDrugu:(UIPanGestureRecognizer *)recognizer{
+
+- (IBAction)miciDrugu:(UIPanGestureRecognizer *)recognizer {
     CGPoint translation=[recognizer translationInView:drugaStrana];
     for (UIImageView *element in drugaStrana.subviews) {
         if (element.tag > 0) {
@@ -307,14 +290,12 @@
     [recognizer setTranslation:CGPointMake(0, 0) inView:drugaStrana];
 }
 
--(IBAction)paneMe:(UIPanGestureRecognizer *)recognizer{
-    
+- (IBAction)paneMe:(UIPanGestureRecognizer *)recognizer {
     if (ukljuceno) {return;}
     CGPoint translation=[recognizer translationInView:self.view];
     recognizer.view.center=CGPointMake(recognizer.view.center.x+translation.x,recognizer.view.center.y+translation.y);
     [recognizer setTranslation:CGPointMake(0, 0) inView:self.view];
     aktivnaSlika = (UIImageView *)recognizer.view;
-    
     
     if(recognizer.state == UIGestureRecognizerStateBegan)
     {
@@ -354,25 +335,17 @@
         }
         [self testiraj2];
     }
-    
 }
 
--(IBAction)skrolaj:(UIPanGestureRecognizer *)recognizer{
-    
-    
+- (IBAction)skrolaj:(UIPanGestureRecognizer *)recognizer {
     CGPoint translation=[recognizer translationInView:izbornik];
-    for(UIImageView *tempImage in izbornik.subviews){
-        
+    for (UIImageView *tempImage in izbornik.subviews) {
         tempImage.center=CGPointMake(tempImage.center.x+translation.x,tempImage.center.y);
-        
     }
     [recognizer setTranslation:CGPointMake(0, 0) inView:self.view];
-    
 }
 
--(void)testiraj2{
-    
-    
+- (void)testiraj2 {
     //nađi bateriju
     for (UIImageView *element in self.view.subviews) {
         if (element.tag == 5) {
@@ -385,16 +358,12 @@
                 else
                 {boja=[UIColor redColor];}
             }
-            
-            
-        }else if(element.tag > 0){
+        } else if(element.tag > 0) {
             for (UIView *kockica in element.subviews){
                 kockica.backgroundColor = [UIColor blackColor];
             }
         }
-        
     }
-    
     bool imaPromjena= true;
     while (imaPromjena) {
         imaPromjena= false;
@@ -478,8 +447,6 @@
             
         }
     }
-    
-    
     if (!kratkiSpoj) {
         for (int i=0; i<zarulje.count; i++) {
             UIImageView *element=[zarulje objectAtIndex:i];
@@ -505,7 +472,6 @@
             }
         }
     }
-    
 }
 
 - (IBAction)ponovoPokreni:(id)sender {
@@ -525,7 +491,6 @@
     for (UIImageView *element in izbornik.subviews) {
         element.alpha=1.0;
     }
-
 }
 - (IBAction)prikaziDruguStranu:(id)sender {
     
@@ -570,9 +535,8 @@
     }
     
     [self.view bringSubviewToFront:navBar];
-    
-
 }
+
 - (IBAction)captureScreen:(id)sender {
     izbornik.alpha=0;
     smece.alpha=0;
@@ -598,7 +562,6 @@
 - (IBAction)vratiSe:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

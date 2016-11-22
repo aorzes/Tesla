@@ -11,8 +11,7 @@
 #import <AVFoundation/AVFoundation.h>
 //#import "jajeViewController.h"
 
-@interface jajeScene : SKScene{
-
+@interface jajeScene : SKScene {
     NSTimer *timer;
     CGSize velicina;
     double dimenzija;
@@ -32,6 +31,6 @@
     double pprethodni;
 }
 
--(void)obrisiSve;
+- (void)obrisiSve;
 
 @end

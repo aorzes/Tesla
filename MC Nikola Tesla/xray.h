@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface xray : UIViewController
-
-{
+@interface xray : UIViewController {
     UIImageView *okviric;
     UIImageView *konzola;
     UIImageView *zid;

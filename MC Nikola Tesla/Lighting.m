@@ -90,14 +90,9 @@
     labela.text = [NSString stringWithFormat:@"Connected:%d",ukupniBrojSpojenih];
     labela.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:labela];
-    
-    
-    
 }
 
--(void)napraviFasade:(double)polozaj tag:(int)tag{
-    
-    
+- (void)napraviFasade:(double)polozaj tag:(int)tag {
     for (int i=0; i<5; i++) {
         UIImageView *fasada = [[UIImageView alloc]init];
         fasada.image = [UIImage imageNamed:@"fasada"];
@@ -122,17 +117,14 @@
             prozor.center=[[points objectAtIndex:j] CGPointValue];
             [fasada addSubview:prozor];
         }
-        
     }
     [self.view sendSubviewToBack:podloga];
 }
-
 
 -(void)upaliProzor{
     if (brzina<2.0 && koeficijentBrzine>400) {
         koeficijentBrzine-=50;//brzina
         brzina = velicina.height/koeficijentBrzine;
-        
     }
     int n=0;
     for (UIImageView *fasada in self.view.subviews){
@@ -162,8 +154,7 @@
     [self povuciFasadeGore];
 }
 
--(void)povuciFasadeGore{
-    
+- (void)povuciFasadeGore {
     [self napraviFasade:velicina.height*2-velicina.height/10 tag:51];
     for (UIImageView *fasada in self.view.subviews){
         if (fasada.tag==50 || fasada.tag==51) {
@@ -182,20 +173,13 @@
                                  {[fasada removeFromSuperview];}
                                  else
                                  {fasada.tag=50;}
-                                 
                              }];
-            
         }
     }
-    
-    
 }
 
-
-
--(void)napraviNosac{
-    
-    UIImageView *nosac = [[UIImageView alloc]init];
+- (void)napraviNosac {
+    UIImageView *nosac = [[UIImageView alloc] init];
     nosac.image = [UIImage imageNamed:@"nosacZarulja"];
     nosac.frame = CGRectMake(velicina.width, -dimenzija,velicina.width , dimenzija/2);
     nosac.tag=20;
@@ -213,7 +197,6 @@
         prvoMjesto+=velicina.width/(kolikoMjesta+1);
     }
     
-    
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration: 1.0];
     nosac.frame = CGRectMake(0, dimenzija, velicina.width, dimenzija/2);
@@ -223,10 +206,9 @@
     if (aktivniNosac==nil) {
         aktivniNosac = nosac;
     }
-    
-    
 }
--(void)startM{
+
+- (void)startM {
     
     if(!timerM)
     { timerM = [NSTimer scheduledTimerWithTimeInterval:0.1
@@ -234,13 +216,10 @@
                                               selector:@selector(miciNosacDolje)
                                               userInfo:nil
                                                repeats:YES];
-        
     }
-    
-    
 }
--(void)miciNosacDolje{
-    
+
+- (void)miciNosacDolje {
     brojacSpustanja++;
     if (brojacSpustanja>koeficijentBrzine/5) {
         [self napraviNosac];
@@ -275,13 +254,9 @@
             }
         }
     }
-    
-    
-    
 }
 
--(void)povovoPokreni{
-    
+- (void)povovoPokreni {
     //obrisi nosace
     for (UIImageView *nosac in self.view.subviews) {
         if (nosac.tag==20) {
@@ -303,11 +278,9 @@
             upaljeniProzori[i][j]=0;
         }
     }
-    
 }
 
-
--(void)napraviIzbor{
+- (void)napraviIzbor {
     float popisX = dimenzija;
     izbornikArray = [[NSMutableArray alloc]init];
     [izbornikArray addObject:[NSNumber numberWithFloat:popisX]];
@@ -328,10 +301,9 @@
         popisX += slikaIzbor.frame.size.width;
         [izbornikArray addObject:[NSNumber numberWithFloat:popisX]];
     }
-    
 }
 
--(void)popuniIzbor{
+- (void)popuniIzbor {
     int i=0;
     float trazeni = [[izbornikArray objectAtIndex:i]floatValue];
     for(UIImageView *tempImage in self.view.subviews)
@@ -365,13 +337,9 @@
     //obrub
     [slikaIzbor.layer setCornerRadius:10];
     [slikaIzbor.layer setBorderWidth:2];
-    
-    
-    
 }
 
--(IBAction)paneIzbor:(UIPanGestureRecognizer *)recognizer{
-   
+- (IBAction)paneIzbor:(UIPanGestureRecognizer *)recognizer {
     if (recognizer.view.tag>popisZarulja.count) {
         return;
     }
@@ -438,7 +406,6 @@
                                                          }
                                                          
                                                      }];
-                                    
                                 }
                                 break;
                                 
@@ -489,8 +456,6 @@
     if (brUizboru<4) {
         [self popuniIzbor];
     }
-    
-    
 }
 - (IBAction)vratiSe:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];

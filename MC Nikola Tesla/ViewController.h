@@ -10,12 +10,9 @@
 #import <iAd/iAd.h>
 
 
-@interface ViewController : UIViewController
-{
-
+@interface ViewController : UIViewController {
     __weak IBOutlet UINavigationBar *navBar;
     __weak IBOutlet UIImageView *podloga;
-    
     
     __weak IBOutlet UIButton *bioB;
     __weak IBOutlet UIButton *energyB;

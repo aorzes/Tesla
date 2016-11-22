@@ -21,8 +21,7 @@
 
 float sgn(float n) { return (n < 0.0) ? -1.0 : (n > 0.0) ? 1.0 : 0.0; }
 
--(void) viewDidAppear:(BOOL)animated{
-
+- (void)viewDidAppear:(BOOL)animated {
     velicina = self.view.frame.size;
     
     navBar.frame = CGRectMake(0, 20, velicina.width, 44);
@@ -42,30 +41,26 @@ float sgn(float n) { return (n < 0.0) ? -1.0 : (n > 0.0) ? 1.0 : 0.0; }
     navBar.tag = 1;
     [self.view bringSubviewToFront:navBar];
     [self startT];
-
-
 }
--(void)startT{
-    
+
+- (void)startT {
     if(!timerT)
     { timerT = [NSTimer scheduledTimerWithTimeInterval:0.25
                                                 target:self
                                               selector:@selector(brisanje)
                                               userInfo:nil
                                                repeats:YES];
-        
     }
-    
-    
 }
--(void)brisanje{
+
+- (void)brisanje {
     NSArray *subviews = [self.view subviews];
     for (UIView *subview in subviews)
         if(subview.tag == 0)
             [subview removeFromSuperview];
 }
 
--(void)crtaj{
+- (void)crtaj {
     //priprema
     UIGraphicsBeginImageContext(drawImage.frame.size);
     
@@ -137,28 +132,22 @@ float sgn(float n) { return (n < 0.0) ? -1.0 : (n > 0.0) ? 1.0 : 0.0; }
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     UITouch *touch = [touches anyObject];
     currentPoint = [touch locationInView:drawImage];
-    
     [self crtaj];
-    
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
-    
     UITouch *touch = [touches anyObject];
     currentPoint = [touch locationInView:drawImage];
-    
     [self crtaj];
-    
-    
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
     [self brisanje];
 }
+
 - (IBAction)vratiSe:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface motor : UIViewController
-{
+@interface motor : UIViewController {
     UIImageView *stator;
     UIImageView *rotor;
     UIImageView *instrument1;
@@ -31,7 +30,6 @@
     NSTimer * timerR;
     double kutp;
     double pomak;
-    
 }
 
 @end

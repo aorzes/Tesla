@@ -10,12 +10,9 @@
 #import <SpriteKit/SpriteKit.h>
 #import "jajeScene.h"
 
-@interface jajeViewController : UIViewController
-{
+@interface jajeViewController : UIViewController {
     jajeScene *scene;
-    
     __weak IBOutlet UINavigationBar *navBar;
-    
 }
 
 @end

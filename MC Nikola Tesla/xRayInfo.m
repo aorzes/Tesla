@@ -19,8 +19,7 @@
     // Do any additional setup after loading the view.
 }
 
--(void)viewDidAppear:(BOOL)animated{
-   
+- (void)viewDidAppear:(BOOL)animated {
     CGSize velicina = self.view.frame.size;
     
     navBar.frame = CGRectMake(0, 20, self.view.frame.size.width, 44);
@@ -44,8 +43,6 @@
     elektron.image = [UIImage imageNamed:@"elektron"];
     elektron.frame = CGRectMake(tube.center.x+tube.frame.size.width/11, tube.center.y-tube.frame.size.width/15, velicina.width/30, velicina.width/30);
     
-   
-    
     [self.view addSubview:elektron];
     [self startE];
     
@@ -68,10 +65,6 @@
     xReyBeam.animationRepeatCount=0;
     [xReyBeam startAnimating];
     
-    
-
-    
-    
     UITextView *textpolje = [[UITextView alloc]init];
     textpolje.text =@"Roentgen's letter to Tesla dated July 20th, 1901. The letter reads: 'Dear Sir! You have surprised me tremendously with the beautiful photographs of wonderful discharges and I tell you thank you very much for that. If only I knew how you make such things! With the expression of special respect I remain yours devoted, W. C. Roentgen.'";
     [textpolje setFont:[UIFont systemFontOfSize:17]];
@@ -84,30 +77,23 @@
     [self.view bringSubviewToFront:elektron];
 }
 
-
--(void)startE{
-    
+- (void)startE {
     if(!timerE)
     { timerE = [NSTimer scheduledTimerWithTimeInterval:0.02
                                                 target:self
                                               selector:@selector(pucaj)
                                               userInfo:nil
                                                repeats:YES];
-        
     }
-    
-    
 }
 
--(void) pucaj{
-
+- (void)pucaj {
     CGPoint pe = elektron.center;
     pe.x -= 2;
     if (pe.x<tube.center.x-tube.frame.size.width/12) {
         pe.x=tube.center.x+tube.frame.size.width/11;
     }
     elektron.center = pe;
-
 }
 
 - (void)didReceiveMemoryWarning {

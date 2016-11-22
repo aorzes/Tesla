@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface about : UIViewController<UITableViewDataSource, UITableViewDelegate>
-{
+@interface about : UIViewController <UITableViewDataSource, UITableViewDelegate> {
      CGSize velicina;
 
     __weak IBOutlet UINavigationBar *navBar;

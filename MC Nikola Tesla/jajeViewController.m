@@ -15,8 +15,7 @@
 
 @implementation jajeViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
 
     // Configure the view.
@@ -34,36 +33,25 @@
     // Present the scene.
     [skView presentScene:scene];
 }
--(void)viewDidAppear:(BOOL)animated{
+- (void)viewDidAppear:(BOOL)animated {
     CGSize velicina = self.view.frame.size;
     navBar.frame = CGRectMake(0, 20, velicina.width, 44);
-    
 }
 
-
-
-
 - (IBAction)resetiranje:(id)sender {
-    
     [scene obrisiSve];
-   
 }
 
 - (IBAction)vratiSe:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Release any cached data, images, etc that aren't in use.
-    
-    
 }
 
 - (BOOL)prefersStatusBarHidden {
     return YES;
 }
-
 @end

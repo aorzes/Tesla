@@ -9,8 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 
-@interface transmision : UIViewController{
-    
+@interface transmision : UIViewController {
     UIImageView *podloga;
     UIImageView *drawImage;
     UIImageView *stup;
@@ -28,8 +27,6 @@
     AVAudioPlayer *zvuk1;
     double transformToX;
     double transformToY;
-    
 }
-
 
 @end

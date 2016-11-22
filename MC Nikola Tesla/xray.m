@@ -24,8 +24,7 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void)viewDidAppear:(BOOL)animated{
-    
+- (void)viewDidAppear:(BOOL)animated {
     navBar.frame = CGRectMake(0, 20, self.view.frame.size.width, 44);
     tijelo = [[UIImageView alloc] init];
     tijelo.image = [UIImage imageNamed:@"tijelo"];
@@ -36,8 +35,6 @@
     zid.image = [UIImage imageNamed:@"zidXray"];
     zid.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
     [self.view addSubview:zid];
-    
-    
     
     tijelo1 = [[UIImageView alloc] init];
     tijelo1.image = [UIImage imageNamed:@"tijelo1"];
@@ -91,20 +88,16 @@
     [self.view bringSubviewToFront:konzola];
     [self.view bringSubviewToFront:okviric];
     [self.view bringSubviewToFront:navBar];
-    
-    
 }
 
--(IBAction)paneMe:(UIPanGestureRecognizer *)recognizer{
-    
+- (IBAction)paneMe:(UIPanGestureRecognizer *)recognizer {
     CGPoint translation=[recognizer translationInView:self.view];
     recognizer.view.center=CGPointMake(recognizer.view.center.x+translation.x,recognizer.view.center.y+translation.y);
     [recognizer setTranslation:CGPointMake(0, 0) inView:self.view];
     [self prikazi];
 }
 
--(void) prikazi{
-    
+- (void) prikazi {
     CGRect pp = okviric.frame;
     
     if(okviric.frame.origin.x<50) {pp.origin.x = 50; okviric.frame = pp;}
@@ -118,14 +111,12 @@
         pp.origin.x = self.view.frame.size.width-okviric.frame.size.width; okviric.frame = pp;
     }
     
-    
     CGPoint polozaj = CGPointMake((okviric.frame.origin.x-20)* kx, (okviric.frame.origin.y-50)* kx);
     CGImageRef ref = CGImageCreateWithImageInRect(tijelo.image.CGImage, CGRectMake(polozaj.x, polozaj.y, 100*kx, 100*kx));
     komad.image = [UIImage imageWithCGImage:ref];
     okviric.image = [UIImage imageWithCGImage:ref];
     CGImageRelease(ref);
     konzola.frame = CGRectMake(okviric.frame.origin.x + okviric.frame.size.width/2-10, 0, 15, okviric.frame.origin.y);
-    
 }
 
 - (IBAction)vratiSe:(id)sender {

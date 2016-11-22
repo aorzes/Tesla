@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface wireless : UIViewController
-{
+@interface wireless : UIViewController {
     UIImageView *wire1;
     UIImageView *wire2;
     UIImageView *stator;

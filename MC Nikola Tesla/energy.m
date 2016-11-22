@@ -58,8 +58,7 @@
 
 }
 
--(void)viewDidAppear:(BOOL)animated{
-
+- (void)viewDidAppear:(BOOL)animated {
     otvorenVentil = false;
     otvorenaUstava =false;
     kutP = 0;
@@ -227,24 +226,17 @@
     textGen.layer.cornerRadius = 5;
     textGen.clipsToBounds = YES;
     
-    
     textUstav.alpha=0;
     textTurb.alpha=0;
     textGen.alpha=0;
 
-    
     [self.view bringSubviewToFront:navBar];
-    
-    
-    
 }
 
 - (IBAction)infoOnOff:(id)sender {
-    
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration: 0.5];
     if (textGen.alpha==0) {
-    
         textUstav.alpha=1;
         textTurb.alpha=1;
         textGen.alpha=1;
@@ -253,14 +245,11 @@
         textUstav.alpha=0;
         textTurb.alpha=0;
         textGen.alpha=0;
-    
     }
     [UIView commitAnimations];
 }
 
-
--(void) touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    
+- (void) touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     UITouch *touch = [touches anyObject];
     CGPoint currentPoint = [touch locationInView:podloga];
     CGAffineTransform rotate1;
@@ -300,14 +289,12 @@
 
             otvorenVentil = true;
         }
-        
         [UIView beginAnimations:nil context:nil];
         [UIView setAnimationDuration: 2.0];
         [UIView setAnimationDidStopSelector:@selector(myAnimationEnded)];
         [UIView setAnimationDelegate:self];
         [ruckaVentila setTransform:rotate1];
         [UIView commitAnimations];
-        
     }
     if (CGRectContainsPoint(prekidac.frame, currentPoint)){
         CGAffineTransform rotate1 = CGAffineTransformMakeRotation(-3);
@@ -321,9 +308,7 @@
             //mlazG.alpha=0;
             //[mlazG stopAnimating];
             prekidac.image = [UIImage imageNamed:@"teslaSwitch0000"];
-            
-        }else
-        {
+        } else {
             otvorenaUstava = true;
             mlazG.alpha=1;
             mlazG.animationImages=mlazGA;
@@ -341,24 +326,17 @@
         [zupcanik2 setTransform:rotate2];
         [letva setTransform:translate];
         [UIView commitAnimations];
-        
-    
     }
 }
 
--(void) secondAnimationEnded{
-
+- (void)secondAnimationEnded {
     if (!otvorenaUstava) {
         mlazG.alpha=0;
         [mlazG stopAnimating];
     }
-    
-
 }
 
--(void) myAnimationEnded{
-
-    
+- (void)myAnimationEnded {
     if (!otvorenVentil) {
         [turbina stopAnimating];
         [rotor stopAnimating];
@@ -370,14 +348,10 @@
         [osovina2 setTransform:CGAffineTransformMakeRotation(0)];
         [osovina3 setTransform:CGAffineTransformMakeRotation(0)];
         kutP=0;
-        
     }
-   
-
 }
 
--(IBAction)paneMe:(UIPanGestureRecognizer *)recognizer{
-    
+- (IBAction)paneMe:(UIPanGestureRecognizer *)recognizer {
     CGPoint translation=[recognizer translationInView:self.view];
     if ((podloga.frame.origin.x<=0 && translation.x>0) || (podloga.frame.origin.x+podloga.frame.size.width>velicina.width && translation.x<0)) {
         [UIView beginAnimations:nil context:NULL];
@@ -402,39 +376,30 @@
         [UIView commitAnimations];
         
     }
-    
     [recognizer setTranslation:CGPointMake(0, 0) inView:self.view];
-   
 }
 
--(void)startR{
-    
+- (void)startR {
     if(!timerR)
     { timerR = [NSTimer scheduledTimerWithTimeInterval:0.01
                                                 target:self
                                               selector:@selector(rotacija)
                                               userInfo:nil
                                                repeats:YES];
-        
     }
-    
 }
 
-
-
--(void)rotacija{
+- (void)rotacija {
     kutP+=0.1;
     //kazaljke
     [osovina1 setTransform:CGAffineTransformMakeRotation(sin(kutP))];
     [osovina2 setTransform:CGAffineTransformMakeRotation(sin(kutP+2.09))];
     [osovina3 setTransform:CGAffineTransformMakeRotation(sin(kutP+4.18))];
-    
 }
 
 - (IBAction)vratiSe:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

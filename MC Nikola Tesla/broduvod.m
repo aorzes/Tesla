@@ -15,7 +15,7 @@
     // Do any additional setup after loading the view.
 }
 
--(void)viewDidAppear:(BOOL)animated{
+- (void)viewDidAppear:(BOOL)animated {
 
     CGSize velicina = self.view.frame.size;
     

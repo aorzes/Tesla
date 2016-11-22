@@ -13,17 +13,14 @@
 
 @end
 
-@implementation about{
-
+@implementation about {
     NSArray *arrayObjekata;
     NSArray *arraySlika;
     NSMutableArray *arrayBoolova;
-
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     
     [self.tablica registerNib:[UINib nibWithNibName:NSStringFromClass([TableViewCell class]) bundle:nil] forCellReuseIdentifier:NSStringFromClass([TableViewCell class])];
     
@@ -34,27 +31,15 @@
     arraySlika = @[@"jedan", @"dva", @"tri", @"cetiri", @"pet", @"sest", @"sedam", @"osam", @"devet", @"deset", @"jedanaest"];
     
     for (int i = 0; i < arraySlika.count; i++) {
-        
         [arrayBoolova addObject:[NSNumber numberWithBool:NO]];
-        
-        
     }
-
-    
-    
-    
     // Do any additional setup after loading the view.
 }
 
--(void)viewDidAppear:(BOOL)animated{
-
+- (void)viewDidAppear:(BOOL)animated {
     velicina = self.view.frame.size;
     navBar.frame = CGRectMake(0, 20, velicina.width, 44);
-    
     _tablica.frame = CGRectMake(0, 64, velicina.width, velicina.height-70);
-
-
-
 }
 
 - (void)didReceiveMemoryWarning {
@@ -62,56 +47,35 @@
     // Dispose of any resources that can be recreated.
 }
 
--(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return  arrayObjekata.count;
 }
 
--(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     TableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([TableViewCell class]) forIndexPath:indexPath];
     cell.opisSlikeUCeliji.text = arrayObjekata[indexPath.row];
     cell.slikaUCeliji.image = [UIImage imageNamed:[arraySlika objectAtIndex:indexPath.row]];
     return cell;
 }
 
--(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 300;
-
-
-
 }
 
 -(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath{
-
     CATransform3D trans = CATransform3DIdentity;
-
     int i = (int)indexPath.row;
-
     if ([[arrayBoolova objectAtIndex:i]boolValue] == NO) {
-        
         arrayBoolova[i] = @YES;
-        
         trans = CATransform3DTranslate(CATransform3DIdentity, -500, 30, 0);
         cell.layer.transform = trans;
         [UIView animateWithDuration:2 animations:^{
             cell.layer.transform = CATransform3DIdentity;
         }];
-        
     }
 }
-
 
 - (IBAction)vratiSe:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
-
-
-
-
-
-
-
-
-
-
 @end

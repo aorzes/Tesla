@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view.
 }
 
--(void)viewDidAppear:(BOOL)animated{
+- (void)viewDidAppear:(BOOL)animated {
 
     CGSize velicina = self.view.frame.size;
     
@@ -72,17 +72,14 @@
     UIPanGestureRecognizer *panGesture =   [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(paneMe:)];
     [trigonom addGestureRecognizer:panGesture];
     [self.view bringSubviewToFront:stator];
-
-
 }
 
--(IBAction)paneMe:(UIPanGestureRecognizer *)recognizer{
-    
+- (IBAction)paneMe:(UIPanGestureRecognizer *)recognizer {
     CGPoint translation=[recognizer translationInView:self.view];
     recognizer.view.center=CGPointMake(recognizer.view.center.x+translation.x,recognizer.view.center.y+translation.y);
     [recognizer setTranslation:CGPointMake(0, 0) inView:self.view];
-    
 }
+
 - (IBAction)vratiSe:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }

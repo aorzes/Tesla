@@ -9,8 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 
-@interface radio : UIViewController
-{
+@interface radio : UIViewController {
     UIImageView *radioAB;
     CGSize velicina;
     
@@ -25,8 +24,6 @@
     __weak IBOutlet UIButton *tipUkljuci2;
     AVPlayerItem *radioItem;
     AVPlayer *radioPlayer;
-    
 }
-
 
 @end

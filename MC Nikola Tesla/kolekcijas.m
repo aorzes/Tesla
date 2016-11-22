@@ -12,13 +12,12 @@
 
 @implementation kolekcijas
 
--(void)ucitajsve{
+- (void)ucitajsve {
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     pokupio=[userDefaults objectForKey:@"pokupio"];
-   
 }
 
--(void)didMoveToView:(SKView *)view {
+- (void)didMoveToView:(SKView *)view {
     [self ucitajsve];
     NSLog(@"%@",pokupio);
     povecaninode=nil;
@@ -79,17 +78,13 @@
                 shadow.zPosition=1;
                 shadow.alpha = 0.5;
                 [podloga addChild:shadow];
-                
             }
-        
             n++;
         }
     }
-    
-    
 }
 
--(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     /* Called when a touch begins */
     if (povecaninode!=nil) {
         return;
@@ -110,8 +105,7 @@
     }
 }
 
--(void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     if (povecaninode!=nil) {
         [povecaninode removeAllActions];
         povecaninode.zPosition=2;
@@ -122,8 +116,7 @@
 }
 
 
-- (void) handleSwipes: (UISwipeGestureRecognizer *)sender
-{
+- (void) handleSwipes: (UISwipeGestureRecognizer *)sender {
     if (sender.direction == UISwipeGestureRecognizerDirectionDown && podloga.position.y>0)
     {
         CGFloat moveUp = -100.0f;
@@ -143,7 +136,4 @@
     }
 
 }
-
-
-
 @end

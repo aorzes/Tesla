@@ -989,6 +989,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC3085981DE4C05E00E4519D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC5C62421C56B02B00608AEC /* boat.h */,
+				EC5C62431C56B02B00608AEC /* boat.m */,
+				EC0A5CFC1CAEE16B002147BF /* broduvod.h */,
+				EC0A5CFD1CAEE16B002147BF /* broduvod.m */,
+				EC0A5CFF1CAEFA04002147BF /* brodVozi.h */,
+				EC0A5D001CAEFA04002147BF /* brodVozi.m */,
+				EC5C62361C56ADFA00608AEC /* bio.h */,
+				EC5C62371C56ADFA00608AEC /* bio.m */,
+				EC5C624B1C56B11700608AEC /* about.h */,
+				EC5C624C1C56B11700608AEC /* about.m */,
+				EC4114951CDE291600C4836A /* Lighting.h */,
+				EC4114961CDE291600C4836A /* Lighting.m */,
+				EC5C62451C56B05C00608AEC /* coil.h */,
+				EC5C62461C56B05C00608AEC /* coil.m */,
+				EC5C62631C56B31500608AEC /* elPipe.h */,
+				EC5C62641C56B31500608AEC /* elPipe.m */,
+				EC5C62391C56AE5F00608AEC /* energy.h */,
+				EC5C623A1C56AE5F00608AEC /* energy.m */,
+				EC5C62511C56B1A700608AEC /* Faradey.h */,
+				EC5C62521C56B1A700608AEC /* Faradey.m */,
+				EC5C624E1C56B15200608AEC /* findus.h */,
+				EC5C624F1C56B15200608AEC /* findus.m */,
+				EC5558BD1CC0C39C0066329F /* jajeViewController.h */,
+				EC5558BE1CC0C39C0066329F /* jajeViewController.m */,
+				EC5C62571C56B20600608AEC /* jaje.h */,
+				EC5C62581C56B20600608AEC /* jaje.m */,
+				EC4ECFF01CA4078D00D532EB /* elCircuit.h */,
+				EC4ECFEE1CA4077800D532EB /* elCircuit.m */,
+				EC5C623C1C56AF8C00608AEC /* motor.h */,
+				EC5C623D1C56AF8C00608AEC /* motor.m */,
+				EC5FDC041C7E300200AAD01C /* motorInfo.h */,
+				EC5FDC051C7E300200AAD01C /* motorInfo.m */,
+				EC5C625D1C56B25800608AEC /* radio.h */,
+				EC5C625E1C56B25800608AEC /* radio.m */,
+				EC5C62251C567FC400608AEC /* ViewController.h */,
+				EC5C62261C567FC400608AEC /* ViewController.m */,
+				EC5C62481C56B09000608AEC /* transmision.h */,
+				EC5C62491C56B09000608AEC /* transmision.m */,
+				EC5C623F1C56AFFC00608AEC /* wireless.h */,
+				EC5C62401C56AFFC00608AEC /* wireless.m */,
+				EC5C62541C56B1D000608AEC /* xray.h */,
+				EC5C62551C56B1D000608AEC /* xray.m */,
+				ECF6EDFA1C7307F70070C7D2 /* xRayInfo.h */,
+				ECF6EDFB1C7307F70070C7D2 /* xRayInfo.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AC3085991DE4C09E00E4519D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EC0A5D021CAEFBB9002147BF /* scenaBrod.h */,
+				EC0A5D031CAEFBB9002147BF /* scenaBrod.m */,
+				EC0A5D051CAEFCA7002147BF /* kolekcijas.h */,
+				EC0A5D061CAEFCA7002147BF /* kolekcijas.m */,
+				EC5558C01CC0C42D0066329F /* jajeScene.h */,
+				EC5558C11CC0C42D0066329F /* jajeScene.m */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		AC30859A1DE4C14200E4519D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ACE8A8821C7BAA0900EC9A83 /* TableViewCell.h */,
+				ACE8A8831C7BAA0900EC9A83 /* TableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		AC30859B1DE4C17F00E4519D /* SKS files */ = {
+			isa = PBXGroup;
+			children = (
+				EC0A5D0A1CAF04EA002147BF /* MyScene.sks */,
+			);
+			name = "SKS files";
+			sourceTree = "<group>";
+		};
 		EC0A5D0C1CAF0FEC002147BF /* brodSlike */ = {
 			isa = PBXGroup;
 			children = (
@@ -1433,8 +1514,6 @@
 				EC0A5D081CAF03B2002147BF /* SpriteKit.framework */,
 				AC6E8ABE1C6BA45E0034219D /* CoreLocation.framework */,
 				AC6E8ABC1C6B947D0034219D /* MapKit.framework */,
-				EC5C62771C581F6B00608AEC /* slike */,
-				EC5C626A1C57F44D00608AEC /* webStranice */,
 				EC5C621E1C567FC400608AEC /* MC Nikola Tesla */,
 				EC5C621F1C567FC400608AEC /* Supporting Files */,
 				EC5C621D1C567FC400608AEC /* Products */,
@@ -1452,67 +1531,20 @@
 		EC5C621E1C567FC400608AEC /* MC Nikola Tesla */ = {
 			isa = PBXGroup;
 			children = (
-				EC5C622B1C567FC400608AEC /* Assets.xcassets */,
 				EC5C62221C567FC400608AEC /* AppDelegate.h */,
 				EC5C62231C567FC400608AEC /* AppDelegate.m */,
-				EC4114951CDE291600C4836A /* Lighting.h */,
-				EC4114961CDE291600C4836A /* Lighting.m */,
-				EC5C624B1C56B11700608AEC /* about.h */,
-				EC5C624C1C56B11700608AEC /* about.m */,
-				EC5C62361C56ADFA00608AEC /* bio.h */,
-				EC5C62371C56ADFA00608AEC /* bio.m */,
-				EC0A5D051CAEFCA7002147BF /* kolekcijas.h */,
-				EC0A5D061CAEFCA7002147BF /* kolekcijas.m */,
-				EC0A5D021CAEFBB9002147BF /* scenaBrod.h */,
-				EC0A5D031CAEFBB9002147BF /* scenaBrod.m */,
-				EC0A5CFF1CAEFA04002147BF /* brodVozi.h */,
-				EC0A5D001CAEFA04002147BF /* brodVozi.m */,
-				EC0A5D0A1CAF04EA002147BF /* MyScene.sks */,
-				EC0A5CFC1CAEE16B002147BF /* broduvod.h */,
-				EC0A5CFD1CAEE16B002147BF /* broduvod.m */,
-				EC5C62421C56B02B00608AEC /* boat.h */,
-				EC5C62431C56B02B00608AEC /* boat.m */,
-				EC5C62451C56B05C00608AEC /* coil.h */,
-				EC5C62461C56B05C00608AEC /* coil.m */,
-				EC5C62631C56B31500608AEC /* elPipe.h */,
-				EC5C62641C56B31500608AEC /* elPipe.m */,
-				EC5C62391C56AE5F00608AEC /* energy.h */,
-				EC5C623A1C56AE5F00608AEC /* energy.m */,
-				EC5C62511C56B1A700608AEC /* Faradey.h */,
-				EC5C62521C56B1A700608AEC /* Faradey.m */,
-				EC5C624E1C56B15200608AEC /* findus.h */,
-				EC5C624F1C56B15200608AEC /* findus.m */,
-				EC5558C01CC0C42D0066329F /* jajeScene.h */,
-				EC5558C11CC0C42D0066329F /* jajeScene.m */,
-				EC5558BD1CC0C39C0066329F /* jajeViewController.h */,
-				EC5558BE1CC0C39C0066329F /* jajeViewController.m */,
-				EC5C62571C56B20600608AEC /* jaje.h */,
-				EC5C62581C56B20600608AEC /* jaje.m */,
-				EC4ECFF01CA4078D00D532EB /* elCircuit.h */,
-				EC4ECFEE1CA4077800D532EB /* elCircuit.m */,
+				EC5C62281C567FC400608AEC /* Main.storyboard */,
+				AC3085981DE4C05E00E4519D /* ViewControllers */,
+				AC3085991DE4C09E00E4519D /* Scenes */,
+				AC30859B1DE4C17F00E4519D /* SKS files */,
 				ACA4DA391C6E67A80017C18B /* MapAnnotations.h */,
 				ACA4DA3A1C6E67A80017C18B /* MapAnnotations.m */,
-				EC5C623C1C56AF8C00608AEC /* motor.h */,
-				EC5C623D1C56AF8C00608AEC /* motor.m */,
-				EC5FDC041C7E300200AAD01C /* motorInfo.h */,
-				EC5FDC051C7E300200AAD01C /* motorInfo.m */,
-				EC5C625D1C56B25800608AEC /* radio.h */,
-				EC5C625E1C56B25800608AEC /* radio.m */,
-				ACE8A8821C7BAA0900EC9A83 /* TableViewCell.h */,
-				ACE8A8831C7BAA0900EC9A83 /* TableViewCell.m */,
+				AC30859A1DE4C14200E4519D /* Cells */,
+				EC5C62771C581F6B00608AEC /* slike */,
+				EC5C626A1C57F44D00608AEC /* webStranice */,
+				EC5C622B1C567FC400608AEC /* Assets.xcassets */,
 				ACE8A8841C7BAA0900EC9A83 /* TableViewCell.xib */,
-				EC5C62481C56B09000608AEC /* transmision.h */,
-				EC5C62491C56B09000608AEC /* transmision.m */,
-				EC5C62251C567FC400608AEC /* ViewController.h */,
-				EC5C62261C567FC400608AEC /* ViewController.m */,
-				EC5C623F1C56AFFC00608AEC /* wireless.h */,
-				EC5C62401C56AFFC00608AEC /* wireless.m */,
-				EC5C62541C56B1D000608AEC /* xray.h */,
-				EC5C62551C56B1D000608AEC /* xray.m */,
-				ECF6EDFA1C7307F70070C7D2 /* xRayInfo.h */,
-				ECF6EDFB1C7307F70070C7D2 /* xRayInfo.m */,
 				EC5C622D1C567FC400608AEC /* LaunchScreen.storyboard */,
-				EC5C62281C567FC400608AEC /* Main.storyboard */,
 			);
 			path = "MC Nikola Tesla";
 			sourceTree = "<group>";
@@ -1549,7 +1581,6 @@
 				EC5FDC111C7E616400AAD01C /* teslaSwitch0000.png */,
 			);
 			name = webStranice;
-			path = "MC Nikola Tesla";
 			sourceTree = "<group>";
 		};
 		EC5C62771C581F6B00608AEC /* slike */ = {
@@ -1579,6 +1610,7 @@
 				EC5C62781C581F7900608AEC /* ikone */,
 			);
 			name = slike;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		EC5C62781C581F7900608AEC /* ikone */ = {

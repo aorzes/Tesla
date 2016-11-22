@@ -55,7 +55,8 @@
     [zvuk1 prepareToPlay];
     
 }
--(void)viewDidAppear:(BOOL)animated{
+
+- (void)viewDidAppear:(BOOL)animated {
     // djecak je 2 zemlja je 3, coil 4, cage 5
     velicina = self.view.frame.size;
     
@@ -124,7 +125,6 @@
         
     }];
     
-    
     djecak = [[UIImageView alloc]init];
     djecak.image = [UIImage imageNamed:@"stop1"];
     djecak.tag = 2;
@@ -175,10 +175,9 @@
     UIImage *image = [UIImage imageNamed:@"cage2"];
     [defaultAction setValue:image forKey:@"image"];
     [self presentViewController:alert animated:YES completion:nil];
-    
 }
 
--(IBAction)paneMe:(UIPanGestureRecognizer *)recognizer{
+- (IBAction)paneMe:(UIPanGestureRecognizer *)recognizer {
     if (mrtav) {
         return;
     }
@@ -188,19 +187,14 @@
             strelica.transform = CGAffineTransformMakeRotation(-M_PI_2);
             if (!mrtav) {
                 [self startZ];
-                
             }
-        }
-        else
-        {
+        } else {
             strelica.transform = CGAffineTransformMakeRotation(M_PI_2);
             [timerZ invalidate];
             timerZ=nil;
             [self stoj];
         }
-    }
-    else
-    {
+    } else {
         if (translation.y>0) {
             [timerZ invalidate];
             timerZ=nil;
@@ -216,9 +210,7 @@
             [self.view bringSubviewToFront:cage];
             
             
-        }
-        else
-        {
+        } else {
             strelica.transform = CGAffineTransformMakeRotation(M_PI);
             [timerZ invalidate];
             timerZ=nil;
@@ -232,8 +224,6 @@
             [self.view bringSubviewToFront:cage];
         }
     }
-    
-    
 }
 
 - (IBAction)ponovoPokreni:(id)sender {
@@ -259,12 +249,9 @@
     tcoil.frame = CGRectMake(velicina.width-velicina.width/6, polozajZemlje-visinaCoila, velicina.width/4, visinaCoila );
     [self startT];
     [self startB];
-    
 }
 
-
--(void)startB{
-    
+- (void)startB {
     if(!timerB)
     {
         timerB = [NSTimer scheduledTimerWithTimeInterval:0.01
@@ -276,8 +263,7 @@
 }
 
 
--(void)startZ{
-    
+- (void)startZ {
     if(!timerZ)
     {
         timerZ = [NSTimer scheduledTimerWithTimeInterval:0.05
@@ -289,18 +275,15 @@
     }
 }
 
--(void)napraviMunju{
+- (void)napraviMunju {
     //CGPoint currentPoint = CGPointMake(arc4random()%(int)velicina.width, velicina.height-50);
     CGPoint currentPoint = tocka;
     double alp = atan2(currentPoint.y-(tcoil.center.y-tcoil.frame.size.height/2.5), currentPoint.x-tcoil.center.x);
     double duz = hypotf(currentPoint.x-tcoil.center.x, currentPoint.y-(tcoil.center.y-tcoil.frame.size.height/2.5));
     [self cMunju:alp duzina:duz kraj:currentPoint];
-    
-    
 }
 
--(void)brisiMunju{
-    
+- (void)brisiMunju {
     int n=0;
     for(UIImageView *tempImage in self.view.subviews){
         if(tempImage.tag==7){
@@ -309,13 +292,9 @@
             if(n>1)break;
         }
     }
-    
-    
-    
 }
 
--(void)cMunju:(double)kut duzina:(double)duzina kraj:(CGPoint)kraj{
-    
+- (void)cMunju:(double)kut duzina:(double)duzina kraj:(CGPoint)kraj {
     //da=(double)(arc4random()%10)/10;
     da=0.1;
     pda=-1;
@@ -350,10 +329,7 @@
             djecak.center = CGPointMake(djecak.center.x, polozajZemlje);
             djecak.transform = CGAffineTransformMakeRotation(-M_PI_2);
             djecak.center = CGPointMake(velicina.width/6, polozajZemlje-velicina.width/12);
-            
             [UIView commitAnimations];
-            
-            
         }
         oldx =xx;
         oldy =yy;
@@ -363,16 +339,12 @@
         if(i>15) a=kut;
         da=sluc * pda;
         pda*=-1;
-        
     }
-    
     [self nacrtajCrtu:CGPointMake(oldx, oldy) dotocke:CGPointMake(kraj.x, kraj.y) debljina:1];
     [zvuk1 play];
-    
-    
 }
 
--(void)myAnimationEnded{
+- (void)myAnimationEnded {
     [djecak  removeFromSuperview];
     djecak = [[UIImageView alloc]init];
     djecak.image = [UIImage imageNamed:@"boyDead"];
@@ -400,13 +372,9 @@
     
     [alert addAction:defaultAction];
     [self presentViewController:alert animated:YES completion:nil];
-    
-    
-    
 }
 
--(void)nacrtajCrtu:(CGPoint)tockaOd dotocke:(CGPoint)tockaDo debljina:(double)debljina{
-    
+- (void)nacrtajCrtu:(CGPoint)tockaOd dotocke:(CGPoint)tockaDo debljina:(double)debljina {
     UIGraphicsBeginImageContext(velicina);
     
     CGRect myImageRect = CGRectMake(0, 0, velicina.width, velicina.height);//NAPRAVI kvadrat za sliku
@@ -438,7 +406,7 @@
 }
 
 
--(void)napraviZemlju{
+- (void)napraviZemlju {
     CGPoint polozajZ=CGPointMake(0, polozajZemlje);
     while (polozajZ.x<velicina.width+velicina.width/7) {
         UIImageView *komadZemlje=[[UIImageView alloc]init];
@@ -448,13 +416,9 @@
         [self.view addSubview:komadZemlje];
         polozajZ.x+=velicina.width/7;
     }
-    
 }
-
-
 //tajmer micanja tocke udara munje
--(void)startT{
-    
+- (void)startT {
     if(!timerT)
     {
         timerT = [NSTimer scheduledTimerWithTimeInterval:0.7
@@ -462,22 +426,19 @@
                                                 selector:@selector(miciTocku)
                                                 userInfo:nil
                                                  repeats:YES];
-        
     }
 }
 
--(void)miciTocku{
+- (void)miciTocku {
     b+=0.4;
     tocka.x = sin(b)*velicina.width+tcoil.center.x;
     //tocka.y = sin(a)*velicina.width/1.2+tcoil.center.y-tcoil.frame.size.height/2.5;
     tocka.y = polozajZemlje-velicina.width/6;
     poluga.center = tocka;
-    
     [self napraviMunju];
 }
 
--(void)miciZemlju{
-    
+- (void)miciZemlju {
     if (mrtav) {
         //[djecak.layer removeAllAnimations];
         [timerZ invalidate];
@@ -503,7 +464,6 @@
     }
     planine2.frame=ppl;
     
-    
     for(UIImageView *tempImage in self.view.subviews){
         //micanje zemlje
         if (tempImage.tag==3) {
@@ -523,31 +483,25 @@
             }
             tempImage.frame = pp;
             ukavezu =  CGRectContainsPoint(cage.frame, djecak.center);
-            
         }
-        
     }
-    
 }
 
--(void)hodaj{
+- (void)hodaj {
     [djecak.layer removeAllAnimations];
     if (stoji) {
         djecak.animationImages=trciS;
         djecak.animationDuration=0.60;
-    }
-    else
-    {
+    } else {
         djecak.animationImages=puziS;
         djecak.animationDuration=1.0;
     }
     
     djecak.animationRepeatCount=0;
     [djecak startAnimating];
-    
 }
 
--(void)stoj{
+- (void)stoj {
     [djecak.layer removeAllAnimations];
     if (mrtav) {
         return;
@@ -557,14 +511,11 @@
         djecak.animationDuration=1.50;
         djecak.animationRepeatCount=0;
         [djecak startAnimating];
-    }
-    else
-    {
+    } else {
         djecak.image = [UIImage imageNamed:@"crawling3"];
         djecak.frame = CGRectMake(velicina.width/8, polozajZemlje-velicina.width/6, velicina.width/3, velicina.width/6);
         djecak.center = CGPointMake(velicina.width/7, polozajZemlje-velicina.width/12);
     }
-  
 }
 
 - (IBAction)vratiSe:(id)sender {
@@ -575,6 +526,5 @@
     
     [self dismissViewControllerAnimated:YES completion:nil];
 }
-
 
 @end

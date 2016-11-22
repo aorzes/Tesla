@@ -11,12 +11,15 @@
 @implementation TableViewCell
 
 - (void)awakeFromNib {
+    [super awakeFromNib];
     // Initialization code
 }
+
 - (void)layoutSubviews {
     [super layoutSubviews];
     self.slikaUCeliji.frame = CGRectMake(10,10,32,32);
 }
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 

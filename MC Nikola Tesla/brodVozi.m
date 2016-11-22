@@ -37,18 +37,15 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
--(void)viewDidAppear:(BOOL)animated{
+- (void)viewDidAppear:(BOOL)animated {
     
     CGSize velicina = self.view.frame.size;
     
     navBar.frame = CGRectMake(0, 20, velicina.width, 44);
-    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-   
-
 }
 
 /*

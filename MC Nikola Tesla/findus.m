@@ -15,10 +15,7 @@
 @end
 
 @implementation findus {
-
     CLLocationManager *locationManager;
-
-
 }
 
 @synthesize mapView = _mapView;
@@ -45,16 +42,11 @@
     ann.subtitle = @"Smiljan";
     ann.coordinate = region.center;
     [_mapView addAnnotation:ann];
-    
-    
-    
-    
     // Do any additional setup after loading the view.
     mapView.delegate = self;
 }
 
--(void)viewDidAppear:(BOOL)animated{
-
+- (void)viewDidAppear:(BOOL)animated {
     velicina = self.view.frame.size;
     
     [UIView beginAnimations:nil context:NULL];
@@ -66,19 +58,16 @@
     [UIView commitAnimations];
 
 }
+
 - (IBAction)vratiSe:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
    
 }
-
-
-
 /*
 #pragma mark - Navigation
 
@@ -88,11 +77,9 @@
     // Pass the selected object to the new view controller.
 }
 */
--(IBAction)setmap:(id)sender{
-
+- (IBAction)setmap:(id)sender {
     //NSLog(@"%ld", (long)((UISegmentedControl *)sender).selectedSegmentIndex);
     switch (((UISegmentedControl *) sender).selectedSegmentIndex) {
-        
         case 0:
             _mapView.mapType = MKMapTypeStandard;
             break;
@@ -108,23 +95,17 @@
         default:
             break;
     }
-
 }
--(IBAction)locationRetrieve:(id)sender{
-    
+
+- (IBAction)locationRetrieve:(id)sender {
     NSLog(@"radi");
    // [self uzmiLokaciju];
     _mapView.showsUserLocation = YES;
-   
-
 }
--(IBAction)directions:(id)sender{
 
+- (IBAction)directions:(id)sender {
 NSString *url = @"https://maps.apple.com/?daddr=44.560335,15.307954";
     [[UIApplication sharedApplication]openURL:[NSURL URLWithString:url]];
-
-
-
 }
 
 @end

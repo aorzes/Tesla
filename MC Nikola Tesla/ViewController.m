@@ -20,8 +20,8 @@
     //_skrol.frame = CGRectMake(10, self.view.frame.size.height-50, self.view.frame.size.width-20,self.view.frame.size.height-100 );
     
 }
--(void)viewDidAppear:(BOOL)animated
-{
+
+- (void)viewDidAppear:(BOOL)animated {
    _skrol.contentSize = CGSizeMake(self.view.frame.size.width-50,self.view.frame.size.height*1.5);
     
     pomakP = -0.2;
@@ -111,13 +111,13 @@
     baneaAd.frame = CGRectMake(0, self.view.frame.size.height-51, self.view.frame.size.width, 50);
 
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
--(void)startP{
-    
+- (void)startP {
     if(!timerP)
     { timerP = [NSTimer scheduledTimerWithTimeInterval:0.05
                                                 target:self
@@ -126,21 +126,16 @@
                                                repeats:YES];
         
     }
-    
-    
 }
 
--(void)miciPodlogu{
-
+- (void)miciPodlogu {
     CGRect pp= podloga.frame;
     pp.origin.x+=pomakP;
     if ((pp.origin.x+podloga.frame.size.width)<velicina.width || pp.origin.x>0) {
         pomakP*=-1;
         pp.origin.x+=pomakP;
     }
-    
     podloga.frame = pp;
-
 }
 
 - (IBAction)ShareButton:(UIBarButtonItem *)sender {
@@ -163,37 +158,25 @@
     activityVC.excludedActivityTypes = excludeActivities;
     
     [self presentViewController:activityVC animated:YES completion:nil];
-    
-    
 }
 
 #pragma mark iAd Delegate Methods
 
-
--(void)bannerViewDidLoadAd:(ADBannerView *)banner{
-    
+- (void)bannerViewDidLoadAd:(ADBannerView *)banner {
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration:1];
     [banner setAlpha:1];
     [UIView commitAnimations];
-    
 }
 
-
-
-
--(void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error {
-    
+- (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error {
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration:1];
     [banner setAlpha:0];
     [UIView commitAnimations];
-    
 }
 
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 @end

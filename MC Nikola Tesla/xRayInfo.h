@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface xRayInfo : UIViewController
-{
+@interface xRayInfo : UIViewController {
     UIImageView *tube;
     UIImageView *elektron;
     UIImageView *xReyBeam;

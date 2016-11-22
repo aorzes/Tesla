@@ -12,22 +12,19 @@
 
 @implementation scenaBrod
 
--(void)spremisve{
+- (void)spremisve {
     
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     [userDefaults setObject:pokupio forKey:@"pokupio"];
     [userDefaults synchronize];
 }
 
--(void)ucitajsve{
+- (void)ucitajsve {
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     pokupio=[userDefaults objectForKey:@"pokupio"];
-    
 }
 
-
--(void)didMoveToView:(SKView *)view {
-    
+- (void)didMoveToView:(SKView *)view {
     NSURL *Zvuk = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"zPada" ofType:@"mp3"]];
     zvuk1 = [[AVAudioPlayer alloc]initWithContentsOfURL:Zvuk error:nil];
     [zvuk1 setVolume: 1];
@@ -136,7 +133,6 @@
     zelenatipka.zPosition = 4;
     [self addChild:zelenatipka];
 
-    
     SKSpriteNode *tipka5 = [SKSpriteNode spriteNodeWithImageNamed:@"collection"];
     tipka5.position = CGPointMake(tipka4.position.x+dimenzijeTipke+10, 50);
     tipka5.size = CGSizeMake(dimenzijeTipke, dimenzijeTipke/1.2);
@@ -171,17 +167,12 @@
         [otok addChild:mlabela];
         
         r+= otok.size.width/2;
-        
     }
-   
-  
     [self startK];
     [self startM];
 }
 
-
--(void)startK{
-    
+- (void)startK {
     if(!timerK)
     { timerK = [NSTimer scheduledTimerWithTimeInterval:0.02
                                                  target:self
@@ -190,32 +181,23 @@
                                                 repeats:YES];
         
     }
-    
 }
 
--(void)startM{
-    
+- (void)startM {
     if(!timerM)
     { timerM = [NSTimer scheduledTimerWithTimeInterval:0.1
                                                 target:self
                                               selector:@selector(ljuljaj)
                                               userInfo:nil
                                                repeats:YES];
-        
     }
-    
 }
--(void)ljuljaj{
-
+- (void)ljuljaj {
     ma+=0.1;
     more.position=CGPointMake(self.size.width/2, self.size.height/2+sin(ma)*10);
-
-
-
 }
 
--(void)kretanje{
-
+- (void)kretanje {
     kutBroda-=kutkormila*brzina/50;
     brod.zRotation=kutBroda;
     labela.text= [NSString stringWithFormat:@"%.3f",brzina];
@@ -252,15 +234,8 @@
                 }
                 pokupio = [pokupio stringByReplacingCharactersInRange:range withString:@"1"];
             }
-            
-            
-            
-            
-           
         }
-
     }
-    
     //ostavi trag
 
     CGPoint mjesto1 = [svijet convertPoint:propeler.position fromNode:brod];
@@ -289,18 +264,16 @@
             [[tragovi objectAtIndex:0] removeFromParent];
             [tragovi removeObjectAtIndex:0];
         }
-    }else{
+    } else {
         for (double i=0; i<tragovi.count; i++) {
             [[tragovi objectAtIndex:i] setAlpha:i/(tragovi.count*3)];
             [[tragovi objectAtIndex:i] setSize:CGSizeMake(i/tragovi.count*brod.size.width, i/tragovi.count*brod.size.width)];
             //[[tragovi objectAtIndex:i] setSize:CGSizeMake(tragovi.count-i+20, tragovi.count-i+20)];
         }
     }
-    
 }
 
--(void)baciInstrument:(CGPoint)otokP brod:(CGPoint)brodP {
-
+- (void)baciInstrument:(CGPoint)otokP brod:(CGPoint)brodP {
     SKSpriteNode *instrument = [SKSpriteNode spriteNodeWithImageNamed:@"instrumentt1"];
     instrument.position = otokP;
     instrument.size = CGSizeMake(30, 30);
@@ -319,7 +292,7 @@
     [self spremisve];
 }
 
--(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     /* Called when a touch begins */
    
     for (UITouch *touch in touches) {
@@ -370,19 +343,13 @@
             kolekcijaScene.scaleMode = SKSceneScaleModeAspectFill;
             SKTransition *tranzicija = [SKTransition pushWithDirection:SKTransitionDirectionDown duration:0.4];
             [self.view presentScene:kolekcijaScene transition:tranzicija];
-            
         }
-
     }
 }
 
--(void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     zutatipka1.texture = [SKTexture textureWithImageNamed:@"zutaTipka"];
     zutatipka2.texture = [SKTexture textureWithImageNamed:@"zutaTipka"];
     zelenatipka.texture = [SKTexture textureWithImageNamed:@"zelenaTipka"];
 }
-
-
-
 @end

@@ -14,19 +14,16 @@
 
 @implementation transmision
 
--(void)spremisve{
-    
+- (void)spremisve {
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     [userDefaults setInteger:brojPrelaza forKey:@"dalekovod"];
     [userDefaults synchronize];
 }
 
--(void)ucitajsve{
+- (void)ucitajsve {
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     brojPrelaza=[userDefaults integerForKey:@"dalekovod"];
-    
 }
-
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -44,8 +41,7 @@
     [zvuk1 prepareToPlay];
 }
 
--(void)viewDidAppear:(BOOL)animated{
-    
+- (void)viewDidAppear:(BOOL)animated {
     podloga =[[UIImageView alloc]init];
     podloga.image =[UIImage imageNamed:@"mapa"];
     podloga.frame = CGRectMake(0,0, 3000, 3000);
@@ -104,9 +100,6 @@
         }
     }
     
-    
-    
-    
     drawImage =[[UIImageView alloc]init];
     drawImage.frame=CGRectMake(0, 0, podloga.frame.size.width, podloga.frame.size.height);
     [podloga addSubview:drawImage];
@@ -144,8 +137,7 @@
     [self presentViewController:alert animated:YES completion:nil];
 }
 
--(void)odrediBrojKuca{
-
+- (void)odrediBrojKuca {
     switch (brojPrelaza) {
         case 0:
         {
@@ -193,9 +185,8 @@
  
             break;
     }
-
 }
--(void)uspjeh{
+- (void)uspjeh {
     brojPrelaza++;
     [self prikaziMapu2];
     [self spremisve];
@@ -231,13 +222,12 @@
     
 }
 
--(void)neuspjeh{
+- (void)neuspjeh {
     [self prikaziMapu2];
     NSString *msg=[NSString stringWithFormat:@"You have no more towers\nConnected:%d tower:%d",brk,stu];
     UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Fall"
                                                                    message:msg
                                                             preferredStyle:UIAlertControllerStyleAlert];
-    
     
     UIAlertAction* ok = [UIAlertAction
                          actionWithTitle:@"New"
@@ -262,11 +252,9 @@
     [alert addAction:ok];
     [alert addAction:cancel];
     [self presentViewController:alert animated:YES completion:nil];
-    
 }
 
--(void)ponovoPokreni{
-    
+- (void)ponovoPokreni {
     [malamapa removeFromSuperview];
     [drawImage removeFromSuperview];
     drawImage =[[UIImageView alloc]init];
@@ -326,7 +314,6 @@
     [self.view bringSubviewToFront:labela];
     labela.text = [NSString stringWithFormat:@"Connected:%d/%d with:%d tower",brk,maxbrojKuca,stu];
     podloga.center=CGPointMake(1500, 1500);
-    
 }
 
 - (IBAction)prMapu:(id)sender {
@@ -337,52 +324,38 @@
 }
 
 -(void)startT{
-    
     if(!timer)
     { timer = [NSTimer scheduledTimerWithTimeInterval:2.0
                                                target:self
                                              selector:@selector(makniMapu)
                                              userInfo:nil
                                               repeats:NO];
-        
     }
-    
-    
 }
 
--(void)makniMapu{
-    
+- (void)makniMapu {
     [malamapa removeFromSuperview];
     [timer invalidate];
     timer=nil;
-    
 }
 
--(void)prikaziMapu2{
-    
+- (void)prikaziMapu2 {
     [UIView animateWithDuration:2 animations:^{
         podloga.transform = CGAffineTransformScale(podloga.transform, transformToX, transformToY);
         podloga.frame = CGRectMake(0, 0, podloga.frame.size.width, podloga.frame.size.height);
     }];
-    
-    
 }
 
-
--(void)makniMapu2{
-    
+- (void)makniMapu2 {
     [UIView animateWithDuration:2 animations:^{
         podloga.transform = CGAffineTransformScale(podloga.transform, 1/transformToX, 1/transformToY);
         podloga.frame = CGRectMake(0, 0, podloga.frame.size.width, podloga.frame.size.height);
     }];
     [timer invalidate];
     timer=nil;
-    
 }
 
-
--(void)prikaziMapu{
-    
+- (void)prikaziMapu {
     malamapa= [[UIImageView alloc]init];
     //malamapa.backgroundColor=[UIColor lightGrayColor];
     malamapa.image =[UIImage imageNamed:@"mapa"];
@@ -403,28 +376,21 @@
             kuc.frame = CGRectMake(kucica.center.x*propx, kucica.center.y*propy, 5, 5);
             [malamapa addSubview:kuc];
         }
-        
     }
-    
 }
 
-
-
--(bool)imaLiNatomMjestu:(CGPoint)toMjesto{
-
+- (bool)imaLiNatomMjestu:(CGPoint)toMjesto {
     bool ima=false;
     for (UIView *kucica in podloga.subviews) {
         if (kucica.tag==2 && hypotf(kucica.center.x-toMjesto.x, kucica.center.y-toMjesto.y)<100) {
             ima=true;
             break;
         }
-    
     }
     return ima;
 }
 
--(void)skrolaj:(UIPanGestureRecognizer *)recognizer{
-    
+- (void)skrolaj:(UIPanGestureRecognizer *)recognizer {
     CGPoint translation=[recognizer translationInView:self.view];
     podloga.center=CGPointMake(podloga.center.x+translation.x,podloga.center.y+translation.y);
     CGPoint pp=podloga.center;
@@ -441,17 +407,11 @@
     if (podloga.center.y+1500<self.view.frame.size.height) {
         pp.y=self.view.frame.size.height-1500;
     }
-    
-   
     podloga.center=pp;
-    
-    
     [recognizer setTranslation:CGPointMake(0, 0) inView:self.view];
-    
 }
 
--(void)crtajZice:(CGPoint)pocetak kraj:(CGPoint)kraj{
-    
+- (void)crtajZice:(CGPoint)pocetak kraj:(CGPoint)kraj {
     UIGraphicsBeginImageContext(podloga.frame.size);
     [drawImage.image drawInRect:drawImage.frame];
     CGContextSetRGBStrokeColor(UIGraphicsGetCurrentContext(), 0, 0, 0, 1);
@@ -465,11 +425,9 @@
     CGContextStrokePath(UIGraphicsGetCurrentContext());
     drawImage.image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
-    
-    
 }
 
--(void)napraviStup:(CGPoint)polozaj{
+- (void)napraviStup:(CGPoint)polozaj {
     zeleniKrug.center=polozaj;
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration: 1.0];
@@ -478,7 +436,6 @@
     zeleniKrug.transform = CGAffineTransformScale(zeleniKrug.transform, 15, 15);
     zeleniKrug.alpha=0.5;
     [UIView commitAnimations];
-    
     
     double d=hypotf(prethodni.x-polozaj.x, prethodni.y -polozaj.y);
     if (d>300 && !prvi) {
@@ -517,30 +474,24 @@
     }else if (brk>=maxbrojKuca){
         [self uspjeh];
     }
-    
 }
 
--(void)myAnimationEnded{
-
+- (void)myAnimationEnded {
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration: 0.5];
     zeleniKrug.transform = CGAffineTransformScale(zeleniKrug.transform, 1.0/15.0, 1.0/15.0);
     zeleniKrug.alpha=0;
     [UIView commitAnimations];
-
 }
 
-- (void)doDoubleTap:(UITapGestureRecognizer *)gesture{
-    
+- (void)doDoubleTap:(UITapGestureRecognizer *)gesture {
     CGPoint prstPt = [gesture locationInView:drawImage];
     [self napraviStup:prstPt];
-    
 }
 
 - (IBAction)vratiSe:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

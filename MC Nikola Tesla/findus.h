@@ -9,18 +9,14 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 #import <CoreLocation/CoreLocation.h>
-@interface findus : UIViewController<MKMapViewDelegate, CLLocationManagerDelegate>
-{
+@interface findus : UIViewController <MKMapViewDelegate, CLLocationManagerDelegate> {
     MKMapView *mapView;
     CGSize velicina;
-
 
     __weak IBOutlet UIToolbar *toolBar;
 
     __weak IBOutlet UINavigationBar *navBar;
 }
-
-
 
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;
 @property (strong, nonatomic) CLLocationManager *locMan;

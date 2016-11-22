@@ -19,9 +19,7 @@
     // Do any additional setup after loading the view.
 }
 
--(void) viewDidAppear:(BOOL)animated
-{
-    
+- (void)viewDidAppear:(BOOL)animated {
     kutp=0;
     pomak=0.1;
     
@@ -102,7 +100,6 @@
     kazaljka3.center = CGPointMake(2.5, -instrument2.frame.size.height/7);
     [osovinaK3 addSubview:kazaljka3];
     
-    
     stator =[[UIImageView alloc]init];
     stator.image =[UIImage imageNamed:@"stator3"];
     stator.frame = CGRectMake(velicina.width/6, instrument1.frame.origin.y+instrument1.frame.size.height, velicina.width/1.5, velicina.width/1.5);
@@ -136,9 +133,7 @@
     prekidac.layer.shadowOffset = CGSizeMake(-7, 7);
     prekidac.layer.shadowOpacity = 0.6;
     prekidac.layer.shadowRadius = 2.0;
-    
 
-    
     trigonom =[[UIImageView alloc]init];
     trigonom.image =[UIImage imageNamed:@"trigonom1"];
     trigonom.frame = CGRectMake(velicina.width/10, stator.center.y+stator.frame.size.height/2+velicina.width/30, velicina.width/1.25, velicina.width/3.75);
@@ -188,12 +183,9 @@
     [self napraviPolja];
     //[self startM];
     [self startR];
-    
-    
-
 }
 
--(void) napraviPolja{
+- (void) napraviPolja {
     double a = M_PI/6;
     double r = stator.frame.size.width/1.8; //3.1;
     zarulje = [[NSMutableArray alloc]init];
@@ -214,10 +206,9 @@
         a+=M_PI/3;
         [zarulje addObject:zar1];
     }
-
 }
 
--(void)startR{
+- (void)startR {
     
     if(!timerR)
     { timerR = [NSTimer scheduledTimerWithTimeInterval:0.01
@@ -225,13 +216,10 @@
                                               selector:@selector(rotacija)
                                               userInfo:nil
                                                repeats:YES];
-        
     }
-    
-    
 }
 
--(void)rotacija{
+- (void)rotacija {
     kutp+=pomak;
     CGAffineTransform rotate1 = CGAffineTransformMakeRotation(kutp);
     [rotor setTransform:rotate1];
@@ -243,40 +231,30 @@
     [self vrti];
 }
 
--(void) vrti{
-    
+- (void) vrti {
     for (int i = 0; i<6; i++) {
         UIImageView *zarulja = [zarulje objectAtIndex:i];
         double alfa = sin(-kutp+M_PI/3*i);
         if(alfa > 0.5 )
         {
             zarulja.alpha = 1.0;
-        }
-        else
-        {
+        } else {
             zarulja.alpha = 0.0;
         }
-        
-        
-        
     }
-    
 }
 
--(IBAction)paneMe:(UIPanGestureRecognizer *)recognizer{
-    
+- (IBAction)paneMe:(UIPanGestureRecognizer *)recognizer {
     CGPoint translation=[recognizer translationInView:self.view];
     recognizer.view.center=CGPointMake(recognizer.view.center.x+translation.x,recognizer.view.center.y+translation.y);
     [recognizer setTranslation:CGPointMake(0, 0) inView:self.view];
-    
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     
-    
 }
--(void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    
+
+- (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     UITouch *touch = [touches anyObject];
     CGPoint point = [touch locationInView:self.view];
     if (CGRectContainsPoint(prekidac.frame,point))
@@ -289,14 +267,10 @@
             NSLog(@"%f",pomak);
         }
     };
-
-
-
 }
 - (IBAction)vratiSe:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

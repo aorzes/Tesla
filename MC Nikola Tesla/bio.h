@@ -9,9 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface bio : UIViewController
-
-{
+@interface bio : UIViewController {
     NSString *historyfile;
     NSArray *popis;
     NSInteger n;

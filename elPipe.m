@@ -49,8 +49,8 @@
     [zvuk3 setVolume: 1];
     [zvuk3 prepareToPlay];
 }
--(void)viewDidAppear:(BOOL)animated
-{
+
+- (void)viewDidAppear:(BOOL)animated {
     velicina = self.view.frame;
 
     ukupnoC=0;
@@ -110,8 +110,6 @@
     strelica1.center = CGPointMake(pocetna.center.x, pocetna.center.y+dimenzija);
     [self.view addSubview:strelica1];
     
-    
-    
     zarulja = [[UIImageView alloc]init];
     zarulja.image = [UIImage imageNamed:@"zarulja0000"];
     zarulja.frame = CGRectMake(0, velicina.size.height-dimenzija, dimenzija, dimenzija);
@@ -167,10 +165,9 @@
                                                           }];
     [alert addAction:defaultAction];
     [self presentViewController:alert animated:YES completion:nil];
-
 }
 
--(void)napraviIzbor{
+- (void)napraviIzbor {
     float popisX = dimenzija;
     izbornikArray = [[NSMutableArray alloc]init];
     [izbornikArray addObject:[NSNumber numberWithFloat:popisX]];
@@ -191,10 +188,9 @@
         popisX += slikaIzbor.frame.size.width;
         [izbornikArray addObject:[NSNumber numberWithFloat:popisX]];
     }
-    
 }
 
--(IBAction)paneIzbor:(UIPanGestureRecognizer *)recognizer{
+- (IBAction)paneIzbor:(UIPanGestureRecognizer *)recognizer {
     if (ukljuceno) {
         return;
     }
@@ -250,14 +246,11 @@
             polje[xx][yy] = (int)aktivnaSlika.tag;
             if (stariY!=1) {
                 polje[stariX][stariY] = 0;
-                
             }
         }
         NSLog(@"x:%d y:%d vrsta:%d",xx,yy,polje[xx][yy]);
         aktivnaSlika.frame = CGRectMake(trenutnaPozicija.x, trenutnaPozicija.y, aktivnaSlika.frame.size.width, aktivnaSlika.frame.size.height);
-        
     }
-    
 }
 
 
@@ -297,10 +290,9 @@
     [UIView commitAnimations];
     labela.alpha = 0;
     [self napraviIzbor];
-    
 }
 
--(void)popuniIzbor{
+- (void)popuniIzbor {
     int i=0;
     float trazeni = [[izbornikArray objectAtIndex:i]floatValue];
     for(UIImageView *tempImage in self.view.subviews)
@@ -333,7 +325,6 @@
     [slikaIzbor.layer setCornerRadius:10];
     [slikaIzbor.layer setBorderWidth:2];
     ukupnoC++;
-    
 }
 
 //-(void)napraviIzbor{
@@ -430,7 +421,7 @@
     }
     
 }
--(void)startM{
+- (void)startM {
     
     if(!timerM)
     { timerM = [NSTimer scheduledTimerWithTimeInterval:0.01
@@ -440,18 +431,15 @@
                                                repeats:YES];
         
     }
-    
-    
 }
--(void)rotacija{
+
+- (void)rotacija {
     kutp+=pomak;
     CGAffineTransform rotate1 = CGAffineTransformMakeRotation(kutp);
     [rotor setTransform:rotate1];
-    
 }
 
--(void)poplava{
-    
+- (void)poplava {
     UIImageView *cvit = [[UIImageView alloc]init];
     cvit.image = [UIImage imageNamed:@"mlazVode1"];
     cvit.tag = 1;
@@ -509,7 +497,7 @@
     
 }
 
--(BOOL)provjeriSpoj{
+- (BOOL)provjeriSpoj {
     int i = 0;
     int j = 1;
     polje[i][j] = 5;
@@ -667,8 +655,8 @@
     labela.text =[NSString stringWithFormat:@"efficiency:%.2f",(float)(brP-1)/ukupnoC];labela.alpha=0.8;
     return kraj;
 }
--(void) touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    
+
+- (void) touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     UITouch *touch = [touches anyObject];
     CGPoint currentPoint = [touch locationInView:self.view];
     if (CGRectContainsPoint(ruckaVentila.frame, currentPoint) && !ukljuceno){
@@ -681,7 +669,8 @@
         [self provjera];
     }
 }
--(void) touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+
+- (void) touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     strelica1.alpha = 0;
     strelica2.alpha = 0;
 }

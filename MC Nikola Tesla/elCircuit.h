@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface elCircuit : UIViewController{
+@interface elCircuit : UIViewController {
 
     CGRect velicina;
     double dimenzija;

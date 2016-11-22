@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view.
 }
 
--(void) viewDidAppear:(BOOL)animated{
+- (void)viewDidAppear:(BOOL)animated {
 
     mk=10;
     mkd=0;
@@ -215,7 +215,7 @@
 }
 
 //ovo služi samo za startanje motion kontrole i pokreće se iz viewDidLoad
-- (void)startMotionManager{
+- (void)startMotionManager {
     if (motionManager == nil) {
         motionManager = [[CMMotionManager alloc] init];
     }
@@ -223,14 +223,12 @@
     if (motionManager.deviceMotionAvailable) {//Device Motion Available
         [motionManager startDeviceMotionUpdatesToQueue:[NSOperationQueue currentQueue]
                                            withHandler: ^(CMDeviceMotion *motion, NSError *error){
-                                               
                                                [self performSelectorOnMainThread:@selector(handleDeviceMotion:) withObject:motion waitUntilDone:YES];}];
-        
     }
 }
 
 //ovo je kontrola micanja
-- (void)handleDeviceMotion:(CMDeviceMotion*)motion{
+- (void)handleDeviceMotion:(CMDeviceMotion*)motion {
     CMAttitude *currentAttitude = motion.attitude;
     double rr;
     CGPoint sloc =korito.center;
@@ -244,7 +242,7 @@
     korito.center=sloc;
 }
 
--(void)startM{
+- (void)startM {
     if(!timerM)
     { timerM = [NSTimer scheduledTimerWithTimeInterval:0.1
                                                 target:self
@@ -254,9 +252,7 @@
     }
 }
 
--(void)prozirnost{
-
-    
+- (void)prozirnost {
     CGPoint pp=more1.center;
     pp.x--;
     more1.center=pp;
@@ -275,8 +271,7 @@
 
 }
 
--(void) touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     UITouch *touch = [touches anyObject];
     CGPoint currentPoint = [touch locationInView:komandna];
     if (CGRectContainsPoint(tipkaL.frame, currentPoint)){
@@ -332,7 +327,7 @@
     }
 }
 
--(void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     if (zutaUklj) {
         zutaUklj=false;
         tipkaL.image=[UIImage imageNamed:@"zutaTipka"];
@@ -351,13 +346,10 @@
     if(crvenaUklj){
     
     }
-    
-
 }
 
 
--(void)zoomMeIn:(UIPinchGestureRecognizer *)pinchGestureRecognizer{
-    
+- (void)zoomMeIn:(UIPinchGestureRecognizer *)pinchGestureRecognizer {
     if (pinchGestureRecognizer.state==UIGestureRecognizerStateEnded) {
         [UIView beginAnimations:nil context:NULL];
         [UIView setAnimationDuration:0.5];
@@ -374,20 +366,15 @@
     
     korito.transform = CGAffineTransformScale(korito.transform, pinchGestureRecognizer.scale, pinchGestureRecognizer.scale);
     [pinchGestureRecognizer setScale:1.0];
-
-    
 }
 
-
--(void)paneMe:(UIPanGestureRecognizer *)recognizer{
-    
+- (void)paneMe:(UIPanGestureRecognizer *)recognizer {
     CGPoint translation=[recognizer translationInView:self.view];
     korito.center=CGPointMake(korito.center.x+translation.x,korito.center.y);
     [recognizer setTranslation:CGPointMake(0, 0) inView:self.view];
-    
 }
 
--(void)miciKormilo{
+- (void)miciKormilo {
     mk+=mkd;
     if (mk>20) {mk=20;}
     if (mk<0) {mk=0;}
@@ -416,9 +403,7 @@
         case 20: kormilo.image= [UIImage imageNamed:@"kormiloc0020.png"];break;
             
         default:kormilo.image= [UIImage imageNamed:@"kormiloa0010.png"];
-            
     }
-    
 }
 
 - (IBAction)vratiSe:(id)sender {

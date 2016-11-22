@@ -12,22 +12,18 @@
 
 @implementation jajeScene
 
--(void)spremisve{
-    
+- (void)spremisve {
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     [userDefaults setInteger:maxprikupljeno forKey:@"bestJaje"];
     [userDefaults synchronize];
 }
 
--(void)ucitajsve{
+- (void)ucitajsve {
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     maxprikupljeno = [userDefaults integerForKey:@"bestJaje"];
-   
 }
 
-
-
--(void)didMoveToView:(SKView *)view {
+- (void)didMoveToView:(SKView *)view {
     /* Setup your scene here */
     self.physicsWorld.gravity = CGVectorMake(5.0f, -1.0f);
     prikazNeuspjeha=false;
@@ -118,7 +114,6 @@
     SKTexture *fac16 = [SKTexture textureWithImageNamed:@"faca16"];
     SKTexture *fac17 = [SKTexture textureWithImageNamed:@"faca17"];
 
-    
     NSArray *facArray = @[fac1, fac2, fac3, fac4, fac5,fac6,fac7,fac8,fac9,fac10,fac11,fac12,fac13,fac14,fac15,fac16,fac17];
     SKAction *lopFac =[SKAction animateWithTextures:facArray timePerFrame:0.1];
     SKAction *repeatLop = [SKAction repeatActionForever:lopFac];
@@ -178,8 +173,6 @@
     SKAction *ponovRot=[SKAction repeatActionForever:rotate];
     [maliMagnet runAction:ponovRot];
     
-
-    
     [self timerFunction];
     b=1.5;
     
@@ -190,17 +183,13 @@
     labela.text = @"Collected: 0";
     labela.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:labela];
-    
-    
 }
 
--(void)napraviSve{
-
+- (void)napraviSve {
     if (prikupljeno>maxprikupljeno) {
         maxprikupljeno=prikupljeno;
         [self spremisve];
     }
-
     a=0;
     b=1.5;
     prikupljeno=0;
@@ -242,14 +231,11 @@
         a+=2*M_PI/(brkomada+1);
         polozaj.y+=dimenzija;
     }
-
     jaje.zRotation = 0;
     jaje.position=CGPointMake(velicina.width/2, velicina.height/2);
-
-
 }
 
--(void) obrisiSve{
+- (void)obrisiSve {
     prikazNeuspjeha=false;
      for(SKNode *node in self.scene.children ){
 
@@ -258,10 +244,9 @@
         }
     }
     [self napraviSve];
-    
 }
 
--(void)neuspjeh{
+- (void)neuspjeh {
     prikazNeuspjeha=true;
     if (prikupljeno>maxprikupljeno) {
         maxprikupljeno=prikupljeno;
@@ -302,23 +287,15 @@
     tipkatekst.name=@"restart";
     tipkatekst.fontColor =[UIColor colorWithRed:0.25 green:0.52 blue:0.99 alpha:1.0];
     [tipka addChild:tipkatekst];
-   
-    
 }
 
-
--(void)timerFunction {
-    
+- (void)timerFunction {
     if (!timer) {
-        
         timer = [NSTimer scheduledTimerWithTimeInterval:0.02 target:self selector:@selector(miciSve) userInfo:nil repeats:YES];
-        
     }
-    
 }
 
--(void)miciSve{
-
+- (void)miciSve {
     for(SKNode *node in self.children){
         if ([node.name isEqualToString:@"komad1"] || [node.name isEqualToString:@"komad2"]) {
             CGPoint pp=node.position;
@@ -332,7 +309,6 @@
                     a+=2*M_PI/(brkomada+1);
                     amplituda=fabs(sin(b))*velicina.width/4;
                     b+=0.01;
-
                 }
             }
             pprethodni=pp.x;
@@ -363,12 +339,10 @@
                 [self neuspjeh];
             }
         }
-
     }
 }
 
--(void)osvojeno:(CGPoint)tocka{
-
+- (void)osvojeno:(CGPoint)tocka {
     double missileLaunchImpulse=5;
     [zvuk1 play];
     for (float alfa=0; alfa<2*M_PI; alfa+=0.3) {
@@ -390,7 +364,7 @@
     labela.text = [NSString stringWithFormat:@"Collected: %ld",(long)prikupljeno];
 }
 
--(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     /* Called when a touch begins */
     
     for (UITouch *touch in touches) {
@@ -414,16 +388,11 @@
             if ([node.name isEqualToString:@"restart"]) {
                 [self obrisiSve];
             }
-            
         }
     }
-
 }
 
-
-
-
--(void)update:(CFTimeInterval)currentTime {
+- (void)update:(CFTimeInterval)currentTime {
     /* Called before each frame is rendered */
 }
 

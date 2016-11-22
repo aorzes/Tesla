@@ -21,8 +21,7 @@
     pomak=0.1;
 }
 
--(void)viewDidAppear:(BOOL)animated{
-    
+- (void)viewDidAppear:(BOOL)animated {
     for (UIImageView *slika in self.view.subviews) {
         if (slika.tag>0) {
             [slika removeFromSuperview];
@@ -105,9 +104,8 @@
     podloga.tag=1;
     podloga.alpha =0;
     [self.view bringSubviewToFront:navBar];
-
-
 }
+
 - (IBAction)infoD:(id)sender {
     if (podloga.alpha==0) {
         podloga.alpha=1;
@@ -117,23 +115,18 @@
     }
 }
 
--(void)startR{
-    
+- (void)startR {
     if(!timerR)
     { timerR = [NSTimer scheduledTimerWithTimeInterval:0.01
                                                 target:self
                                               selector:@selector(rotacija)
                                               userInfo:nil
                                                repeats:YES];
-        
     }
-    
-    
 }
 
--(void)rotacija{
+- (void)rotacija {
     kutp+=pomak;
-
     CGAffineTransform rotate1 = CGAffineTransformMakeRotation(kutp);
     [rotor setTransform:rotate1];
 }
@@ -141,7 +134,6 @@
 - (IBAction)vratiSe:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
